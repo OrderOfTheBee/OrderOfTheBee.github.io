@@ -1,0 +1,127 @@
+/* common */
+
+body {
+	margin: 0 auto; 
+	color: #3a3a3a; 
+	text-align: justify;
+}
+
+a {
+	text-decoration: none; 
+	color: inherit;
+}
+
+img.right {
+	float: right;
+	margin: 10px 0 10px 20px;
+}
+
+img.left {
+	float: left;
+	margin: 10px 0 10px 20px;
+}
+
+h1 {
+	margin: 58px 0 42px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+h2 {
+	margin: 58px 0 42px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.bee-right {
+        position: absolute;
+        right: 20px;
+        margin-top: 5px;
+}
+
+.bee-left {
+        position: absolute;
+        left: 20px;
+        margin-top: 5px;
+}
+
+
+/* header */
+
+.navbar {
+	text-transform: uppercase;
+}
+
+.navbar-brand {
+	padding: 0 1% 0 1%;
+}
+
+.stickyheader {  
+	border-top: 2px solid #222; 
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	background-color: #fff; 
+	border-bottom: 1px solid #e3e3e3; 
+	z-index: 999; 
+	max-width: 100%;
+}
+
+.stickyheader .navbar {
+	margin: -200% auto 0; 
+	max-width: 1920px; 
+	min-width: 768px; 
+}
+
+.stickyheader-container {
+	width: 100%;
+	padding: 0 3.19445%;  
+	box-sizing: border-box;
+	max-width: 100%;
+	color: #202020;
+}
+
+/* sections specific */
+
+#home {
+	background: url(/img/bg1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	border-top: 1px solid #e3e3e3;
+}
+
+#home h1 {
+	color: #ffffff;
+}
+
+#home p {
+	color: #ffffff; 
+	margin: 40px 0 57px;
+}
+
+#home a:hover, #home a:active {
+	opacity: 0.5;
+}
+
+#home a:active {
+	position: relative; 
+	top: 1px;
+}
+
+#members, #events {
+	background-color: #ffe14f;
+}
+
+#members img {
+	border:3px solid #F89829;
+}
+
+#members img.candidate {
+	border:3px solid #2d6c2a;
+}
+
