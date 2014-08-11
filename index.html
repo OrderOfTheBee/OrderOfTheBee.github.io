@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html ng-app="app" lang="en" class="no-js">
  <head>
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -14,13 +14,14 @@
   <link href='/assets/css/open-sans-font.css' rel='stylesheet' type='text/css' />
   <link href="/assets/css/custom.css" rel="stylesheet"/>
  </head>
- <body>
+ <body ng-controller="MembersCtrl">
 	<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="/assets/js/modernizr.js"></script>
 	<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="/assets/js/jquery.smooth-scroll.js"></script>
 	<script type="text/javascript" src="/assets/js/script.js"></script>
-
+	<script type="text/javascript" src="/assets/js/angular.min.js"></script>
+	<script type="text/javascript" src="/assets/js/app.js"></script>
 	<nav class="navbar navbar-default navbar-static-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
@@ -28,7 +29,7 @@
 					<span class="sr-only"></span>
 					<span class="fa fa-bars"></span>
 				</button>
-				<a class="navbar-brand gototop" href="#top"><img src="/img/logo.png"/></a>
+				<a class="navbar-brand gototop" href="#top"><img src="/assets/img/logo.png"/></a>
 			</div>
 			<p class="navbar-text navbar-left">Order of the Bee</p>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -37,7 +38,7 @@
 					<li><a href="#members">Members</a></li>
 					<li><a href="#activities">Activities</a></li>
 					<li><a href="#events">Events</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li><a href="#contact" class="dropdown">Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -51,7 +52,7 @@
 						<span class="sr-only"></span>
 						<span class="fa fa-bars"></span>
 					</button>
-					<a class="navbar-brand gototop" href="#top"><img src="/img/logo.png"/></a>
+					<a class="navbar-brand gototop" href="#top"><img src="/assets/img/logo.png"/></a>
 				</div>
 				<p class="navbar-text navbar-left">Order of the Bee</p>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -69,7 +70,7 @@
 
 	<section id="home">
 		<div class="container-fluid">
-			<img class="bee-right visible-lg-inline" src="/img/bee.png"/>
+			<img class="bee-right visible-lg-inline" src="/assets/img/bee.png"/>
 			<div class="row">
 				<div class="col-lg-offset-4 col-lg-4 col-md-offset-3 col-md-6 col-sm-offset-1 col-sm-10 col-xs-12">
 					<h1>Order of the Bee</h1>
@@ -87,38 +88,12 @@
 					<h1 class="text-center">Who are we?</h1>
 					<p>We are an organization of Alfresco community members working to grow the Alfresco ecosystem independent of Alfresco Software, Inc.</p>
 
-                    <p>We are all different: some of us are employees at
-                    Alfresco Software, its customers, and partners. Some of us
-                    work with Alfresco Community Edition, others with Alfresco
-                    Enterprise Edition, or both. Other members use Alfresco as
-                    end users, implement it for the customers, and develop free
-                    and paid add-ons. But we have something in common: we like
-                    Alfresco and its community, we think that Alfresco Community
-                    edition and open source solutions based on it are very
-                    important for us and the whole market.</p>
+					<p>We are all different: some of us are employees at Alfresco Software, its customers, and partners. Some of us work with Alfresco Community Edition, others with Alfresco Enterprise Edition, or both. Other members use Alfresco as end users, implement it for the customers, and develop free and paid add-ons. But we have something in common: we like Alfresco and its community, we think that Alfresco Community edition and open source solutions based on it are very important for us and for the whole market.</p>
 
-                    <p><strong>Our mission is to guarantee the existence of Alfresco Community edition as a free/libre open source solution for document management.</strong></p>
-					<blockquote>
-						<p>We were worried that the current management of Alfresco didn't see the value of Alfresco being open source, but for us, that's a core driver for this great community. We also think that Alfresco wouldn't be what it is without its community. And by community, we don't just mean users of Alfresco Community edition, but also people using Alfresco Enterprise, Alfresco partners, and Alfresco employees willing to collaborate with each other to create better software, and a better community.</p>
-					</blockquote>
-					<p>We are working on different tasks to make Alfresco Community more open for you. We will make easier for you to find and to use the best free extensions for Alfresco. We'll manage lists of well-tried systems integrators and freelancers. We aggregate and publish best practices and success stories of users who work with Alfresco Community edition.</p>
-
-                    <p>The creation of the <strong>Order of the Bee</strong> was
-                    inspired by Jeff Potts's Community Keynote at the Alfresco
-                    Summit 2013. Jeff presented his role of Chief Community
-                    Officer as a bee-keeper, where the bees are the community
-                    members producing honey. Alfresco would be like a company in
-                    the honey business, working together with the bees. Both
-                    benefit from each other. In contrast, a company producing
-                    maple syrup keeps its recipe as its big secret, as in closed
-                    source software, and its customer just consume the syrup as
-                    is (the analogy is originally from Pentaho, another open
-                    source company). Hence, the order of the bee aims to
-                    collaborate with Alfresco's bee-keeper, now Richard Esplin,
-                    for the greater good of the honey and the bees.</p>
+					<p><strong>Our mission is to guarantee the existence of Alfresco Community edition as a free/libre open source solution for document management.</strong></p>
 
 					<br/>
-					<p class="text-center"><a href="#activities" class="btn btn-info btn-lg smooth"><i class="fa fa-arrow-down"></i> Learn more about our activites</a></p>
+					<p class="text-center"><a href="/about/" class="btn btn-info btn-lg smooth"><i class="fa fa-arrow-down"></i> More about the Order</a></p>
 					<br/>
 				</div>
 			</div>
@@ -127,114 +102,27 @@
 
 	<section id="members">
 		<div class="container-fluid text-center">
-			<h1 class="text-center">Members</h1>
-			<h2 class="text-center">Independent members</h2>
+			<h1>Members</h1>
+			<h2>Independent members</h2>
 			<div class="row">
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-					<img src="/img/members/lanre-abiwon.jpg" class="img-circle">
+				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in members[0].list">
+					<img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle orange">
 					<br/>
-					<h3>Lanre<br/>Abiwon</h3>
-					<p><a href="#contact" class="smooth">@DarkStar1</a></p>
-					<p><a href="https://github.com/DarkStar1"><i class="fa fa-github"></i></a> <a href="https://plus.googleapis.com/114651076223403572060/about"><i class="fa fa-google-plus"></i></a></p>
-					<br/>
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-					<img src="/img/members/martin-cosgrave.jpg" class="img-circle">
-					<br/>
-					<h3>Martin<br/>Cosgrave</h3>
-					<p><a href="#contact" class="smooth">@marsbard</a></p>
-					<p><a href="https://twitter.com/marsbard"><i class="fa fa-twitter"></i></a> <a href="http://uk.linkedin.com/pub/martin-cosgrave/5/29/869"><i class="fa fa-linkedin"></i></a> <a href="https://github.com/marsbard"><i class="fa fa-github"></i></a></p>
-					<br/>
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-					<img src="/img/members/axel-faust.jpg" class="img-circle">
-					<br/>
-					<h3>Axel<br/>Faust</h3>
-					<p><a href="#contact" class="smooth">@AFaust</a></p>
-					<p><a href="https://twitter.com/ReluctantBird83"><i class="fa fa-twitter"></i></a> <a href="http://de.linkedin.com/pub/axel-faust/3a/b2b/78a"><i class="fa fa-linkedin"></i></a> <a href="http://axel-faust.de/"><i class="fa fa-rss"></i></a> <a href="https://github.com/AFaust"><i class="fa fa-github"></i></a></p>
-					<br/>
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-					<img src="/img/members/ole-hejlskov.jpg" class="img-circle">
-					<br/>
-					<h3>Ole<br/>Hejlskov</h3>
-					<p><a href="#contact" class="smooth">@ohej</a></p>
-					<p><a href="https://twitter.com/OleHejlskov"><i class="fa fa-twitter"></i></a> <a href="http://dk.linkedin.com/pub/ole-hejlskov/1/3b6/979"><i class="fa fa-linkedin"></i></a> <a href="http://ohej.dk/"><i class="fa fa-rss"></i></a> <a href="https://github.com/ohej"><i class="fa fa-github"></i></a></p>
-					<br/>
-				</div>
-                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-                                        <img src="/img/members/benjamin-kahn.png" class="img-circle">
-                                        <br/>
-                                        <h3>Benjamin<br/>Kahn</h3>
-                                        <p><a href="#contact" class="smooth">@xkahn</a></p>
-                                        <p><a href="https://twitter.com/xkahn"><i class="fa fa-twitter"></i></a> <a href="http://www.linkedin.com/in/xkahn"><i class="fa fa-linkedin"></i></a> <a href="http://xkahn.zoned.net/blog/"><i class="fa fa-rss"></i></a> <a href="https://github.com/xkahn"><i class="fa fa-github"></i></a> <a href="https://plus.google.com/+BenKahn/about"><i class="fa fa-google-plus"></i></a></p>
-                                        <br/>
-                                </div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-					<img src="/img/members/oksana-kurysheva.jpg" class="img-circle">
-					<br/>
-					<h3>Oksana<br/>Kurysheva</h3>
-					<p><a href="#contact" class="smooth">@aviriel</a></p>
-					<p><a href="https://twitter.com/aviriel"><i class="fa fa-twitter"></i></a> <a href="http://ru.linkedin.com/in/okurysheva"><i class="fa fa-linkedin"></i></a> <a href="http://blog.itdhq.com/"><i class="fa fa-rss"></i></a> <a href="https://github.com/aviriel"><i class="fa fa-github"></i></a> <a href="https://plus.google.com/102392937155373422359/about"><i class="fa fa-google-plus"></i></a></p>
-					<br/>
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-					<img src="/img/members/peter-lofgren.jpg" class="img-circle">
-					<br/>
-					<h3>Peter<br/>Löfgren</h3>
-					<p><a href="#contact" class="smooth">@loftux</a></p>
-					<p><a href="https://twitter.com/loftux"><i class="fa fa-twitter"></i></a> <a href="http://se.linkedin.com/in/loftux"><i class="fa fa-linkedin"></i></a> <a href="http://loftux.se/"><i class="fa fa-rss"></i></a> <a href="https://github.com/loftux"><i class="fa fa-github"></i></a> <a href="https://plus.google.com/104670003689287949906/about"><i class="fa fa-google-plus"></i></a></p>
-					<br/>
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-					<img src="/img/members/cristina-martin.jpg" class="img-circle">
-					<br/>
-					<h3>Cristina<br/>Martín Ruiz</h3>
-					<p><a href="#contact" class="smooth">@CristinaMartinR</a></p>
-					<p><a href="https://twitter.com/CristinaMartinR"><i class="fa fa-twitter"></i></a> <a href="http://be.linkedin.com/in/cristinamr/en"><i class="fa fa-linkedin"></i></a> <a href="http://crisinthecloud.blogspot.ru/"><i class="fa fa-rss"></i></a> <a href="https://plus.google.com/+CristinaMart%C3%ADnRuiz/about"><i class="fa fa-google-plus"></i></a></p>
-					<br/>
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-					<img src="/img/members/boriss-mejias.png" class="img-circle">
-					<br/>
-					<h3>Boriss<br/>Mejias</h3>
-					<p><a href="#contact" class="smooth">@bmejias</a></p>
-					<p><a href="https://twitter.com/tchorix"><i class="fa fa-twitter"></i></a> <a href="http://be.linkedin.com/pub/boris-mejías/1/740/463"><i class="fa fa-linkedin"></i></a> <a href="https://github.com/bmejias"><i class="fa fa-github"></i></a> <a href="https://plus.google.com/107032987826242549238/about"><i class="fa fa-google-plus"></i></a></p>
-					<br/>
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-					<img src="/img/members/douglas-paes.jpg" class="img-circle">
-					<br/>
-					<h3>Douglas<br/>C. R. Paes</h3>
-					<p><a href="#contact" class="smooth">@douglascrp</a></p>
-					<p><a href="https://twitter.com/douglascrp"><i class="fa fa-twitter"></i></a> <a href="http://br.linkedin.com/in/douglascrp"><i class="fa fa-linkedin"></i></a> <a href="http://douglascrp.blogspot.ru/"><i class="fa fa-rss"></i></a> <a href="https://github.com/douglascrp"><i class="fa fa-github"></i></a> <a href="https://plus.google.com/+DouglasCRPaes/about"><i class="fa fa-google-plus"></i></a></p>
-					<br/>
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-					<img src="/img/members/jan-pfitzner.jpg" class="img-circle">
-					<br/>
-					<h3>Jan<br/>Pfitzner</h3>
-					<p><a href="#contact" class="smooth">@alfrescian</a></p>
-					<p><a href="https://twitter.com/alfrescian"><i class="fa fa-twitter"></i></a> <a href="de.linkedin.com/pub/jan-pfitzner/35/739/1b2"><i class="fa fa-linkedin"></i></a> <a href="http://blog.alfrescian.com/"><i class="fa fa-rss"></i></a> <a href="https://github.com/alfrescian"><i class="fa fa-github"></i></a> <a href="https://plus.google.com/u/0/+JanPfitzner_DE/about"><i class="fa fa-google-plus"></i></a></p>
-					<br/>
-				</div>
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-					<img src="/img/members/jeff-potts.jpg" class="img-circle">
-					<br/>
-					<h3>Jeff<br/>Potts</h3>
-					<p><a href="#contact" class="smooth">@jpotts</a></p>
-					<p><a href="https://twitter.com/jeffpotts01"><i class="fa fa-twitter"></i></a> <a href="http://www.linkedin.com/in/jpotts"><i class="fa fa-linkedin"></i></a> <a href="http://ecmarchitect.com/"><i class="fa fa-rss"></i></a> <a href="https://github.com/jpotts"><i class="fa fa-github"></i></a> <a href="https://plus.google.com/+JeffPotts/about"><i class="fa fa-google-plus"></i></a> <a href="https://www.youtube.com/user/jeffpotts01"><i class="fa fa-youtube"></i></a></p>
+					<h3>{{member.name}}<br/>{{member.surname}}</h3>
+					<p><a href="#contact" class="smooth">@{{member.nick}}</a></p>
+					<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
 					<br/>
 				</div>
 			</div>
-			<h2 class="text-center">Alfresco Inc employees</h2>
+			<h2>Alfresco Inc employees</h2>
 			<div class="row">
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6">
-					<img src="/img/members/richard-esplin.jpg" class="img-circle candidate">
+				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in members[1].list">
+					<img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle green">
 					<br/>
-					<h3>Richard<br/>Esplin</h3>
-					<p><a href="#contact" class="smooth">@resplin</a></p>
-					<p><a href="https://twitter.com/esplinr"><i class="fa fa-twitter"></i></a> <a href="http://www.linkedin.com/in/richardesplin"><i class="fa fa-linkedin"></i></a> <a href="http://richard.esplins.org/siwi/"><i class="fa fa-rss"></i></a> <a href="https://plus.google.com/+RichardEsplin/about"><i class="fa fa-google-plus"></i></a></p>
+					<h3>{{member.name}}<br/>{{member.surname}}</h3>
+					<p><a href="#contact" class="smooth">@{{member.nick}}</a></p>
+					<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
+					<br/>
 				</div>
 			</div>
 			<br/>
@@ -244,67 +132,95 @@
 
 	<section id="activities">
 		<div class="container-fluid">
-			<h1 class="text-center">What we are doing?</h1>
+			<h1 class="text-center">What are we doing?</h1>
 			<div class="row">
-				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-					<h3 class="text-center">"Showcase" and "Testbed" instances</h3>
-					<p>We are working on building and supporting several servers with Alfresco installed that will be available for the public.</p>
-					<p>"Showcase" instances are used to show different free Alfresco add-ons.</p>
-					<p>If someone turns up into the IRC channel with a question we could log him/her onto the testbed instance and demonstrate certain points of configuration. "Testbed" instances will be rebuilt every night and on demand.</p>
-			<div class="alert alert-info" role="alert">We work on making this activity alive. <a href="#contact" class="smooth"><u>Follow us</u></a> to be informed when instances will be ready.</div>
-					<p class="text-center"><a class="btn btn-lg btn-success disabled">Learn more</a></p>
-					<br/>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-					<h3 class="text-center">Collaboration on building new add-ons</h3>
-					<p>Members of the Order like to build new Alfresco addo-ns. Darkstar1 is keen on finishing the AAAR work he was collaborating on for the hackathon. If anyone fancied having a go at a JMX layer for Community Edition or else integrating an MQ (Rabbit? ActiveMQ?) as a new extension point, Boriss would be interested in collaborating on either of those.</p>
+				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-sm-12 col-xs-12">
+					<h3 class="text-center">Collaboration on building new add-ons and extensions</h3>
+					<img class="right" src="/assets/img/collaboration-bee.png"/>
+					<p>Members of the Order like to build new Alfresco add-ons and to help newcomers to build their first add-on. Lanre is keen on finishing the AAAR work he was collaborating on for the hackathon. Ole works on Alfresco Maven SDK. Jeff is one of the core cmislib mainainers. Oksana tries to reanimate JIRA-dashlet.</p>
 					<p>Contact us to:</p>
 					<ul>
 						<li>join any existing project</li>
-						<li>search for a team to work on the add-on together</li>
+						<li>search for a team to work on the add-on together ot ask for help with your first add-on</li>
 						<li>suggest an idea for a new open source add-on</li>
 					</ul>
 					<p>Click the button below to open the list of our current projects and the list of the ideas on which you can work.</p>
 					<p class="text-center"><a class="btn btn-lg btn-success" href="https://wiki.alfresco.com/wiki/Projects_and_Teams_Global_Virtual_Hack-a-thon_2014">Current projects and ideas</a></p>
 					<br/>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-sm-12 col-xs-12">
 					<h3 class="text-center">Forming a "honeycomb" of free add-ons</h3>
-					<p><strong>Honeycomb</strong> is a collection of free open source Alfresco add-ons, that work on the latest releases and look useful and interesting for many people in the community.</p>
-					<p>The <a href="http://addons.alfresco.com" target="_blank">Alfresco add-ons site</a> is a bit of a mess. Some addons are obsolete, some are already included to Alfresco core but are still listed, many are proprietary and none of them are categorised.</p>
+					<img class="left" src="/assets/img/honeycomb-bee.png"/>
+					<p><strong>Honeycomb</strong> is a collection of our favorite free open source Alfresco add-ons, that work on the latest releases and are useful and interesting for many people in the community. We choose only add-ons that we use or develop ourselves. So we can guarantee that at least most of the announced features work and help users with arisen problems.</p>
 					<p>While forming the collection we are playing the following roles:</p>
 					<ul>
 						<li>reviewing that an add-on works on the latest Alfresco versions</li>
 						<li>categorizing add-ons</li>
 						<li>collaborating with add-on's creator on arisen problems</li>
-						<li>creating and reviewing a summary of add-on, tutorials and screenshots</li>
+						<li>creating and reviewing tutorials and screenshots</li>
 					</ul>
+					<p>Full collection of add-ons can be found at <a href="http://addons.alfresco.com" target="_blank">Alfresco add-ons site</a>.</p>
+
 					<p class="text-center"><a class="btn btn-lg btn-success" href="/honeycomb/">Go to Honeycomb</a></p>
 					<br/>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-sm-12 col-xs-12">
 					<h3 class="text-center">Forming a list of System Integrators and Freelancers</h3>
-					<p>Many companies search for a team or a person who can implement Alfresco Community edition, help to develop an extension, or solve some specific task. As far as Alfresco Inc. forbids partners to support Alfresco Community edition, it is difficult to find an experienced reliable team or person for such task.</p>
-					<p>We form a list of well-tried systems integrators and freelancers who can help you to solve technical issues all over the world. The complexity is that we cannot verify the work of all teams and people. So the list will be rather empty in the beginning. You may help us to form the list by following actions:</p>
+					<img class="right" src="/assets/img/si-bee.png"/>
+					<p>Many companies search for a team or a person who can implement a project based on Alfresco Community edition in their companies, help to develop an extension, or solve some specific task. As far as Alfresco Inc. forbids partners to support Alfresco Community edition, it is difficult to find an experienced reliable team or person for such task.</p>
+					<p>We form a list of well-tried systems integrators and freelancers who can help you to solve technical issues all over the world. We verify the work of all teams and people we publish, so the list is not not very long, but we are sure, that we recommend you a proven team.</p>
+					<p>You may help us to form the list by following actions:</p>
 					<ul>
 						<li>If you provide services: send us a link to your profile, tell us what you can do and give us contacts of one or several customers whom you already helped.</li>
 						<li>If you are a customer: share with us your story, tell us who helped you to implement Alfresco Community edition in your company and was is good or bad.</li>
 					</ul>
-					<p class="text-center"><a class="btn btn-lg btn-success">Learn more</a></p>
+					<p class="text-center"><a class="btn btn-lg btn-success" href="/lists/">Learn more</a></p>
 					<br/>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-					<h3 class="text-center">Forming a list of Community Success Stories</h3>
-					<p>Serious and large companies use Alfresco Enterprise. But many small organizations like to use Alfresco Community. Let`s look how they do it, what problems they are faced with and what things do they like in Alfresco.</p>
-					<p>If you want to share with us your story, to tell us about issues you arised, <a href="#contact" href="smooth"><u>contact us</u></a> using the Mailing list.</p>
-					<p class="text-center"><a class="btn btn-lg btn-success">Learn more</a></p>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-sm-12 col-xs-12">
+					<h3 class="text-center">Forming a list of Success Stories</h3>
+					<img class="left" src="/assets/img/ss-bee.png"/>
+					<p>Serious and large companies use Alfresco Enterprise. But many small organizations use Alfresco Community Edition and they are happy with it. We collaborate with other community members, with people coming to Alfresco conferences and existing Enterprise customers who started their projects with Alfresco Community edition to learn more about life with Alfresco Community.</p>
+					<p>Let`s look how they do it, what problems they are faced with and what things do they like in Alfresco.</p>
+					<p>If you want to share your story with us, to tell us about issues you arised, and who helped you in hard times, <a href="#contact" href="smooth"><u>contact us</u></a> using the Mailing list.</p>
+					<p class="text-center"><a class="btn btn-lg btn-success" href="/success-stories/">Learn more</a></p>
 					<br/>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
-					<h3 class="text-center">Alfresco OOTB Edition</h3>
-					<p>A bit ambitious, this would be kind of a combination of some of the ideas, involving creating scripts, content models, workflows and patches to build our own community edition, perhaps this would be what the showcase instance was built from. It's ambitious because it would need a lot of testing and would probably need to be rebuilt and tested with every 'letter' release of CE (e.g. 4.2.g)</p>
-					<p>Currently we don't work on this idea, but we will start doing it as far as we start other (easier) activities. It does have a kind of branding advantage for the OOTB group but if it detracts from the current community offering it might be disadvantageous.</p>
-			<div class="alert alert-info" role="alert">We are going to start working on this activity. <a href="#contact" class="smooth"><u>Follow us</u></a> to learn more about the current stage.</div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-sm-12 col-xs-12">
+					<h3 class="text-center">Alfresco Live <small><span class="label label-info">In development</span></small></h3>
+					<img class="right" src="/assets/img/showcase-bee.png"/>
+					<p>We are working on building and supporting several servers with Alfresco installed that will be available for the public.</p>
+					<ul>
+						<li>The first one is a <strong>Showcase</strong> instance, that is used to show different free Alfresco add-ons. After we will configure it you may just login and meet add-ons from our <strong>Honeycomb</strong>.</li>
+						<li>The second one is a <strong>Testbed</strong> server. If someone turns up into the IRC channel with a question we could log him/her onto the testbed instance and demonstrate certain points of configuration. Join <i>#alfresco</i> in IRC to ask us for a help.</li>
+					</ul> 
+					<p>All servers will be rebuilt every night and on demand.</p>
+					<div class="alert alert-info" role="alert">We work on making this activity alive. <a href="#contact" class="smooth"><u>Follow us</u></a> to be informed when instances will be ready.</div>
+					<p class="text-center"><a class="btn btn-lg btn-success disabled">Learn more</a></p>
+					<br/>
+				</div>
+			</div>
+			<br/>
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-sm-12 col-xs-12">
+					<h3 class="text-center">Alfresco OOTB Edition <small><span class="label label-info">In development</span></small></h3>
+					<img class="left" src="/assets/img/ootb-edition-bee.png"/>
+					<p>We are working on creating Alfresco OOTB Edition with blackjack and hookers. It will be based on Alfresco Community Edition and include a combination of scripts, content models, workflows, extensions and patches.</p>
+					<p>As far as Alfresco is very Enterprise, it's very difficult to send them a patch and get it approved. Even it will be approved, you can wait a release with your patch inside for a several years. So we decided to start working on custom edition to include some of the greatest add-ons inside and build a number of scripts to install Alfresco quicker on our Alfresco Live instances.</p>
+					<p>We are not going to fork Alfresco to build our own product. The idea is to build a new package that will include unmodified Alfresco distribution and a number of scripts that will apply our changes to the system during the first start.</p>
+					<div class="alert alert-info">We are going to start working on this activity. <a href="#contact" class="smooth"><u>Follow us</u></a> to learn more about the current stage.</div>
 					<p class="text-center"><a class="btn btn-lg btn-success disabled">Learn more</a></p>
 					<br/>
 			</div>
@@ -313,18 +229,15 @@
 
 	<section id="events">
 		<div class="container-fluid">
-			<img class="bee-right visible-lg-inline" src="/img/summit-bee.png"/>
+			<img class="bee-right visible-lg-inline visible-md-inline" src="/assets/img/summit-bee.png"/>
 			<div class="row">
 				<div class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 col-sm-offset-1 col-sm-10 col-xs-12">
 					<h1 class="text-center">Events</h1>
 					<h2>Alfresco Summit in London</h2>
-					<p>We are going to drink beer and meet you at Alfresco Summit in London. Also we are preparing some contest to make the meeting funnier. Follow the current state of the preparation in the mailing list and register to the event at <a href="http://summit.alfresco.com">Alfresco Summit website</a>.</p>
-				</div>
-			</div>
-			<img class="bee-left visible-lg-inline" src="/img/summit-bee2.png" width="275px" />
-			<div class="row">
-				<div class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 col-sm-offset-1 col-sm-10 col-xs-12">
+					<img class="right visible-xs-inline visible-sm-inline" width="100px" src="/assets/img/summit-bee.png"/>
+					<p>We are going to drink some beer and to meet you at Alfresco Summit in London. Also we are preparing some contest to make the meeting funnier. Follow the current state of the preparation in the mailing list and register to the event at <a href="http://summit.alfresco.com">Alfresco Summit website</a>.</p>
 					<h2>Alfresco Summit in San Francisco</h2>
+					<img class="left visible-xs-inline visible-sm-inline" width="100px" src="/assets/img/summit-bee.png"/>
 					<p>We are going to drink beer and meet you at Alfresco Summit in San Francisco. Also we are preparing some contest to make the meeting funnier. Follow the current state of the preparation in the mailing list and register to the event at <a href="http://summit.alfresco.com">Alfresco Summit website</a>.</p>
 					<h2>Local Meetups</h2>
 					<p>All over the world we help Richard to organize community meetings. Search for the meeting near you at <a href="http://www.alfresco.com/community">Alfresco Community</a> page.</p>
@@ -336,12 +249,14 @@
 
 	<section id="contact">
 		<div class="container-fluid">
+			<img class="bee-right visible-lg-inline visible-md-inline" src="/assets/img/contact-bee.png"/>
 			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12">
 				<h1 class="text-center">Contact us</h1>
-				<img src="/img/contact-bee.png" class="right hidden-xs" width="300px"/>
+				<img class="right visible-xs-inline visible-sm-inline" width="100px" src="/assets/img/contact-bee.png"/>
 				<p class="lead">Order of the Bee resources:</p>
 				<ul>
 					<li class="lead"><a href="http://www.xtreamlab.net/mailman/listinfo/ootb-hive">Mailing List</a></li>
+					<li class="lead"><a href="https://twitter.com/orderofthebee">@orderofthebee at Twitter</a></li>
 					<li class="lead"><a href="https://twitter.com/hashtag/alfbee">#alfbee at Twitter</a></li>
 				</ul>
 				<br/>

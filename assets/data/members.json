@@ -1,0 +1,133 @@
+[
+	{
+		"status": "independent",
+		"list": [
+			{
+				"name": "Lanre",
+				"surname": "Abiwon",
+				"nick": "DarkStar1",
+				"github": "DarkStar1",
+				"googleplus" : "https://plus.googleapis.com/114651076223403572060/about"
+			},
+			{
+				"name": "Martin",
+				"surname": "Cosgrave",
+				"nick": "marsbard",
+				"github": "marsbard",
+				"linkedin" : "http://uk.linkedin.com/pub/martin-cosgrave/5/29/869",
+				"twitter" : "marsbard"
+			},
+			{
+				"name": "Axel",
+				"surname": "Faust",
+				"nick": "AFaust",
+				"github": "AFaust",
+				"linkedin" : "http://de.linkedin.com/pub/axel-faust/3a/b2b/78a",
+				"blog" : "http://axel-faust.de/",
+				"twitter" : "ReluctantBird83"
+			},
+			{
+				"name": "Ole",
+				"surname": "Hejlskov",
+				"nick": "ohej",
+				"github": "ohej",
+				"linkedin" : "http://dk.linkedin.com/pub/ole-hejlskov/1/3b6/979",
+				"blog" : "http://ohej.dk/",
+				"twitter" : "OleHejlskov"
+			},
+			{
+				"name": "Benjamin",
+				"surname": "Kahn",
+				"nick": "xkahn",
+				"github": "xkahn",
+				"googleplus" : "https://plus.google.com/+BenKahn/about",
+				"linkedin" : "http://www.linkedin.com/in/xkahn",
+				"blog" : "http://xkahn.zoned.net/blog/",
+				"twitter" : "xkahn"
+			},
+			{
+				"name": "Oksana",
+				"surname": "Kurysheva",
+				"nick": "aviriel",
+				"github": "aviriel",
+				"googleplus" : "https://plus.google.com/102392937155373422359/about",
+				"linkedin" : "http://ru.linkedin.com/in/okurysheva",
+				"blog" : "http://blog.itdhq.com/",
+				"twitter" : "aviriel"
+			},
+			{
+				"name": "Peter",
+				"surname": "Löfgren",
+				"nick": "loftux",
+				"github": "loftux",
+				"googleplus" : "https://plus.google.com/104670003689287949906/about",
+				"linkedin" : "http://se.linkedin.com/in/loftux",
+				"blog" : "http://loftux.se/",
+				"twitter" : "loftux"
+			},
+			{
+				"name": "Cristina",
+				"surname": "Martín Ruiz",
+				"nick": "cristinamr",
+				"googleplus" : "https://plus.google.com/+CristinaMart%C3%ADnRuiz/about",
+				"linkedin" : "http://be.linkedin.com/in/cristinamr/en",
+				"blog" : "http://crisinthecloud.blogspot.ru/",
+				"twitter" : "https://twitter.com/CristinaMartinR"
+			},
+			{
+				"name": "Boriss",
+				"surname": "Mejias",
+				"nick": "bmejias",
+				"github": "bmejias",
+				"googleplus" : "https://plus.google.com/107032987826242549238/about",
+				"linkedin" : "http://be.linkedin.com/pub/boris-mej%C3%ADas/1/740/463",
+				"twitter" : "tchorix"
+			},
+			{
+				"name": "Douglas",
+				"surname": "C. R. Paes",
+				"nick": "douglascrp",
+				"github": "douglascrp",
+				"googleplus" : "https://plus.google.com/+DouglasCRPaes/about",
+				"linkedin" : "http://br.linkedin.com/in/douglascrp",
+				"blog" : "http://douglascrp.blogspot.ru/",
+				"twitter" : "douglascrp"
+			},
+			{
+				"name": "Jan",
+				"surname": "Pfitzner",
+				"nick": "alfrescian",
+				"github": "alfrescian",
+				"googleplus" : "https://plus.google.com/u/0/+JanPfitzner_DE/about",
+				"linkedin" : "http://test2/de.linkedin.com/pub/jan-pfitzner/35/739/1b2",
+				"blog" : "http://blog.alfrescian.com/",
+				"twitter" : "alfrescian"
+			},
+			{
+				"name": "Jeff",
+				"surname": "Potts",
+				"nick": "jpotts",
+				"github": "jpotts",
+				"googleplus" : "https://plus.google.com/+JeffPotts/about",
+				"linkedin" : "http://www.linkedin.com/in/jpotts",
+				"blog" : "http://ecmarchitect.com/",
+				"twitter" : "jeffpotts01",
+				"youtube" : "https://www.youtube.com/user/jeffpotts01"
+			}
+		]
+	},
+	{
+		"status": "alfresco",
+		"list": [
+			{
+				"name": "Richard",
+				"surname": "Esplin",
+				"nick": "resplin",
+				"googleplus" : "https://plus.google.com/+RichardEsplin/about",
+				"linkedin" : "http://www.linkedin.com/in/richardesplin",
+				"blog" : "http://richard.esplins.org/siwi/",
+				"twitter" : "esplinr"
+			}
+		]
+	}
+]
