@@ -132,11 +132,22 @@
 				"name": "Richard",
 				"surname": "Esplin",
 				"nick": "resplin",
+				"github": "esplinr",
 				"googleplus" : "https://plus.google.com/+RichardEsplin/about",
 				"linkedin" : "http://www.linkedin.com/in/richardesplin",
 				"blog" : "http://richard.esplins.org/siwi/",
 				"twitter" : "esplinr"
-			}
+			},
+                        {
+                                "name": "David",
+                                "surname": "Webster",
+                                "nick": "davidcognite",
+				"github": "davidcognite",
+                                "googleplus" : "https://plus.google.com/+DavidWebsterAlfresco/about",
+                                "linkedin" : "uk.linkedin.com/in/davidwebstercognite",
+                                "blog" : "http://www.cognite.net/blogs/david-webster",
+                                "twitter" : "davidcognite"
+                        }
 		]
 	}
 ]
