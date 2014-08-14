@@ -32,6 +32,11 @@
 	<script type="text/javascript" src="/assets/js/script.js"></script>
 	<script type="text/javascript" src="/assets/js/angular.min.js"></script>
 	<script type="text/javascript" src="/assets/js/app.js"></script>
+  <script type="text/javascript">
+        $(document).ready(function() {
+                $('a[href="' + window.location.hash + '"]').click();
+        });
+  </script>
 	<nav class="navbar navbar-default navbar-static-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
@@ -123,18 +128,65 @@
 					<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
 					<br/>
 				</div>
-		<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in rankedList | filter:{status:'alfresco'}">
-			<img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle green">
-			<br/>
-			<h3>{{member.name}}<br/>{{member.surname}}</h3>
-			<p><a href="#contact" class="smooth">@{{member.nick}}</a></p>
-			<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
-			<br/>
-		</div>
+				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in rankedList | filter:{status:'alfresco'}">
+					<img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle green">
+					<br/>
+					<h3>{{member.name}}<br/>{{member.surname}}</h3>
+					<p><a href="#contact" class="smooth">@{{member.nick}}</a></p>
+					<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
+					<br/>
+				</div>
+			</div>
+			<br/><br/>
+			<div class="btn-group">
+				<a href="#joinrequest" data-toggle="pill" role="pill" class="btn btn-lg btn-default"><i class="fa fa-arrow-down"></i> Join the Order</a> 
+				<a href="/about/#members" class="btn btn-lg btn-default smooth"><i class="fa fa-arrow-right"></i> List all members</a>
 			</div>
 			<br/>
-			<p><a href="/about/#members" class="btn btn-lg btn-info smooth"><i class="fa fa-arrow-down"></i> List all members</a></p>
 			<br/>
+			<br/>
+			<br/>
+			<div class="tab-content">
+				<div class="tab-pane" id="joinrequest">
+					<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12 text-left">
+					<p>We welcome all community members contributing to the Alfresco community. There are a lot of ways to contribute and here are just a few of them:</p>
+						<ul>
+							<li>Publishing tutorials and posts about using, configuring and developing on Alfresco</li>
+							<li>Hosting and organizing Alfresco Meetups</li>
+							<li>Helping people on Forums, in IRC, StackOverflow and other resources</li>
+							<li>Developing free open-source add-ons</li>
+							<li>Translating Alfresco and add-ons to your native language</li>
+							<li>And many other ways when you share with others something helpful with no charge.</li>
+						</ul>
+						<p>The only requirement and the only way to join the Order is to contribute to the community. Please, tell us about yourself and about your contributions so we may know a little about you. Links and details are welcome.</p>
+					</div>
+					<div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 col-sm-10 col-sm-offset-1 col-xs-12">
+						<form name="contactForm" class="form-horizontal" role="form" action="http://forms.brace.io/ootb-hive@xtreamlab.net" method="POST">
+							<div class="form-group">
+								<label for="name">Your name</label>
+								<input type="text" class="form-control" id="name" name="name" required />
+							</div>
+							<div class="form-group">
+								<label for="email">E-mail</label>
+								<input type="email" class="form-control" id="email" name="_replyto" required /> 
+							</div>
+							<div class="form-group">
+								<label for="textarea">List of contributions</label>
+								<textarea class="form-control" id="textarea" rows="4" name="text" required ></textarea>
+							</div>
+							<!--input type="hidden" name="_next" value="/thanks/" /-->
+							<div class="form-actions text-center">
+								<button type="submit" class="btn btn-success btn-lg offset1">Submit</button>
+								<button class="btn" type="reset">Clear</button>
+							</div>
+						</form>
+						<br/>
+						<br/>
+					</div>
+					<br/>
+				</div>
+			</div>
+			<br/><br/>
 	</section>
 
 	<section id="activities">

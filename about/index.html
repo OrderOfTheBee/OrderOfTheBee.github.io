@@ -167,11 +167,51 @@
 				</div>
 			</div>
 			<br/>
-			<p><a href="/#contact" class="btn btn-lg btn-info"><i class="fa fa-arrow-down"></i> Join us</a></p>
+			<p><a href="#joinrequest" class="btn btn-lg btn-info"><i class="fa fa-arrow-down"></i> Join us</a></p>
 			<br/>
 	</section>
 
-
+	<section id="joinrequest">
+		<div class="container-fluid">
+			<h1 class="text-center">Join the Order</h1>
+			<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12 text-left">
+				<p>We welcome all community members contributing to the Alfresco community. There are a lot of ways to contribute and here are just a few of them:</p>
+				<ul>
+					<li>Publishing tutorials and posts about using, configuring and developing on Alfresco</li>
+					<li>Hosting and organizing Alfresco Meetups</li>
+					<li>Helping people on Forums, in IRC, StackOverflow and other resources</li>
+					<li>Developing free open-source add-ons</li>
+					<li>Translating Alfresco and add-ons to your native language</li>
+					<li>And many other ways when you share with others something helpful with no charge.</li>
+				</ul>
+				<p>The only requirement and the only way to join the Order is to contribute to the community. Please, tell us about yourself and about your contributions so we may know a little about you. Links and details are welcome.</p>
+			</div>
+			<div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 col-sm-10 col-sm-offset-1 col-xs-12">
+				<form name="contactForm" class="form-horizontal" role="form" action="http://forms.brace.io/ootb-hive@xtreamlab.net" method="POST">
+					<div class="form-group">
+						<label for="name">Your name</label>
+						<input type="text" class="form-control" id="name" name="name" required />
+					</div>
+					<div class="form-group">
+						<label for="email">E-mail</label>
+						<input type="email" class="form-control" id="email" name="_replyto" required /> 
+					</div>
+					<div class="form-group">
+						<label for="textarea">List of contributions</label>
+						<textarea class="form-control" id="textarea" rows="4" name="text" placeholder="Please, tell us about yourself and about your contributions so we may know a little about you. Links and details are welcome." required ></textarea>
+					</div>
+					<!--input type="hidden" name="_next" value="/thanks/" /-->
+					<div class="form-actions text-center">
+						<button type="submit" class="btn btn-success btn-lg offset1">Submit</button>
+						<button class="btn" type="reset">Clear</button>
+					</div>
+				</form>
+				<br/>
+				<br/>
+			</div>
+			<br/>
+		</div>
+	</section>
 	<br/>
  </body>
 </html>
