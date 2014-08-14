@@ -146,7 +146,7 @@
 			<h1>Members</h1>
 			<h2>Independent members</h2>
 			<div class="row">
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in members[0].list">
+				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in members | filter:{status:'independent'}">
 					<img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle orange">
 					<br/>
 					<h3>{{member.name}}<br/>{{member.surname}}</h3>
@@ -157,7 +157,7 @@
 			</div>
 			<h2>Alfresco Inc employees</h2>
 			<div class="row">
-				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in members[1].list">
+				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in members | filter:{status:'alfresco'}">
 					<img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle green">
 					<br/>
 					<h3>{{member.name}}<br/>{{member.surname}}</h3>
