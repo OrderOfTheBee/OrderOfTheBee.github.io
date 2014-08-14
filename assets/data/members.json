@@ -134,6 +134,15 @@
 		"youtube" : "https://www.youtube.com/user/jeffpotts01"
 	},
 	{
+		"name": "Bindu",
+		"surname": "Wavell",
+		"nick": "binduwavell",
+		"status": "independent",
+		"github": "binduwavell",
+		"linkedin" : "http://www.linkedin.com/in/binduwavell",
+		"twitter" : "binduwavell"
+	},
+	{
 		"name": "Richard",
 		"surname": "Esplin",
 		"nick": "resplin",
