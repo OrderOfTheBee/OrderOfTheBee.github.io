@@ -143,6 +143,17 @@
 		"twitter" : "binduwavell"
 	},
 	{
+		"name": "Gabriele",
+		"surname": "Columbro",
+		"nick": "mindthegab",
+		"status": "alfresco",
+		"github": "mindthegab",
+		"googleplus" : "https://plus.google.com/100251676538566683892/about",
+		"linkedin" : "www.linkedin.com/in/columbro",
+		"blog" : "http://mindthegab.com/",
+		"twitter" : "mindthegabz"
+	},
+	{
 		"name": "Richard",
 		"surname": "Esplin",
 		"nick": "resplin",
@@ -152,6 +163,17 @@
 		"linkedin" : "http://www.linkedin.com/in/richardesplin",
 		"blog" : "http://richard.esplins.org/siwi/",
 		"twitter" : "esplinr"
+	},
+	{
+		"name": "Maurizio",
+		"surname": "Pillitu",
+		"nick": "maoo",
+		"status": "alfresco",
+		"github": "maoo",
+		"googleplus" : "https://plus.google.com/109542428043430311895/about",
+		"linkedin" : "http://nl.linkedin.com/in/mpillitu",
+		"blog" : "http://richard.esplins.org/siwi/",
+		"twitter" : "maoo"
 	},
         {
 		"name": "David",
