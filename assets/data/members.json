@@ -145,7 +145,7 @@
 		"status": "independent",
 		"googleplus" : "https://plus.google.com/+CristinaMart%C3%ADnRuiz/about",
 		"linkedin" : "http://be.linkedin.com/in/cristinamr/en",
-		"blog" : "http://crisinthecloud.blogspot.ru/",
+		"blog" : "http://crisinthecloud.blogspot.com/",
 		"twitter" : "CristinaMartinR"
 	},
 	{
@@ -248,6 +248,16 @@
 		"linkedin" : "http://www.linkedin.com/in/richardesplin",
 		"blog" : "http://richard.esplins.org/siwi/",
 		"twitter" : "esplinr"
+	},
+	{
+		"name": "Toni",
+		"surname": "de la Fuente",
+		"nick": "toniblyx",
+		"status": "alfresco",
+		"github": "toniblyx",
+		"linkedin" : "http://www.linkedin.com/in/toniblyx",
+		"blog" : "http://blyx.com/",
+		"twitter" : "toniblyx"
 	},
 	{
 		"name": "Nathan",
