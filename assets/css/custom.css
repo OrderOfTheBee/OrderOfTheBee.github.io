@@ -80,6 +80,10 @@ img.green {
 	border:3px solid #2d6c2a;
 }
 
+img.blue {
+	border:3px solid #005dab;
+}
+
 .bee-right {
         position: absolute;
         right: 20px;

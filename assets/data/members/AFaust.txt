@@ -1,0 +1,7 @@
+80 % quiet background-developer from frontend to gritty low-level stuff, 20 % outspoken + opinionated architect - working for Alfresco partner company PRODYNA (Germany)
+- speaker participation in Alfresco DevCon / Summit(s), local meetup and Alfresco Meet-the-Expert events
+- Hackathon participant, minor contributor to JavaScript console (mavenization via SDK)
+- https://github.com/AFaust/alfresco-enhanced-script-environment (including prototypical Nashorn script processor for Alfresco)
+- lurking in #IRC for low-level questions to be answered
+- blogging related to Alfresco (unfortunately in hibernation due to time constraints)
+- member of team AMP

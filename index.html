@@ -120,12 +120,20 @@
 			<h1>Members</h1>
 			<h2>Some of our members</h2>
 			<div class="row">
+				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in rankedList | filter:{status:'boardmember'}">
+					<img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle blue">
+					<br/>
+					<h3>{{member.name}}<br/>{{member.surname}}</h3>
+					<p><a href="#contact" class="smooth">@{{member.nick}}</a></p>
+					<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.stackoverflow" ng-href="{{member.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
+					<br/>
+				</div>
 				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in rankedList | filter:{status:'independent'}">
 					<img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle orange">
 					<br/>
 					<h3>{{member.name}}<br/>{{member.surname}}</h3>
 					<p><a href="#contact" class="smooth">@{{member.nick}}</a></p>
-					<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
+					<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.stackoverflow" ng-href="{{member.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
 					<br/>
 				</div>
 				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in rankedList | filter:{status:'alfresco'}">
@@ -133,7 +141,7 @@
 					<br/>
 					<h3>{{member.name}}<br/>{{member.surname}}</h3>
 					<p><a href="#contact" class="smooth">@{{member.nick}}</a></p>
-					<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
+					<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.stackoverflow" ng-href="{{member.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
 					<br/>
 				</div>
 			</div>
@@ -161,7 +169,7 @@
 						<p>The only requirement and the only way to join the Order is to contribute to the community. Please, tell us about yourself and about your contributions so we may know a little about you. Links and details are welcome.</p>
 					</div>
 					<div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 col-sm-10 col-sm-offset-1 col-xs-12">
-						<form name="contactForm" class="form-horizontal" role="form" action="http://forms.brace.io/ootb-hive@xtreamlab.net" method="POST">
+						<form name="contactForm" class="form-horizontal" role="form" action="http://forms.brace.io/okurysheva@itdhq.com" method="POST">
 							<div class="form-group">
 								<label for="name">Your name</label>
 								<input type="text" class="form-control" id="name" name="name" required />
@@ -172,7 +180,11 @@
 							</div>
 							<div class="form-group">
 								<label for="textarea">List of contributions</label>
-								<textarea class="form-control" id="textarea" rows="4" name="text" required ></textarea>
+								<textarea class="form-control" id="textarea" rows="6" name="text" placeholder="Please, tell us about yourself and about your contributions so we may know a little about you. Links and details are welcome." required ></textarea>
+							</div>
+							<div class="form-group">
+								<label for="textarea">How to find you in social media</label>
+								<textarea class="form-control" id="textarea" rows="3" name="text" placeholder="Links to your Github, Twitter, Google+, LinkedIn and other profiles and a link to your blog if exists" required ></textarea>
 							</div>
 							<!--input type="hidden" name="_next" value="/thanks/" /-->
 							<div class="form-actions text-center">

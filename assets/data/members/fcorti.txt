@@ -1,0 +1,9 @@
+Presales Engineer and Senior Consultant in Content Management and Business Intelligence.
+Author for Packt Publishing.
+ECM solutions with Alfresco ECM, Microsoft SharePoint and Hyland OnBase.
+BI solutions with Pentaho Open Source BI, Microsoft BI Platform, SAP Business Objects (today called SAP Business Intelligence), QlikView, Oracle Hyperion and EssBase.
+
+Contributions:
+Tutorials and howtos - http://fcorti.com
+A.A.A.R. - http://fcorti.com/alfresco-audit-analysis-reporting/
+CMIS Input plugin for Pentaho Data Integration - http://fcorti.com/pdi-cmis-input/

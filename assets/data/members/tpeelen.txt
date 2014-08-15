@@ -1,0 +1,5 @@
+Many Alfresco related blog postst @ http://tpeelen.wordpress.com
+
+Alfresco Business Reporting module @ https://code.google.com/p/alfresco-business-reporting/wiki/Home - Allow reporting against all metadata in Alfresco, folders, documents, datalist items, persons, groups, audit-framework... (Soon: Workflow&Tasks)
+
+Talks @ TechTalkLive, and the Alfresco Summit 2013 + 2014

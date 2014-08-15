@@ -18,13 +18,50 @@
 		"flickr": "https://www.flickr.com/photos/twen/"
 	},
 	{
+		"name": "Angel",
+		"surname": "Borroy",
+		"nick": "AngelBorroy",
+		"status": "independent",
+		"googleplus": "https://plus.google.com/117291681158185550088/about",
+		"blog": "http://angelborroy.wordpress.com",
+		"linkedin" : "http://es.linkedin.com/in/angelborroy/en",
+		"twitter" : "AngelBorroy"
+	},
+	{
+		"name": "Ben",
+		"surname": "Chevallereau",
+		"nick": "bchevallereau",
+		"status": "independent",
+		"blog": "http://www.bataon.com/blog",
+		"linkedin" : "www.linkedin.com/in/bchevallereau",
+		"twitter" : "bchevallereau"
+	},
+	{
+		"name": "Francesco",
+		"surname": "Corti",
+		"nick": "fcorti",
+		"status": "independent",
+		"github": "fcorti",
+		"linkedin" : "http://it.linkedin.com/in/fcorti/",
+		"googleplus": "http://google.com/+FrancescoCorti",
+		"twitter" : "FrkCorti"
+	},
+	{
 		"name": "Martin",
 		"surname": "Cosgrave",
 		"nick": "marsbard",
-		"status": "independent",
+		"status": "boardmember",
 		"github": "marsbard",
 		"linkedin" : "http://uk.linkedin.com/pub/martin-cosgrave/5/29/869",
 		"twitter" : "marsbard"
+	},
+	{
+		"name": "Steve",
+		"surname": "Greenbaum",
+		"nick": "SteveGreenbaum",
+		"status": "independent",
+		"linkedin" : "http://www.linkedin.com/in/stevegreenbaum",
+		"twitter" : "Music99"
 	},
 	{
 		"name": "Axel",
@@ -40,7 +77,7 @@
 		"name": "Ole",
 		"surname": "Hejlskov",
 		"nick": "ohej",
-		"status": "independent",
+		"status": "boardmember",
 		"github": "ohej",
 		"linkedin" : "http://dk.linkedin.com/pub/ole-hejlskov/1/3b6/979",
 		"blog" : "http://ohej.dk/",
@@ -61,7 +98,7 @@
 		"name": "Oksana",
 		"surname": "Kurysheva",
 		"nick": "aviriel",
-		"status": "independent",
+		"status": "boardmember",
 		"github": "aviriel",
 		"googleplus" : "https://plus.google.com/102392937155373422359/about",
 		"linkedin" : "http://ru.linkedin.com/in/okurysheva",
@@ -80,6 +117,28 @@
 		"twitter" : "loftux"
 	},
 	{
+		"name": "Piergiorgio",
+		"surname": "Lucidi",
+		"nick": "pjlucidi",
+		"status": "independent",
+		"googleplus" : "https://plus.google.com/+PiergiorgioLucidi/about",
+		"linkedin" : "http://it.linkedin.com/in/piergiorgiolucidi",
+		"blog" : "http://www.open4dev.com/",
+		"twitter" : "pjlucidi"
+	},
+	{
+		"name": "Tahir",
+		"surname": "Malik",
+		"nick": "tahirshazad",
+		"status": "independent",
+		"github": "shazada",
+		"googleplus" : "https://plus.google.com/u/0/115523470853102526380/about",
+		"stackoverflow" : "http://stackoverflow.com/users/676675/tahir-malik",
+		"linkedin" : "http://nl.linkedin.com/in/tsmalik",
+		"blog": "http://www.contezza.nl/blog",
+		"twitter" : "tahirshazad"
+	},
+	{
 		"name": "Cristina",
 		"surname": "Martín Ruiz",
 		"nick": "cristinamr",
@@ -93,7 +152,7 @@
 		"name": "Boriss",
 		"surname": "Mejias",
 		"nick": "bmejias",
-		"status": "independent",
+		"status": "boardmember",
 		"github": "bmejias",
 		"googleplus" : "https://plus.google.com/107032987826242549238/about",
 		"linkedin" : "http://be.linkedin.com/pub/boris-mej%C3%ADas/1/740/463",
@@ -111,13 +170,22 @@
 		"twitter" : "douglascrp"
 	},
 	{
+		"name": "Tjarda",
+		"surname": "Peelen",
+		"nick": "tpeelen",
+		"status": "independent",
+		"linkedin" : "nl.linkedin.com/in/tpeelen",
+		"blog" : "http://tpeelen.wordpress.com/",
+		"twitter" : "tpeelen"
+	},
+	{
 		"name": "Jan",
 		"surname": "Pfitzner",
 		"nick": "alfrescian",
 		"status": "independent",
 		"github": "alfrescian",
 		"googleplus" : "https://plus.google.com/u/0/+JanPfitzner_DE/about",
-		"linkedin" : "http://test2/de.linkedin.com/pub/jan-pfitzner/35/739/1b2",
+		"linkedin" : "http://de.linkedin.com/pub/jan-pfitzner/35/739/1b2",
 		"blog" : "http://blog.alfrescian.com/",
 		"twitter" : "alfrescian"
 	},
@@ -125,13 +193,21 @@
 		"name": "Jeff",
 		"surname": "Potts",
 		"nick": "jpotts",
-		"status": "independent",
+		"status": "boardmember",
 		"github": "jpotts",
 		"googleplus" : "https://plus.google.com/+JeffPotts/about",
 		"linkedin" : "http://www.linkedin.com/in/jpotts",
 		"blog" : "http://ecmarchitect.com/",
 		"twitter" : "jeffpotts01",
 		"youtube" : "https://www.youtube.com/user/jeffpotts01"
+	},
+	{
+		"name": "Ben",
+		"surname": "Switzer",
+		"nick": "BenSwitzer",
+		"status": "independent",
+		"linkedin" : "http://ca.linkedin.com/in/benswitzer",
+		"twitter" : "riot_technology"
 	},
 	{
 		"name": "Bindu",
@@ -143,13 +219,22 @@
 		"twitter" : "binduwavell"
 	},
 	{
+		"name": "Gloria",
+		"surname": "Broadbent",
+		"nick": "GloriaBroadbent",
+		"status": "alfresco",
+		"googleplus" : "https://plus.google.com/u/0/112671315376985433277/about",
+		"linkedin" : "http://uk.linkedin.com/pub/gloria-broadbent/2/8bb/355",
+		"twitter" : "GlorisitaPeru"
+	},
+	{
 		"name": "Gabriele",
 		"surname": "Columbro",
 		"nick": "mindthegab",
 		"status": "alfresco",
 		"github": "mindthegab",
 		"googleplus" : "https://plus.google.com/100251676538566683892/about",
-		"linkedin" : "www.linkedin.com/in/columbro",
+		"linkedin" : "http://www.linkedin.com/in/columbro",
 		"blog" : "http://mindthegab.com/",
 		"twitter" : "mindthegabz"
 	},
@@ -163,6 +248,16 @@
 		"linkedin" : "http://www.linkedin.com/in/richardesplin",
 		"blog" : "http://richard.esplins.org/siwi/",
 		"twitter" : "esplinr"
+	},
+	{
+		"name": "Nathan",
+		"surname": "McMinn",
+		"nick": "ntmcminn",
+		"status": "alfresco",
+		"github": "ntmcminn",
+		"linkedin" : "http://www.linkedin.com/in/nathantmcminn",
+		"blog" : "http://nathanmcminn.com/",
+		"twitter" : "ntmcminn"
 	},
 	{
 		"name": "Maurizio",

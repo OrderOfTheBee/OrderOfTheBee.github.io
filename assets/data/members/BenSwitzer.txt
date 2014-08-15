@@ -1,0 +1,4 @@
+- active role in the Alfresco fourms
+- reported bugs in Alfresco Community to Alfresco
+- provided patches for Community to Alfresco
+- testing and providing feedback for various Alfresco add-ons

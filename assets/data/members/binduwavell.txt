@@ -1,0 +1,18 @@
+Hi,
+
+I've been lurking on the mailing list for a little while. I'm super stoked about this addition to the Alfresco community. I'm thrilled to see so many well known names from the community and even from Alfresco associated with the ootb!
+
+I am the chief architect at. Zia Consulting, which is a Platinum Parter of Alfrescos. We have been partner of the year a couple of times. As a platinum partner we can't work on community projects through work. However, there is nothing stopping folks working on community related projects in our spare time :) and there is absolutely nothing stopping us from participating in the community in a social collaborative supportative way.
+
+I enjoy hanging out on IRC and answering questions if I can. I presented a dev environment we built during TTL #69 that I hope inspired the new RAD stuff in the 2.0 SDK at least a little bit.
+
+I have also presented some lightning talks at DevCon/Summit and wll be presenting a full session at Summit in SF and London this year that I hope will be interesting to (and advocating for) the community.
+
+One of my goals at work (and out) is to help Alfresco understand how important developer tooling and enablement is. I am very passionate about this topic and as vocal as I can be through whatever channels I have available to me.
+
+I have provided pull requests for a few well known community add ons. Although I'm not certain any have been accepted :) 
+
+I'm looking forward to participating with this crew as well as th Alfresco supported community channels,and events.
+
+I'm especially looking forward to meeting folks from this crew at the Summit events this year.
+
