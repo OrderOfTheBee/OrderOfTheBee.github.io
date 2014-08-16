@@ -139,6 +139,15 @@
 		"twitter" : "tahirshazad"
 	},
 	{
+		"name": "Adei",
+		"surname": "Mandaluniz",
+		"nick": "amandaluniz ",
+		"status": "independent",
+		"linkedin" : "https://www.linkedin.com/in/amandaluniz",
+		"blog" : "http://www.bataon.com/blog",
+		"twitter" : "amandaluniz"
+	},
+	{
 		"name": "Cristina",
 		"surname": "Martín Ruiz",
 		"nick": "cristinamr",
@@ -200,6 +209,18 @@
 		"blog" : "http://ecmarchitect.com/",
 		"twitter" : "jeffpotts01",
 		"youtube" : "https://www.youtube.com/user/jeffpotts01"
+	},
+	{
+		"name": "Andreas",
+		"surname": "Steffan",
+		"nick": "deas",
+		"status": "independent",
+		"github": "deas",
+		"googleplus" : "https://plus.google.com/u/0/+AndreasSteffan/about",
+		"linkedin" : "http://de.linkedin.com/in/andreassteffan",
+		"blog" : "http://www.contentreich.de/",
+		"twitter" : "jeffpotts01",
+		"stackoverflow" : "http://stackoverflow.com/users/562258/andreas-steffan"
 	},
 	{
 		"name": "Ben",
