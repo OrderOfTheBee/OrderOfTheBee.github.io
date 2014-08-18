@@ -1,0 +1,3 @@
+Independent Alfresco consultant, working with alfresco for 8 years. 
+
+Creator of a few frameworks for Alfresco: Jibe framework (not maintained), Alfresco @MVC (spring @mvc inside alfresco) https://github.com/dgradecak/alfresco-mvc

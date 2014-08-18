@@ -28,6 +28,15 @@
 		"twitter" : "AngelBorroy"
 	},
 	{
+		"name": "Cesar",
+		"surname": "Capillas",
+		"nick": "cesarcapi",
+		"status": "independent",
+		"blog": "http://www.zylk.net/es/web/guest/web-2-0/blog",
+		"linkedin" : "http://es.linkedin.com/in/cesarcapillas ",
+		"twitter" : "cesarcapi"
+	},
+	{
 		"name": "Ben",
 		"surname": "Chevallereau",
 		"nick": "bchevallereau",
@@ -72,6 +81,16 @@
 		"linkedin" : "http://de.linkedin.com/pub/axel-faust/3a/b2b/78a",
 		"blog" : "http://axel-faust.de/",
 		"twitter" : "ReluctantBird83"
+	},
+	{
+		"name": "Daniel",
+		"surname": "Gradecak",
+		"nick": "dgradecak",
+		"status": "independent",
+		"github": "dgradecak",
+		"linkedin" : "http://hr.linkedin.com/in/danielgradecak",
+		"blog" : "http://gradecak.blogspot.ru/",
+		"twitter" : "gradecak"
 	},
 	{
 		"name": "Ole",
@@ -168,6 +187,17 @@
 		"twitter" : "tchorix"
 	},
 	{
+		"name": "Carl",
+		"surname": "Nordenfelt",
+		"nick": "cnordenfelt",
+		"status": "independent",
+		"github": "cnordenfelt",
+		"googleplus" : "https://plus.google.com/107032987826242549238/about",
+		"linkedin" : "http://se.linkedin.com/in/cnordenfelt",
+		"blog": "http://alfresco.blog.redpill-linpro.com/",
+		"twitter" : "cnordenfelt"
+	},
+	{
 		"name": "Douglas",
 		"surname": "C. R. Paes",
 		"nick": "douglascrp",
@@ -199,6 +229,25 @@
 		"twitter" : "alfrescian"
 	},
 	{
+		"name": "Aingaran",
+		"surname": "Pillai",
+		"nick": "apillai",
+		"status": "independent",
+		"github": "apillai",
+		"linkedin" : "http://uk.linkedin.com/in/aingaranpillai",
+		"twitter" : "apillaiz"
+	},
+	{
+		"name": "Sujay",
+		"surname": "Pillai",
+		"nick": "sujaypillai",
+		"status": "independent",
+		"googleplus" : "https://plus.google.com/+SujayPillai/about",
+		"linkedin" : "http://my.linkedin.com/in/sujaypillai",
+		"blog" : "http://fileuploadalfresco.blogspot.com/",
+		"twitter" : "sujaypillai"
+	},
+	{
 		"name": "Jeff",
 		"surname": "Potts",
 		"nick": "jpotts",
@@ -211,6 +260,14 @@
 		"youtube" : "https://www.youtube.com/user/jeffpotts01"
 	},
 	{
+		"name": "Charles",
+		"surname": "Le Seac'h",
+		"nick": "cleseach",
+		"status": "independent",
+		"blog" : "http://charles.torda.net",
+		"twitter" : "cleseach"
+	},
+	{
 		"name": "Andreas",
 		"surname": "Steffan",
 		"nick": "deas",
@@ -219,7 +276,7 @@
 		"googleplus" : "https://plus.google.com/u/0/+AndreasSteffan/about",
 		"linkedin" : "http://de.linkedin.com/in/andreassteffan",
 		"blog" : "http://www.contentreich.de/",
-		"twitter" : "jeffpotts01",
+		"twitter" : "deas",
 		"stackoverflow" : "http://stackoverflow.com/users/562258/andreas-steffan"
 	},
 	{
