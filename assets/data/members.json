@@ -268,6 +268,14 @@
 		"youtube" : "https://www.youtube.com/user/jeffpotts01"
 	},
 	{
+		"name": "Heiko",
+		"surname": "Robert",
+		"nick": "heiko",
+		"status": "independent",
+		"linkedin": "http://de.linkedin.com/pub/heiko-robert/1/936/17b",
+		"twitter" : "hi_ko"
+	},
+	{
 		"name": "Prvoslav",
 		"surname": "Savic",
 		"nick": "SavicPrvoslav",
