@@ -1,0 +1,5 @@
+- Alfresco consultant since 2007 
+- Alfresco User Group Belgium & Hackathon attendee 
+- Regularly answering questions on IRC, the Alfresco forums and StackOverflow 
+- Creator and moderator of the Alfresco subreddit: http://www.reddit.com/r/alfresco 
+- Small Javascript utility script: https://github.com/JonasHeylen/elzar

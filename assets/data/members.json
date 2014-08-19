@@ -103,6 +103,16 @@
 		"twitter" : "OleHejlskov"
 	},
 	{
+		"name": "Jonas",
+		"surname": "Heylen",
+		"nick": "JonasHeylen",
+		"status": "independent",
+		"github": "JonasHeylen",
+		"linkedin" : "http://be.linkedin.com/in/jonasheylen",
+		"twitter" : "JonasHeylen",
+		"stackoverflow": "http://stackoverflow.com/users/28930/jonas-heylen"
+	},
+	{
 		"name": "Benjamin",
 		"surname": "Kahn",
 		"nick": "xkahn",
