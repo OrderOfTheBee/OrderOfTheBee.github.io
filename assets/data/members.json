@@ -42,7 +42,7 @@
 		"nick": "bchevallereau",
 		"status": "independent",
 		"blog": "http://www.bataon.com/blog",
-		"linkedin" : "www.linkedin.com/in/bchevallereau",
+		"linkedin" : "http://www.linkedin.com/in/bchevallereau",
 		"twitter" : "bchevallereau"
 	},
 	{
@@ -177,6 +177,14 @@
 		"twitter" : "CristinaMartinR"
 	},
 	{
+		"name": "Javier",
+		"surname": "Martínez Rojo",
+		"nick": "javiermartinezr",
+		"status": "independent",
+		"linkedin" : "http://es.linkedin.com/pub/javier-martínez-rojo/15/923/689/en",
+		"twitter" : "javiermartinezr"
+	},
+	{
 		"name": "Boriss",
 		"surname": "Mejias",
 		"nick": "bmejias",
@@ -213,7 +221,7 @@
 		"surname": "Peelen",
 		"nick": "tpeelen",
 		"status": "independent",
-		"linkedin" : "nl.linkedin.com/in/tpeelen",
+		"linkedin" : "http://nl.linkedin.com/in/tpeelen",
 		"blog" : "http://tpeelen.wordpress.com/",
 		"twitter" : "tpeelen"
 	},
@@ -258,6 +266,16 @@
 		"blog" : "http://ecmarchitect.com/",
 		"twitter" : "jeffpotts01",
 		"youtube" : "https://www.youtube.com/user/jeffpotts01"
+	},
+	{
+		"name": "Prvoslav",
+		"surname": "Savic",
+		"nick": "SavicPrvoslav",
+		"status": "independent",
+		"github": "savicprvoslav",
+		"blog" : "http://alfrescoblog.com/",
+		"linkedin": "http://rs.linkedin.com/in/savicprvoslav",
+		"twitter" : "SavicPrvoslav"
 	},
 	{
 		"name": "Charles",

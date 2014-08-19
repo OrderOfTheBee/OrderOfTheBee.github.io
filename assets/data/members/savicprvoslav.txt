@@ -1,0 +1,5 @@
+I am a CTO of yanado.com a great task management tool that lives inside Gmail. Also a alfresco developer for 5 years, implementing alfresco in companies, maintaining and developing new features for clients. Recently I have started a blog called alfrescoBlog.com and my latest feature is email tracking inside alfresco, like yesware or getSignals is. 
+Here are some links : 
+http://alfrescoblog.com/ 
+http://alfrescoblog.com/2014/08/17/alfresco-email-tracking-part-i/ 
+http://alfrescoblog.com/2014/06/17/angular-js-activiti-webapp-part-ii/ 

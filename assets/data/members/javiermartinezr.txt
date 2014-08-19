@@ -1,0 +1,4 @@
+-Spanish forums contributor (first named Guru member). 
+-Alfresco contributor of the month (http://wiki.alfresco.com/wiki/Contributor_of_the_Month) 
+-Chumby award winner (http://wiki.alfresco.com/wiki/Chumby_Awards#June_2009.2C_Javier_Martinez) 
+-Lead of Alfresco MetaDBConnector module contribution (https://addons.alfresco.com/addons/alfresco-metadbconnector-component)
