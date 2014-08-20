@@ -57,7 +57,8 @@ Chair: To be determined.
 
 Members:
 
-- ...
+- Axel Faust
+- Douglas C. R. Paes
 
 
 MKT - Marketing
