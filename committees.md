@@ -16,12 +16,12 @@ Members:
 - Lanre Abiwon
 
 
-WEB - Web Site
+INFRA - Infractructure
 ----------------------------------------------------------------------
 
 Description: Define an architecture, select tools, maintain the site. Implement
-business requirements given to you by the other sub-committees. For now, I think
-the Live Showcase idea should fall under Web Site.
+business requirements given to you by the other sub-committees. Live Showcase idea.
+DNS and Mailing List administration.
 
 Chair: To be determined.
 
@@ -78,6 +78,7 @@ Chair: To be determined.
 Members:
 
 - Cristina Martin
+- Oksana Kurysheva
 
 
 PSN - Professional Services Network.
@@ -91,4 +92,4 @@ Chair: To be determined.
 
 Members:
 
-- ...
+- Oksana Kurysheva
