@@ -12,6 +12,8 @@ Chair: To be determined.
 Members:
 
 - Boriss Mejías
+- Cristina Martin
+- Lanre Abiwon
 
 
 WEB - Web Site
@@ -27,6 +29,7 @@ Members:
 
 - Boriss Mejías
 - Martin Cosgrave
+- Lanre Abiwon
 
 
 DISTRO - Distribution
@@ -74,7 +77,7 @@ Chair: To be determined.
 
 Members:
 
-- ...
+- Cristina Martin
 
 
 PSN - Professional Services Network.
