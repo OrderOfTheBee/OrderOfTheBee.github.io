@@ -1,0 +1,1 @@
+DB2 Support for Alfresco Community (https://addons.alfresco.com/addons/db2-support-alfresco-community, https://github.com/jett/db2-alfresco)

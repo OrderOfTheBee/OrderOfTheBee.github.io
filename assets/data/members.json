@@ -18,10 +18,22 @@
 		"flickr": "https://www.flickr.com/photos/twen/"
 	},
 	{
+		"name": "Erik",
+		"surname": "Billerby",
+		"nick": "billerby",
+		"status": "independent",
+		"github": "billerby",
+		"googleplus" : "https://plus.google.com/101460942946269186096/about",
+		"linkedin" : "http://se.linkedin.com/pub/erik-billerby/3/442/a42",
+		"blog": "http://alfresco.blog.redpill-linpro.com/",
+		"twitter" : "billerby"
+	},
+	{
 		"name": "Angel",
 		"surname": "Borroy",
 		"nick": "AngelBorroy",
 		"status": "independent",
+		"github": "angelborroy",
 		"googleplus": "https://plus.google.com/117291681158185550088/about",
 		"blog": "http://angelborroy.wordpress.com",
 		"linkedin" : "http://es.linkedin.com/in/angelborroy/en",
@@ -41,6 +53,7 @@
 		"surname": "Chevallereau",
 		"nick": "bchevallereau",
 		"status": "independent",
+		"github": "bchevallereau",
 		"blog": "http://www.bataon.com/blog",
 		"linkedin" : "http://www.linkedin.com/in/bchevallereau",
 		"twitter" : "bchevallereau"
@@ -81,6 +94,15 @@
 		"linkedin" : "http://de.linkedin.com/pub/axel-faust/3a/b2b/78a",
 		"blog" : "http://axel-faust.de/",
 		"twitter" : "ReluctantBird83"
+	},
+	{
+		"name": "Jett",
+		"surname": "Gamboa",
+		"nick": "JettGamboa",
+		"status": "independent",
+		"github": "jett",
+		"linkedin" : "http://ph.linkedin.com/in/jettgamboa",
+		"github": "http://google.com/+JettGamboa"
 	},
 	{
 		"name": "Daniel",
@@ -150,6 +172,7 @@
 		"surname": "Lucidi",
 		"nick": "pjlucidi",
 		"status": "independent",
+		"github": "OpenPj",
 		"googleplus" : "https://plus.google.com/+PiergiorgioLucidi/about",
 		"linkedin" : "http://it.linkedin.com/in/piergiorgiolucidi",
 		"blog" : "http://www.open4dev.com/",
@@ -172,6 +195,7 @@
 		"surname": "Mandaluniz",
 		"nick": "amandaluniz",
 		"status": "independent",
+		"github": "amandaluniz",
 		"linkedin" : "https://www.linkedin.com/in/amandaluniz",
 		"blog" : "http://www.bataon.com/blog",
 		"twitter" : "amandaluniz"
@@ -191,6 +215,7 @@
 		"surname": "Martínez Rojo",
 		"nick": "javiermartinezr",
 		"status": "independent",
+		"github": "javiermartinezr",
 		"linkedin" : "http://es.linkedin.com/pub/javier-martínez-rojo/15/923/689/en",
 		"twitter" : "javiermartinezr"
 	},
@@ -227,6 +252,17 @@
 		"twitter" : "douglascrp"
 	},
 	{
+		"name": "Mittal",
+		"surname": "Patoliya",
+		"nick": "mitpatoliya",
+		"status": "independent",
+		"github": "mitpatoliya",
+		"googleplus" : "https://plus.google.com/118374418804103063028/about",
+		"linkedin" : "http://in.linkedin.com/pub/mittal-patoliya/20/781/310",
+		"blog" : "http://customizealfresco.blogspot.in/",
+		"stackoverflow": "http://stackoverflow.com/users/2201884/mitpatoliya"
+	},
+	{
 		"name": "Tjarda",
 		"surname": "Peelen",
 		"nick": "tpeelen",
@@ -260,6 +296,7 @@
 		"surname": "Pillai",
 		"nick": "sujaypillai",
 		"status": "independent",
+		"github": "sujaypillai",
 		"googleplus" : "https://plus.google.com/+SujayPillai/about",
 		"linkedin" : "http://my.linkedin.com/in/sujaypillai",
 		"blog" : "http://fileuploadalfresco.blogspot.com/",
@@ -282,6 +319,7 @@
 		"surname": "Robert",
 		"nick": "heiko",
 		"status": "independent",
+		"github" : "hi_ko",
 		"linkedin": "http://de.linkedin.com/pub/heiko-robert/1/936/17b",
 		"twitter" : "hi_ko"
 	},
@@ -314,6 +352,16 @@
 		"blog" : "http://www.contentreich.de/",
 		"twitter" : "deas",
 		"stackoverflow" : "http://stackoverflow.com/users/562258/andreas-steffan"
+	},
+	{
+		"name": "Marcus",
+		"surname": "Svensson",
+		"nick": "marsv024",
+		"status": "independent",
+		"github": "marsv024",
+		"googleplus" : "https://plus.google.com/u/0/+MarcusSvensson024",
+		"linkedin" : "https://www.linkedin.com/in/marsv024",
+		"twitter" : "marsv024"
 	},
 	{
 		"name": "Ben",
