@@ -7,7 +7,7 @@
   <meta name="description" content=""/>
   <meta name="author" content=""/>
 
-  <title>Order of the Bee >> Alfresco Honeycomb Edition</title>
+  <title>Order of the Bee >> Professional Services Network</title>
 
   <link href="/assets/css/bootstrap.css" rel="stylesheet"/>
   <link href="/assets/css/font-awesome.min.css" rel="stylesheet"/>
@@ -35,17 +35,40 @@
 
 	<section class="green">
 		<div class="container-fluid">
-			<h1 class="text-center">Alfresco Honeycomb Edition</h1>
+			<h1 class="text-center">Professional Services Network</h1>
 			<br/>
 		</div>
 	</section>
 
-	<div class="container-fluid text-center">
+	<div ng-show="items[0]" class="container-fluid text-center" ng-controller="PSNCtrl">
 		<div class="row">
 			<br/>
-			<h2>Coming soon</h2>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" ng-repeat="item in items">
+				<h2 class="text-center">{{item.name}}</h2>
+				<img class="right" ng-show="item.image" src="/assets/images/{{item}}.png"/>
+				<p>{{item.description}}</p>
+			</div>
 		</div>
 	</div>
+
+	<section class="orange">
+		<div class="container-fluid">
+			<h2 class="text-center">How to be added here?</h2>
+			<br/>
+		</div>
+	</section>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12 lead">
+				<br/>
+				<p>Send us a link to your profile or company website, tell us what you can do, in what countries do you work, and give us contacts of one or more customers who are willing to be a reference.</p>
+					<br/>
+					<p class="text-center"><a href="https://github.com/OrderOfTheBee/marketing/issues/new" class="btn btn-lg btn-success" target="_blank"><i class="fa fa-arrow-down"></i> Send request</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<social></social>
 

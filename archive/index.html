@@ -7,7 +7,7 @@
   <meta name="description" content=""/>
   <meta name="author" content=""/>
 
-  <title>Order of the Bee >> Alfresco Honeycomb Edition</title>
+  <title>Order of the Bee >> Archive of tutorials, guides and articles</title>
 
   <link href="/assets/css/bootstrap.css" rel="stylesheet"/>
   <link href="/assets/css/font-awesome.min.css" rel="stylesheet"/>
@@ -35,17 +35,54 @@
 
 	<section class="green">
 		<div class="container-fluid">
-			<h1 class="text-center">Alfresco Honeycomb Edition</h1>
+			<h1 class="text-center">Archive of tutorials, guides and articles</h1>
 			<br/>
 		</div>
 	</section>
 
-	<div class="container-fluid text-center">
+	<div ng-show="posts[0]" class="container-fluid" ng-controller="PostsCtrl">
 		<div class="row">
 			<br/>
-			<h2>Coming soon</h2>
+			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12">
+				<form class="form-horizontal">
+					<div class="form-group">
+						<br/>
+						<label for="select" class="col-sm-3 col-xs-4 control-label">Tags</label> 
+						<div class="col-sm-5 col-xs-5">
+							<input type="text" ng-model="query" id="query" class="form-control" >
+						</div>
+						<button type="reset" class="btn btn-default col-sm-2 col-xs-3">Reset filter</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="row">
+			<br/>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" ng-repeat="post in posts | filter:query">
+				<h2 class="text-center">{{post.name}}</h2>
+				<p>{{post.description}}</p>
+			</div>
 		</div>
 	</div>
+
+	<section class="orange">
+		<div class="container-fluid">
+			<h2 class="text-center">How to add your text here?</h2>
+			<br/>
+		</div>
+	</section>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12 lead">
+				<br/>
+				<p>Create an issue on Github with a link to your tutorial/blog post/article.</p>
+				<br/>
+				<p class="text-center"><a href="https://github.com/OrderOfTheBee/marketing/issues/new" class="btn btn-lg btn-success" target="_blank"><i class="fa fa-arrow-down"></i> Submit request</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<social></social>
 

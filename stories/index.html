@@ -7,7 +7,7 @@
   <meta name="description" content=""/>
   <meta name="author" content=""/>
 
-  <title>Order of the Bee >> Alfresco Honeycomb Edition</title>
+  <title>Order of the Bee >> Community Success Stories</title>
 
   <link href="/assets/css/bootstrap.css" rel="stylesheet"/>
   <link href="/assets/css/font-awesome.min.css" rel="stylesheet"/>
@@ -35,17 +35,46 @@
 
 	<section class="green">
 		<div class="container-fluid">
-			<h1 class="text-center">Alfresco Honeycomb Edition</h1>
+			<h1 class="text-center">Community Success Stories</h1>
 			<br/>
 		</div>
 	</section>
 
-	<div class="container-fluid text-center">
+	<div ng-show="stories[0]" class="container-fluid text-center" ng-controller="StoriesCtrl">
 		<div class="row">
 			<br/>
-			<h2>Coming soon</h2>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" ng-repeat="story in stories">
+				<h2 class="text-center">{{story.name}}</h2>
+				<img class="right" ng-show="story.image" src="/assets/images/{{story}}.png"/>
+				<p>{{story.description}}</p>
+			</div>
 		</div>
 	</div>
+
+	<section class="orange">
+		<div class="container-fluid">
+			<h2 class="text-center">How to add your story?</h2>
+			<br/>
+		</div>
+	</section>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12 lead">
+				<br/>
+				<p>Create an issue on Github with the following information attached:</p>
+				<ul>
+					<li>a link to your profile or company website</li>
+					<li>area of your competence</li>
+					<li>in what countries do you work</li>
+					<li>contacts of one or more customers who are willing to be a reference</li>
+				</ul>
+					<br/>
+					<p class="text-center"><a href="https://github.com/OrderOfTheBee/marketing/issues/new" class="btn btn-lg btn-success" target="_blank"><i class="fa fa-arrow-down"></i> Send request</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<social></social>
 
