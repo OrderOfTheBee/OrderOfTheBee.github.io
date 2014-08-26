@@ -115,6 +115,16 @@
 		"twitter" : "gradecak"
 	},
 	{
+		"name": "Binesh",
+		"surname": "Gummadi",
+		"nick": "binnyg ",
+		"status": "independent",
+		"github": "binnyg",
+		"linkedin" : "https://www.linkedin.com/in/binnyg",
+		"blog" : "http://binesh.in/",
+		"twitter" : "binnyg"
+	},
+	{
 		"name": "Ole",
 		"surname": "Hejlskov",
 		"nick": "ohej",
@@ -370,6 +380,15 @@
 		"status": "independent",
 		"linkedin" : "http://ca.linkedin.com/in/benswitzer",
 		"twitter" : "riot_technology"
+	},
+	{
+		"name": "Ashley",
+		"surname": "Ward",
+		"nick": "ashward",
+		"status": "independent",
+		"github": "ashward",
+		"linkedin" : "https://www.linkedin.com/in/ashward",
+		"twitter" : "ashward123"
 	},
 	{
 		"name": "Bindu",
