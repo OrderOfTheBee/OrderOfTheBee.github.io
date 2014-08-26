@@ -78,14 +78,6 @@
 		"twitter" : "marsbard"
 	},
 	{
-		"name": "Steve",
-		"surname": "Greenbaum",
-		"nick": "SteveGreenbaum",
-		"status": "independent",
-		"linkedin" : "http://www.linkedin.com/in/stevegreenbaum",
-		"twitter" : "Music99"
-	},
-	{
 		"name": "Axel",
 		"surname": "Faust",
 		"nick": "AFaust",
@@ -113,6 +105,24 @@
 		"linkedin" : "http://hr.linkedin.com/in/danielgradecak",
 		"blog" : "http://gradecak.blogspot.ru/",
 		"twitter" : "gradecak"
+	},
+	{
+		"name": "Steve",
+		"surname": "Greenbaum",
+		"nick": "SteveGreenbaum",
+		"status": "independent",
+		"linkedin" : "http://www.linkedin.com/in/stevegreenbaum",
+		"twitter" : "Music99"
+	},
+	{
+		"name": "Binesh",
+		"surname": "Gummadi",
+		"nick": "binnyg ",
+		"status": "independent",
+		"github": "binnyg",
+		"linkedin" : "https://www.linkedin.com/in/binnyg",
+		"blog" : "http://binesh.in/",
+		"twitter" : "binnyg"
 	},
 	{
 		"name": "Ole",
@@ -370,6 +380,15 @@
 		"status": "independent",
 		"linkedin" : "http://ca.linkedin.com/in/benswitzer",
 		"twitter" : "riot_technology"
+	},
+	{
+		"name": "Ashley",
+		"surname": "Ward",
+		"nick": "ashward",
+		"status": "independent",
+		"github": "ashward",
+		"linkedin" : "https://www.linkedin.com/in/ashward",
+		"twitter" : "ashward123"
 	},
 	{
 		"name": "Bindu",
