@@ -6,9 +6,20 @@ body {
 	text-align: justify;
 }
 
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
 a {
+	text-decoration: underline; 
+	color: inherit;
+}
+
+a.black:hover, a.black:focus {
 	text-decoration: none; 
 	color: inherit;
+}
+
+a.btn {
+	text-decoration: none; 
 }
 
 h1 {
@@ -106,6 +117,7 @@ img.center {
 
 .navbar {
 	text-transform: uppercase;
+	border: none;
 }
 
 .navbar-brand {
@@ -135,6 +147,33 @@ img.center {
 	box-sizing: border-box;
 	max-width: 100%;
 	color: #202020;
+}
+
+.navbar a {
+	text-decoration: none; 
+	color: inherit;
+}
+
+.navbar.navbar-default.navbar-static-top {
+	-webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.dropdown-menu > li {
+	text-transform: none;
+	font-size: 16px;
+}
+
+.dropdown-menu > li.dropdown-header {
+	display: block;
+	padding: 3px 20px;
+	font-size: 16px;
+	line-height: 1.42857143;
+	color: #777777;
+	white-space: nowrap;
+	text-transform: uppercase;
 }
 
 /* sections specific */
@@ -169,8 +208,13 @@ img.center {
 	top: 1px;
 }
 
-#members, #events {
+#members, .orange {
 	background-color: #ffe14f;
+}
+
+.green {
+	background-color: #47aa42;
+	color: #fff;
 }
 
 

@@ -7,7 +7,7 @@
   <meta name="description" content=""/>
   <meta name="author" content=""/>
 
-  <title>Order of the Bee >> Alfresco Honeycomb Edition</title>
+  <title>Order of the Bee >> Collection of the best add-ons</title>
 
   <link href="/assets/css/bootstrap.css" rel="stylesheet"/>
   <link href="/assets/css/font-awesome.min.css" rel="stylesheet"/>
@@ -35,19 +35,43 @@
 
 	<section class="green">
 		<div class="container-fluid">
-			<h1 class="text-center">Alfresco Honeycomb Edition</h1>
+			<h1 class="text-center">List of best free Alfresco add-ons</h1>
 			<br/>
 		</div>
 	</section>
 
-	<div class="container-fluid text-center">
+	<div ng-show="addons[0]" class="container-fluid text-center" ng-controller="AddonsCtrl">
 		<div class="row">
 			<br/>
-			<h2>Coming soon</h2>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" ng-repeat="addon in addons">
+				<h2 class="text-center">{{addon.name}}</h2>
+				<img class="right" ng-show="addon.image" src="/assets/images/{{addon}}.png"/>
+				<p>{{addon.description}}</p>
+			</div>
 		</div>
 	</div>
 
-	<social></social>
+	<section class="orange">
+		<div class="container-fluid">
+			<h2 class="text-center">How to add my add-on here?</h2>
+			<br/>
+		</div>
+	</section>
 
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12 lead">
+				<br/>
+				<p>We are working on creating a list of requirements. Send us a link to your add-on at <a href="http://addons.alfresco.com/" target="_blank">http://addons.alfresco.com</a> to start a discussion.</p>
+					<br/>
+					<p class="text-center"><a href="https://github.com/OrderOfTheBee/addons/issues/new" class="btn btn-lg btn-success" target="_blank"><i class="fa fa-arrow-down"></i> Send request</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<social></social>
  </body>
 </html>
