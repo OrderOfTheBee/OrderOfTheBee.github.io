@@ -1,0 +1,2 @@
+Just a few Alfresco-related post, for example: 
+- http://robferguson.org/2014/07/13/how-to-build-alfresco-using-subclipse-and-maven-on-osx-mavericks/

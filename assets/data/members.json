@@ -8,6 +8,14 @@
 		"googleplus" : "https://plus.googleapis.com/114651076223403572060/about"
 	},
 	{
+		"name": "Andreas",
+		"surname": "Amstutz",
+		"nick": "amstutzit",
+		"status": "independent",
+		"github": "tullo",
+		"twitter" : "amstutzit"
+	},
+	{
 		"name": "Olivier",
 		"surname": "Anh",
 		"nick": "twen",
@@ -88,6 +96,16 @@
 		"twitter" : "ReluctantBird83"
 	},
 	{
+		"name": "Rob",
+		"surname": "Ferguson",
+		"nick": "robferguson",
+		"status": "independent",
+		"github": "",
+		"linkedin" : "http://au.linkedin.com/pub/rob-ferguson/68/64a/40b",
+		"blog" : "http://robferguson.org/",
+		"stackoverflow" : "http://stackoverflow.com/users/2041596/rob-ferguson"
+	},
+	{
 		"name": "Jett",
 		"surname": "Gamboa",
 		"nick": "JettGamboa",
@@ -117,12 +135,20 @@
 	{
 		"name": "Binesh",
 		"surname": "Gummadi",
-		"nick": "binnyg ",
+		"nick": "binnyg",
 		"status": "independent",
 		"github": "binnyg",
 		"linkedin" : "https://www.linkedin.com/in/binnyg",
 		"blog" : "http://binesh.in/",
 		"twitter" : "binnyg"
+	},
+	{
+		"name": "Darren",
+		"surname": "Hartford",
+		"nick": "dhartford",
+		"status": "independent",
+		"github": "dhartford",
+		"linkedin" : "https://www.linkedin.com/in/dhartford"
 	},
 	{
 		"name": "Ole",
@@ -439,6 +465,16 @@
 		"linkedin" : "http://www.linkedin.com/in/toniblyx",
 		"blog" : "http://blyx.com/",
 		"twitter" : "toniblyx"
+	},
+	{
+		"name": "Ray",
+		"surname": "Gauss II",
+		"nick": "rgauss",
+		"status": "alfresco",
+		"github": "rgauss",
+		"linkedin" : "http://www.linkedin.com/in/rgauss",
+		"blog" : "http://rgauss.com/",
+		"twitter" : "rgauss"
 	},
 	{
 		"name": "Paul",
