@@ -1,9 +1,0 @@
-http://github.com/maoo/alfresco-boxes
-http://github.com/maoo/alfresco-webscript-manifold-connector
-http://github.com/maoo/alfresco-migration-preprocessor
-http://github.com/alfresco/alfresco-sdk
-http://github.com/gerardharvey/proto-athena
-
-https://github.com/maoo/alfresco-export-tool => could be a great add-on for alfresco-sdk
-
-Few posts on http://blog.session.it

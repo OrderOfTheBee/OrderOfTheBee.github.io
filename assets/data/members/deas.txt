@@ -1,3 +1,0 @@
-_ Freelance developer/consultant working with Alfresco since 2007 
-_ Author of various blogposts, extensions (http://www.contentreich.de/category/contentmanagement/alfresco) and patches 
-_ Helping people on StackOverflow

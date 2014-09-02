@@ -28,7 +28,7 @@
 	<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="/assets/js/angular.min.js"></script>
 	<script type="text/javascript" src="/assets/js/modernizr.js"></script>
-	<script type="text/javascript" src="/assets/js/ui-bootstrap-0.11.0.min.js"></script>
+	<script type="text/javascript" src="/assets/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
 	<script type="text/javascript" src="/assets/js/jquery.smooth-scroll.js"></script>
 	<script type="text/javascript" src="/assets/js/app.js"></script>
 	<header></header>
@@ -47,23 +47,37 @@
 				<form class="form-horizontal">
 					<div class="form-group">
 						<br/>
-						<label for="select" class="col-sm-3 col-xs-4 control-label">Tags</label> 
+						<label for="select" class="col-sm-3 col-xs-4 control-label">Search</label> 
 						<div class="col-sm-5 col-xs-5">
 							<input type="text" ng-model="query" id="query" class="form-control" >
 						</div>
-						<button type="reset" class="btn btn-default col-sm-2 col-xs-3">Reset filter</button>
+						<button onclick="var e = document.getElementById('query'); var scope = $(e).scope(); scope.$apply(function() { scope.query = ''; });" class="btn btn-default col-sm-2 col-xs-3">Reset filter</button>
 					</div>
 				</form>
 			</div>
 		</div>
 		<div class="row">
 			<br/>
-			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" ng-repeat="post in posts | filter:query">
-				<h2 class="text-center">{{post.name}}</h2>
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12" ng-repeat="post in posts | filter:query">
+				<h3><a ng-href="{{post.link}}">{{post.title}}</a></h3>
+				<p>Posted by {{post.author}} in {{post.date}}</p>
 				<p>{{post.description}}</p>
+				<p><span ng-repeat="tag in post.tags"><a class="label label-success black" onclick="tagFilter((this.textContent || this.innerText))">{{tag}}</a> </span></p>
+				<br/>
+				<script>
+					function tagFilter(tag) {
+					var e = document.getElementById("query");
+					var scope = $(e).scope();
+					scope.$apply(function() {
+					 scope.query = tag;
+					});
+				       }
+				</script>
 			</div>
 		</div>
 	</div>
+
+	<br/>
 
 	<section class="orange">
 		<div class="container-fluid">

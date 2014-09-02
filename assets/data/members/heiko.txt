@@ -1,3 +1,0 @@
-* formed the first alfresco partner team in germany (@dmc.de) / created and maintained the first german alfresco forum (which was handed over to alfresco later when Germany was of interest) 
-* founder of ecm4u and ecm-market - we provide supported, maintained alfresco modules, alfresco virtual appliance and we run and maintain tens of alfresco sites we customized for our customers 
-* our contribution: alfresco patches module with fixes for several alfresco community versions

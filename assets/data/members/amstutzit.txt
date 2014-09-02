@@ -1,1 +1,0 @@
-Former employee of Redpill Linpro where I consulted on Alfresco projects at customer locations for 2 years. Doing mostly JVM stuff since 2002. Contributions: https://github.com/tullo/fme-alfresco-extdl https://github.com/tullo/pdfa-pilot-converter https://github.com/tullo/alfresco-repository-util

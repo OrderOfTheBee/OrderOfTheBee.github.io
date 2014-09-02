@@ -1,4 +1,0 @@
-I am Community Guru on Alfresco forum and also a member of the hindi translation group on Crowdin. 
-
-One of my blogpost about uploading file with chrome extension - POSTMAN 
-http://fileuploadalfresco.blogspot.com/2013/06/file-upload-in-alfresco-through-postman.html

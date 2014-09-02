@@ -1,0 +1,66 @@
+[
+	{
+		"title":"Working with the new Aikau framework in Alfresco Share 4.2",
+		"author":"Ole Hejlskov",
+		"date":"May 2014",
+		"link":"http://ohej.github.io/alfresco-tutorials/tutorial/aikau/tutorial.html",
+		"description":"",
+		"tags": ["Aikau", "tutorial"]
+	},
+	{
+		"title":"Intro to the Web Script Framework",
+		"author":"Jeff Potts",
+		"date":"February 2014",
+		"link":"http://ecmarchitect.com/alfresco-developer-series-tutorials/webscripts/tutorial/tutorial.html",
+		"description":"The intent of the tutorial is to walk through some hands-on examples using Alfresco’s Web Script Framework. The tutorial shows how to use Web Scripts to create a RESTful API for creating user-contributed ratings.",
+		"tags": ["webscripts", "tutorial"]
+	},
+	{
+		"title":"Creating Custom Advanced Workflows in Alfresco",
+		"author":"Jeff Potts",
+		"date":"February 2014",
+		"link":"http://ecmarchitect.com/alfresco-developer-series-tutorials/workflow/tutorial/tutorial.html",
+		"description":"The tutorial starts by describing high-level worklfow concepts and steps for implementing advanced workflows in Alfresco using Activiti and then dives into the details by walking you through an example.",
+		"tags": ["workflow", "tutorial"]
+	},
+	{
+		"title":"Getting Started with the Alfresco Maven SDK",
+		"author":"Jeff Potts",
+		"date":"January 2014",
+		"link":"http://ecmarchitect.com/alfresco-developer-series-tutorials/maven-sdk/tutorial/tutorial.html",
+		"description":"This tutorial shows you how to use the Alfresco Maven SDK to create projects that produce AMPs (Alfresco Module Packages) for both the repository tier and the Alfresco Share tier. AMPs are the recommended best practice for deploying customizations to your Alfresco installation. The Alfresco Maven SDK supersedes the old Ant-based SDK.",
+		"tags": ["Maven", "tutorial"]
+	},
+	{
+		"title":"Working with Custom Content Types",
+		"author":"Jeff Potts",
+		"date":"January 2014",
+		"link":"http://ecmarchitect.com/alfresco-developer-series-tutorials/content/tutorial/tutorial.html",
+		"description":"This tutorial shows how to extend Alfresco with your own content model, how to configure Alfresco Share to create content that uses your custom content model, and how to use the OpenCMIS API and the CMIS Query Language.",
+		"tags": ["content modeling", "tutorial"]
+	},
+	{
+		"title":"Developing Custom Actions",
+		"author":"Jeff Potts",
+		"date":"January 2014",
+		"link":"http://ecmarchitect.com/alfresco-developer-series-tutorials/actions/tutorial/tutorial.html",
+		"description":"This tutorial builds on the custom content types tutorial. The focus in this tutorial is on developing custom actions and configuring the user interface to show those custom actions.",
+		"tags": ["actions", "tutorial"]
+	},
+	{
+		"title":"Implementing Custom Behaviors",
+		"author":"Jeff Potts",
+		"date":"January 2014",
+		"link":"http://ecmarchitect.com/alfresco-developer-series-tutorials/behaviors/tutorial/tutorial.html",
+		"description":"This tutorial builds on the custom content types tutorial by adding support to the content model for user-contributed ratings of whitepapers. The custom behavior is used to calculate the average rating for each piece of rated content.",
+		"tags": ["behaviors", "tutorial"]
+	},
+	{
+		"title":"Getting Started with CMIS",
+		"author":"Jeff Potts",
+		"date":"November 2014",
+		"link":"http://ecmarchitect.com/images/articles/cmis/cmis-article.pdf",
+		"description":"The article first takes you through an overview of the specification. Then, I do several examples. The examples start out using curl to make GET, PUT, POST, and DELETE calls against Alfresco to perform CRUD functions on folders, documents, and relationships in the repository.",
+		"tags": ["CMIS", "article"]
+	}
+]

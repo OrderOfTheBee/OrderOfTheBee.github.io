@@ -1,5 +1,0 @@
-I've helped on the Alfresco pt_BR translation, on the Share Site Logo Customisation addon (http://addons.alfresco.com/addons/share-site-logo-customisation) 4.2 port.
-I watch almost all the Alfresco's hangouts, and usually try to make questions that I think are important.
-And I try to be online at IRC most of the time, and try to help when I know/can.
-
-Ah, and I think I can say I've kind of helped to set up the Order... (at least I tried to express my opinion on some questions)

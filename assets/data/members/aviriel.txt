@@ -1,5 +1,0 @@
-1. I help to translate Alfresco to Russian and administer Alfresco community translation group at https://crowdin.com/project/alfresco.
-2. Together with my colleagues I provided Alfresco Meetup in Moscow in this May. And I'm going to organize this event annually.
-3. I write posts about Alfresco in blogs (http://blog.itdhq.com/ in English, http://ru.blog.itdhq.com/ and http://www.ossportal.ru/technologies/alfresco in Russian)
-4. I participate in Alvex (a number of free open source add-ons) development process.
-

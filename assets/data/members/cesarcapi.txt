@@ -1,5 +1,0 @@
-My contribution is mainly related with: 
-- zylk.net company blog (No Blogo) - in spanish - which is dedicated to open source technologies such as Alfresco or Liferay. 
-- Alfresco Forums: Spanish (Community Guru - cesarista) and English. 
-- Participation as speaker in Alfresco Community Meetups (Spain) --> http://es.slideshare.net/zylk/alfresco-meetup2013 
-- Community Alfresco Addons --> https://code.google.com/p/alfresco-share-online-edition-addon/ 

@@ -1,1 +1,0 @@
-Worked with Maurizio Pillitu on improving the Chef recipe for installing Alfresco, intent for use with Packer.io to create ready-to-go images (VMware, amazon, etc).

@@ -1,7 +1,0 @@
-I've been working on Share and the APIs it uses for 4.5 years, after joining Alfresco's engineering team. I blog at http://blogs.alfresco.com/wp/dwebster/ - have code at https://github.com/davidcognite - I try and make it to the Summits, where I usually present a session or two on new Share developments and enjoy the hack-a-thons. 
-
-My role within Engineering:
-I've touched most areas of Share its APIs, but calendar, date/time and localisation and hybrid sync issues keep finding their way to my desk. I come from a web development background, so love the fact that client side technologies just won't stand still; I spent some time away from Share last year on an internal R&D project looking at future tech, but missed working on projects with actual users and the community buzz that Alfresco One has. I moved back to the Alfresco One team after summit last year and have embraced Aikau, I'm pleased to be pushing through adoption of that throughout Share & driving the framework itself forward. Recently I've been working on moving existing Share functionality to Aikau, the 5.0 search improvements as well as background tasks like development environment improvements, bringing in Grunt, simplifying maven usage and the way we run UI unit tests.
-
-I believe the community is one of Alfresco's strengths and is vital to its success, so I'm keen to help facilitate the order where ever possible.
-

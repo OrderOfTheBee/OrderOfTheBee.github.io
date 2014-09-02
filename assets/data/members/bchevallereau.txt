@@ -1,1 +1,0 @@
-About me, I’m working on Alfresco for the last 7 years. I’m currently working on a CMIS 1.1 JS lib that should be moved to Apache Chemistry soon. 

@@ -28,7 +28,7 @@
 	<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="/assets/js/angular.min.js"></script>
 	<script type="text/javascript" src="/assets/js/modernizr.js"></script>
-	<script type="text/javascript" src="/assets/js/ui-bootstrap-0.11.0.min.js"></script>
+	<script type="text/javascript" src="/assets/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
 	<script type="text/javascript" src="/assets/js/jquery.smooth-scroll.js"></script>
 	<script type="text/javascript" src="/assets/js/app.js"></script>
 	<script type="text/javascript" src="/assets/js/script.js"></script>
@@ -178,28 +178,56 @@
 	<section>
 		<div class="container-fluid text-center" ng-controller="MembersCtrl">
 			<br/>
+		<script type="text/ng-template" id="MemberModalContent.html">
+			<div class="modal-header">
+				<h3>{{member.name}} {{member.surname}}</h3>
+			</div>
+			<div class="modal-body">
+				<img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle right"/>
+				<p ng-show="member.summary"><strong>About</strong></p>
+				<p ng-show="member.summary" ng-repeat="string in member.summary">{{string}}</p>
+				<br/>
+				<p><strong>Contacts</strong></p>
+				<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i> Github</a></p>
+				<p><a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i> Twitter</a></p>
+				<p><a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i> LinkedIn</a></p>
+				<p><a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i> Blog</a></p>
+				<p><a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i> Google+</a></p>
+				<p><a ng-show="member.stackoverflow" ng-href="{{member.stackoverflow}}"><i class="fa fa-stack-overflow"></i> StackOverflow</a></p>
+				<p><a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i> Flickr</a></p>
+				<p><a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i> Youtube</a></p>
+				<br/>
+				<p ng-show="member.contributions"><strong>Contributions</strong></p>
+				<ul ng-show="member.contributions">
+					<li ng-show="member.contributions" ng-repeat="string in member.contributions">{{string}}</li>
+				</ul>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+			</div>
+		</script>
 			<div class="row">
 				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in rankedList | filter:{status:'boardmember'}">
-					<img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle blue">
+					<a href="" ng-click="open(member)"><img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle blue"/></a>
 					<br/>
-					<h3>{{member.name}}<br/>{{member.surname}}</h3>
-					<p><a href="#contact">@{{member.nick}}</a></p>
+					<h3><a href="">{{member.name}}<br/>{{member.surname}}</a></h3>
+					<p><a href="" ng-click="open(member)">@{{member.nick}}</a></p>
 					<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.stackoverflow" ng-href="{{member.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
 					<br/>
 				</div>
 				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in rankedList | filter:{status:'independent'}">
-					<img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle orange">
+					<a href="" ng-click="open(member)"><img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle orange"></a>
 					<br/>
 					<h3>{{member.name}}<br/>{{member.surname}}</h3>
-					<p><a href="#contact" class="smooth">@{{member.nick}}</a></p>
+					<p><a href="" ng-click="open(member)">@{{member.nick}}</a></p>
 					<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.stackoverflow" ng-href="{{member.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
 					<br/>
 				</div>
 				<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in rankedList | filter:{status:'alfresco'}">
-					<img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle green">
+					<a href="" ng-click="open(member)"><img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle green"></a>
 					<br/>
 					<h3>{{member.name}}<br/>{{member.surname}}</h3>
-					<p><a href="#contact" class="smooth">@{{member.nick}}</a></p>
+					<p><a href="" ng-click="open(member)">@{{member.nick}}</a></p>
 					<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.stackoverflow" ng-href="{{member.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
 					<br/>
 				</div>
@@ -367,7 +395,7 @@
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
 					<h2 class="text-center">Alfresco and add-ons localization</h2>
-					<img class="right" src="/assets/img/translation-bee.png"/>
+					<!--<img class="right" src="/assets/img/local-bee.png"/>-->
 					<p class="lead">Alfresco is not translated to your language? Want your customers to use favorite add-on in their native language? Join our project to localize Alfresco related products.</p>
 					<ul>
 						<li>More than 400 people already work on translating Alfresco to their languages. We help them to find another collaborators, package their language packs to make it easier to install them to Alfresco. Join existing team or create your own team.</li>

@@ -1,26 +1,54 @@
 var app = angular.module('app', [ 'ui.bootstrap' ]);
 
-app.controller('MembersCtrl', ['$scope', '$http', function($scope, $http){
-    $scope.members = [];
-    $http.get('/assets/data/members.json').success(function(data) {
-      $scope.members = data;
-    $scope.rankedList = [];
-    var n = 0;
-    var array = [];
-    while (n < 6) {
-        var index = Math.floor(Math.random()*$scope.members.length);
-        if ($.inArray(index, array) == -1) {
-            array[n+1] = index;
-            n++;
-        }
-    }
-    for (n=1; n < 7; n++) {
-       $scope.rankedList.push(
-            $scope.members[array[n]]
-        );
-    }
-    });
-  }]);
+app.controller('MembersCtrl', ['$scope', '$http', '$timeout', '$modal', function($scope, $http, $timeout, $modal, $log){
+	$scope.members = [];
+	$http.get('/assets/data/members.json').success(function(data) {
+		$scope.members = data;
+		$scope.fullList = [];
+		var n = 0;
+		var array = [];
+		while (n < $scope.members.length) {
+			var index = Math.floor(Math.random()*$scope.members.length);
+			if ($.inArray(index, array) == -1) {
+				array[n+1] = index;
+				n++;
+			}
+		}
+		for (n=1; n < $scope.members.length+1; n++) {
+			$scope.fullList.push(
+				$scope.members[array[n]]
+			);
+		};
+		$scope.rankedList = [];
+		for (n=1; n < 7; n++) {
+			$scope.rankedList.push(
+				$scope.fullList[array[n]]
+			);
+		};
+	});
+	$scope.open = function (_member) {
+		var modalInstance = $modal.open({
+			controller: "ModalInstanceCtrl",
+			templateUrl: 'MemberModalContent.html',
+			scope: $scope,
+			resolve: {
+				member: function()
+				{
+					$scope.currentMember = _member;
+				}
+			}
+		});
+	};
+}]);
+
+app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, member) {
+
+  $scope.member = $scope.$parent.currentMember;
+
+  $scope.cancel = function () {
+    $modalInstance.dismiss('cancel');
+  };
+});
 
 app.controller('AddonsCtrl', ['$scope', '$http', function($scope, $http){
     $scope.addons = [];

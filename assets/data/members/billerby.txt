@@ -1,6 +1,0 @@
-I'm working at the alfresco partner Redpill Linpro and have been working with Alfresco for five years. 
-
-* I was a bit involved in the Maven SDK in the early days. 
-* Been contributing a bit in translating. 
-* Tries to help out on stackoverflow (and in the forums) as @billerby 
-* Maintains the Alfresco Listmanager addon (https://github.com/Redpill-Linpro/alfresco-listmanager) 

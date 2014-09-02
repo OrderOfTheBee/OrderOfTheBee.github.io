@@ -1,6 +1,0 @@
-Founder, main contributor and benevolent dictator of the Alfresco SDK at https://github.com/Alfresco/alfresco-sdk/
-
-Former Principal Architect, now WW Manager at Alfresco Software.
-
-Apache committer and release manager for OpenCMIS, formerly for Spring Surf.
-

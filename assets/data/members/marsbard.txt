@@ -1,3 +1,0 @@
-Helping to set up the Order and administer some backend functions.  Contributor to https://github.com/AFaust/content-stores 
-
-I like to play with the backend, Share, not so much.
