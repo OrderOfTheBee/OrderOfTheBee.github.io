@@ -8,6 +8,20 @@
 		"googleplus" : "https://plus.googleapis.com/114651076223403572060/about"
 	},
 	{
+		"name": "Fran",
+		"surname": "Alvarez",
+		"nick": "fran7alvarez",
+		"status": "independent",
+		"linkedin": "http://linkedin.com/in/franalvarezblanco",
+		"twitter" : "fran7alvarez",
+		"summary": [
+			"Alfresco consultant and enthusiast since 2007. Currently Head of Engineering at Zaizi and Alfresco meetup organizer in Seville from 4 years ago" ],
+		"contributions" : [
+			"http://www.meetup.com/Sevilla-Alfresco-Meetup/",
+			"https://summit.alfresco.com/boston/sessions/super-size-your-search",
+			"https://devcon.alfresco.com/berlin/sessions/testing-tools-other-best-practices-alfresco-module-development"  ]
+	},
+	{
 		"name": "Andreas",
 		"surname": "Amstutz",
 		"nick": "amstutzit",
