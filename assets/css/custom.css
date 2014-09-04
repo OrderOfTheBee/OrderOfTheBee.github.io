@@ -13,7 +13,7 @@ a {
 	color: #3a3a3a;
 }
 
-a.black:hover, a.black:focus, a {
+a.black:hover, a.black:focus {
 	text-decoration: none; 
 	color: #3a3a3a;
 }
