@@ -27,6 +27,7 @@
  <body>
 	<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="/assets/js/angular.min.js"></script>
+	<script type="text/javascript" src="/assets/js/sanitize.js"></script>
 	<script type="text/javascript" src="/assets/js/modernizr.js"></script>
 	<script type="text/javascript" src="/assets/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
 	<script type="text/javascript" src="/assets/js/jquery.smooth-scroll.js"></script>
@@ -185,7 +186,7 @@
 			<div class="modal-body">
 				<img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle right"/>
 				<p ng-show="member.summary"><strong>About</strong></p>
-				<p ng-show="member.summary" ng-repeat="string in member.summary">{{string}}</p>
+				<div ng-show="member.summary" ng-bind-html="member.summary"></div>
 				<br/>
 				<p><strong>Contacts</strong></p>
 				<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i> Github</a></p>
@@ -198,9 +199,7 @@
 				<p><a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i> Youtube</a></p>
 				<br/>
 				<p ng-show="member.contributions"><strong>Contributions</strong></p>
-				<ul ng-show="member.contributions">
-					<li ng-show="member.contributions" ng-repeat="string in member.contributions">{{string}}</li>
-				</ul>
+				<div ng-show="member.contributions" ng-bind-html="member.contributions"></div>
 			</div>
 			<div class="modal-footer">
 				<button class="btn btn-warning" ng-click="cancel()">Cancel</button>

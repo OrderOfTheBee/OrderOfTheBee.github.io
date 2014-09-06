@@ -1,0 +1,25 @@
+[
+	{
+		"title": "Alfresco Summit in San Francisco",
+		"text": "<p class='lead'>Join us in San Francisco on 23-25 of September. Many bees give presentations and participate in this event. Look at our <a href='/events/summit-sf-2014/'>schedule</a> - bees deliver more than 10 presentations! Contact other bees using <a href='https://github.com/OrderOfTheBee/marketing/issues' target='_blank'>Gihub Issues</a> or <a href='http://www.xtreamlab.net/mailman/listinfo/ootb-hive' target='_blank'>our Mailing list</a> to schedule a beer party during Summit.</p>",
+		"date": "September 4th, 2014",
+		"image": "/assets/img/collaboration-bee.png"
+	},
+	{
+		"title": "Alfresco Summit in London",
+		"text": "<p class='lead'>Join us in London on 7-9 of October. Look at our <a href='/events/summit-london-2014/'>schedule</a> - you can participate only presentations delivered by bees during all Summit!</p><p class='lead'>We are going to drink some beer at October, 7th and 9th. Join us at <a href='https://github.com/OrderOfTheBee/marketing/issues/2' target='_blank'>https://github.com/OrderOfTheBee/marketing/issues/2</a> to choose the best pub and learn exact time of the party.</p>",
+		"date": "September 4th, 2014",
+		"image": "/assets/img/summit-bee.png"
+	},
+	{
+		"title": "Order your bee T-Shirt",
+		"text": "<p class='lead'>Now you can order an official Order of the Bee T-shirt at <a href='http://skreened.com/ootb' target='_blank'>http://skreened.com/ootb</a>. Select black or white design and click 'More Styles' to choose an apparel you like. Take your T-Shirt with you to Alfresco Summit, we are going to make an amazing photo of the Order.</p><p class='lead'>If you don't like SKREENED service, you may take an image from <a href='https://github.com/OrderOfTheBee/marketing/tree/master/T-Shirts' target='_blank'>https://github.com/OrderOfTheBee/marketing/tree/master/T-Shirts</a> and print an image yourself using some third-party service.</p>",
+		"date": "September 4th, 2014",
+		"image": "http://skreened.com/render-product/j/s/m/jsmvgkymqexrjyxkqaqa/image.w174h200f3.jpg"
+	},
+	{
+		"title": "First tutorials in the archive",
+		"text": "<p class='lead'>We added first tutorials to our archive. Find information about CMIS, Maven and Aikau at <a href='/archive/'>http://orderofthebee.org/archive/</a>. We are working on adding more informative articles and blog posts to the archive. </p>",
+		"date": "September 4th, 2014"
+	}
+]

@@ -14,12 +14,8 @@
 		"status": "independent",
 		"linkedin": "http://linkedin.com/in/franalvarezblanco",
 		"twitter" : "fran7alvarez",
-		"summary": [
-			"Alfresco consultant and enthusiast since 2007. Currently Head of Engineering at Zaizi and Alfresco meetup organizer in Seville from 4 years ago" ],
-		"contributions" : [
-			"http://www.meetup.com/Sevilla-Alfresco-Meetup/",
-			"https://summit.alfresco.com/boston/sessions/super-size-your-search",
-			"https://devcon.alfresco.com/berlin/sessions/testing-tools-other-best-practices-alfresco-module-development"  ]
+		"summary": "<p>Alfresco consultant and enthusiast since 2007. Currently Head of Engineering at Zaizi and Alfresco meetup organizer in Seville from 4 years ago.</p>",
+		"contributions" : "<ul><li><a href='http://www.meetup.com/Sevilla-Alfresco-Meetup/' target='_blank'>Sevilla Alfresco Meetup</a></li><li><a href='https://summit.alfresco.com/boston/sessions/super-size-your-search' target='_blank'>Presentation at Alfresco Summit 2013</a></li><li><a href='https://devcon.alfresco.com/berlin/sessions/testing-tools-other-best-practices-alfresco-module-development' target='_blank'>Presentation at Alfresco DevCon 2012</a></li></ul>"
 	},
 	{
 		"name": "Andreas",
@@ -28,12 +24,8 @@
 		"status": "independent",
 		"github": "tullo",
 		"twitter" : "amstutzit",
-		"summary": [
-			"Former employee of Redpill Linpro where I consulted on Alfresco projects at customer locations for 2 years. Doing mostly JVM stuff since 2002." ],
-		"contributions": [
-			"https://github.com/tullo/fme-alfresco-extdl",
-			"https://github.com/tullo/pdfa-pilot-converter",
-			"https://github.com/tullo/alfresco-repository-util" ]
+		"summary": "<p>Former employee of Redpill Linpro where I consulted on Alfresco projects at customer locations for 2 years. Doing mostly JVM stuff since 2002.</p>",
+		"contributions": "<ul><li><a href='https://github.com/tullo/fme-alfresco-extdl' target='_blank'>Datalist Extensions for Alfresco Share</a></li><li><a href='https://github.com/tullo/pdfa-pilot-converter' target='_blank'>Alfresco converter for Callas pdfaPilot</a></li><li><a href='https://github.com/tullo/alfresco-repository-util' target='_blank'>Alfresco Repository Util</a></li></ul>"
 	},
 	{
 		"name": "Olivier",
@@ -56,13 +48,8 @@
 		"blog": "http://alfresco.blog.redpill-linpro.com/",
 		"twitter" : "billerby",
 		"stackoverflow": "http://stackoverflow.com/users/981892/billerby",
-		"summary": [
-			"I'm working at the Alfresco partner Redpill Linpro and have been working with Alfresco for five years." ],
-		"contributions": [
-			"I was a bit involved in the Maven SDK in the early days.",
-			"Been contributing a bit in translating.",
-			"Tries to help out on stackoverflow (and in the forums) as @billerby",
-			"Maintain the Alfresco Listmanager add-on (https://github.com/Redpill-Linpro/alfresco-listmanager)"]
+		"summary": "<p>I'm working at the Alfresco partner Redpill Linpro and have been working with Alfresco for five years.</p>",
+		"contributions": "<ul><li>I was a bit involved in the Maven SDK in the early days.</li><li>Been contributing a bit in translating.</li><li>Tries to help out on stackoverflow (and in the forums) as <a href='http://stackoverflow.com/users/981892/billerby' target='_blank'>@billerby</a>.</li><li>Maintain the <a href='https://github.com/Redpill-Linpro/alfresco-listmanager' target='_blank'>Alfresco Listmanager add-on</a>.</li></ul>"
 	},
 	{
 		"name": "Angel",
@@ -74,8 +61,7 @@
 		"blog": "http://angelborroy.wordpress.com",
 		"linkedin" : "http://es.linkedin.com/in/angelborroy/en",
 		"twitter" : "AngelBorroy",
-		"contributions": [
-			"Developing Alfresco customizations, snippets and some kind of tips at www.keensoft.es and angelborroy.wordpress.com"]
+		"contributions": "<p>Developing Alfresco customizations, snippets and some kind of tips at <a href='http://www.keensoft.es' target='_blank'>www.keensoft.es</a> and <a href='http://angelborroy.wordpress.com' target='_blank'>angelborroy.wordpress.com</a>.</p>"
 	},
 	{
 		"name": "Cesar",
@@ -85,11 +71,7 @@
 		"blog": "http://www.zylk.net/es/web/guest/web-2-0/blog",
 		"linkedin" : "http://es.linkedin.com/in/cesarcapillas ",
 		"twitter" : "cesarcapi",
-		"contributions": [
-			"zylk.net company blog (No Blogo) - in spanish - which is dedicated to open source technologies such as Alfresco or Liferay.",
-			"Alfresco Forums: Spanish (Community Guru - cesarista) and English.",
-			"Participation as speaker in Alfresco Community Meetups (Spain) --> http://es.slideshare.net/zylk/alfresco-meetup2013",
-			"Community Alfresco Addons --> https://code.google.com/p/alfresco-share-online-edition-addon/" ]
+		"contributions": "<ul><li><a href='http://www.zylk.net/es/web/guest/web-2-0/blog' target='_blank'>zylk.net</a> company blog (No Blogo) - in spanish - which is dedicated to open source technologies such as Alfresco or Liferay.</li><li>Alfresco Forums: Spanish (Community Guru - cesarista) and English.</li><li>Participation as speaker in <a href='http://es.slideshare.net/zylk/alfresco-meetup2013' target='_blank'>Alfresco Community Meetups (Spain)</a>.</li><li><a href='https://code.google.com/p/alfresco-share-online-edition-addon/' target='_blank'>Alfresco Share add-on</a> for online edition (for Libreoffice).</li></ul>"
 	},
 	{
 		"name": "Ben",
@@ -100,10 +82,8 @@
 		"blog": "http://www.bataon.com/blog",
 		"linkedin" : "http://www.linkedin.com/in/bchevallereau",
 		"twitter" : "bchevallereau",
-		"summary": [
-			"I'm working on Alfresco for the last 7 years." ],
-		"contributions": [
-			"I'm currently working on a CMIS 1.1 JS lib that should be moved to Apache Chemistry soon."]
+		"summary": "<p>I'm working on Alfresco for the last 7 years.</p>",
+		"contributions": "<p>I'm currently working on a CMIS 1.1 JS lib that should be moved to Apache Chemistry soon.</p>"
 	},
 	{
 		"name": "Francesco",
@@ -114,12 +94,8 @@
 		"linkedin" : "http://it.linkedin.com/in/fcorti/",
 		"googleplus": "http://google.com/+FrancescoCorti",
 		"twitter" : "FrkCorti",
-		"summary": [
-			"Presales Engineer and Senior Consultant in Content Management and Business Intelligence, Author for Packt Publishing." ],
-		"contributions": [
-			"Tutorials and howtos - http://fcorti.com",
-			"A.A.A.R. - http://fcorti.com/alfresco-audit-analysis-reporting/",
-			"CMIS Input plugin for Pentaho Data Integration - http://fcorti.com/pdi-cmis-input/" ]
+		"summary": "<p>Presales Engineer and Senior Consultant in Content Management and Business Intelligence, Author for Packt Publishing.</p>",
+		"contributions": "<ul><li>Tutorials and howtos - <a href='http://fcorti.com' target='_blank'>http://fcorti.com</a></li><li>A.A.A.R. - <a href='http://fcorti.com/alfresco-audit-analysis-reporting/' target='_blank'>http://fcorti.com/alfresco-audit-analysis-reporting/</a></li><li><a href='http://fcorti.com/pdi-cmis-input/' target='_blank'>CMIS Input plugin</a> for Pentaho Data Integration</li></ul>"
 	},
 	{
 		"name": "Martin",
@@ -129,11 +105,8 @@
 		"github": "marsbard",
 		"linkedin" : "http://uk.linkedin.com/pub/martin-cosgrave/5/29/869",
 		"twitter" : "marsbard",
-		"summary": [
-			"I like to play with the backend, Share, not so much." ],
-		"contributions" : [
-			"Helping to set up the Order and administer some backend functions.",
-			"Contributor to https://github.com/AFaust/content-stores" ]
+		"summary": "<p>I like to play with the backend, Share, not so much.</p>",
+		"contributions" : "<ul><li>Helping to set up the Order and administer some backend functions</li><li>Contributor to <a href='https://github.com/AFaust/content-stores' target='_blank'>https://github.com/AFaust/content-stores</a></li></ul>"
 	},
 	{
 		"name": "Axel",
@@ -144,15 +117,8 @@
 		"linkedin" : "http://de.linkedin.com/pub/axel-faust/3a/b2b/78a",
 		"blog" : "http://axel-faust.de/",
 		"twitter" : "ReluctantBird83",
-		"summary": [ 
-			"80% quiet background-developer from frontend to gritty low-level stuff, 20% outspoken + opinionated architect - working for Alfresco partner company PRODYNA (Germany)" ],
-		"contributions" : [ 
-			"speaker participation in Alfresco DevCon / Summit(s), local meetup and Alfresco Meet-the-Expert events", 
-			"Hackathon participant, minor contributor to JavaScript console (mavenization via SDK)", 
-			"https://github.com/AFaust/alfresco-enhanced-script-environment (including prototypical Nashorn script processor for Alfresco)", 
-			"lurking in #IRC for low-level questions to be answered", 
-			"blogging related to Alfresco (unfortunately in hibernation due to time constraints)", 
-			"member of team AMP"]
+		"summary": "<p>80% quiet background-developer from frontend to gritty low-level stuff, 20% outspoken + opinionated architect - working for Alfresco partner company PRODYNA (Germany)</p>",
+		"contributions" : "<ul><li>speaker participation in Alfresco DevCon / Summit(s), local meetup and Alfresco Meet-the-Expert events</li><li>Hackathon participant, minor contributor to JavaScript console (mavenization via SDK)</li><li><a href='https://github.com/AFaust/alfresco-enhanced-script-environment' target='_blank'>Enhanced Script Environment Add-On for Alfresco</a> (including prototypical Nashorn script processor for Alfresco)</li><li>lurking in #IRC for low-level questions to be answered</li><li>blogging related to Alfresco (unfortunately in hibernation due to time constraints</li><li>member of team AMP</li></ul>"
 	},
 	{
 		"name": "Rob",
@@ -162,8 +128,7 @@
 		"linkedin" : "http://au.linkedin.com/pub/rob-ferguson/68/64a/40b",
 		"blog" : "http://robferguson.org/",
 		"stackoverflow" : "http://stackoverflow.com/users/2041596/rob-ferguson",
-		"contributions" : [
-			"Just a few Alfresco-related post, for example: http://robferguson.org/2014/07/13/how-to-build-alfresco-using-subclipse-and-maven-on-osx-mavericks/" ]
+		"contributions" : "<p>Just a few Alfresco-related post, for example: <a href='http://robferguson.org/2014/07/13/how-to-build-alfresco-using-subclipse-and-maven-on-osx-mavericks/' target='_blank'>HOW TO: Build Alfresco using Subclipse and MVN on OSX Mavericks</a></p>"
 	},
 	{
 		"name": "Jett",
@@ -173,8 +138,7 @@
 		"github": "jett",
 		"linkedin" : "http://ph.linkedin.com/in/jettgamboa",
 		"googleplus": "http://google.com/+JettGamboa",
-		"contributions": [
-			"DB2 Support for Alfresco Community (https://addons.alfresco.com/addons/db2-support-alfresco-community, https://github.com/jett/db2-alfresco)" ]
+		"contributions": "<p>DB2 Support for Alfresco Community:</p><ul><li><a href='https://addons.alfresco.com/addons/db2-support-alfresco-community' target='_blank'>https://addons.alfresco.com/addons/db2-support-alfresco-community</a></li><li><a href='https://github.com/jett/db2-alfresco' target='_blank'>https://github.com/jett/db2-alfresco</a></li></ul>"
 	},
 	{
 		"name": "Fernando",
@@ -186,10 +150,8 @@
 		"linkedin" : "http://es.linkedin.com/in/fegor/en",
 		"blog": "http://www.fegor.com/",
 		"googleplus": "https://plus.google.com/112825776063711235328",
-		"summary": [
-			"I am currently a senior consultant at Ricoh Spain Alfresco. Wear with Alfresco since version 1.4." ],
-		"contributions": [
-			"I have done free projects like Alfviral (connector with antivirus), CryptoAlf (encrypted content) and AAT (audio indexing)." ]
+		"summary": "<p>I am currently a senior consultant at Ricoh Spain Alfresco. Wear with Alfresco since version 1.4.</p>",
+		"contributions": "<p>I have done free projects like <a href='https://github.com/fegorama/alfviral' target='_blank'>Alfviral</a> (connector with antivirus), <a href='https://github.com/fegorama/alfcrypto' target='_blank'>CryptoAlf</a> (encrypted content) and AAT (audio indexing).</p>"
 	},
 	{
 		"name": "Daniel",
@@ -200,10 +162,8 @@
 		"linkedin" : "http://hr.linkedin.com/in/danielgradecak",
 		"blog" : "http://gradecak.blogspot.ru/",
 		"twitter" : "gradecak",
-		"summary": [
-			"Independent Alfresco consultant, working with alfresco for 8 years." ],
-		"contributions" : [
-			"Creator of a few frameworks for Alfresco: Jibe framework (not maintained), Alfresco @MVC (spring @mvc inside alfresco) https://github.com/dgradecak/alfresco-mvc" ]
+		"summary": "<p>Independent Alfresco consultant, working with alfresco for 8 years.</p>",
+		"contributions" : "<p>Creator of a few frameworks for Alfresco:</p><ul><li>Jibe framework (not maintained)</li><li><a href='https://github.com/dgradecak/alfresco-mvc' target='_blank'>Alfresco @MVC</a> (spring @mvc inside alfresco)</li></ul>"
 	},
 	{
 		"name": "Steve",
@@ -212,11 +172,8 @@
 		"status": "independent",
 		"linkedin" : "http://www.linkedin.com/in/stevegreenbaum",
 		"twitter" : "Music99",
-		"summary": [
-			"Independent Alfresco consultant based in the DC region." ],
-		"contributions": [
-			"Organizes Meetups in the Washington, DC area - http://www.meetup.com/AlfrescoDC/",
-			"Play video on preview screen v3.4 https://code.google.com/p/alfrescoshareflowplayer/" ]
+		"summary": "<p>Independent Alfresco consultant based in the DC region.</p>",
+		"contributions": "<ul><li>Organizes <a href='http://www.meetup.com/AlfrescoDC/' target='_blank'>Meetups in the Washington, DC area</a></li><li><a href='https://code.google.com/p/alfrescoshareflowplayer/' target='_blank'>Play video on preview screen v3.4</a></li></ul>"
 	},
 	{
 		"name": "Binesh",
@@ -227,8 +184,7 @@
 		"linkedin" : "https://www.linkedin.com/in/binnyg",
 		"blog" : "http://binesh.in/",
 		"twitter" : "binnyg",
-		"summary": [
-			"Have been working with Alfresco for 5 years now. Building a next generation content management system for one of the govt. agencies." ]
+		"summary": "<p>Have been working with Alfresco for 5 years now. Building a next generation content management system for one of the govt. agencies.</p>"
 	},
 	{
 		"name": "Darren",
@@ -237,8 +193,7 @@
 		"status": "independent",
 		"github": "dhartford",
 		"linkedin" : "https://www.linkedin.com/in/dhartford",
-		"contributions": [
-			"Worked with Maurizio Pillitu on improving the Chef recipe for installing Alfresco, intent for use with Packer.io to create ready-to-go images (VMware, amazon, etc)." ]
+		"contributions": "<ul><li>Worked with Maurizio Pillitu on improving the Chef recipe for installing Alfresco intent for use with Packer.io to create ready-to-go images (VMware, amazon, etc)</li></ul>"
 	},
 	{
 		"name": "Ole",
@@ -249,17 +204,8 @@
 		"linkedin" : "http://dk.linkedin.com/pub/ole-hejlskov/1/3b6/979",
 		"blog" : "http://ohej.dk/",
 		"twitter" : "OleHejlskov",
-		"summary": [
-			"I've been working with Alfresco for 3.5-4 years. I haven't had much luck with the community in the past, but this changed last year and I decided to go all in and participate as I realised that I could make a difference." ],
-		"contributions": [
-			"Very active in the IRC channel, helping out answering questions, and a couple of times doing PoC projects for others who are struggling",
-			"Write a tutorial about the Aikau framework: http://ohej.github.io/alfresco-tutorials/tutorial/aikau/tutorial.html",
-			"Mavenize the old Alfresco SDK: https://github.com/Alfresco/alfresco-sdk-samples",
-			"Dedicate 6 weeks of my free time to work on Alfresco related projects (http://ohej.dk/2014/07/pledge-community-service/)",
-			"Help test 5.0.a's newly mavenized build process before release",
-			"Deeply involved in the development of Alfresco SDK 2.0 with RAD support (https://github.com/Alfresco/alfresco-sdk)",
-			"Participated in Tech Talk Live (https://www.youtube.com/watch?v=Tu641nRGbtQ)",
-			"Working on an update of the Danish language pack for 5.0.a" ]
+		"summary": "<p>I've been working with Alfresco for 3.5-4 years. I haven't had much luck with the community in the past, but this changed last year and I decided to go all in and participate as I realised that I could make a difference.</p>",
+		"contributions": "<ul><li>Very active in the IRC channel, helping out answering questions, and a couple of times doing PoC projects for others who are struggling.</li><li>Write a <a href='http://ohej.github.io/alfresco-tutorials/tutorial/aikau/tutorial.html' target='_blank'>tutorial about the Aikau framework</a>.</li><li><a href='https://github.com/Alfresco/alfresco-sdk-samples' target='_blank'>Mavenize the old Alfresco SDK</a>.</li><li>Dedicate 6 weeks of my free time to work on <a href='http://ohej.dk/2014/07/pledge-community-service/' target='_blank'>Alfresco related projects</a>.</li><li>Help test 5.0.a's newly mavenized build process before release</li><li>Deeply involved in the development of <a href='https://github.com/Alfresco/alfresco-sdk' target='_blank'>Alfresco SDK 2.0 with RAD support</a></li><li>Participated in <a href='https://www.youtube.com/watch?v=Tu641nRGbtQ' target='_blank'>Tech Talk Live</a>.</li><li>Working on an update of the Danish language pack for 5.0.a.</li></ul>"
 	},
 	{
 		"name": "Jonas",
@@ -270,13 +216,8 @@
 		"linkedin" : "http://be.linkedin.com/in/jonasheylen",
 		"twitter" : "JonasHeylen",
 		"stackoverflow": "http://stackoverflow.com/users/28930/jonas-heylen",
-		"summary": [
-			"Alfresco consultant since 2007." ],
-		"contributions": [
-			"Alfresco User Group Belgium & Hackathon attendee",
-			"Regularly answering questions on IRC, the Alfresco forums and StackOverflow",
-			"Creator and moderator of the Alfresco subreddit: http://www.reddit.com/r/alfresco",
-			"Small Javascript utility script: https://github.com/JonasHeylen/elzar" ]
+		"summary": "<p>Alfresco consultant since 2007.</p>",
+		"contributions": "<ul><li>Alfresco User Group Belgium & Hackathon attendee</li><li>Regularly answering questions on IRC, the Alfresco forums and StackOverflow</li><li>Creator and moderator of the <a href='http://www.reddit.com/r/alfresco' target='_blank'>Alfresco subreddit</a></li><li>Small Javascript utility script: <a href='https://github.com/JonasHeylen/elzar' target='_blank'>https://github.com/JonasHeylen/elzar</a></li></ul>"
 	},
 	{
 		"name": "Benjamin",
@@ -299,13 +240,8 @@
 		"linkedin" : "http://ru.linkedin.com/in/okurysheva",
 		"blog" : "http://blog.itdhq.com/",
 		"twitter" : "aviriel",
-		"summary": [
-			"I've been working with Alfresco since 2009. Currently working on Alvex solution based on Alfresco (http://www.alvexsoftware.com)." ],
-		"contributions": [
-			"I help to translate Alfresco to Russian and administer Alfresco community translation group at https://crowdin.com/project/alfresco",
-			"Together with my colleagues I provided Alfresco Meetup in Moscow in this May. And I'm going to organize this event annually.",
-			"I write posts about Alfresco in blogs (http://blog.itdhq.com/ in English, http://ru.blog.itdhq.com/ and http://www.ossportal.ru/technologies/alfresco in Russian)",
-			"I participate in Alvex (a number of free open source add-ons) development process." ]
+		"summary": "<p>I've been working with Alfresco since 2009. Currently working on <a href='http://www.alvexsoftware.com'>Alvex</a> solution based on Alfresco.</p>",
+		"contributions": "<ul><li>I help to translate Alfresco to Russian and administer <a href='https://crowdin.com/project/alfresco' target='_blank'>Alfresco community translation group</a>.</li><li>Together with my colleagues I provided Alfresco Meetup in Moscow in this May. And I'm going to organize this event annually.</li><li>I write posts about Alfresco in blogs (<a href='http://blog.itdhq.com/' target='_blank'>in English</a>, <a href='http://ru.blog.itdhq.com/' target='_blank'>in Russian #1</a> and <a href='http://www.ossportal.ru/technologies/alfresco' target='_blank'>in Russian #2</a>)</li><li>I participate in <a href='http://www.alvexsoftware.com' target='_blank'>Alvex</a> (Org Chart, Document Registers, Related Workflows and other add-ons) development process.</li></ul>"
 	},
 	{
 		"name": "Peter",
@@ -328,13 +264,8 @@
 		"linkedin" : "http://it.linkedin.com/in/piergiorgiolucidi",
 		"blog" : "http://www.open4dev.com/",
 		"twitter" : "pjlucidi",
-		"summary": [
-			"Open Source ECM Specialist, Alfresco Community Star" ],
-		"contributions" : [
-			"Author of the book Alfresco 3 Web Services",
-			"Technical Reviewer of four books about Alfresco",
-			"Alfresco Wiki Gardener",
-			"Alfresco Forum Moderator" ]
+		"summary": "<p>Open Source ECM Specialist, Alfresco Community Star.</p>",
+		"contributions" : "<ul><li>Author of the book Alfresco 3 Web Services</li><li>Technical Reviewer of four books about Alfresco</li><li>Alfresco Wiki Gardener</li><li>Alfresco Forum Moderator</li></ul>"
 	},
 	{
 		"name": "Tahir",
@@ -347,15 +278,8 @@
 		"linkedin" : "http://nl.linkedin.com/in/tsmalik",
 		"blog": "http://www.contezza.nl/blog",
 		"twitter" : "tahirshazad",
-		"summary": [
-			"I've been working very long on Alfresco as a Developer. Started with version 2.2. and am still going hard with the latest version.",
-			"The first 3 years with Alfresco I was working for a company, then I started my own firm. After my own firm I realized how important the community is. So then I started contributing as in Jira fixes, blogs and after a while on StackOverflow.",
-			"After the first Dashlet competition I started writing addons and pieces of code for Alfresco & the community. Now a days I'm developing a lot of stuff, mainly custom modules and I try to blog once in a while." ],
-		"contributions" : [
-			"Addons: Alfresco Advanced Folder Search, Alfresco AND Search, YouTube Dashlet, Move2Folder",
-			"Blogs: http://www.contezza.nl/blog, http://blog.mitco-solutions.com/",
-			"Patches: Mostly found in the JIRA, SSO Kerberos fix, WebDavLock fix, Multitentant fix for using an email as username",
-			"StackOverflow: http://stackoverflow.com/users/676675/tahir-malik" ]
+		"summary": "<p>I've been working very long on Alfresco as a Developer. Started with version 2.2. and am still going hard with the latest version.</p><p>The first 3 years with Alfresco I was working for a company, then I started my own firm. After my own firm I realized how important the community is. So then I started contributing as in Jira fixes, blogs and after a while on StackOverflow.</p><p>After the first Dashlet competition I started writing addons and pieces of code for Alfresco & the community. Now a days I'm developing a lot of stuff, mainly custom modules and I try to blog once in a while.</p>",
+		"contributions" : "<ul><li>Addons: <a href='https://addons.alfresco.com/addons/alfresco-share-folder-search' target='_blank'>Alfresco Advanced Folder Search</a>, <a href='https://addons.alfresco.com/addons/alfresco-share-and-search' target='_blank'>Alfresco AND Search</a>, <a href='https://addons.alfresco.com/addons/youtube-dashlet' target='_blank'>YouTube Dashlet</a>, Move2Folder</li></li>Blogs: <a href='http://www.contezza.nl/blog' target='_blank'>http://www.contezza.nl/blog</a>, <a href='http://blog.mitco-solutions.com/' target='_blank'>http://blog.mitco-solutions.com/</a></li><li>Patches: Mostly found in the JIRA, SSO Kerberos fix, WebDavLock fix, Multitentant fix for using an email as username</li><li>StackOverflow: <a href='http://stackoverflow.com/users/676675/tahir-malik' target='_blank>http://stackoverflow.com/users/676675/tahir-malik</a></li></ul>"
 	},
 	{
 		"name": "Adei",
@@ -366,11 +290,8 @@
 		"linkedin" : "https://www.linkedin.com/in/amandaluniz",
 		"blog" : "http://www.bataon.com/blog",
 		"twitter" : "amandaluniz",
-		"summary": [
-			"I've been working with Alfresco since 2008 (started with Alfresco CE 2.1.0) and keep working as a contractor at the moment." ],
-		"contributions" : [
-			"I've been around the forums (English and Spanish) since I first got my hands in Alfresco (fstnboy and amandaluniz_z are my accounts).",
-			"I've also started a blog with friend Benjamin Chevallereau (www.bataon.com), but has been quit lately"]
+		"summary": "<p>I've been working with Alfresco since 2008 (started with Alfresco CE 2.1.0) and keep working as a contractor at the moment.</p>",
+		"contributions" : "<ul><li>I've been around the forums (English and Spanish) since I first got my hands in Alfresco (<strong>fstnboy</strong> and <strong>amandaluniz_z</strong> are my accounts).</li><li>I've also started <a href='http://www.bataon.com' target='_blank'>a blog</a> with friend Benjamin Chevallereau, but has been quit lately.</li></ul>"
 	},
 	{
 		"name": "Cristina",
@@ -382,9 +303,7 @@
 		"linkedin" : "http://be.linkedin.com/in/cristinamr/en",
 		"blog" : "http://crisinthecloud.blogspot.com/",
 		"twitter" : "CristinaMartinR",
-		"contributions": [
-			"Tutorials",
-			"Spanish forums Support" ]
+		"contributions": "<ul><li>Tutorials</li><li>Spanish forums Support</li></ul>"
 	},
 	{
 		"name": "Javier",
@@ -394,11 +313,7 @@
 		"github": "javiermartinezr",
 		"linkedin" : "http://es.linkedin.com/pub/javier-martínez-rojo/15/923/689/en",
 		"twitter" : "javiermartinezr",
-		"contributions": [
-			"Spanish forums contributor (first named Guru member)",
-			"Alfresco contributor of the month (http://wiki.alfresco.com/wiki/Contributor_of_the_Month)",
-			"Chumby award winner (http://wiki.alfresco.com/wiki/Chumby_Awards)",
-			"Lead of Alfresco MetaDBConnector module contribution (https://addons.alfresco.com/addons/alfresco-metadbconnector-component)" ]
+		"contributions": "<ul><li>Spanish forums contributor (first named Guru member)</li><li><a href='http://wiki.alfresco.com/wiki/Contributor_of_the_Month' target='_blank'>Alfresco contributor of the month</a></li><li><a href='http://wiki.alfresco.com/wiki/Chumby_Awards#June_2009.2C_Javier_Martinez' target='_blank'>Chumby award winner</a></li><li>Lead of <a href='https://addons.alfresco.com/addons/alfresco-metadbconnector-component' target='_blank'>Alfresco MetaDBConnector module contribution</a></li></ul>"
 	},
 	{
 		"name": "Boriss",
@@ -409,11 +324,8 @@
 		"googleplus" : "https://plus.google.com/107032987826242549238/about",
 		"linkedin" : "http://be.linkedin.com/pub/boris-mej%C3%ADas/1/740/463",
 		"twitter" : "tchorix",
-		"summary": [
-			"One of the founders of the Order of the Bee. Mostly working as Alfresco administrator. I operate by investigating the fundamental interconnectedness of all things." ],
-		"contributions" : [
-			"coordinator of the Alfresco user group Belgium"
-		]
+		"summary": "<p>One of the founders of the Order of the Bee. Mostly working as Alfresco administrator. I operate by investigating the fundamental interconnectedness of all things.</p>",
+		"contributions" : "<ul><li>coordinator of the Alfresco user group Belgium</li><li>Hackathon participant</li></ul>"
 	},
 	{
 		"name": "Carl",
@@ -425,13 +337,8 @@
 		"linkedin" : "http://se.linkedin.com/in/cnordenfelt",
 		"blog": "http://alfresco.blog.redpill-linpro.com/",
 		"twitter" : "cnordenfelt",
-		"summary" : [
-			"I have been working with Alfresco for quite some time, started my first projects about 6 years ago." ],
-		"contributions" : [
-			"A few add-ons (most work with https://code.google.com/p/alfresco-metadata-writer/ )",
-			"I have also arranged several community meetups in the Nordic region.",
-			"By various means I have contributed to the translations of Alfresco to Swedish, Norwegian and Danish.",
-			"I also do some blogging on http://alfresco.blog.redpill-linpro.com/ when time allows." ]
+		"summary" : "<p>I have been working with Alfresco for quite some time, started my first projects about 6 years ago.</p>",
+		"contributions" : "<ul><li>A few add-ons (most work with <a href='https://code.google.com/p/alfresco-metadata-writer/' target='_blank'>alfresco-metadata-writer</a>).</li><li>I have also arranged several community meetups in the Nordic region.</li><li>By various means I have contributed to the translations of Alfresco to Swedish, Norwegian and Danish.</li><li>I also do some blogging on <a href='http://alfresco.blog.redpill-linpro.com/' target='_blank'>http://alfresco.blog.redpill-linpro.com/</a> when time allows.</li></ul>"
 	},
 	{
 		"name": "Douglas",
@@ -443,11 +350,7 @@
 		"linkedin" : "http://br.linkedin.com/in/douglascrp",
 		"blog" : "http://douglascrp.blogspot.ru/",
 		"twitter" : "douglascrp",
-		"contributions": [
-			"I've helped on the Alfresco pt_BR translation",
-			"I've worked on the Share Site Logo Customisation addon (http://addons.alfresco.com/addons/share-site-logo-customisation) 4.2 port.",
-			"I watch almost all the Alfresco's hangouts, and usually try to make questions that I think are important.",
-			"And I try to be online at IRC most of the time, and try to help when I know/can." ]
+		"contributions": "<ul><li>I've helped on the Alfresco pt_BR translation</li><li>I've worked on the <a href='http://addons.alfresco.com/addons/share-site-logo-customisation' target='_blank'>Share Site Logo Customisation addon</a> 4.2 port.</li><li>I watch almost all the Alfresco's hangouts, and usually try to make questions that I think are important.</li><li>And I try to be online at IRC most of the time, and try to help when I know/can.</li></ul>"
 	},
 	{
 		"name": "Mittal",
@@ -460,10 +363,7 @@
 		"linkedin" : "http://in.linkedin.com/pub/mittal-patoliya/20/781/310",
 		"blog" : "http://customizealfresco.blogspot.in/",
 		"stackoverflow": "http://stackoverflow.com/users/2201884/mitpatoliya",
-		"contributions": [
-			"I am one of the top 5 contributor on alfresco forums: https://forums.alfresco.com/user/8534/track",
-			"Active community member on stackoverflow as well: http://stackoverflow.com/users/2201884/mitpatoliya",
-			"I am also acting as Alfresco liaison where I regularly write articles about alfresco: http://blog.arvixe.com/author/mitpatoliya/", 				"Contributed add-on: https://addons.alfresco.com/addons/document-library-display-dashlet" ]
+		"contributions": "<ul><li>I am one of the <a href='https://forums.alfresco.com/user/8534/track' target='_blank'>top 5 contributor</a> on alfresco forums</li><li>Active community member on <a href='http://stackoverflow.com/users/2201884/mitpatoliya' target='_blank'>stackoverflow</a> as well</li><li>I am also acting as Alfresco liaison where I regularly <a href='http://blog.arvixe.com/author/mitpatoliya/' target='_blank'>write articles about alfresco</a></li><li><a href='https://addons.alfresco.com/addons/document-library-display-dashlet' target='_blank>Document Library Display Dashlet add-on</a></li></ul>"
 	},
 	{
 		"name": "Tjarda",
@@ -473,10 +373,7 @@
 		"linkedin" : "http://nl.linkedin.com/in/tpeelen",
 		"blog" : "http://tpeelen.wordpress.com/",
 		"twitter" : "tpeelen",
-		"contributions": [
-			"Many Alfresco related blog postst @ http://tpeelen.wordpress.com",
-			"Alfresco Business Reporting module @ https://code.google.com/p/alfresco-business-reporting/wiki/Home",
-			"Talks @ TechTalkLive, and the Alfresco Summit 2013 + 2014" ]
+		"contributions": "<ul><li>Many Alfresco related <a href='http://tpeelen.wordpress.com' target='_blank'>blog posts</a></li><li><a href='https://code.google.com/p/alfresco-business-reporting/wiki/Home' target='_blank'>Alfresco Business Reporting module</a></li><li>Talks @ TechTalkLive, and the Alfresco Summit 2013 + 2014</li></ul>"
 	},
 	{
 		"name": "Jan",
@@ -488,13 +385,8 @@
 		"linkedin" : "http://de.linkedin.com/pub/jan-pfitzner/35/739/1b2",
 		"blog" : "http://blog.alfrescian.com/",
 		"twitter" : "alfrescian",
-		"contributions": [
-			"@alfrescian since 2008 - blogging at blog.alfrescian.com",
-			"Alfresco contributor (e.g. Category Manager for Alfresco Share)",
-			"Actively Answering questions in the forum and on stackoverflow",
-			"Speaker at several german meetups",
-			"Developer of a few Alfresco Addons (e.g. http://addons.alfresco.com/addons/alfresco-share-datalist-extension, http://addons.alfresco.com/addons/tag-query-dashlet, https://github.com/alfrescian/ng-cmis-browser,  https://github.com/alfrescian/cmis-browser-ng-material)",
-			"Currently Developing a Trello-like Task Board for Alfresco" ]
+		"summary": "<p>@alfrescian since 2008</p>",
+		"contributions": "<ul><li>blogging at <a href='http://blog.alfrescian.com' target='_blank'>blog.alfrescian.com</a></li><li>Alfresco contributor (e.g. <a href='http://blog.alfrescian.com/?p=80' target='_blank'>Category Manager for Alfresco Share</a>)</li><li>Actively Answering questions in the forum and on stackoverflow</li><li>Speaker at several german meetups</li><li>Developer of a few Alfresco Addons (e.g. <a href='http://addons.alfresco.com/addons/alfresco-share-datalist-extension' target='_blank'>Alfresco Share Datalist extension</a>, <a href='http://addons.alfresco.com/addons/tag-query-dashlet' target='_blank'>Tag Query Dashlet</a>, <a href='https://github.com/alfrescian/ng-cmis-browser' target='_blank'>Alfrescian CMIS Browser</a>, <a href='https://github.com/alfrescian/cmis-browser-ng-material' target='_blank'>CMIS-Browser using Material design for Angular</a>)</li><li>Currently Developing a Trello-like Task Board for Alfresco</li></ul>"
 	},
 	{
 		"name": "Aingaran",
@@ -504,11 +396,8 @@
 		"github": "apillai",
 		"linkedin" : "http://uk.linkedin.com/in/aingaranpillai",
 		"twitter" : "apillaiz",
-		"summary": [
-			"Did my first Alfresco implementation in 2006. Loved the technology so much, I started by one man consulting gig called Zaizi in 2007. Today Zaizi is one of the biggest Alfresco partners in the world with the highest number Alfresco certified engineers outside of Alfresco. Alfresco EMEA Partner of the year 2012 & 2013." ],
-		"contributions" : [
-			"Sponsor and organise Alfresco London Meetup, Alfresco Seville Meetup and Content Management Meetup, Sri Lanka.",
-			"Used to be active the Alfresco forums, but not enough time to help out as much when you are working on some of the largest Alfresco implementations."]
+		"summary": "<p>Did my first Alfresco implementation in 2006. Loved the technology so much, I started by one man consulting gig called Zaizi in 2007. Today Zaizi is one of the biggest Alfresco partners in the world with the highest number Alfresco certified engineers outside of Alfresco. Alfresco EMEA Partner of the year 2012 & 2013.</p>",
+		"contributions" : "<ul><li>Sponsor and organise Alfresco London Meetup, Alfresco Seville Meetup and Content Management Meetup, Sri Lanka.</li><li>Used to be active the Alfresco forums, but not enough time to help out as much when you are working on some of the largest Alfresco implementations.</li></ul>"
 	},
 	{
 		"name": "Sujay",
@@ -520,10 +409,7 @@
 		"linkedin" : "http://my.linkedin.com/in/sujaypillai",
 		"blog" : "http://fileuploadalfresco.blogspot.com/",
 		"twitter" : "sujaypillai",
-		"contributions": [
-			"I am Community Guru on Alfresco forum",
-			"I am a member of the hindi translation group on Crowdin",
-			"One of my blogpost about uploading file with chrome extension - POSTMAN http://fileuploadalfresco.blogspot.com/2013/06/file-upload-in-alfresco-through-postman.html" ]
+		"contributions": "<ul><li>I am Community Guru on Alfresco forum</li><li>I am a member of the <a href='https://crowdin.com/project/alfresco/hi' target='_blank'>Hindi translation group on Crowdin</a></li><li>One of my blogpost about uploading file with chrome extension - POSTMAN <a href='http://fileuploadalfresco.blogspot.com/2013/06/file-upload-in-alfresco-through-postman.html' target='_blank'>http://fileuploadalfresco.blogspot.com/2013/06/file-upload-in-alfresco-through-postman.html</a></li></ul>"
 	},
 	{
 		"name": "Jeff",
@@ -536,12 +422,8 @@
 		"blog" : "http://ecmarchitect.com/",
 		"twitter" : "jeffpotts01",
 		"youtube" : "https://www.youtube.com/user/jeffpotts01",
-		"summary": [
-			"Have been working with Alfresco since its first release and continue to do so for clients around the world. Looking forward to helping ensure the software continues to be the world's leading open source ECM platform." ],
-		"contributions" : [
-			"Wrote the Alfresco Developer Guide.",
-			"Every now and then I blog at ecmarchitect.com where you can get tips, tricks, and tutorials for Alfresco.",
-			"Former Alfresco Chief Community Office." ]
+		"summary": "<p>Have been working with Alfresco since its first release and continue to do so for clients around the world. Looking forward to helping ensure the software continues to be the world's leading open source ECM platform.</p>",
+		"contributions" : "<ul><li>Wrote the <a href='https://www.packtpub.com/web-development/alfresco-developer-guide' target='_blank'>Alfresco Developer Guide</a>.</li><li>Every now and then I blog at <a href='http://ecmarchitect.com/' target='_blank'>ecmarchitect.com</a> where you can get tips, tricks, and tutorials for Alfresco.</li><li>Former Alfresco Chief Community Office.</li></ul>"
 	},
 	{
 		"name": "Heiko",
@@ -551,12 +433,8 @@
 		"github" : "hi_ko",
 		"linkedin": "http://de.linkedin.com/pub/heiko-robert/1/936/17b",
 		"twitter" : "hi_ko",
-		"summary": [
-			"Formed the first alfresco partner team in germany (@dmc.de).",
-			"Founder of ecm4u and ecm-market - we provide supported, maintained alfresco modules, alfresco virtual appliance and we run and maintain tens of alfresco sites we customized for our customers" ],
-		"contributions": [
-			"created and maintained the first german alfresco forum (which was handed over to Alfresco later when Germany was of interest),",
-			"alfresco patches module with fixes for several alfresco community versions" ]
+		"summary": "<p>Formed the first alfresco partner team in germany (@dmc.de).</p><p>Founder of ecm4u and ecm-market - we provide supported, maintained alfresco modules, alfresco virtual appliance and we run and maintain tens of alfresco sites we customized for our customers.</p>",
+		"contributions": "<ul><li>created and maintained the first german alfresco forum (which was handed over to Alfresco later when Germany was of interest)</li><li>alfresco patches module with fixes for several alfresco community versions</li></ul>"
 	},
 	{
 		"name": "Prvoslav",
@@ -567,10 +445,8 @@
 		"blog" : "http://alfrescoblog.com/",
 		"linkedin": "http://rs.linkedin.com/in/savicprvoslav",
 		"twitter" : "SavicPrvoslav",
-		"summary": [
-			"I am a CTO of yanado.com, a great task management tool that lives inside Gmail. Also an Alfresco developer for 5 years, implementing Alfresco in companies, maintaining and developing new features for clients." ],
-		"contributions" : [
-			"Recently I have started a blog called alfrescoBlog.com and my latest feature is email tracking inside alfresco, like yesware or getSignals is." ]
+		"summary": "<p>I am a CTO of yanado.com, a great task management tool that lives inside Gmail. Also an Alfresco developer for 5 years, implementing Alfresco in companies, maintaining and developing new features for clients.</p>",
+		"contributions" : "<p>Recently I have started a blog called <a href='http://alfrescoblog.com/' target='_blank'>alfrescoBlog.com</a> where I tell about <a href='http://alfrescoblog.com/2014/08/17/alfresco-email-tracking-part-i/' target='_blank'>email tracking inside alfresco</a>, like yesware or getSignals is, and other Alfresco related topics.</p>"
 	},
 	{
 		"name": "Charles",
@@ -579,14 +455,8 @@
 		"status": "independent",
 		"blog" : "http://charles.torda.net",
 		"twitter" : "cleseach",
-		"summary": [
-			"During my studies (10 years ago), I was an active member of my LUG. My first job was in a company specialized in open sourced solutions. In 2004, I started working in ECM with major products like Documentum and IBM FileNet. In 2006, I started exploring Alfresco as I felt it could be the open sourced ECM solutions I was dreaming of ;-)" ],
-		"contributions": [
-			"Active participation in French forums",
-			"Writing blog posts (http://charles.torda.net) when I have time",
-			"Explaining to a local business group (Nantes area, France) what is Alfresco and what we can do with it",
-			"Contributing to Alfresco Jira (https://issues.alfresco.com/jira/browse/MNT-9755, https://issues.alfresco.com/jira/browse/ACE-1405)",
-			"I also produced two Alfresco extensions (Image Finder, My Network dashlets)... but they need to be updated" ]
+		"summary": "<p>During my studies (10 years ago), I was an active member of my LUG. My first job was in a company specialized in open sourced solutions. In 2004, I started working in ECM with major products like Documentum and IBM FileNet. In 2006, I started exploring Alfresco as I felt it could be the open sourced ECM solutions I was dreaming of ;-)</p>",
+		"contributions": "<ul><li>Active participation in French forums</li><li>Writing blog posts at <a href='http://charles.torda.net' target='_blank'>http://charles.torda.net</a> when I have time</li><li>Explaining to a local business group (Nantes area, France) what is Alfresco and what we can do with it</li><li>Contributing to Alfresco Jira (<a href='https://issues.alfresco.com/jira/browse/MNT-9755' target='_blank'>MNT-9755</a>, <a href='https://issues.alfresco.com/jira/browse/ACE-1405' target='_blank'>ACE-1405</a>)</li><li>I also produced two Alfresco extensions (Image Finder, <a href='http://charles.torda.net/extensions-alfresco/my-network-dashlet/' target='_blank'>My Network dashlet</a>)... but they need to be updated</li></ul>"
 	},
 	{
 		"name": "Andreas",
@@ -599,11 +469,8 @@
 		"blog" : "http://www.contentreich.de/",
 		"twitter" : "deas",
 		"stackoverflow" : "http://stackoverflow.com/users/562258/andreas-steffan",
-		"summary": [
-			"Freelance developer/consultant working with Alfresco since 2007." ],
-		"contributions" : [
-			"Author of various blogposts, extensions (http://www.contentreich.de/category/contentmanagement/alfresco) and patches",
-			"Helping people on StackOverflow" ]
+		"summary": "<p>Freelance developer/consultant working with Alfresco since 2007.</p>",
+		"contributions" : "<ul><li>Author of various <a href='http://www.contentreich.de/category/contentmanagement/alfresco' target='_blank'>blogposts, extensions</a> and patches</li><li>Helping people on StackOverflow</li></ul>"
 	},
 	{
 		"name": "Marcus",
@@ -614,12 +481,8 @@
 		"googleplus" : "https://plus.google.com/u/0/+MarcusSvensson024",
 		"linkedin" : "https://www.linkedin.com/in/marsv024",
 		"twitter" : "marsv024",
-		"summary": [
-			"I'm an Alfresco consultant working for the Alfresco partner Redpill Linpro in Sweden. I have been working with alfresco for a few years and I've always had much help from community at the forums and blog posts etc." ],
-		"contributions" : [
-			"I'm trying to answer questions on the forum when they are within my area of expertise.",
-			"Since 2013 I've been in charge of the open source project which supplies a simple way to integrate online editing with LibreOffice from Alfresco Share http://addons.alfresco.com/addons/libreoffice-online-edit-module",
-			"Since this year I'm also involved in the translation project at Crowdin where I together with other people translate Alfresco + RM into Swedish.", 				"When working with new clients in my work I always try to find parts of the work that could be useful for other people. I have created some repos on github where such content has been published. So far most of it is without documentation, but that will follow when time allows." ]
+		"summary": "<p>I'm an Alfresco consultant working for the Alfresco partner Redpill Linpro in Sweden. I have been working with alfresco for a few years and I've always had much help from community at the forums and blog posts etc.</p>",
+		"contributions" : "<ul><li>I'm trying to answer questions on the forum when they are within my area of expertise.</li><li>Since 2013 I've been in charge of <a href='http://addons.alfresco.com/addons/libreoffice-online-edit-module' target='_blank'>the open source project</a> which supplies a simple way to integrate online editing with LibreOffice from Alfresco Share.</li><li>Since this year I'm also involved in <a href='https://crowdin.com/project/alfresco/sv-SE' target='_blank'>the translation project at Crowdin</a> where I together with other people translate Alfresco + RM into Swedish.</li><li>When working with new clients in my work I always try to find parts of the work that could be useful for other people. I have created some repos on github where such content has been published. So far most of it is without documentation, but that will follow when time allows.</li></ul>"
 	},
 	{
 		"name": "Ben",
@@ -628,11 +491,7 @@
 		"status": "independent",
 		"linkedin" : "http://ca.linkedin.com/in/benswitzer",
 		"twitter" : "riot_technology",
-		"contributions" : [
-			"active role in the Alfresco forums",
-			"reported bugs in Alfresco Community to Alfresco",
-			"provided patches for Community to Alfresco",
-			"testing and providing feedback for various Alfresco add-ons"]
+		"contributions" : "<ul><li>active role in the Alfresco forums</li><li>reported bugs in Alfresco Community to Alfresco</li><li>provided patches for Community to Alfresco</li><li>testing and providing feedback for various Alfresco add-ons</li></ul>"
 	},
 	{
 		"name": "Ashley",
@@ -642,11 +501,8 @@
 		"github": "ashward",
 		"linkedin" : "https://www.linkedin.com/in/ashward",
 		"twitter" : "ashward123",
-		"summary": [
-			"I've been involved on-and-off with Alfresco development for a number of years in my current role at Surevine. Over those years I have been heavily involved in the development and deployment of a number of extensions for Alfresco." ], 
-		"contributions": [
-			"Some of developed extensions are open source and some currently in the process of being open sourced (see https://github.com/surevine/?query=alfresco )",
-			"I presented at Alfresco DevCon (when they were still called that) a few years back and earned myself a t-shirt! :)" ]
+		"summary": "<p>I've been involved on-and-off with Alfresco development for a number of years in my current role at Surevine. Over those years I have been heavily involved in the development and deployment of a number of extensions for Alfresco.</p>", 
+		"contributions": "<ul><li>Some of <a href='https://github.com/surevine/?query=alfresco' target='_blank'>developed extensions</a> are open source and some currently in the process of being open sourced</li><li>I presented at Alfresco DevCon (when they were still called that) a few years back and earned myself a t-shirt! :)</li></ul>"
 	},
 	{
 		"name": "Bindu",
@@ -656,11 +512,8 @@
 		"github": "binduwavell",
 		"linkedin" : "http://www.linkedin.com/in/binduwavell",
 		"twitter" : "binduwavell",
-		"summary": [
-			"I am the chief architect at Zia Consulting, which is a Platinum Parter of Alfresco. We have been partner of the year a couple of times. As a platinum partner we can't work on community projects through work. However, there is nothing stopping folks working on community related projects in our spare time :)" ],
-		"contributions" : [
-			"I enjoy hanging out on IRC and answering questions if I can. I presented a dev environment we built during TTL #69 that I hope inspired the new RAD stuff in the 2.0 SDK at least a little bit.",
-			"I have also presented some lightning talks at DevCon/Summit and will be presenting a full session at Summit in SF and London this year that I hope will be interesting to (and advocating for) the community." ]
+		"summary": "<p>I am the chief architect at Zia Consulting, which is a Platinum Parter of Alfresco. We have been partner of the year a couple of times. As a platinum partner we can't work on community projects through work. However, there is nothing stopping folks working on community related projects in our spare time :)</p>",
+		"contributions" : "<ul><li>I enjoy hanging out on IRC and answering questions if I can. I presented a dev environment we built during <a href='http://www.youtube.com/watch?v=tRxvpJcW3Yo' target='_blank'>TTL #69</a> that I hope inspired the new RAD stuff in the 2.0 SDK at least a little bit.</li><li>I have also presented some lightning talks at DevCon/Summit and will be presenting a full session at Summit in SF and London this year that I hope will be interesting to (and advocating for) the community.</li></ul>"
 	},
 	{
 		"name": "Gloria",
@@ -670,8 +523,7 @@
 		"googleplus" : "https://plus.google.com/u/0/112671315376985433277/about",
 		"linkedin" : "http://uk.linkedin.com/pub/gloria-broadbent/2/8bb/355",
 		"twitter" : "GlorisitaPeru",
-		"summary": [
-			"I am the Localisation Manager at Alfresco, managing the terminology and localisation of Alfresco products into the core official languages (French, German, Italian, Spanish, Japanese, Dutch, Russian, Norwegian, Brazilian Portuguese and Simplified Chinese). The term lists and translation memories are available for members of the community upon request." ]
+		"summary": "<p>I am the Localisation Manager at Alfresco, managing the terminology and localisation of Alfresco products into the core official languages (French, German, Italian, Spanish, Japanese, Dutch, Russian, Norwegian, Brazilian Portuguese and Simplified Chinese). The term lists and translation memories are available for members of the community upon request.</p>"
 	},
 	{
 		"name": "Gabriele",
@@ -683,11 +535,8 @@
 		"linkedin" : "http://www.linkedin.com/in/columbro",
 		"blog" : "http://mindthegab.com/",
 		"twitter" : "mindthegabz",
-		"summary": [
-			"Former Principal Architect, now WW Manager at Alfresco Software." ],
-		"contributions" : [
-			"Founder, main contributor and benevolent dictator of the Alfresco SDK at https://github.com/Alfresco/alfresco-sdk/", 
-			"Apache committer and release manager for OpenCMIS, formerly for Spring Surf." ]
+		"summary": "<p>Former Principal Architect, now WW Manager at Alfresco Software.</p>",
+		"contributions" : "<ul><li>Founder, main contributor and benevolent dictator of the <a href='https://github.com/Alfresco/alfresco-sdk/' target='_blank'>Alfresco SDK</a>.</li><li>Apache committer and release manager for OpenCMIS, formerly for Spring Surf.</li></ul>"
 	},
 	{
 		"name": "Richard",
@@ -699,8 +548,7 @@
 		"linkedin" : "http://www.linkedin.com/in/richardesplin",
 		"blog" : "http://richard.esplins.org/siwi/",
 		"twitter" : "esplinr",
-		"summary" : [
-			"Head of Community at Alfresco" ]
+		"summary" : "<p>Head of Community at Alfresco</p>"
 	},
 	{
 		"name": "Toni",
@@ -721,8 +569,7 @@
 		"linkedin" : "http://www.linkedin.com/in/rgauss",
 		"blog" : "http://rgauss.com/",
 		"twitter" : "rgauss",
-		"summary": [
-			"DAM Architect at Alfresco" ]
+		"summary": "<p>DAM Architect at Alfresco</p>"
 	},
 	{
 		"name": "Paul",
@@ -733,11 +580,8 @@
 		"googleplus": "https://plus.google.com/113663740910609972523/about",
 		"linkedin" : "http://uk.linkedin.com/pub/paul-holmes-higgin/0/618/529",
 		"twitter" : "paulrhh",
-		"summary": [
-			"Employee number 1 at Alfresco." ],
-		"contributions" : [
-			"I set up the original Community forums & wiki and was the most active person there for some time.",
-			"Now looking after Activiti." ]
+		"summary": "<p>Employee number 1 at Alfresco.</p>",
+		"contributions" : "<ul><li>I set up the original Community forums & wiki and was the most active person there for some time.</li><li>Now looking after <a href='http://activiti.org/' target='_blank'>Activiti</a>.</li></ul>"
 	},
 	{
 		"name": "Nathan",
@@ -748,12 +592,7 @@
 		"linkedin" : "http://www.linkedin.com/in/nathantmcminn",
 		"blog" : "http://nathanmcminn.com/",
 		"twitter" : "ntmcminn",
-		"contributions": [
-			"Hack-a-thons",
-			"Summit talks,",
-			"Alfresco PDF Toolkit",
-			"Countersign digital signatures",
-			"numerous other extensions" ]
+		"contributions": "<ul><li>Hack-a-thons</li><li>Summit talks</li><li>Alfresco PDF Toolkit</li><li><a href='https://github.com/ntmcminn/CounterSign' target='_blank'>Countersign digital signatures</a></li><li>numerous other extensions</li></ul>"
 	},
 	{
 		"name": "Jared",
@@ -764,12 +603,8 @@
 		"linkedin" : "http://www.linkedin.com/in/jottley/",
 		"blog" : "http://jared.ottleys.net/",
 		"twitter" : "jottley",
-		"summary" : [
-			"Alfresco Engineer of 7 1/2 years." ],
-		"contributions": [
-			"Build integrations with 3rd party services: Jive, Dropbox, Google Drive, Salesforce.",
-			"Founder of PDF Toolkit.",
-			"Other addons: Max Version Policy, Rumors (POC Alfresco XMPP integration using OpenFire), Simple Workflow Webscripts, Default Quota Policy, Simple File Diff (POC)" ]
+		"summary" : "<p>Alfresco Engineer of 7 1/2 years.</p>",
+		"contributions": "<ul><li>Build integrations with 3rd party services: Jive, Dropbox, Google Drive, Salesforce.</li><li>Founder of PDF Toolkit.</li><li>Other addons: <a href='https://github.com/jottley/alfresco-maxversion-policy' target='_blank'>Max Version Policy</a>, <a href='https://github.com/jottley/alfresco-rumors' target='_blank'>Rumors</a> (POC Alfresco XMPP integration using OpenFire), Simple Workflow Webscripts, Default Quota Policy, Simple File Diff (POC)</li></ul>"
 	},
 	{
 		"name": "Maurizio",
@@ -781,14 +616,7 @@
 		"linkedin" : "http://nl.linkedin.com/in/mpillitu",
 		"blog" : "http://blog.session.it/",
 		"twitter" : "maoo",
-		"contributions": [
-			"http://github.com/maoo/alfresco-boxes",
-			"http://github.com/maoo/alfresco-webscript-manifold-connector",
-			"http://github.com/maoo/alfresco-migration-preprocessor",
-			"http://github.com/alfresco/alfresco-sdk",
-			"http://github.com/gerardharvey/proto-athena",
-			"https://github.com/maoo/alfresco-export-tool => could be a great add-on for alfresco-sdk",
-			"Few posts on http://blog.session.it" ]
+		"contributions": "<ul><li><a href='http://github.com/maoo/alfresco-boxes' target='_blank'>alfresco-boxes</a></li><li><a href='http://github.com/maoo/alfresco-webscript-manifold-connector' target='_blank'>Alfresco WebScripts Solr API Repository Connector for Apache ManifoldCF</a></li><li><a href='http://github.com/maoo/alfresco-migration-preprocessor' target='_blank'>Alfresco Migration Preprocessor</a></li><li><a href='http://github.com/alfresco/alfresco-sdk' target='_blank'>Maven Alfresco SDK</a></li><li><a href='http://github.com/gerardharvey/proto-athena' target='_blank'>proto-athena</a></li><li><a href='https://github.com/maoo/alfresco-export-tool' target='_blank'>alfresco-export-tool</a> => could be a great add-on for alfresco-sdk</li><li>Few posts on <a href='http://blog.session.it' target='_blank'>http://blog.session.it</a></li></ul>"
 	},
         {
 		"name": "David",
@@ -800,12 +628,7 @@
 		"linkedin" : "http://uk.linkedin.com/in/davidwebstercognite",
 		"blog" : "http://blogs.alfresco.com/wp/dwebster/",
 		"twitter" : "davidcognite",
-		"summary": [
-			"I've been working on Share and the APIs it uses for 4.5 years, after joining Alfresco's engineering team. I've touched most areas of Share, its APIs, but calendar, date/time and localisation and hybrid sync issues keep finding their way to my desk. I come from a web development background, so love the fact that client side technologies just won't stand still.",
-			"Recently I've been working on moving existing Share functionality to Aikau, the 5.0 search improvements as well as background tasks like development environment improvements, bringing in Grunt, simplifying maven usage and the way we run UI unit tests." ],
-		"contributions" : [
-			"I blog at http://blogs.alfresco.com/wp/dwebster/",
-			"I have code at https://github.com/davidcognite",
-			"I try and make code to the Summits, where I usually present a session or two on new Share developments and enjoy the hack-a-thons." ]
+		"summary": "<p>I've been working on Share and the APIs it uses for 4.5 years, after joining Alfresco's engineering team. I've touched most areas of Share, its APIs, but calendar, date/time and localisation and hybrid sync issues keep finding their way to my desk. I come from a web development background, so love the fact that client side technologies just won't stand still.</p><p>Recently I've been working on moving existing Share functionality to Aikau, the 5.0 search improvements as well as background tasks like development environment improvements, bringing in Grunt, simplifying maven usage and the way we run UI unit tests.</p>",
+		"contributions" : "<ul><li>I blog at <a href='http://blogs.alfresco.com/wp/dwebster/' target='_blank'>http://blogs.alfresco.com/wp/dwebster/</a>.</li><li>I have code at <a href='https://github.com/davidcognite' target='_blank'>https://github.com/davidcognite</a>.</li><li>I try and make code to the Summits, where I usually present a session or two on new Share developments and enjoy the hack-a-thons.</li></ul>"
 	}
 ]

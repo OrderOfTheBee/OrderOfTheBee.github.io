@@ -27,6 +27,7 @@
  <body>
 	<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="/assets/js/angular.min.js"></script>
+	<script type="text/javascript" src="/assets/js/sanitize.js"></script>
 	<script type="text/javascript" src="/assets/js/modernizr.js"></script>
 	<script type="text/javascript" src="/assets/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
 	<script type="text/javascript" src="/assets/js/jquery.smooth-scroll.js"></script>
@@ -59,9 +60,9 @@
 		<div class="row">
 			<br/>
 			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12" ng-repeat="post in posts | filter:query">
-				<h3><a ng-href="{{post.link}}">{{post.title}}</a></h3>
-				<p>Posted by {{post.author}} in {{post.date}}</p>
-				<p>{{post.description}}</p>
+				<h3><a ng-href="{{post.link}}" target="_blank">{{post.title}}</a></h3>
+				<p>Posted by <strong>{{post.author}}</strong> in {{post.date}}</p>
+				<div ng-show="post.description" ng-bind-html="post.description"></div>
 				<p><span ng-repeat="tag in post.tags"><a class="label label-success black" onclick="tagFilter((this.textContent || this.innerText))">{{tag}}</a> </span></p>
 				<br/>
 				<script>

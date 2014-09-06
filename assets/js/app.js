@@ -1,4 +1,4 @@
-var app = angular.module('app', [ 'ui.bootstrap' ]);
+var app = angular.module('app', [ 'ui.bootstrap' , 'ngSanitize' ]);
 
 app.controller('MembersCtrl', ['$scope', '$http', '$timeout', '$modal', function($scope, $http, $timeout, $modal, $log){
 	$scope.members = [];
@@ -75,6 +75,13 @@ app.controller('PostsCtrl', ['$scope', '$http', function($scope, $http){
     $scope.posts = [];
     $http.get('/assets/data/posts.json').success(function(data) {
       $scope.posts = data;
+    })
+  }]);
+
+app.controller('UpdatesCtrl', ['$scope', '$http', function($scope, $http){
+    $scope.updates = [];
+    $http.get('/assets/data/updates.json').success(function(data) {
+      $scope.updates = data;
     })
   }]);
 
