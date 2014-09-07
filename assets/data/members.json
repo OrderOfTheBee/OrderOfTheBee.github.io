@@ -38,6 +38,17 @@
 		"flickr": "https://www.flickr.com/photos/twen/"
 	},
 	{
+		"name": "Iván",
+		"surname": "Arroyo Escobar",
+		"nick": "iarroyo",
+		"status": "independent",
+		"github": "iarroyo",
+		"linkedin" : "http://es.linkedin.com/pub/iván-arroyo-escobar/3a/838/216/en",
+		"twitter":"ivanscn",
+		"summary": "<p>I have been working with Alfresco since 2010. I work at Zaizi as an Alfresco Integrator. And I like the Alfresco community, I made my first steps thanks to the community.</p>",
+		"contributions": "<ul><li>I have contributed to the <a href='https://github.com/iarroyo/alfresco-webscript-manifold-connector' target='_blank'>Manifold Alfresco Connector</a> project from Maurizio Pillitu on Github.</li><li>I have adapted the Jeff Potts Metaversant Fivestar project to Alfresco version 4.2.x Community.</li><li>I am collaborator in the Alfresco meetup in Seville.</li>" 
+	},
+	{
 		"name": "Erik",
 		"surname": "Billerby",
 		"nick": "billerby",
@@ -326,6 +337,17 @@
 		"twitter" : "tchorix",
 		"summary": "<p>One of the founders of the Order of the Bee. Mostly working as Alfresco administrator. I operate by investigating the fundamental interconnectedness of all things.</p>",
 		"contributions" : "<ul><li>coordinator of the Alfresco user group Belgium</li><li>Hackathon participant</li></ul>"
+	},
+	{
+		"name": "Antonio David",
+		"surname": "Perez Morales",
+		"nick": "adperezmorales",
+		"status": "independent",
+		"guthub": "adperezmorales",
+		"twitter": "adperezmorales",
+		"linkedin": "http://es.linkedin.com/in/adperezmorales/en",
+		"summary": "Working in Zaizi.",
+		"contributions":"<ul><li>Alfresco Summit 2013 speaker</li><li>Alfresco Seville Meetup organizer</li><li>Alfresco Seville Meetup speaker</li><li>Contributing things from the Zaizi github account</li></ul>"
 	},
 	{
 		"name": "Carl",
