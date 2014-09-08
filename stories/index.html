@@ -41,13 +41,17 @@
 		</div>
 	</section>
 
-	<div ng-show="stories[0]" class="container-fluid text-center" ng-controller="StoriesCtrl">
+	<div ng-show="stories[0]" class="container-fluid" ng-controller="StoriesCtrl">
 		<div class="row">
 			<br/>
-			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" ng-repeat="story in stories">
+			<!--div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" ng-repeat="story in stories"-->
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12" ng-repeat="story in stories">
 				<h2 class="text-center">{{story.name}}</h2>
-				<img class="right" ng-show="story.image" src="/assets/images/{{story}}.png"/>
-				<p>{{story.description}}</p>
+				<img class="right" ng-show="story.image" ng-src="{{story.image}}"/>
+				<p><a ng-href="{{story.link}}" target="_blank">{{story.link}}</a></p>
+				<div ng-bind-html="story.description"></div>
+				<p><a ng-href="{{story.fullstory}}">Read full story...</a></p>
+				<br/>
 			</div>
 		</div>
 	</div>
@@ -61,14 +65,22 @@
 
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12 lead">
+			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12">
 				<br/>
 				<p>Create an issue on Github with the following information attached:</p>
 				<ul>
-					<li>a link to your profile or company website</li>
-					<li>area of your competence</li>
-					<li>in what countries do you work</li>
-					<li>contacts of one or more customers who are willing to be a reference</li>
+					<li>your name and position</li>
+					<li>a link to your company website</li>
+					<li>your story</li>
+				</ul>
+				<p>You can use the following list of questions to structure your story:</p>
+				<ul>
+					<li>For what purposes do you use Alfresco?</li>
+					<li>How many people use Alfresco?</li>
+					<li>Why did you choose Alfresco? What Alfresco's key features were and are important for you?</li>
+					<li>Any problems you have encountered? Did you solve them all, or do you still have any difficulties? Any advice to us what to improve in Alfresco?</li>
+					<li>Can you recommend any Systems Integrator and freelancers who helped you to implement Alfresco in your way?</li>
+					<li>any other information you would like to share with us</li>
 				</ul>
 					<br/>
 					<p class="text-center"><a href="https://github.com/OrderOfTheBee/marketing/issues/new" class="btn btn-lg btn-success" target="_blank"><i class="fa fa-arrow-down"></i> Send request</a></p>
