@@ -58,11 +58,26 @@ app.controller('AddonsCtrl', ['$scope', '$http', function($scope, $http){
   }]);
 
 app.controller('PSNCtrl', ['$scope', '$http', function($scope, $http){
-    $scope.items = [];
-    $http.get('/assets/data/psn.json').success(function(data) {
-      $scope.items = data;
-    })
-  }]);
+	$scope.items = [];
+	$http.get('/assets/data/psn.json').success(function(data) {
+		$scope.items = data;
+		$scope.fullList = [];
+		var n = 0;
+		var array = [];
+		while (n < $scope.items.length) {
+			var index = Math.floor(Math.random()*$scope.items.length);
+			if ($.inArray(index, array) == -1) {
+				array[n+1] = index;
+				n++;
+			}
+		}
+		for (n=1; n < $scope.items.length+1; n++) {
+			$scope.fullList.push(
+				$scope.items[array[n]]
+			);
+		};
+	})
+}]);
 
 app.controller('StoriesCtrl', ['$scope', '$http', function($scope, $http){
     $scope.stories = [];

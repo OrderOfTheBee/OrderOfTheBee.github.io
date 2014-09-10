@@ -13,7 +13,7 @@ a {
 	color: #3a3a3a;
 }
 
-a.black:hover, a.black:focus {
+a.black:hover, a.black:focus, a.black {
 	text-decoration: none; 
 	color: #3a3a3a;
 }
@@ -42,6 +42,10 @@ dd {
 	margin-left: 5em;
 }
 
+li {
+	list-style-position: inside;
+}
+
 /* alert overrides */
 
 .alert-info {
@@ -53,6 +57,16 @@ dd {
 
 .table th, .table td {
 	text-align: center;
+}
+
+/* form margin */
+
+.form-inline .form-group {
+	margin-left: 20px;
+}
+
+.form-inline .form-group label {
+	margin-right: 5px;
 }
 
 /* form validation */

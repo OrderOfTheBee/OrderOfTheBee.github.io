@@ -1,0 +1,43 @@
+[
+	{
+		"name":"Douglas Cassiano Rodrigues Paes",
+		"territory": [ "Brazil" ],
+		"status":"Freelancer",
+		"summary": "<p>The kind of work I can do with Alfresco:</p><ul><li>content modeling</li><li>custom development</li><li>workflows</li><li>ECM consultancy</li></ul><p>I can deliver Alfresco on AWS.</p>"
+	},
+	{
+		"name":"Daniel Gradecak",
+		"territory": ["Croatia", "France", "United Kingdom" ],
+		"status":"Freelancer",
+		"summary":"<p>I build custom solutions based on Alfresco and many time there is a complete custom UI involved.</p><p>As all of the 'alfrescians' I work with Share too and build custom widgets. To describe my work I would say <strong>Alfresco system integrator</strong> :) as there is a lot of integrations that have to be done in order to have a functionnal application (from simple custom DB access to custom content store).</p>",
+		"website": "http://www.gradecak.com/"
+	},
+	{
+		"name":"Metaversant",
+		"territory": [ "USA" ],
+		"status":"Company",
+		"summary": "<p>Metaversant offers consulting services around open source content management technology. We are Alfresco experts but our passion extends to a number of <strong>content management</strong>, <strong>business process management</strong>, and <strong>search technologies</strong>.</p><p>We <strong>build custom solutions</strong> designed to help you share your digital assets with the right people, at the right time, in a secure way. Metaversant consultants have been helping Fortune 500 and Global 2000 clients collaborate around rich media, unstructured, and semi-structured data for nearly 20 years.</p><p>Our team is led by Jeff Potts, a well-respected member of the Alfresco community. We are headquartered in Dallas, Texas, but our clients are all over the world.</p>",
+		"website": "http://www.metaversant.com/"
+	},
+	{
+		"name":"Loftux",
+		"territory": [ "Sweden" ],
+		"status":"Company",
+		"summary": "<p>Loftux AB is a company specialized in solutions for document management and more general information management based on open source products and Alfresco.</p><p>Loftux AB can offer you services around analysis, implementation, training and support. We will help you get started and reach the true value of the information you have stored in fast and cost effective way.</p>",
+		"website": "http://www.loftux.com/"
+	},
+	{
+		"name":"Keensoft",
+		"territory": [ "Spain" ],
+		"status":"Company",
+		"customers": [ 
+			{ 
+				"name": "Spanish National Library",
+				"link": "http://www.bne.es/",
+				"story": "/stories/bne/"
+			}
+		],
+		"summary": "",
+		"website": "http://www.keensoft.es/"
+	}
+]

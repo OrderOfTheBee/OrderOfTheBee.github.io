@@ -33,6 +33,15 @@
 	<script type="text/javascript" src="/assets/js/jquery.smooth-scroll.js"></script>
 	<script type="text/javascript" src="/assets/js/app.js"></script>
 	<header></header>
+	<script>
+		function countryFilter(country) {
+			var e = document.getElementById("query");
+			var scope = $(e).scope();
+			scope.$apply(function() {
+				scope.query = country;
+			});
+	       }
+	</script>
 
 	<section class="green">
 		<div class="container-fluid">
@@ -41,15 +50,67 @@
 		</div>
 	</section>
 
-	<div ng-show="items[0]" class="container-fluid text-center" ng-controller="PSNCtrl">
+	<div class="container-fluid">
+		<br/><br/>
 		<div class="row">
-			<br/>
-			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" ng-repeat="item in items">
-				<h2 class="text-center">{{item.name}}</h2>
-				<img class="right" ng-show="item.image" src="/assets/images/{{item}}.png"/>
-				<p>{{item.description}}</p>
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+				<form class="form-inline">
+					<div class="form-group">
+						<label for="select">Country</label> 
+						<select ng-model="query" id="query" class="form-control" placeholder="Country">
+							<option selected="selected" value=""></option>
+							<optgroup label="AMER">
+								<option>Brazil</option>
+								<option>USA</option>
+							</optgroup>
+							<optgroup label="EMEA">
+								<option>Croatia</option>
+								<option>France</option>
+								<option>Spain</option>
+								<option>Sweden</option>
+								<option>United Kingdom</option>
+							</optgroup>
+							<optgroup label="APAC">
+							</optgroup>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="query2">Filter</label> 
+						<input ng-model="query2" id="query2" class="form-control" />
+					</div>
+					<button type="reset" onclick="
+						var e = document.getElementById('query');
+						var scope = $(e).scope();
+						scope.$apply(function() {
+						scope.query = '';
+						scope.query2 = '';
+						});" class="btn btn-default">Reset filter</button>
+				</form>
 			</div>
 		</div>
+	</div>
+	<br/>
+	<br/>
+
+	<div ng-show="fullList[0]" class="container-fluid" ng-controller="PSNCtrl">
+		<div class="row">
+			<br/>
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12" ng-repeat="item in fullList | filter:{territory: query} | filter: query2">
+				<h4 class="pull-right"><span class="label label-info" ng-show="item.status == 'Company'">{{item.status}}</span><span class="label label-warning" ng-show="item.status == 'Freelancer'">{{item.status}}</span></h4>
+				<h3>{{item.name}}</h3>
+				<p><strong>Territory</strong>: <span ng-repeat="country in item.territory"><a onclick="countryFilter((this.textContent || this.innerText))"><i>{{country}}</i></a><span ng-if="!$last">,</span> </span></p> 
+				<div ng-bind-html="item.summary"></div>
+				<p ng-show="item.customers[0]"><strong>Customers:</strong></p>
+				<ul ng-show="item.customers[0]">
+					<li ng-repeat="customer in item.customers"><a ng-href="{{customer.link}}" class="black" target="_blank">{{customer.name}}</a> <a ng-href="{{customer.story}}">[success story]</a></li>
+				</ul>
+				<p ng-show="item.website"><strong>Website</strong>: <a ng-href="{{item.website}}" target="_blank">{{item.website}}</a></p>
+				<br/>
+				<hr/>
+				<br/>
+			</div>
+		</div>
+		<br/>
 	</div>
 
 	<section class="orange">
