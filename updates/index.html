@@ -27,8 +27,8 @@
  <body>
 	<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="/assets/js/angular.min.js"></script>
-	<script type="text/javascript" src="/assets/js/sanitize.js"></script>
 	<script type="text/javascript" src="/assets/js/modernizr.js"></script>
+	<script type="text/javascript" src="/assets/js/sanitize.js"></script>
 	<script type="text/javascript" src="/assets/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
 	<script type="text/javascript" src="/assets/js/jquery.smooth-scroll.js"></script>
 	<script type="text/javascript" src="/assets/js/app.js"></script>
@@ -48,7 +48,7 @@
 				<div ng-repeat="update in updates">
 					<span class="label label-success pull-right">posted on {{update.date}}</span>
 					<h2 class="text-center">{{update.title}}</h2>
-					<img ng-show="{{update.image}}" ng-src="{{update.image}}" class="right"/>
+					<img ng-show="update.image" ng-src="{{update.image}}" class="right">
 					<br/>
 					<div ng-bind-html="update.text"></div>
 					<br/>
