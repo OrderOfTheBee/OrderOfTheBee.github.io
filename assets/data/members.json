@@ -375,6 +375,15 @@
 		"contributions" : "<ul><li>A few add-ons (most work with <a href='https://code.google.com/p/alfresco-metadata-writer/' target='_blank'>alfresco-metadata-writer</a>).</li><li>I have also arranged several community meetups in the Nordic region.</li><li>By various means I have contributed to the translations of Alfresco to Swedish, Norwegian and Danish.</li><li>I also do some blogging on <a href='http://alfresco.blog.redpill-linpro.com/' target='_blank'>http://alfresco.blog.redpill-linpro.com/</a> when time allows.</li></ul>"
 	},
 	{
+		"name": "Brian",
+		"surname": "O'Neill",
+		"nick": "seedim",
+		"status": "independent",
+		"linkedin" : "http://au.linkedin.com/in/seedim",
+		"blog": "http://www.seedim.com.au/blogs",
+		"summary" : "<p>I have been running an Alfresco practice in Melbourne since 2007. I got into this because I truly believe in the OS approach to software and its development. I blog through our company website (seedim.com.au). Not sure how I can help but I have a strong understanding of Alfresco and really think the community version should be supported so happy to help where I can.</p>"
+	},
+	{
 		"name": "Douglas",
 		"surname": "C. R. Paes",
 		"nick": "douglascrp",
