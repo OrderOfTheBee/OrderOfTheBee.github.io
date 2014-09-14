@@ -384,6 +384,16 @@
 		"summary" : "<p>I have been running an Alfresco practice in Melbourne since 2007. I got into this because I truly believe in the OS approach to software and its development. I blog through our company website (seedim.com.au). Not sure how I can help but I have a strong understanding of Alfresco and really think the community version should be supported so happy to help where I can.</p>"
 	},
 	{
+		"name": "Philippe",
+		"surname": "Quéré",
+		"nick": "querephi",
+		"status": "independent",
+		"linkedin" : "http://fr.linkedin.com/pub/philippe-quéré/47/2a9/92",
+		"blog": "http://becpg.blogspot.ru/",
+		"googleplus": "https://plus.google.com/102197867651458394700/about",
+		"contributions" : "<ul><li><a href='https://addons.alfresco.com/addons/becpg-model-designer-alfresco' target='_blank'>Alfresco Model Designer</a></li><li><a href='https://addons.alfresco.com/addons/becpg-project-manager-alfresco' target='_blank'>Alfresco Project Manager</a></li><li><a href='https://addons.alfresco.com/addons/becpg-plm-alfresco' target='_blank'>beCPG PLM for Alfresco</a></li></ul>"
+	},
+	{
 		"name": "Douglas",
 		"surname": "C. R. Paes",
 		"nick": "douglascrp",
@@ -547,6 +557,16 @@
 		"contributions" : "<ul><li>I participate from the beginning of Alfresco project on the French forum (with the pseudo jeanjot)</li><li>As part of the activities of the company 'TekoNorma' I published some articles in French about the development and use of Alfresco.</li><li>Today I'm benefit BULL on integration projects Alfresco (Enterprise and Community) and study of 'governance' for institutional and corporate clients.</li></ul>"
 	},
 	{
+		"name": "Ümit",
+		"surname": "Vardar",
+		"nick": "umitvardar",
+		"status": "independent",
+		"linkedin" : "http://tr.linkedin.com/in/umitvardar",
+		"twitter" : "umitvardar",
+		"blog": "http://www.vardar.biz.tr/blogs",
+		"contributions" : "<ul><li>Enterprise Report Services for Alfresco</li><li>Email listener for Alfresco</li></ul>"
+	},
+	{
 		"name": "Ashley",
 		"surname": "Ward",
 		"nick": "ashward",
@@ -635,6 +655,17 @@
 		"twitter" : "paulrhh",
 		"summary": "<p>Employee number 1 at Alfresco.</p>",
 		"contributions" : "<ul><li>I set up the original Community forums & wiki and was the most active person there for some time.</li><li>Now looking after <a href='http://activiti.org/' target='_blank'>Activiti</a>.</li></ul>"
+	},
+	{
+		"name": "Dennis",
+		"surname": "Koch",
+		"nick": "WorkdeskCook",
+		"status": "alfresco",
+		"linkedin" : "http://de.linkedin.com/pub/dennis-koch/18/b91/197/en",
+		"googleplus" : "https://plus.google.com/+DennisKochJimmy/about",
+		"twitter" : "WorkdeskSupport",
+		"summary": "<p>Member of Alfresco support team.</p>",
+		"contributions": "<ul><li>Community Guru in Alfresco forums, user name: deko</li><li>Providing help in #alfresco IRC channel, user name: WorkdeskCook </li><li>Review of general Alfresco products´ German localize files</li><li>QAed/delivered Alfresco Workdesk Community product connecting against Alfresco Community</li><li>Technical author of Alfresco Workdesk Community quickstart guide and many other documents</li></ul>"
 	},
 	{
 		"name": "Nathan",
