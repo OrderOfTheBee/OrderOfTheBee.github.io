@@ -1,9 +1,9 @@
 [
 	{
-		"name":"Douglas Cassiano Rodrigues Paes",
+		"name":"DGCloud",
 		"territory": [ "Brazil" ],
-		"status":"Freelancer",
-		"summary": "<p>The kind of work I can do with Alfresco:</p><ul><li>content modeling</li><li>custom development</li><li>workflows</li><li>ECM consultancy</li></ul><p>I can deliver Alfresco on AWS.</p>",
+		"status":"Company",
+		"summary": "<p>DGCloud deploys customised Document Management System (DMS) solutions based on the Alfresco that allow you to simplify your business. Through the provision of integrated solutions for content management and process automation, our customers can realise the maximum potential of their digital assets with low cost, high professional quality and efficiency.</p>",
 		"website": "http://dgcloud.com.br/"
 	},
 	{
