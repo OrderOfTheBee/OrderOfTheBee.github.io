@@ -243,6 +243,17 @@
 		"contributions": "<ul><li>Alfresco User Group Belgium & Hackathon attendee</li><li>Regularly answering questions on IRC, the Alfresco forums and StackOverflow</li><li>Creator and moderator of the <a href='http://www.reddit.com/r/alfresco' target='_blank'>Alfresco subreddit</a></li><li>Small Javascript utility script: <a href='https://github.com/JonasHeylen/elzar' target='_blank'>https://github.com/JonasHeylen/elzar</a></li></ul>"
 	},
 	{
+		"name": "Ole Lykke",
+		"surname": "Jacobsen",
+		"nick": "OleLykke",
+		"status": "independent",
+		"github": "OleLykke",
+		"linkedin" : "http://dk.linkedin.com/pub/ole-lykke-jacobsen/8/507/a89",
+		"googleplus" : "https://plus.google.com/116375827966573062432/about",
+		"summary": "<p>I am an Alfresco Certified Engineer and have been working as Alfresco consultant with the enterprise versions for large danish companies for 3,5 year.</p>",
+		"contributions": "<ul><li>I am currently envolved in arranging an Alfresco community meetup in Denmark.</li><li>I have written one blog post but it is now out-dated. But here it is <a href='http://alfresco.blog.redpill-linpro.com/2011/11/07/implementing-multiple-project-customisations-in-one-alfresco-instance/' target='_blank'>http://alfresco.blog.redpill-linpro.com/2011/11/07/implementing-multiple-project-customisations-in-one-alfresco-instance/</a>.</li></ul>"
+	},
+	{
 		"name": "Benjamin",
 		"surname": "Kahn",
 		"nick": "xkahn",
@@ -608,6 +619,16 @@
 		"summary": "<p>I am the Localisation Manager at Alfresco, managing the terminology and localisation of Alfresco products into the core official languages (French, German, Italian, Spanish, Japanese, Dutch, Russian, Norwegian, Brazilian Portuguese and Simplified Chinese). The term lists and translation memories are available for members of the community upon request.</p>"
 	},
 	{
+		"name": "Luis",
+		"surname": "Cabaceira",
+		"nick": "lcabaceira",
+		"status": "alfresco",
+		"github": "lcabaceira",
+		"linkedin" : "http://pt.linkedin.com/in/cabaceira/",
+		"blog" : "http://blogs.alfresco.com/wp/lcabaceira/",
+		"contributions" : "<ul><li>Blogging at <a href='http://blogs.alfresco.com/wp/lcabaceira/' target='_blank'>http://blogs.alfresco.com/wp/lcabaceira/</a></li><li><a href='https://github.com/lcabaceira/supersizemyrepo' target='_blank'>supersizemyrepo</a> tool</li><li><a href='https://github.com/lcabaceira/dralf' target='_blank'>Dr. Alf</a> for Alfresco 4</li></ul>"
+	},
+	{
 		"name": "Gabriele",
 		"surname": "Columbro",
 		"nick": "mindthegab",
@@ -710,6 +731,16 @@
 		"blog" : "http://blog.session.it/",
 		"twitter" : "maoo",
 		"contributions": "<ul><li><a href='http://github.com/maoo/alfresco-boxes' target='_blank'>alfresco-boxes</a></li><li><a href='http://github.com/maoo/alfresco-webscript-manifold-connector' target='_blank'>Alfresco WebScripts Solr API Repository Connector for Apache ManifoldCF</a></li><li><a href='http://github.com/maoo/alfresco-migration-preprocessor' target='_blank'>Alfresco Migration Preprocessor</a></li><li><a href='http://github.com/alfresco/alfresco-sdk' target='_blank'>Maven Alfresco SDK</a></li><li><a href='http://github.com/gerardharvey/proto-athena' target='_blank'>proto-athena</a></li><li><a href='https://github.com/maoo/alfresco-export-tool' target='_blank'>alfresco-export-tool</a> => could be a great add-on for alfresco-sdk</li><li>Few posts on <a href='http://blog.session.it' target='_blank'>http://blog.session.it</a></li></ul>"
+	},
+	{
+		"name": "Harlin",
+		"surname": "Seritt",
+		"nick": "HarlinAtWork",
+		"status": "alfresco",
+		"github": "hseritt",
+		"twitter" : "HarlinAtWork",
+		"linkedin": "http://www.linkedin.com/pub/harlin-seritt/1/25b/b41",
+		"summary": "I'm an employee of Alfresco Software. I work in support and usually handle infrastructure-related cases. I enjoy working with CMIS and Alfresco."
 	},
         {
 		"name": "David",
