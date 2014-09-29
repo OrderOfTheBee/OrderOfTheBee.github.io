@@ -501,6 +501,17 @@
 		"contributions": "<ul><li>created and maintained the first german alfresco forum (which was handed over to Alfresco later when Germany was of interest)</li><li>alfresco patches module with fixes for several alfresco community versions</li></ul>"
 	},
 	{
+		"name": "Luis",
+		"surname": "A. Sánchez",
+		"nick": "eleaese",
+		"status": "independent",
+		"blog" : "http://eleaese.blogspot.ru/",
+		"linkedin": "http://cl.linkedin.com/in/eleaese",
+		"twitter" : "eleaese",
+		"summary": "<p>I self define as an 'Alfresco's propeller', I planted the seed since 2007 with some of the companies that later became customers (SRCEI, CORP, Consorcio, Security) and partners of Alfresco (Intellego, Nectia, Impulse IT). I'm a main contributor of some of the most important Alfresco deployments in Chile, as independent consultant and as partner of Impulse IT, in the past and the present.</p>",
+		"contributions" : "<p>My blog is outdate, but I promise myself to start blogging about Alfresco administration using the superb JS Console by fmaul in the next few weeks.</p>"
+	},
+	{
 		"name": "Prvoslav",
 		"surname": "Savic",
 		"nick": "SavicPrvoslav",
