@@ -28,7 +28,7 @@
 		"website": "http://www.loftux.com/"
 	},
 	{
-		"name":"Keensoft",
+		"name":"keensoft",
 		"territory": [ "Spain" ],
 		"status":"Company",
 		"customers": [ 
@@ -38,7 +38,7 @@
 				"story": "/stories/bne/"
 			}
 		],
-		"summary": "",
+		"summary": "<p>keen<strong>soft</strong> provides consulting and development services related to content management based on Alfresco. We have also wide experience on mobility, record management, big data and electronic signature.</p><p>Our task is analize, design and deliver IT solutions which help our customers to achieve their most ambitious goals. Our services are offered in a quick and pragmatic way.</p><p>We have been collaborating with large companies in Spain and UK, building together creative solutions around content delivery.</p>",
 		"website": "http://www.keensoft.es/"
 	}
 ]
