@@ -584,10 +584,11 @@
 	{
 		"name": "Sergio",
 		"surname": "Rojas",
-		"nick": "srojas",
+		"nick": "srojasbg",
 		"status": "independent",
 		"linkedin": "http://uk.linkedin.com/pub/sergio-rojas-buitrago/31/b04/662/en",
 		"twitter" : "srojasbg",
+		"github": "srojasbg",
 		"contributions": "<ul><li>Post in forums as srojas</li><li>Speaker in San Francisco and London summit 2014 (Top 10 Tricks to improve Alfresco Performance)</li><li>Contributor for Enterprise version with bug fixing from different companies from 2007</li></ul>"
 	},
 	{
