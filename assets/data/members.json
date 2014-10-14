@@ -80,9 +80,20 @@
 		"nick": "cesarcapi",
 		"status": "independent",
 		"blog": "http://www.zylk.net/es/web/guest/web-2-0/blog",
-		"linkedin" : "http://es.linkedin.com/in/cesarcapillas ",
+		"linkedin" : "http://es.linkedin.com/in/cesarcapillas",
 		"twitter" : "cesarcapi",
 		"contributions": "<ul><li><a href='http://www.zylk.net/es/web/guest/web-2-0/blog' target='_blank'>zylk.net</a> company blog (No Blogo) - in spanish - which is dedicated to open source technologies such as Alfresco or Liferay.</li><li>Alfresco Forums: Spanish (Community Guru - cesarista) and English.</li><li>Participation as speaker in <a href='http://es.slideshare.net/zylk/alfresco-meetup2013' target='_blank'>Alfresco Community Meetups (Spain)</a>.</li><li><a href='https://code.google.com/p/alfresco-share-online-edition-addon/' target='_blank'>Alfresco Share add-on</a> for online edition (for Libreoffice).</li></ul>"
+	},
+	{
+		"name": "Horelvis",
+		"surname": "Castillo Medoza",
+		"nick": "horelvis",
+		"status": "independent",
+		"blog": "http://venzia.es/blogs/horelviscastillo",
+		"linkedin" : "http://es.linkedin.com/pub/horelvis-castillo/17/b71/8b4/en",
+		"twitter" : "horelvis",
+		"summary": "CTO in Venzia SL",
+		"contributions": "<ul><li><a href='https://addons.alfresco.com/addons/alfresco-metadbconnector-component' target='_blank'>Alfresco MetaDBConnector Component</a></li><li><a href='http://venzia.es/blogs/horelviscastillo' target='_blank'>Blog</a></li></ul>"
 	},
 	{
 		"name": "Ben",
@@ -253,6 +264,14 @@
 		"contributions": "<ul><li>Worked with Maurizio Pillitu on improving the Chef recipe for installing Alfresco intent for use with Packer.io to create ready-to-go images (VMware, amazon, etc)</li></ul>"
 	},
 	{
+		"name": "Flemming",
+		"surname": "Heide Pedersen",
+		"nick": "Flemming",
+		"status": "independent",
+		"linkedin" : "https://dk.linkedin.com/pub/flemming-heide-pedersen/0/bb/787",
+		"contributions": "<ul><li>I have been working with alfresco for the past two years at Magenta, primarily with a solution for Nukissiorfiit.</li><li>I use the lessons learned here to contribute to a new open source project at Magenta: openESDH.</li></ul>"
+	},
+	{
 		"name": "Ole",
 		"surname": "Hejlskov",
 		"nick": "ohej",
@@ -335,11 +354,19 @@
 		"contributions": "<ul><li>I help to translate Alfresco to Russian and administer <a href='https://crowdin.com/project/alfresco' target='_blank'>Alfresco community translation group</a>.</li><li>Together with my colleagues I provided Alfresco Meetup in Moscow in this May. And I'm going to organize this event annually.</li><li>I write posts about Alfresco in blogs (<a href='http://blog.itdhq.com/' target='_blank'>in English</a>, <a href='http://ru.blog.itdhq.com/' target='_blank'>in Russian #1</a> and <a href='http://www.ossportal.ru/technologies/alfresco' target='_blank'>in Russian #2</a>)</li><li>I participate in <a href='http://www.alvexsoftware.com' target='_blank'>Alvex</a> (Org Chart, Document Registers, Related Workflows and other add-ons) development process.</li></ul>"
 	},
 	{
+		"name": "Swathi",
+		"surname": "Lakshmi Rajan",
+		"nick": "SwathiSarav",
+		"status": "independent",
+		"twitter": "SwathiSarav",
+		"contributions": "<p>Our team has organized meetup about Alfresco covering various topics such as Content model, Activiti, Customization, etc. Below is our meetup group: <a href='http://www.meetup.com/Alfresco-Bangalore-Community/' target='_blank'>http://www.meetup.com/Alfresco-Bangalore-Community/</a>.</p>"
+	},
+	{
 		"name": "Heimo",
 		"surname": "Laukkanen",
 		"nick": "huima",
 		"status": "independent",
-		"github": "",
+		"github": "huima",
 		"twitter": "huima",
 		"blog": "http://huima.wordpress.com/",
 		"linkedin": "http://fi.linkedin.com/pub/heimo-laukkanen/0/23/892",
