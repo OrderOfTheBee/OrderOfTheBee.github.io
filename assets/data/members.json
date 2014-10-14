@@ -554,7 +554,7 @@
 		"nick": "Yogesh",
 		"status": "independent",
 		"github": "Yogesh102",
-		"linkedin": "www.linkedin.com/profile/view?id=91926637",
+		"linkedin": "http://www.linkedin.com/profile/view?id=91926637",
 		"googleplus": "https://plus.google.com/u/0/104510909296970139259/about",
 		"blog": "http://alfrescopj.blogspot.in/",
 		"summary": "<p>I have been working with alfresco since 2011. I am working for Alfresco partners. I have done different customization of alfresco and share.</p>",
@@ -721,6 +721,16 @@
 		"twitter" : "binduwavell",
 		"summary": "<p>I am the chief architect at Zia Consulting, which is a Platinum Parter of Alfresco. We have been partner of the year a couple of times. As a platinum partner we can't work on community projects through work. However, there is nothing stopping folks working on community related projects in our spare time :)</p>",
 		"contributions" : "<ul><li>I enjoy hanging out on IRC and answering questions if I can. I presented a dev environment we built during <a href='http://www.youtube.com/watch?v=tRxvpJcW3Yo' target='_blank'>TTL #69</a> that I hope inspired the new RAD stuff in the 2.0 SDK at least a little bit.</li><li>I have also presented some lightning talks at DevCon/Summit and will be presenting a full session at Summit in SF and London this year that I hope will be interesting to (and advocating for) the community.</li></ul>"
+	},
+	{
+		"name": "kayne",
+		"surname": "zhang",
+		"nick": "kaynezhang",
+		"status": "independent",
+		"github": "kaynezhang",
+		"linkedin" : "http://cn.linkedin.com/pub/kayne-zhang/98/311/892",
+		"summary": "<p>I am an Alfresco Cerified Administrator and an Alfresco Certified Engineer.</p>",
+		"contributions" : "<p>I am an active community member on Alfresco forums and one of the top 5 contributor on <a href='http://forums.alfresco.com/forum/developer-discussions' target='_blank'>Developer Discussions forums</a>.</p>"
 	},
 	{
 		"name": "Mehdi",
