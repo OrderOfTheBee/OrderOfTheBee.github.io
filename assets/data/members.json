@@ -374,6 +374,16 @@
 		"contributions": "<p>Trying to improve the community and usage of good technologies like Alfresco in our neck of the woods. This autumn trying to work with Carl and others from Redpill to also create buzz in other Nordic countries.</p><ul><li><a href='http://huima.wordpress.com/' target='_blank'>http://huima.wordpress.com/</a> (blog in English)</li><li><a href='http://blog.huima.net/' target='_blank'>http://blog.huima.net/</a> (blog in Finnish)</li></ul>"
 	},
 	{
+		"name": "Torben",
+		"surname": "Lauritzen",
+		"nick": "tlauritzen",
+		"status": "independent",
+		"github": "tlauritzen",
+		"linkedin": "http://dk.linkedin.com/pub/torben-lauritzen/1/474/340",
+		"summary": "<p>I am working at Magenta in Denmark, where I am involved in developing open source Alfresco based document and case management systems.</p>",
+		"contributions": "<p>I hope to be able to contribute to the community in the future, as my knowledge (and kids :-) ) grows.</p><ul><li><a href='https://github.com/OpenESDH/openesdh-core' target='_blank'>OpenESDH</a></li></ul>"
+	},
+	{
 		"name": "Peter",
 		"surname": "Löfgren",
 		"nick": "loftux",
