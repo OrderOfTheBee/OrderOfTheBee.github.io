@@ -117,7 +117,7 @@
 		<br/>
 		<script type="text/ng-template" id="MemberModalContent.html">
 			<div class="modal-header">
-				<h3>{{member.name}} {{member.surname}}</h3>
+				<h3>{{member.name}} {{member.surname}} ({{member.nick}})</h3>
 			</div>
 			<div class="modal-body">
 				<img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle right"/>
@@ -125,20 +125,20 @@
 				<div ng-show="member.summary" ng-bind-html="member.summary"></div>
 				<br/>
 				<p><strong>Contacts</strong></p>
-				<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i> Github</a></p>
-				<p><a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i> Twitter</a></p>
-				<p><a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i> LinkedIn</a></p>
-				<p><a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i> Blog</a></p>
-				<p><a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i> Google+</a></p>
-				<p><a ng-show="member.stackoverflow" ng-href="{{member.stackoverflow}}"><i class="fa fa-stack-overflow"></i> StackOverflow</a></p>
-				<p><a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i> Flickr</a></p>
-				<p><a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i> Youtube</a></p>
+				<p ng-show="member.github"><a ng-href="https://github.com/{{member.github}}" class="black"><i class="fa fa-github"></i> Github</a></p>
+				<p ng-show="member.twitter"><a ng-href="https://twitter.com/{{member.twitter}}" class="black"><i class="fa fa-twitter"></i> Twitter</a></p>
+				<p ng-show="member.linkedin"><a ng-href="{{member.linkedin}}" class="black"><i class="fa fa-linkedin"></i> LinkedIn</a></p>
+				<p ng-show="member.blog"><a ng-href="{{member.blog}}" class="black"><i class="fa fa-rss"></i> Blog</a></p>
+				<p ng-show="member.googleplus"><a ng-href="{{member.googleplus}}" class="black"><i class="fa fa-google-plus"></i> Google+</a></p>
+				<p ng-show="member.stackoverflow"><a ng-href="{{member.stackoverflow}}" class="black"><i class="fa fa-stack-overflow"></i> StackOverflow</a></p>
+				<p ng-show="member.flickr"><a ng-href="{{member.flickr}}" class="black"><i class="fa fa-flickr"></i> Flickr</a></p>
+				<p ng-show="member.youtube"><a ng-href="{{member.youtube}}" class="black"><i class="fa fa-youtube"></i> Youtube</a></p>
 				<br/>
 				<p ng-show="member.contributions"><strong>Contributions</strong></p>
 				<div ng-show="member.contributions" ng-bind-html="member.contributions"></div>
 			</div>
 			<div class="modal-footer">
-				<button class="btn btn-warning" ng-click="cancel()">Cancel</button>
+				<button class="btn btn-danger" ng-click="cancel()">Cancel</button>
 			</div>
 		</script>
 		<h2>Board</h2>
@@ -147,8 +147,7 @@
 			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in fullList | filter:{status:'boardmember'}">
 				<a href="" ng-click="open(member)"><img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle blue"/></a>
 				<br/>
-				<h3><a href="">{{member.name}}<br/>{{member.surname}}</a></h3>
-				<p><a href="" ng-click="open(member)">@{{member.nick}}</a></p>
+				<h3><a ng-click="open(member)" href="" class="black">{{member.name}}<br/>{{member.surname}}</a></h3>
 				<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.stackoverflow" ng-href="{{member.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
 				<br/>
 
@@ -159,8 +158,7 @@
 			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in fullList | filter:{status:'independent'}">
 				<a href="" ng-click="open(member)"><img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle orange"/></a>
 				<br/>
-				<h3>{{member.name}}<br/>{{member.surname}}</h3>
-				<p><a href="" ng-click="open(member)">@{{member.nick}}</a></p>
+				<h3><a ng-click="open(member)" href="" class="black">{{member.name}}<br/>{{member.surname}}</a></h3>
 				<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.stackoverflow" ng-href="{{member.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
 				<br/>
 			</div>
@@ -170,8 +168,7 @@
 			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in fullList | filter:{status:'alfresco'}">
 				<a href="" ng-click="open(member)"><img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle green"/></a>
 				<br/>
-				<h3>{{member.name}}<br/>{{member.surname}}</h3>
-				<p><a href="" ng-click="open(member)">@{{member.nick}}</a></p>
+				<h3><a ng-click="open(member)" href="" class="black">{{member.name}}<br/>{{member.surname}}</a></h3>
 				<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.stackoverflow" ng-href="{{member.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
 				<br/>
 			</div>

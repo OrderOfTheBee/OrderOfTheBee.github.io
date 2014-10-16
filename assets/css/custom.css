@@ -10,7 +10,12 @@ body {
 
 a {
 	text-decoration: underline; 
-	color: #3a3a3a;
+	color: #388534;
+}
+
+a:hover, a:focus {
+	text-decoration: none; 
+	color: #388534;
 }
 
 a.black:hover, a.black:focus, a.black {
