@@ -4,6 +4,22 @@
 		"territory": [ "Brazil" ],
 		"status":"Company",
 		"summary": "<p>DGCloud deploys customised Document Management System (DMS) solutions based on the Alfresco that allow you to simplify your business. Through the provision of integrated solutions for content management and process automation, our customers can realise the maximum potential of their digital assets with low cost, high professional quality and efficiency.</p>",
+		"repos" : [
+			{
+				"name": "alfresco-colleagues-picker-form-control",
+				"link": "https://github.com/douglascrp/alfresco-colleagues-picker-form-control"
+			},
+			{
+				"name": "share-form-control-dependency",
+				"link": "https://github.com/douglascrp/share-form-control-dependency"
+			}
+		],
+		"blogs": [
+			{
+				"title": "IT Tips",
+				"link": "http://douglascrp.blogspot.ru/"
+			}
+		],
 		"website": "http://dgcloud.com.br/"
 	},
 	{
@@ -11,6 +27,12 @@
 		"territory": ["Croatia", "France", "United Kingdom" ],
 		"status":"Freelancer",
 		"summary":"<p>I build custom solutions based on Alfresco and many time there is a complete custom UI involved.</p><p>As all of the 'alfrescians' I work with Share too and build custom widgets. To describe my work I would say <strong>Alfresco system integrator</strong> :) as there is a lot of integrations that have to be done in order to have a functionnal application (from simple custom DB access to custom content store).</p>",
+		"repos" : [
+			{
+				"name": "alfresco @mvc",
+				"link": "https://github.com/dgradecak/alfresco-mvc"
+			}
+		],
 		"website": "http://www.gradecak.com/"
 	},
 	{
@@ -18,6 +40,39 @@
 		"territory": [ "USA" ],
 		"status":"Company",
 		"summary": "<p>Metaversant offers consulting services around open source content management technology. We are Alfresco experts but our passion extends to a number of <strong>content management</strong>, <strong>business process management</strong>, and <strong>search technologies</strong>.</p><p>We <strong>build custom solutions</strong> designed to help you share your digital assets with the right people, at the right time, in a secure way. Metaversant consultants have been helping Fortune 500 and Global 2000 clients collaborate around rich media, unstructured, and semi-structured data for nearly 20 years.</p><p>Our team is led by Jeff Potts, a well-respected member of the Alfresco community. We are headquartered in Dallas, Texas, but our clients are all over the world.</p>",
+		"repos" : [
+			{
+				"name": "share-site-space-templates",
+				"link": "https://github.com/jpotts/share-site-space-templates"
+			},
+			{
+				"name": "Source code from the Alfresco Developer Series tutorials",
+				"link": "https://github.com/jpotts/alfresco-developer-series"
+			}
+		],
+		"blogs": [
+			{
+				"title": "ECM Architect",
+				"link": "http://ecmarchitect.com/"
+			}
+		],
+		"customers": [ 
+			{ 
+				"name": "E Source",
+				"link": "http://www.metaversant.com/client-stories/e-source/",
+				"story": "http://www.metaversant.com/client-stories/e-source/"
+			},
+			{ 
+				"name": "VelocityMG",
+				"link": "http://www.metaversant.com/client-stories/velocitymg/",
+				"story": "http://www.metaversant.com/client-stories/velocitymg/"
+			},
+			{ 
+				"name": "Biogen Idec",
+				"link": "http://www.metaversant.com/client-stories/biogen-idec/",
+				"story": "http://www.metaversant.com/client-stories/biogen-idec/"
+			}
+		],
 		"website": "http://www.metaversant.com/"
 	},
 	{
@@ -25,6 +80,26 @@
 		"territory": [ "Sweden" ],
 		"status":"Company",
 		"summary": "<p>Loftux AB is a company specialized in solutions for document management and more general information management based on open source products and Alfresco.</p><p>Loftux AB can offer you services around analysis, implementation, training and support. We will help you get started and reach the true value of the information you have stored in fast and cost effective way.</p>",
+		"repos" : [
+			{
+				"name": "Manual Manager",
+				"link": "https://github.com/loftuxab/manual-manager"
+			},
+			{
+				"name": "Enhanced Form Controls for Share",
+				"link": "https://github.com/loftuxab/enhanced-form-controls"
+			},
+			{
+				"name": "Alfresco Ubuntu install",
+				"link": "https://github.com/loftuxab/alfresco-ubuntu-install"
+			}
+		],
+		"blogs": [
+			{
+				"title": "Company Blog",
+				"link": "https://loftux.se/en/blog"
+			}
+		],
 		"website": "http://www.loftux.com/"
 	},
 	{
@@ -39,6 +114,43 @@
 			}
 		],
 		"summary": "<p>keen<strong>soft</strong> provides consulting and development services related to content management based on Alfresco. We have also wide experience on mobility, record management, big data and electronic signature.</p><p>Our task is analize, design and deliver IT solutions which help our customers to achieve their most ambitious goals. Our services are offered in a quick and pragmatic way.</p><p>We have been collaborating with large companies in Spain and UK, building together creative solutions around content delivery.</p>",
+		"blogs": [
+			{
+				"title": "Company Blog",
+				"link": "http://www.keensoft.es/category/blog/"
+			},
+			{
+				"title": "Angel Borroy's Blog",
+				"link": "http://angelborroy.wordpress.com/"
+			}
+		],
+		"repos": [
+			{
+				"name": "alfresco-js-chat-share",
+				"link": "https://github.com/keensoft/alfresco-js-chat-share"
+			},
+			{
+				"name": "alfresco-datalist-constraints",
+				"link": "https://github.com/keensoft/alfresco-datalist-constraints"
+			},
+			{
+				"name": "ALFRESCO disable-create-missing-people",
+				"link": "https://github.com/keensoft/disable-create-missing-people"
+			}
+		],
 		"website": "http://www.keensoft.es/"
+	},
+	{
+		"name":"Tomas Kubik",
+		"territory": [ "Czech Republic", "Slovakia", "Poland", "Germany", "Austria", "Russia" ],
+		"status":"Freelancer",
+		"summary": "<p>I develop, teach and integration Alfresco from version 3.4 to actual. I build many custom advanced workflow with Activiti engine or Bonita engine integrated with Alfresco. I develop many customization, widgets and dashlets to Share. Everything, every idea, is possible with Alfresco! :-)</p>",
+		"blogs": [
+			{
+				"title": "Blog",
+				"link": "http://alfresco-ecm.cz"
+			}
+		],
+		"website": "http://www.keensoft.es/"	
 	}
 ]
