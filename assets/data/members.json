@@ -63,6 +63,17 @@
 		"contributions": "<ul><li>I was a bit involved in the Maven SDK in the early days.</li><li>Been contributing a bit in translating.</li><li>Tries to help out on stackoverflow (and in the forums) as <a href='http://stackoverflow.com/users/981892/billerby' target='_blank'>@billerby</a>.</li><li>Maintain the <a href='https://github.com/Redpill-Linpro/alfresco-listmanager' target='_blank'>Alfresco Listmanager add-on</a>.</li></ul>"
 	},
 	{
+		"name": "Adrian",
+		"surname": "Blakey",
+		"nick": "adrianblakey",
+		"status": "independent",
+		"github": "adrianjblakey",
+		"linkedin" : "https://www.linkedin.com/in/adrianblakey",
+		"twitter" : "adrianblakey",
+		"summary": "<p>I work as an IT architect for Delta Dental of California. I am the leader of the project to install and integrate Alfresco Enterprise as our enterprise document management system.</p>",
+		"contributions": "<p>My open source involvement has been as a code contributor to <a href='http://infogrid.org' target='_blank'>http://infogrid.org</a>.</p>"
+	},
+	{
 		"name": "Angel",
 		"surname": "Borroy",
 		"nick": "AngelBorroy",
@@ -73,6 +84,16 @@
 		"linkedin" : "http://es.linkedin.com/in/angelborroy/en",
 		"twitter" : "AngelBorroy",
 		"contributions": "<p>Developing Alfresco customizations, snippets and some kind of tips at <a href='http://www.keensoft.es' target='_blank'>www.keensoft.es</a> and <a href='http://angelborroy.wordpress.com' target='_blank'>angelborroy.wordpress.com</a>.</p>"
+	},
+	{
+		"name": "Juan de la Cruz",
+		"surname": "Calvo Pozo",
+		"nick": "juanitolol",
+		"status": "independent",
+		"linkedin" : "http://es.linkedin.com/in/juandelacruzcalvo/en",
+		"twitter" : "juanitolol",
+		"summary": "ECM enthusiast, working with Alfresco since 2008 and always connected to the spanish community.",
+		"contributions": "<ul><li>Presentations on Meetups in Spain & London</li><li>Alfresco Sync Desktop Client contributions</li><li>Share Chat extension, pending to be approved</a></li></ul>"
 	},
 	{
 		"name": "Cesar",
@@ -209,6 +230,17 @@
 		"contributions": "<p>One of the optimizations I did in my Alfresco, was to migrate from MySQL to Postgres, using <a href='https://gist.github.com/mgarces/9915424' target='_blank'>DBTransfer</a>.</p>"
 	},
 	{
+		"name": "Matjaž",
+		"surname": "Godec",
+		"nick": "GodecMatjaz",
+		"status": "independent",
+		"twitter": "GodecMatjaz",
+		"googleplus": "https://plus.google.com/+Matja%C5%BEGodec",
+		"linkedin": "http://si.linkedin.com/pub/matjaž-godec/10/70a/218",
+		"summary": "<p>I'm OpenSource IT implementer since 1993, when I started using Linux at home and later in company which I also partly own.</p>",
+		"contributions": "<ul><li><a href='https://crowdin.net/project/alfresco/sl' target='_blank'>Alfresco Slovenian translation</a></li><li>few post on <a href='http://issues.alfresco.com' target='_blank'>issues.alfresco.com</a> and <a href='http://forums.alfresco.com/' target='_blank'>forums</a></li></ul>"
+	},
+	{
 		"name": "Fernando",
 		"surname": "González",
 		"nick": "fegorama",
@@ -294,6 +326,18 @@
 		"stackoverflow": "http://stackoverflow.com/users/28930/jonas-heylen",
 		"summary": "<p>Alfresco consultant since 2007.</p>",
 		"contributions": "<ul><li>Alfresco User Group Belgium & Hackathon attendee</li><li>Regularly answering questions on IRC, the Alfresco forums and StackOverflow</li><li>Creator and moderator of the <a href='http://www.reddit.com/r/alfresco' target='_blank'>Alfresco subreddit</a></li><li>Small Javascript utility script: <a href='https://github.com/JonasHeylen/elzar' target='_blank'>https://github.com/JonasHeylen/elzar</a></li></ul>"
+	},
+	{
+		"name": "Akinori",
+		"surname": "Ishii",
+		"nick": "akinori.ishii",
+		"status": "independent",
+		"github": "yumioka",
+		"googleplus": "https://plus.google.com/110603418146457297648/about",
+		"linkedin" : "http://jp.linkedin.com/pub/akinori-ishii/8/57a/931",
+		"twitter" : "yumioka",
+		"summary": "<p>An ECM consultant. Launched an ex-partner of Alfresco, aegif corporation. It was the very first Alfresco partner in Japan.</p>",
+		"contributions": "<ul><li>writing about ECM, OSS, Alfresco, Liferay in <a href='http://aegif-cto.blogspot.jp/' target='_blank'>aegif CTO blog</a></li></ul>"
 	},
 	{
 		"name": "Ole Lykke",
@@ -606,6 +650,17 @@
 		"blog": "http://becpg.blogspot.ru/",
 		"googleplus": "https://plus.google.com/102197867651458394700/about",
 		"contributions" : "<ul><li><a href='https://addons.alfresco.com/addons/becpg-model-designer-alfresco' target='_blank'>Alfresco Model Designer</a></li><li><a href='https://addons.alfresco.com/addons/becpg-project-manager-alfresco' target='_blank'>Alfresco Project Manager</a></li><li><a href='https://addons.alfresco.com/addons/becpg-plm-alfresco' target='_blank'>beCPG PLM for Alfresco</a></li></ul>"
+	},
+	{
+		"name": "Nicolas",
+		"surname": "Raoul",
+		"nick": "nicolas-raoul",
+		"status": "independent",
+		"linkedin" : "http://jp.linkedin.com/in/nicolasraoul",
+		"blog": "http://nicolas-raoul.blogspot.ru/",
+		"github": "https://github.com/nicolas-raoul",
+		"summary": "<p>Converted to Alfresco by my friend Romain Guinot in 2008. Working as an Alfreco consultant at Aegif, former Alfresco partner in Japan.</p><p>More about me: <a href='http://nrw.free.fr/' target='_blank'>http://nrw.free.fr/</a>.</p>",
+		"contributions" : "<ul><li>I maintain <a href='https://github.com/aegif/CmisSync' target='_blank'>CmisSync</a>, a Dropbox-like desktop client for Alfresco. Open Source of course.</li><li>Participated in the Milan 2009 trainer training where we designed the first Alfresco examination.</li><li>Check-out and check-in easily from your Linux file explorer: <a href='https://github.com/nicolas-raoul/AlfrescoLinuxMacCheckInOut' target='_blank'>AlfrescoLinuxMacCheckInOut</a></li><li>Monitor Alfresco's database connection pool: <a href='https://github.com/nicolas-raoul/Commons-DBCP-monitoring' target='_blank'>Commons-DBCP-monitoring</a></li><li>Actively contribute to <a href='https://issues.alfresco.com/jira/secure/ViewProfile.jspa?name=nicolas+raoul' target='_blank'>Alfresco JIRA</a>, Alfresco <a href='https://forums.alfresco.com/users/nicolas-raoul' target='_blank'>forums</a>, <a href='http://stackoverflow.com/search?q=user:226958+[alfresco]' target='_blank'>Stackoverflow</a>.</li><li>We run a monthly Alfresco meetup in Tokyo.</li></ul>"
 	},
 	{
 		"name": "Heiko",
