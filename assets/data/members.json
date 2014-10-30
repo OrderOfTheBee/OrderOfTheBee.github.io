@@ -762,6 +762,7 @@
 		"status": "independent",
 		"linkedin" : "http://ca.linkedin.com/in/benswitzer",
 		"twitter" : "riot_technology",
+		"blog": "http://benswitzer.wordpress.com/",
 		"contributions" : "<ul><li>active role in the Alfresco forums</li><li>reported bugs in Alfresco Community to Alfresco</li><li>provided patches for Community to Alfresco</li><li>testing and providing feedback for various Alfresco add-ons</li></ul>"
 	},
 	{
