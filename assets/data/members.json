@@ -659,6 +659,7 @@
 		"linkedin" : "http://jp.linkedin.com/in/nicolasraoul",
 		"blog": "http://nicolas-raoul.blogspot.ru/",
 		"github": "nicolas-raoul",
+		"twitter" : "CmisSync1",
 		"summary": "<p>Converted to Alfresco by my friend Romain Guinot in 2008. Working as an Alfreco consultant at Aegif, former Alfresco partner in Japan.</p><p>More about me: <a href='http://nrw.free.fr/' target='_blank'>http://nrw.free.fr/</a>.</p>",
 		"contributions" : "<ul><li>I maintain <a href='https://github.com/aegif/CmisSync' target='_blank'>CmisSync</a>, a Dropbox-like desktop client for Alfresco. Open Source of course.</li><li>Participated in the Milan 2009 trainer training where we designed the first Alfresco examination.</li><li>Check-out and check-in easily from your Linux file explorer: <a href='https://github.com/nicolas-raoul/AlfrescoLinuxMacCheckInOut' target='_blank'>AlfrescoLinuxMacCheckInOut</a></li><li>Monitor Alfresco's database connection pool: <a href='https://github.com/nicolas-raoul/Commons-DBCP-monitoring' target='_blank'>Commons-DBCP-monitoring</a></li><li>Actively contribute to <a href='https://issues.alfresco.com/jira/secure/ViewProfile.jspa?name=nicolas+raoul' target='_blank'>Alfresco JIRA</a>, Alfresco <a href='https://forums.alfresco.com/users/nicolas-raoul' target='_blank'>forums</a>, <a href='http://stackoverflow.com/search?q=user:226958+[alfresco]' target='_blank'>Stackoverflow</a>.</li><li>We run a monthly Alfresco meetup in Tokyo.</li></ul>"
 	},
