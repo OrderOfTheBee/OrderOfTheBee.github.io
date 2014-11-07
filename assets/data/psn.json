@@ -152,5 +152,44 @@
 			}
 		],
 		"website": "http://www.keensoft.es/"	
+	},
+	{
+		"name":"aegif",
+		"territory": [ "Japan" ],
+		"status":"Company",
+		"summary": "<p>aegif is a consulting firm specialized in ECM, it was the first Alfresco partner in Asia, and offers consulting, integration, support and training for Alfresco.</p><p>aegif authored most of Alfresco's Japanese localization, and runs a bi-monthly Alfresco user group in Tokyo. Rooted in the Open Source and interoperability movement, aegif strongly believes in the power of the CMIS protocol, and has emerged as Asia's CMIS specialist.",
+		"repos" : [
+			{
+				"name": "Change Share locale",
+				"link": "https://addons.alfresco.com/addons/change-share-locale"
+			},
+			{
+				"name": "CmisSync",
+				"link": "https://github.com/aegif/CmisSync"
+			},
+			{
+				"name": "Alfresco check-in/check-out for Linux",
+				"link": "https://github.com/nicolas-raoul/AlfrescoLinuxMacCheckInOut"
+			},
+			{
+				"name": "WebCMIS",
+				"link": "https://github.com/nicolas-raoul/WebCMIS"
+			}
+		],
+		"blogs": [
+			{
+				"title": "aegif Labo Blog",
+				"link": "http://aegif-labo.blogspot.jp"
+			},
+			{
+				"title": "aegif CTO Blog ",
+				"link": "http://aegif-cto.blogspot.jp/"
+			},
+			{
+				"title": "Cathedral Break in Action",
+				"link": "http://blogs.itmedia.co.jp/sugimoto/"
+			}
+		],
+		"website": "http://aegif.jp/"
 	}
 ]
