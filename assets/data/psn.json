@@ -3,7 +3,7 @@
 		"name":"DGCloud",
 		"territory": [ "Brazil" ],
 		"status":"Company",
-		"summary": "<p>DGCloud deploys customised Document Management System (DMS) solutions based on the Alfresco that allow you to simplify your business. Through the provision of integrated solutions for content management and process automation, our customers can realise the maximum potential of their digital assets with low cost, high professional quality and efficiency.</p>",
+		"summary": "<p>DGCloud deploys customised Document Management System (DMS) solutions based on Alfresco that allow you to simplify your business. Through the provision of integrated solutions for content management and process automation, our customers can realise the maximum potential of their digital assets with low cost, high professional quality and efficiency.</p>",
 		"repos" : [
 			{
 				"name": "alfresco-colleagues-picker-form-control",
@@ -26,7 +26,7 @@
 		"name":"Daniel Gradecak",
 		"territory": ["Croatia", "France", "United Kingdom" ],
 		"status":"Freelancer",
-		"summary":"<p>I build custom solutions based on Alfresco and many time there is a complete custom UI involved.</p><p>As all of the 'alfrescians' I work with Share too and build custom widgets. To describe my work I would say <strong>Alfresco system integrator</strong> :) as there is a lot of integrations that have to be done in order to have a functionnal application (from simple custom DB access to custom content store).</p>",
+		"summary":"<p>I build custom solutions based on Alfresco and many time there is a complete custom UI involved.</p><p>As all of the 'alfrescians' I work with Share too and build custom widgets. To describe my work I would say <strong>Alfresco system integrator</strong> :) as there is a lot of integration that has to be done in order to have a functional application (from simple custom DB access to custom content store).</p>",
 		"repos" : [
 			{
 				"name": "alfresco @mvc",
@@ -79,7 +79,7 @@
 		"name":"Loftux",
 		"territory": [ "Sweden" ],
 		"status":"Company",
-		"summary": "<p>Loftux AB is a company specialized in solutions for document management and more general information management based on open source products and Alfresco.</p><p>Loftux AB can offer you services around analysis, implementation, training and support. We will help you get started and reach the true value of the information you have stored in fast and cost effective way.</p>",
+		"summary": "<p>Loftux AB is a company specialized in solutions for document management and more general information management based on open source products and Alfresco.</p><p>Loftux AB can offer you services around analysis, implementation, training and support. We will help you get started and reach the true value of the information you have stored in a fast and cost effective way.</p>",
 		"repos" : [
 			{
 				"name": "Manual Manager",
@@ -113,7 +113,7 @@
 				"story": "/stories/bne/"
 			}
 		],
-		"summary": "<p>keen<strong>soft</strong> provides consulting and development services related to content management based on Alfresco. We have also wide experience on mobility, record management, big data and electronic signature.</p><p>Our task is analize, design and deliver IT solutions which help our customers to achieve their most ambitious goals. Our services are offered in a quick and pragmatic way.</p><p>We have been collaborating with large companies in Spain and UK, building together creative solutions around content delivery.</p>",
+		"summary": "<p>keen<strong>soft</strong> provides consulting and development services related to content management based on Alfresco. We have also wide experience on mobility, record management, big data and electronic signature.</p><p>Our task is analyze, design and deliver IT solutions which help our customers to achieve their most ambitious goals. Our services are offered in a quick and pragmatic way.</p><p>We have been collaborating with large companies in Spain and UK, building together creative solutions around content delivery.</p>",
 		"blogs": [
 			{
 				"title": "Company Blog",
@@ -144,7 +144,7 @@
 		"name":"Tomas Kubik",
 		"territory": [ "Czech Republic", "Slovakia", "Poland", "Germany", "Austria", "Russia" ],
 		"status":"Freelancer",
-		"summary": "<p>I develop, teach and integration Alfresco from version 3.4 to actual. I build many custom advanced workflow with Activiti engine or Bonita engine integrated with Alfresco. I develop many customization, widgets and dashlets to Share. Everything, every idea, is possible with Alfresco! :-)</p>",
+		"summary": "<p>I develop, teach and integrate Alfresco from version 3.4 to actual. I build many custom advanced workflows with Activiti engine or Bonita engine integrated with Alfresco. I develop many customization, widgets and dashlets for Share. Everything, every idea, is possible with Alfresco! :-)</p>",
 		"blogs": [
 			{
 				"title": "Blog",
@@ -152,5 +152,44 @@
 			}
 		],
 		"website": "http://www.keensoft.es/"	
+	},
+	{
+		"name":"aegif",
+		"territory": [ "Japan" ],
+		"status":"Company",
+		"summary": "<p>aegif is a consulting firm specialized in ECM, it was the first Alfresco partner in Asia, and offers consulting, integration, support and training for Alfresco.</p><p>aegif authored most of Alfresco's Japanese localization, and runs a bi-monthly Alfresco user group in Tokyo. Rooted in the Open Source and interoperability movement, aegif strongly believes in the power of the CMIS protocol, and has emerged as Asia's CMIS specialist.",
+		"repos" : [
+			{
+				"name": "Change Share locale",
+				"link": "https://addons.alfresco.com/addons/change-share-locale"
+			},
+			{
+				"name": "CmisSync",
+				"link": "https://github.com/aegif/CmisSync"
+			},
+			{
+				"name": "Alfresco check-in/check-out for Linux",
+				"link": "https://github.com/nicolas-raoul/AlfrescoLinuxMacCheckInOut"
+			},
+			{
+				"name": "WebCMIS",
+				"link": "https://github.com/nicolas-raoul/WebCMIS"
+			}
+		],
+		"blogs": [
+			{
+				"title": "aegif Labo Blog",
+				"link": "http://aegif-labo.blogspot.jp"
+			},
+			{
+				"title": "aegif CTO Blog ",
+				"link": "http://aegif-cto.blogspot.jp/"
+			},
+			{
+				"title": "Cathedral Break in Action",
+				"link": "http://blogs.itmedia.co.jp/sugimoto/"
+			}
+		],
+		"website": "http://aegif.jp/"
 	}
 ]
