@@ -203,8 +203,23 @@ img.center {
 
 /* sections specific */
 
-#home {
+.bg-lg {
 	background: url(/assets/img/bg1.jpg) no-repeat center center scroll; 
+}
+
+.bg-md {
+	background: url(/assets/img/bg2.jpg) no-repeat center center scroll; 
+}
+
+.bg-sm {
+	background: url(/assets/img/bg3.jpg) no-repeat center center scroll; 
+}
+
+.bg-xs {
+	background: url(/assets/img/bg4.jpg) no-repeat center center scroll; 
+}
+
+#home {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
