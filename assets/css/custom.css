@@ -204,7 +204,7 @@ img.center {
 /* sections specific */
 
 #home {
-	background: url(/assets/img/bg1.jpg) no-repeat center center fixed; 
+	background: url(/assets/img/bg1.jpg) no-repeat center center scroll; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
