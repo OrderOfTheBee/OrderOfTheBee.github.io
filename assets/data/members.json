@@ -698,6 +698,15 @@
 		"contributions": "<ul><li>Post in forums as srojas</li><li>Speaker in San Francisco and London summit 2014 (Top 10 Tricks to improve Alfresco Performance)</li><li>Contributor for Enterprise version with bug fixing from different companies from 2007</li></ul>"
 	},
 	{
+		"name": "Christophe",
+		"surname": "le Roux",
+		"nick": "christopheleroux",
+		"status": "independent",
+		"github": "christopheleroux",
+		"summary": "Alfresco developer since 2012",
+		"contributions": "<ul><li><a href='https://github.com/Itldev/Koya' target='_blank'>Corporate alfresco based dataroom module</a></li></ul>"
+	},
+	{
 		"name": "Luis",
 		"surname": "A. Sánchez",
 		"nick": "eleaese",
