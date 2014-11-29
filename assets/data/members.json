@@ -5,7 +5,19 @@
 		"nick": "DarkStar1",
 		"status": "independent",
 		"github": "DarkStar1",
-		"googleplus" : "https://plus.googleapis.com/114651076223403572060/about"
+		"googleplus" : "https://plus.googleapis.com/114651076223403572060/about",
+		"contributions": "<ul><li>Helping people on Alfresco IRC channel.</li></ul>"
+	},
+	{
+		"name": "Marcos",
+		"surname": "Abreu",
+		"nick": "abreums",
+		"status": "independent",
+		"github": "abreums",
+		"twitter": "abreums",
+		"blog": "http://cegisetera.wordpress.com",
+		"summary": "<p>Consultant at <a href='http://www.dioma.com.br/' target='_blank'>http://www.dioma.com.br/</a>.</p>",
+		"contributions": "<ul><li>Posting in my <a href='http://cegisetera.wordpress.com' target='_blank'>blog</a>.</li></ul>"
 	},
 	{
 		"name": "Fran",
@@ -207,6 +219,16 @@
 		"blog" : "http://robferguson.org/",
 		"stackoverflow" : "http://stackoverflow.com/users/2041596/rob-ferguson",
 		"contributions" : "<p>Just a few Alfresco-related post, for example: <a href='http://robferguson.org/2014/07/13/how-to-build-alfresco-using-subclipse-and-maven-on-osx-mavericks/' target='_blank'>HOW TO: Build Alfresco using Subclipse and MVN on OSX Mavericks</a></p>"
+	},
+	{
+		"name": "Sérgio",
+		"surname": "Ferreira",
+		"nick": "sergioaferreira",
+		"status": "independent",
+		"linkedin" : "pt.linkedin.com/pub/sérgio-ferreira/1/8b4/873",
+		"twitter": "sergioaferreira",
+		"summary": "Working with Alfresco since 2006, partner and director of MoreData, a global services company working from Lisbon",
+		"contributions" : "<ul><li>Portuguese Translation</li></ul>"
 	},
 	{
 		"name": "Jett",
@@ -739,6 +761,15 @@
 		"twitter" : "cleseach",
 		"summary": "<p>During my studies (10 years ago), I was an active member of my LUG. My first job was in a company specialized in open sourced solutions. In 2004, I started working in ECM with major products like Documentum and IBM FileNet. In 2006, I started exploring Alfresco as I felt it could be the open sourced ECM solutions I was dreaming of ;-)</p>",
 		"contributions": "<ul><li>Active participation in French forums</li><li>Writing blog posts at <a href='http://charles.torda.net' target='_blank'>http://charles.torda.net</a> when I have time</li><li>Explaining to a local business group (Nantes area, France) what is Alfresco and what we can do with it</li><li>Contributing to Alfresco Jira (<a href='https://issues.alfresco.com/jira/browse/MNT-9755' target='_blank'>MNT-9755</a>, <a href='https://issues.alfresco.com/jira/browse/ACE-1405' target='_blank'>ACE-1405</a>)</li><li>I also produced two Alfresco extensions (Image Finder, <a href='http://charles.torda.net/extensions-alfresco/my-network-dashlet/' target='_blank'>My Network dashlet</a>)... but they need to be updated</li></ul>"
+	},
+	{
+		"name": "William",
+		"surname": "Silva",
+		"nick": "williamsilva",
+		"status": "independent",
+		"blog" : "http://williamsilva.wordpress.com/",
+		"summary": "<p>Independent consultant of information management, analysis and implementation of solutions using ECM Alfresco Community in order to support the definition of document management, workflow and arquivos.Projetos of Corporate Portals, iShare ECM-virtual appliances, Cloud, SaaS, JEE, Activiti -BPM, Liferay Portal, Pentaho, etc.</p>",
+		"contributions": "<ul><li>Support in forums, lectures and consulting in government and private companies.</li><li>Evangelizer Alfresco</li></ul>"
 	},
 	{
 		"name": "Mark",
