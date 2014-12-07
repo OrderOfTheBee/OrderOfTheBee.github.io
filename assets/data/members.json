@@ -20,6 +20,16 @@
 		"contributions": "<ul><li>Posting in my <a href='http://cegisetera.wordpress.com' target='_blank'>blog</a>.</li></ul>"
 	},
 	{
+		"name": "Andrea",
+		"surname": "Agili",
+		"nick": "agea",
+		"status": "independent",
+		"github": "agea",
+		"linkedin": "http://it.linkedin.com/in/andreaagili",
+		"summary": "<p>I am a developer working mainly in Java and Javascript. I work with Alfresco since 2006.</p>",
+		"contributions": "<ul><li><a href='https://github.com/agea/Alfresco-HTML5-Client' target='_blank'>Alfresco HTML5 Client</a> - Pure HTML5 and Javascript Alfresco client</li><li><a href='https://github.com/agea/CmisJS' target='_blank'>CmisJS</a> - A CMIS javascript library for node and browser</li><li><a href='https://github.com/agea/cmis-web-workbench' target='_blank'>cmis-web-workbench</a> - A tool for developers who work with CMIS browser bindings</li></ul>"
+	},
+	{
 		"name": "Fran",
 		"surname": "Alvarez",
 		"nick": "fran7alvarez",
