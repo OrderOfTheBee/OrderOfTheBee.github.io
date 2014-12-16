@@ -418,6 +418,20 @@
 		"twitter" : "xkahn"
 	},
 	{
+		"name": "Deepak",
+		"surname": "Keswani",
+		"nick": "deepak_keswani",
+		"status": "independent",
+		"github": "DEEPAK-KESWANI",
+		"googleplus" : "https://plus.google.com/112344190444863782823/about",
+		"linkedin" : "http://in.linkedin.com/in/keswanideepak",
+		"blog" : "http://deepak-keswani.blogspot.in/",
+		"twitter" : "deepak_keswani",
+		"stackoverflow": "http://stackoverflow.com/users/1400298/deepak-keswani",
+		"summary": "<p>I'm working at Tech Mahindra, Hyderabad, India as a Sr. Software Engineer position. I have 5.0 years of Software Experience in development of enterprise web applications using Java technologies like Servlets, JSP, JSF, ICEFaces/RichFaces, FreeMarker, Hibernate, Spring, Lucene, Solr and Alfresco CMS (version 2.x, 3.x, 4.x and 5.x).</p>",
+		"contributions": "<ul><li><a href='http://addons.alfresco.com/addons/site-statistics' target='_blank'>Site Statistics dashlet</a></li></ul>"
+	},
+	{
 		"name": "Siniša",
 		"surname": "Komarica",
 		"nick": "skomarica",
@@ -495,6 +509,13 @@
 		"twitter" : "loftux"
 	},
 	{
+		"name": "Tijana",
+		"surname": "Lopicic",
+		"nick": "tijana-lopicic",
+		"status": "independent",
+		"linkedin" : "http://rs.linkedin.com/pub/tijana-lopicic/15/553/29"
+	},
+	{
 		"name": "Piergiorgio",
 		"surname": "Lucidi",
 		"nick": "pjlucidi",
@@ -560,9 +581,6 @@
 		"surname": "McMahon",
 		"nick": "cm360",
 		"status": "independent",
-		"github": "",
-		"linkedin" : "",
-		"twitter" : "",
 		"blog": "http://www.cm360.net/",
 		"summary": "I'm a recently (semi-)retired teacher who has been fortunate enough to become involved in some interesting IT projects (educational site using Drupal and business document management/process management/ISO 9000 using Alfresco). I'm learning rapidly but could not achieve anything without the help of groups like this one.",
 		"contributions": "<ul><li>So far I am not skilled enough to produce any code, modules, add-ons, etc. but I am trying to put what I learn into <a href='http://www.cm360.net/' target='_blank'>a blog</a> which may help others who are in the same situation.</li></ul>"
