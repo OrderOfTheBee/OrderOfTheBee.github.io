@@ -180,12 +180,20 @@
 		"status": "independent",
 		"github": "muralidharand",
 		"linkedin" : "http://in.linkedin.com/in/muralidharand",
-		"blog" : "",
 		"twitter" : "muralidharand",
 		"summary": "<p>Working for Quanticate.com as Technical Lead. Alfresco Customer.</p>",
 		"contributions": "<ul><li>I have shared my knowledge on <a href='http://www.codingfreaks.net/search/label/Alfresco' target='_blank'>Coding Freaks</a></li><li>Building Alfresco Community in Bangalore, India via <a href='http://www.meetup.com/Alfresco-Bangalore-Community' target='_blank'>meetup.com</a></li><li>Sharing my knowledge via <a href='http://www.slideshare.net/murali_quanticate' target='_blank'>slideshare</a> as well</li></ul>" 
 	},
-
+	{
+		"name": "Dominik",
+		"surname": "Danninger",
+		"nick": "ddanninger",
+		"status": "independent",
+		"github": "ddanninger",
+		"twitter" : "ddanninger",
+		"summary": "<p>I am from Austria, Vienna, currently is living and working in South Korea, Seoul. I started developing TCL when I was about 12 years old, started to develop PHP3 then, learned myself C#, now using mostly NodeJS and Java for Android. Hackathon winner. I am currently Partner at XKEY GmbH (<a href='http://www.xkey.at' target='_blank'>www.xkey.at</a>), we develop Software around PDF, web systems and more.</p>",
+		"contributions": "<ul><li><a href='https://github.com/XKEYGmbH/ifresco-client' target='_blank'>PHP written Client</a> for Alfresco Community 4.2.x</li><li><a href='https://chrome.google.com/webstore/detail/ifresco-toolbar-for-alfre/aihpjjddkpbdgdcpifbicaplkkmjmjmd?hl=en' target='_blank'>ifresco Google Chrome Toolbar</a> for Alfresco Community</li><li><a href='https://code.google.com/p/ifresco-php-library/' target='_blank'>Enhanced PHP5 library for Alfresco</a> (really outdated now as there are no SOAP services in 5.0)</li></ul>" 
+	},
 	{
 		"name": "Niklas",
 		"surname": "Ekman",
@@ -251,6 +259,14 @@
 		"contributions": "<p>DB2 Support for Alfresco Community:</p><ul><li><a href='https://addons.alfresco.com/addons/db2-support-alfresco-community' target='_blank'>https://addons.alfresco.com/addons/db2-support-alfresco-community</a></li><li><a href='https://github.com/jett/db2-alfresco' target='_blank'>https://github.com/jett/db2-alfresco</a></li></ul>"
 	},
 	{
+		"name": "Mathieu",
+		"surname": "Gavet",
+		"nick": "mathieu-gavet",
+		"status": "independent",
+		"linkedin": "http://fr.linkedin.com/pub/mathieu-gavet/3/917/b16",
+		"summary": "<p>ECM Projet Manager.</p>"
+	},
+	{
 		"name": "Marco",
 		"surname": "Garcês",
 		"nick": "mgarces",
@@ -285,6 +301,13 @@
 		"googleplus": "https://plus.google.com/112825776063711235328",
 		"summary": "<p>I am currently a senior consultant at Ricoh Spain Alfresco. Wear with Alfresco since version 1.4.</p>",
 		"contributions": "<p>I have done free projects like <a href='https://github.com/fegorama/alfviral' target='_blank'>Alfviral</a> (connector with antivirus), <a href='https://github.com/fegorama/alfcrypto' target='_blank'>CryptoAlf</a> (encrypted content) and AAT (audio indexing).</p>"
+	},
+	{
+		"name": "Mark",
+		"surname": "Goodnight",
+		"nick": "markgoodnight",
+		"status": "independent",
+		"summary": "<p>Content Management professional with over 30 years consulting in both physical and electronic RM and ECM systems. Alfresco integrator since 2007.</p>"
 	},
 	{
 		"name": "Daniel",
@@ -685,6 +708,19 @@
 		"blog": "http://alfrescopj.blogspot.in/",
 		"summary": "<p>I have been working with alfresco since 2011. I am working for Alfresco partners. I have done different customization of alfresco and share.</p>",
 		"contributions": "<ul><li>Active member on alfresco forums. Well, I try to answer the questions if i have worked on it. </li><li>I usually write blogs on <a href='http://alfrescoworkdesk.blogspot.in' target='_blank'>http://alfrescoworkdesk.blogspot.in</a> and <a href='http://alfrescopj.blogspot.in' target='_blank'>http://alfrescopj.blogspot.in</a> about various topics of alfresco whatever I found interesting and for which I felt that its knowledge should be shared.</li></ul>"
+	},
+	{
+		"name": "Paolo",
+		"surname": "Predonzani",
+		"nick": "paolopredonzani",
+		"status": "independent",
+		"github": "softwareloop",
+		"linkedin": "http://it.linkedin.com/in/paolopredonzani",
+		"googleplus": "https://plus.google.com/107755970358840458015",
+		"twitter": "softwareloop",
+		"blog": "http://softwareloop.com/",
+		"summary": "<p>I'm an Alfresco and Java freelancer passionate about well-written enterprise software. I think that writing open-source add-ons is a great way to share the knowledge and to provide useful application building blocks. My current interests include Aikau and Activiti.</p>",
+		"contributions": "<p>I'm the author of two add-ons:</p><ul><li><a href='https://addons.alfresco.com/addons/uploader-plus' target='_blank'>uploader-plus</a></li><li><a href='https://addons.alfresco.com/addons/alfresco-inboxes' target='_blank'>alfresco-inboxes</a></li></ul><p>I keep them documented as much as possible on my personal blog.</p>"
 	},
 	{
 		"name": "Philippe",
