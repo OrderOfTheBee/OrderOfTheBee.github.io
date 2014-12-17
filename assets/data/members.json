@@ -303,13 +303,6 @@
 		"contributions": "<p>I have done free projects like <a href='https://github.com/fegorama/alfviral' target='_blank'>Alfviral</a> (connector with antivirus), <a href='https://github.com/fegorama/alfcrypto' target='_blank'>CryptoAlf</a> (encrypted content) and AAT (audio indexing).</p>"
 	},
 	{
-		"name": "Mark",
-		"surname": "Goodnight",
-		"nick": "markgoodnight",
-		"status": "independent",
-		"summary": "<p>Content Management professional with over 30 years consulting in both physical and electronic RM and ECM systems. Alfresco integrator since 2007.</p>"
-	},
-	{
 		"name": "Daniel",
 		"surname": "Gradecak",
 		"nick": "dgradecak",
@@ -1028,6 +1021,16 @@
 		"blog" : "http://rgauss.com/",
 		"twitter" : "rgauss",
 		"summary": "<p>DAM Architect at Alfresco</p>"
+	},
+	{
+		"name": "Mark",
+		"surname": "Goodnight",
+		"nick": "markgoodnight",
+		"status": "alfresco",
+		"linkedin": "http://www.linkedin.com/pub/mark-goodnight-pmp-ermp/99/703/339",
+		"twitter": "nudojo",
+		"github": "mgoodnight27",
+		"summary": "<p>Content Management professional with over 30 years consulting in both physical and electronic RM and ECM systems. Alfresco integrator since 2007.</p>"
 	},
 	{
 		"name": "Paul",
