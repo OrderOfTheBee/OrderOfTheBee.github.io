@@ -157,7 +157,7 @@
 		"name":"aegif",
 		"territory": [ "Japan" ],
 		"status":"Company",
-		"summary": "<p>aegif is a consulting firm specialized in ECM, it was the first Alfresco partner in Asia, and offers consulting, integration, support and training for Alfresco.</p><p>aegif authored most of Alfresco's Japanese localization, and runs a bi-monthly Alfresco user group in Tokyo. Rooted in the Open Source and interoperability movement, aegif strongly believes in the power of the CMIS protocol, and has emerged as Asia's CMIS specialist.",
+		"summary": "<p>aegif is a consulting firm specialized in ECM, it was the first Alfresco partner in Asia, and offers consulting, integration, support and training for Alfresco.</p><p>aegif authored most of Alfresco's Japanese localization, and runs a bi-monthly Alfresco user group in Tokyo. Rooted in the Open Source and interoperability movement, aegif strongly believes in the power of the CMIS protocol, and has emerged as Asia's CMIS specialist.</p>",
 		"repos" : [
 			{
 				"name": "Change Share locale",
@@ -191,5 +191,24 @@
 			}
 		],
 		"website": "http://aegif.jp/"
+	},
+	{
+		"name":"Venzia IT",
+		"territory": [ "Spain" ],
+		"status":"Company",
+		"summary": "<p>Venzia IT is a Spanish open source company specialized in consulting, development and integration of Java/J2EE products since 2004, strongly focused in Alfresco ECM/WCM expertise. Its activity covers web content solutions (WCM/ECM), Business Processes (BPM) and Business Inteligence (BI).</p>",
+		"repos" : [
+			{
+				"name": "MetaDBConnector Component for Alfresco Share",
+				"link": "https://code.google.com/p/alfresco-metadbconnector/source/browse/"
+			}
+		],
+		"blogs": [
+			{
+				"title": "Blog",
+				"link": "http://venzia.es/blog"
+			}
+		],
+		"website": "http://venzia.es/"
 	}
 ]
