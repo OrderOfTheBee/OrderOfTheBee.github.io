@@ -591,6 +591,19 @@
 		"contributions" : "<ul><li>coordinator of the Alfresco user group Belgium</li><li>Hackathon participant</li></ul>"
 	},
 	{
+		"name": "Rasmus",
+		"surname": "Melgaard",
+		"nick": "rasmus-melgaard",
+		"status": "independent",
+		"github": "tass01024",
+		"stackoverflow" : "http://stackoverflow.com/users/2060676/rasmus-melgaard",
+		"twitter" : "RasmusMelgaard",
+		"blog": "http://experiencewithalfresco.blogspot.no/",
+		"linkedin": "http://dk.linkedin.com/pub/rasmus-melgaard/1/ab0/1b1",
+		"summary": "<p>Alfresco freelancer.</p>",
+		"contributions" : "<ul><li>Developing Alfresco extensions (<a href='https://github.com/tass01024?tab=repositories' target='_blank'>Github</a> and <a href='https://code.google.com/u/113141735868010936936/' target='_blank'>Google Code</a>)</li><li>Helping people at <a href='http://stackoverflow.com/users/2060676/rasmus-melgaard' target='_blank'>StackOverflow</a></li></ul>"
+	},
+	{
 		"name": "Antonio David",
 		"surname": "Perez Morales",
 		"nick": "adperezmorales",
