@@ -973,6 +973,16 @@
 		"contributions" : "<p>I am an active community member on Alfresco forums and one of the top 5 contributor on <a href='http://forums.alfresco.com/forum/developer-discussions' target='_blank'>Developer Discussions forums</a>.</p>"
 	},
 	{
+		"name": "Takeshi",
+		"surname": "Totani",
+		"nick": "to2y",
+		"status": "independent",
+		"github": "to2y",
+		"linkedin" : "http://jp.linkedin.com/pub/takeshi-totani/2b/6b7/506/",
+		"summary": "<p>I have been working with Alfresco since 2007 in Japan. I am Alfresco Certified Engineer and Administrator.</p>",
+		"contributions" : "<ul><li>I help organize the Alfresco Study meeting once a month in Tokyo</li><li><a href='https://github.com/to2y/AlfrescoOnlineEditWebDAV' target='_blank'>Alfresco extension: Online document edition via WebDAV</a></li><li>I write articles about Alfresco at <a href='http://aegif-labo.blogspot.jp/' target='_blank'>aegif labo blog.</a></li></ul>"
+		},
+	{
 		"name": "Mehdi",
 		"surname": "BELMEKKI",
 		"nick": "belmekki",
