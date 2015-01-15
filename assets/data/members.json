@@ -570,6 +570,18 @@
 		"contributions": "<ul><li>Spanish forums contributor (first named Guru member)</li><li><a href='http://wiki.alfresco.com/wiki/Contributor_of_the_Month' target='_blank'>Alfresco contributor of the month</a></li><li><a href='http://wiki.alfresco.com/wiki/Chumby_Awards#June_2009.2C_Javier_Martinez' target='_blank'>Chumby award winner</a></li><li>Lead of <a href='https://addons.alfresco.com/addons/alfresco-metadbconnector-component' target='_blank'>Alfresco MetaDBConnector module contribution</a></li></ul>"
 	},
 	{
+		"name": "Samuel",
+		"surname": "Masué",
+		"nick": "smasue",
+		"status": "independent",
+		"github": "smasue",
+		"linkedin" : "http://ch.linkedin.com/in/samuelmasue",
+		"googleplus": "https://plus.google.com/u/0/100576411137255271979/about",
+		"blog": "http://smasue.github.io/",
+		"summary": "I am software engineer with a java background. I work in Geneva area. And for a year I work on a project with Alfresco.",
+		"contributions": "<ul><li>I share my experience with Alfresco in a <a href='http://smasue.github.io/' target='_blank'>blog</a></li></ul>"
+	},
+	{
 		"name": "Colin",
 		"surname": "McMahon",
 		"nick": "cm360",
