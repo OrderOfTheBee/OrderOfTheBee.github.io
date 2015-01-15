@@ -151,7 +151,30 @@
 				"link": "http://alfresco-ecm.cz"
 			}
 		],
-		"website": "http://www.keensoft.es/"	
+		"website": "http://alfresco-ecm.cz/"	
+	},
+	{
+		"name":"Paolo Predonzani",
+		"territory": [ "Italy" ],
+		"status":"Freelancer",
+		"summary": "<p>I'm an Alfresco Certified Engineer specialised in Share customisations, advanced workflows and integration with existing applications.</p><p>I can help customers start their first project with Alfresco or I can work on the customer's existing code.</p><p>I have international professional experience, including 4 years in the UK. International enquiries are welcome.</p>",
+		"blogs": [
+			{
+				"title": "Blog",
+				"link": "http://softwareloop.com/"
+			}
+		],
+		"repos" : [
+			{
+				"name": "An Alfresco uploader that prompts for metadata",
+				"link": "https://github.com/softwareloop/uploader-plus"
+			},
+			{
+				"name": "An inbox plugin for Alfresco implemented using the Aikau framework",
+				"link": "https://github.com/softwareloop/alfresco-inboxes"
+			}
+		],
+		"website": "http://softwareloop.com/"	
 	},
 	{
 		"name":"aegif",
