@@ -1025,6 +1025,16 @@
 		"contributions" : "<ul><li>Founder, main contributor and benevolent dictator of the <a href='https://github.com/Alfresco/alfresco-sdk/' target='_blank'>Alfresco SDK</a>.</li><li>Apache committer and release manager for OpenCMIS, formerly for Spring Surf.</li></ul>"
 	},
 	{
+		"name": "Kevin",
+		"surname": "Dorr",
+		"nick": "KevinDorr",
+		"status": "alfresco",
+		"googleplus" : "https://plus.google.com/104034148599551462219/about",
+		"linkedin" : "www.linkedin.com/pub/kevin-dorr/1/a17/442",
+		"summary": "<p>I have been the Alfresco Solutions Engineer for the partner channel in the US and Canada since 2011. I have about 10 years of ECM experience using Documentum and Alfresco, and have about 30 years of software development experience overall. I have lots of experience developing applications using Java, XML, and XML text generation standards, such as DITA.</p>",
+		"contributions" : "<ul><li>I have been a speaker at Alfresco DevCon/Summit since 2011, discussing both Records Management and user interface / Aikau issues.</li><li>I have also tried to submit answers to questions on the Alfresco forums and in LinkedIn groups as time allows.</li><li>This year, I plan to start authoring a series of \"how-to\" documents around specific aspects of Alfresco development.</li></ul>"
+	},
+	{
 		"name": "Richard",
 		"surname": "Esplin",
 		"nick": "resplin",
