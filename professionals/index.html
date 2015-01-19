@@ -54,6 +54,9 @@
 		<br/><br/>
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+				<p>Many companies are looking for a team or a person who can implement a project based on Alfresco Community Edition. Or perhaps they need help to develop an extension or solve some specific task. Alfresco Software forbids partners to do paid work on Alfresco Community Edition, so it can be difficult to find an experienced, reliable team to help with Community Edition.</p>
+				<p>To address this, we are forming a list of well-known systems integrators and freelancers all over the world who can help you with Community Edition.</p>
+				<br/><br/>
 				<form class="form-inline">
 					<div class="form-group">
 						<label for="select">Country</label> 
@@ -105,8 +108,7 @@
 		<div class="row">
 			<br/>
 			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12" ng-repeat="item in fullList | filter:{territory: query} | filter: query2">
-				<h4 class="pull-right"><span class="label label-info" ng-show="item.status == 'Company'">{{item.status}}</span><span class="label label-warning" ng-show="item.status == 'Freelancer'">{{item.status}}</span></h4>
-				<h2>{{item.name}}</h2>
+				<h2><small><span class="label label-info" ng-show="item.status == 'Company'">{{item.status}}</span><span class="label label-warning" ng-show="item.status == 'Freelancer'">{{item.status}}</span></small>&nbsp;&nbsp;{{item.name}}</h2>
 				<p><strong>Territory</strong>: <span ng-repeat="country in item.territory"><a onclick="countryFilter((this.textContent || this.innerText))"><i>{{country}}</i></a><span ng-if="!$last">,</span> </span></p> 
 				<div ng-bind-html="item.summary"></div>
 				<br/>

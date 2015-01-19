@@ -32,18 +32,18 @@ app.controller('MembersCtrl', ['$scope', '$http', '$timeout', '$modal', function
 			templateUrl: 'MemberModalContent.html',
 			scope: $scope,
 			resolve: {
-				member: function()
+				item: function()
 				{
-					$scope.currentMember = _member;
+					$scope.currentItem = _member;
 				}
 			}
 		});
 	};
 }]);
 
-app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, member) {
+app.controller('ModalInstanceCtrl', function ($scope, $modalInstance, item) {
 
-  $scope.member = $scope.$parent.currentMember;
+  $scope.item = $scope.$parent.currentItem;
 
   $scope.cancel = function () {
     $modalInstance.dismiss('cancel');
@@ -54,7 +54,7 @@ app.controller('AddonsCtrl', ['$scope', '$http', function($scope, $http){
     $scope.addons = [];
     $http.get('/assets/data/addons.json').success(function(data) {
       $scope.addons = data;
-    })
+    });
   }]);
 
 app.controller('PSNCtrl', ['$scope', '$http', function($scope, $http){
@@ -117,4 +117,19 @@ app.directive("social", function() {
        templateUrl: "/elements/social.html"
     };
 });
-
+/*
+app.config(['$routeProvider',
+  function($routeProvider) {
+    $routeProvider.
+      when('/addons', {
+        templateUrl: 'elements/addons-list.html',
+        controller: 'AddonListCtrl'
+      }).
+      when('/addons/:addonId', {
+        templateUrl: 'elements/addons-description.html',
+        controller: 'AddonDetailCtrl'
+      }).
+      otherwise({
+        redirectTo: '/addons'
+      });
+  }]);*/
