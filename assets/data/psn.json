@@ -165,8 +165,12 @@
 		],
 		"repos": [
 			{
-				"name": "alfresco-spring-loaded-test",
-				"link": "https://github.com/ohej/alfresco-spring-loaded-test"
+				"name": "OpenESDH: Open Electronic document and records management",
+				"link": "https://github.com/OpenESDH/openesdh-core"
+			},
+			{
+				"name": "Magenta Aps organization",
+				"link": "https://github.com/magenta-aps"
 			}
 		],
 		"website": "http://magenta.dk/"
