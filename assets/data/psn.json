@@ -141,6 +141,37 @@
 		"website": "http://www.keensoft.es/"
 	},
 	{
+		"name":"Magenta Aps",
+		"territory": [ "Denmark" ],
+		"status":"Company",
+		"summary": "<p>Magenta provides solutions for content management, integrations, web and design. We have delivered Content Management Systems and document management primarily to large public sector institutions since 1999.</p><p>Over the recent years we have worked intensely on becoming the leading Danish supplier of products and services based on the concept 'open computing', meaning a solid focus on open standards and open source.</p><p>Magenta has specialised in developing advanced IT solutions, that not only function in the purely technical way, but also help our clients improving their communication and reaching their targets. We are able to do this because we have a strict focus on usability and user needs in our design information architecture and functionality.</p>",
+		"customers": [ 
+			{ 
+				"name": "Lyngby-Taarbæk Kommune",
+				"link": "http://www.ltk.dk/",
+				"story": "http://www.magenta.dk/kunder-og-cases/lyngby-taarbaek-kommune"
+			},
+			{
+				"name": "Nukissiorfiit",
+				"link": "https://www.nukissiorfiit.gl/",
+				"story": "http://www.magenta.dk/kunder-og-cases/nukissiorfiit"
+			}
+		],
+		"blogs": [
+			{
+				"title": "Oh-hai! Ole Hejlskov's Blog",
+				"link": "http://ohej.dk/"
+			}
+		],
+		"repos": [
+			{
+				"name": "alfresco-spring-loaded-test",
+				"link": "https://github.com/ohej/alfresco-spring-loaded-test"
+			}
+		],
+		"website": "http://magenta.dk/"
+	},
+	{
 		"name":"Tomas Kubik",
 		"territory": [ "Czech Republic", "Slovakia", "Poland", "Germany", "Austria", "Russia" ],
 		"status":"Freelancer",
