@@ -114,6 +114,17 @@ img.blue {
 	border:3px solid #005dab;
 }
 
+img.vote {
+	position: absolute;
+	float: right;
+	width: 50px;
+	right:10px;
+}
+
+img.vote-info {
+	width: 50px;
+}
+
 .bee-right {
         position: absolute;
         right: 20px;
