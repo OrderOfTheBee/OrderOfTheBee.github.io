@@ -145,7 +145,7 @@
 		<div class="row">
 			<div class="col-lg-1"></div>
 			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in fullList | filter:{status:'boardmember'}">
-				<a href="" ng-click="open(member)"><img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle blue"/></a>
+				<a href="" ng-click="open(member)"><img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle blue"/></a><img ng-show="member.voting" class="vote" src="/assets/img/bee.png" title="Voting Member">
 				<br/>
 				<h3><a ng-click="open(member)" href="" class="black">{{member.name}}<br/>{{member.surname}}</a></h3>
 				<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.stackoverflow" ng-href="{{member.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
@@ -156,7 +156,7 @@
 		<h2>Independent members</h2>
 		<div class="row">
 			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in fullList | filter:{status:'independent'}">
-				<a href="" ng-click="open(member)"><img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle orange"/></a>
+				<a href="" ng-click="open(member)"><img ng-src="/assets/img/members/{{member.nick}}.png" class="img-circle orange"/></a><img ng-show="member.voting" class="vote" src="/assets/img/bee.png" title="Voting Member">
 				<br/>
 				<h3><a ng-click="open(member)" href="" class="black">{{member.name}}<br/>{{member.surname}}</a></h3>
 				<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.stackoverflow" ng-href="{{member.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
@@ -175,6 +175,8 @@
 		</div>
 		<br/>
 		<p><a href="#joinrequest" class="btn btn-lg btn-info smooth"><i class="fa fa-arrow-down"></i> Join us</a></p>
+		<br/>
+		<p><img class="vote-info" src="/assets/img/bee.png" title="Voting Member"> - this icon means that a member is doing a lot for the Order and has right to vote and to become a Board member.</p>
 		<br/>
 	</div>
 
