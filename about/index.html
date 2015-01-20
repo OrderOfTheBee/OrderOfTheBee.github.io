@@ -117,7 +117,7 @@
 		<br/>
 		<script type="text/ng-template" id="MemberModalContent.html">
 			<div class="modal-header">
-				<h3>{{item.name}} {{item.surname}} ({{item.nick}})</h3>
+				<h3>{{item.name}} {{item.surname}} <small><span class="label label-info" ng-show="item.voting">Voting Member</span></small></h3>
 			</div>
 			<div class="modal-body">
 				<img ng-src="/assets/img/members/{{item.nick}}.png" class="img-circle right"/>
