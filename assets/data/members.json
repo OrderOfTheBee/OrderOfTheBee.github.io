@@ -247,10 +247,19 @@
 		"surname": "Ferreira",
 		"nick": "sergioaferreira",
 		"status": "independent",
-		"linkedin" : "pt.linkedin.com/pub/sérgio-ferreira/1/8b4/873",
+		"linkedin" : "http://pt.linkedin.com/pub/sérgio-ferreira/1/8b4/873",
 		"twitter": "sergioaferreira",
-		"summary": "Working with Alfresco since 2006, partner and director of MoreData, a global services company working from Lisbon",
+		"summary": "<p>Working with Alfresco since 2006, partner and director of MoreData, a global services company working from Lisbon</p>",
 		"contributions" : "<ul><li>Portuguese Translation</li></ul>"
+	},
+	{
+		"name": "Daren",
+		"surname": "Firminger",
+		"nick": "daren-firminger",
+		"status": "independent",
+		"voting": "yes",
+		"linkedin" : "http://uk.linkedin.com/pub/daren-firminger/0/499/a7b",
+		"summary": "Director and Owner of Digital Catalyst"
 	},
 	{
 		"name": "Jett",
