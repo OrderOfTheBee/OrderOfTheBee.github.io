@@ -54,6 +54,10 @@
 			{
 				"title": "ECM Architect",
 				"link": "http://ecmarchitect.com/"
+			},
+			{
+				"title": "Book: Alfresco Developer Guide",
+				"link": "https://www.packtpub.com/web-development/alfresco-developer-guide"
 			}
 		],
 		"customers": [ 
@@ -174,6 +178,27 @@
 			}
 		],
 		"website": "http://magenta.dk/"
+	},
+	{
+		"name":"Marver Solutions",
+		"territory": [ "United Kingdom", "Ireland" ],
+		"status":"Company",
+		"summary": "<p>Marver Solutions offers consulting services in the Enterprise Content Management (ECM) area.</p><p>Marver Solutions is led by Martin Bergljung – software architect and entrepreneur who has been working in the IT business for over 20 years. He has international experience working in the USA, Germany, Ireland, Sweden, Switzerland and UK where his company is now based.</p>",
+		"blogs": [
+			{
+				"title": "ECM Stuff Blog",
+				"link": "http://www.marversolutions.com/wordpress/ecm-stuff-blog/"
+			},
+			{
+				"title": "Book: Alfresco CMIS",
+				"link": "https://www.packtpub.com/web-development/alfresco-cmis"
+			},
+			{
+				"title": "Book: Alfresco 3 Business Solutions",
+				"link": "https://www.packtpub.com/web-development/alfresco-3-business-solutions"
+			}
+		],
+		"website": "http://www.marversolutions.com/"
 	},
 	{
 		"name":"Tomas Kubik",
