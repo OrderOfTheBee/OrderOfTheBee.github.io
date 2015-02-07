@@ -1123,6 +1123,17 @@
 		"contributions" : "<ul><li>I set up the original Community forums & wiki and was the most active person there for some time.</li><li>Now looking after <a href='http://activiti.org/' target='_blank'>Activiti</a>.</li></ul>"
 	},
 	{
+		"name": "Derek",
+		"surname": "Hulley",
+		"nick": "derekhulley",
+		"status": "alfresco",
+		"github": "derekhulley",
+		"linkedin" : "https://uk.linkedin.com/in/derekhulley",
+		"twitter" : "derekhulley",
+		"summary": "<p>A natural Alfresco enthusiast, I understand the need for a strong Community edition in the grand scheme. Currently focused on load testing and benchmarking at Alfresco.</p>",
+		"contributions" : "<ul><li>Founding engineer</li><li>Repository and database dev</li></ul>"
+	},
+	{
 		"name": "Dennis",
 		"surname": "Koch",
 		"nick": "WorkdeskCook",
