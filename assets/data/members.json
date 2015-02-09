@@ -358,6 +358,17 @@
 		"contributions": "<ul><li>Worked with Maurizio Pillitu on improving the Chef recipe for installing Alfresco intent for use with Packer.io to create ready-to-go images (VMware, amazon, etc)</li></ul>"
 	},
 	{
+		"name": "Aaron",
+		"surname": "Heath",
+		"nick": "aaronaheath",
+		"status": "independent",
+		"github": "aaronaheath",
+		"twitter": "aaronaheath",
+		"linkedin" : "https://www.linkedin.com/in/aaronaheath",
+		"summary": "<p>Senior Manager, Web Content Management System Development @ Hudson's Bay Digital (formally Saks 5th Avenue). We have been using Alfresco to help manage web since 2011.</p>",
+		"contributions": "<ul><li>Tech Talk Live #61: Alfresco @Saks</li><li>Tech Talk Live #71 Deep Dive Content & eCommerce </li><li>Summit 2013 Boston Presentation: <a href='http://summit.alfresco.com/boston/sessions/productive-marketing-content-management' target='_blank'>Productive Marketing Content Mgt</a></li><li>NY Alfresco Meetup: <a href='http://www.meetup.com/webcms-45/events/151574092/' target='_blank'>Alternative User Interfaces on top of Alfresco</a></li><li>Summit 2014 San Francisco: <a href='https://summit.alfresco.com/san-francisco/sessions/customer-panel-alfresco-wcm-environment' target='_blank'>WCM Customer Panel</a></li></ul>"
+	},
+	{
 		"name": "Flemming",
 		"surname": "Heide Pedersen",
 		"nick": "Flemming",
@@ -535,6 +546,16 @@
 		"twitter" : "pjlucidi",
 		"summary": "<p>Open Source ECM Specialist, Alfresco Community Star.</p>",
 		"contributions" : "<ul><li>Author of the book Alfresco 3 Web Services</li><li>Technical Reviewer of four books about Alfresco</li><li>Alfresco Wiki Gardener</li><li>Alfresco Forum Moderator</li></ul>"
+	},
+	{
+		"name": "Tiur",
+		"surname": "Lumban Gaol",
+		"nick": "tiur",
+		"status": "independent",
+		"linkedin" : "http://id.linkedin.com/in/tiurlumbangaol",
+		"twitter" : "softbless",
+		"summary": "<p>CEO & Founder of PT Softbless Solutions.</p>",
+		"contributions" : "<ul><li>Worked on Indonesian language pack for Alfresco</li><li>Recorded a series of tutorial videos about Alfresco on Indonesian language</li></ul>"
 	},
 	{
 		"name": "Tahir",

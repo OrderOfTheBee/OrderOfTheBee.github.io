@@ -293,5 +293,24 @@
 			}
 		],
 		"website": "http://venzia.es/"
+	},
+	{
+		"name":"Softbless",
+		"territory": [ "Indonesia" ],
+		"status":"Company",
+		"summary": "<p>PT Softbless Solutions was established in 2008, specializes in web based open source solutions. Softbless Solutions offers a variety of services and has the ability to implement, configure and support and optimize a wide assortment of open source technologies, some won a prestigious 2010 BOSSIE award which was held by InfoWorld.</p>",
+		"repos" : [
+			{
+				"name": "Alfresco Indonesian Language Pack",
+				"link": "http://www.softbless.com/Language-Pack-Alfresco-40D"
+			}
+		],
+		"blogs": [
+			{
+				"title": "Alfresco Tutorial (Bahasa Indonesia)",
+				"link": "https://www.youtube.com/playlist?list=PLhE5zupDa_9b68iqOHtycjfSUOqLrW4zI"
+			}
+		],
+		"website": "http://www.softbless.com/"
 	}
 ]
