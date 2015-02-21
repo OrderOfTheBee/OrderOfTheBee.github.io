@@ -450,6 +450,14 @@
 		"contributions": "<ul><li><a href='http://addons.alfresco.com/addons/site-statistics' target='_blank'>Site Statistics dashlet</a></li></ul>"
 	},
 	{
+		"name": "Husham Alfadel",
+		"surname": "Khartoum",
+		"nick": "hisham-khartoum",
+		"status": "independent",
+		"linkedin" : "http://sa.linkedin.com/pub/hisham-khartoum/57/133/15a/en",
+		"summary": "<p>I'm Support & testing engineers, I'm working with the Ministry of Interior in Saudi Arabia, and I'm also alfresco junior developer, I have good background in webscripting. also I have good background in ubuntu bash scripting</p>"
+	},
+	{
 		"name": "Siniša",
 		"surname": "Komarica",
 		"nick": "skomarica",
@@ -1035,7 +1043,19 @@
 		"linkedin" : "http://jp.linkedin.com/pub/takeshi-totani/2b/6b7/506/",
 		"summary": "<p>I have been working with Alfresco since 2007 in Japan. I am Alfresco Certified Engineer and Administrator.</p>",
 		"contributions" : "<ul><li>I help organize the Alfresco Study meeting once a month in Tokyo</li><li><a href='https://github.com/to2y/AlfrescoOnlineEditWebDAV' target='_blank'>Alfresco extension: Online document edition via WebDAV</a></li><li>I write articles about Alfresco at <a href='http://aegif-labo.blogspot.jp/' target='_blank'>aegif labo blog.</a></li></ul>"
-		},
+	},
+	{
+		"name": "Kyle",
+		"surname": "Adams",
+		"nick": "kylefadams",
+		"status": "alfresco",
+		"linkedin": "http://www.linkedin.com/in/kylefernandadams",
+		"twitter": "kylefadams",
+		"blog": "http://mass-nerder.squarespace.com/",
+		"github": "kylefernandadams",
+		"summary": "Principal Solutions Engineer for Alfresco. General Alfresco ninja, advocate for an open enterprise, and lover of craft beers.",
+		"contributions": "<ul><li>Initial creator of the <a href='https://github.com/SnowboundSoftware/alfresco-snowbound-integration' target='_blank'>Snowbound VirtualViewer integration</a></li><li>Enhanced the PDF Toolkit to support multi-page TIFFs</li></ul>"
+	},
 	{
 		"name": "Mehdi",
 		"surname": "BELMEKKI",
