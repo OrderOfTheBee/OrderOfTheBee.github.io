@@ -1228,7 +1228,16 @@
 		"github": "hseritt",
 		"twitter" : "HarlinAtWork",
 		"linkedin": "http://www.linkedin.com/pub/harlin-seritt/1/25b/b41",
-		"summary": "I'm an employee of Alfresco Software. I work in support and usually handle infrastructure-related cases. I enjoy working with CMIS and Alfresco."
+		"summary": "<p>I'm an employee of Alfresco Software. I work in support and usually handle infrastructure-related cases. I enjoy working with CMIS and Alfresco.</p>"
+	},
+	{
+		"name": "Alex",
+		"surname": "Strachan",
+		"nick": "AlexStrachan",
+		"status": "alfresco",
+		"twitter" : "AlexStrachan73",
+		"linkedin": "http://uk.linkedin.com/pub/alex-strachan/5/192/31",
+		"summary": "<p>Support Engineer in Alfresco for 6 years, always learning....</p>"
 	},
         {
 		"name": "David",
