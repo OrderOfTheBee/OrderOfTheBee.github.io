@@ -992,6 +992,17 @@
 		"github": "vetal232",
 		"summary": "<p>I can add some add-ons, code examples, business cases of integration with other systems.</p>"
 	},
+		{
+		"name": "Francesco",
+		"surname": "Uliana",
+		"nick": "francescou",
+		"status": "independent",
+		"stackoverflow": "http://stackoverflow.com/users/730039/francescou",
+		"github": "francescou",
+		"twitter": "warrior10111",
+		"summary": "<p>Technologist at National Research Council of Italy, Alfresco hacker, Open source enthusiast.</p>",
+		"contributions": "<ul><li>Helping people at <a href='http://stackoverflow.com/users/730039/francescou' target='_blank'>StackOverflow</a>.</li></ul>"
+	},
 	{
 		"name": "Ümit",
 		"surname": "Vardar",
