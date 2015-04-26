@@ -380,8 +380,7 @@
 		"name": "Ole",
 		"surname": "Hejlskov",
 		"nick": "ohej",
-		"status": "boardmember",
-		"voting": "yes",
+		"status": "alfresco",
 		"github": "ohej",
 		"linkedin" : "http://dk.linkedin.com/pub/ole-hejlskov/1/3b6/979",
 		"blog" : "http://ohej.dk/",
@@ -523,6 +522,18 @@
 		"linkedin": "http://dk.linkedin.com/pub/torben-lauritzen/1/474/340",
 		"summary": "<p>I am working at Magenta in Denmark, where I am involved in developing open source Alfresco based document and case management systems.</p>",
 		"contributions": "<p>I hope to be able to contribute to the community in the future, as my knowledge (and kids :-) ) grows.</p><ul><li><a href='https://github.com/OpenESDH/openesdh-core' target='_blank'>OpenESDH</a></li></ul>"
+	},
+	{
+		"name": "Mathias",
+		"surname": "Lin",
+		"nick": "mathiaslin",
+		"status": "independent",
+		"github": "mathiaslin",
+		"linkedin": "https://de.linkedin.com/in/mathiaslin",
+		"stackoverflow": "http://stackoverflow.com/users/241475/mathias-lin?tab=profile",
+		"twitter": "mathiaslin",
+		"summary": "<p>I'm an Alfresco Certified Engineer as well as Alfresco Certified Administrator. I consult companies who are looking into Alfresco community edition, as well as answering questions on the Alfresco forum or StackOverflow.</p>",
+		"contributions": "<ul><li>Answering questions on the <a href='https://forums.alfresco.com/user/8827/posts' target='_blank'>Alfresco forums</a></li><li>Helping people on <a href='http://stackoverflow.com/users/241475/mathias-lin?tab=profile' target='_blank'>StackOverflow</a></li><li>Answering questions on the <a href='http://qr.ae/LZskT' target='_blank'>Quora</a></li></ul>"
 	},
 	{
 		"name": "Peter",
