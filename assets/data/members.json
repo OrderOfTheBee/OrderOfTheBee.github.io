@@ -638,6 +638,18 @@
 		"contributions": "<ul><li>I share my experience with Alfresco in a <a href='http://smasue.github.io/' target='_blank'>blog</a></li></ul>"
 	},
 	{
+		"name": "Florian",
+		"surname": "Maul",
+		"nick": "fmaul",
+		"status": "independent",
+		"github": "fmaul",
+		"linkedin" : "http://de.linkedin.com/pub/florian-maul/23/58/315",
+		"twitter": "fmaul",
+		"blog": "http://www.techbits.de/",
+		"summary": "Long time Alfresco Consultant/Developer, working for the german Alfresco partner FME AG.",
+		"contributions": "<ul><li>Creator of the <a href='https://github.com/share-extras/js-console' target='_blank'>Alfresco JavaScript Console</a></li><li>Developing free open-source add-ons </li><li>Speaker at Alfresco DevCon / Summits and Alfresco Meet-the-Expert events </li><li>Hackathon participant</li></ul>"
+	},
+	{
 		"name": "Colin",
 		"surname": "McMahon",
 		"nick": "cm360",
