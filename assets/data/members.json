@@ -718,6 +718,14 @@
 		"summary" : "<p>I have been running an Alfresco practice in Melbourne since 2007. I got into this because I truly believe in the OS approach to software and its development. I blog through our company website (seedim.com.au). Not sure how I can help but I have a strong understanding of Alfresco and really think the community version should be supported so happy to help where I can.</p>"
 	},
 	{
+		"name": "Syed Mohd",
+		"surname": "Owais",
+		"nick": "syedmohdowais",
+		"status": "independent",
+		"linkedin" : "https://in.linkedin.com/in/syedmohdowais",
+		"summary" : "<p>I am working on different customization and integrations in Alfresco Share. Now I would like to contribute to the community by developing some addons.</p>"
+	},
+	{
 		"name": "Douglas",
 		"surname": "C. R. Paes",
 		"nick": "douglascrp",
@@ -852,6 +860,15 @@
 		"twitter" : "CmisSync1",
 		"summary": "<p>Converted to Alfresco by my friend Romain Guinot in 2008. Working as an Alfreco consultant at Aegif, former Alfresco partner in Japan.</p><p>More about me: <a href='http://nrw.free.fr/' target='_blank'>http://nrw.free.fr/</a>.</p>",
 		"contributions" : "<ul><li>I maintain <a href='https://github.com/aegif/CmisSync' target='_blank'>CmisSync</a>, a Dropbox-like desktop client for Alfresco. Open Source of course.</li><li>Participated in the Milan 2009 trainer training where we designed the first Alfresco examination.</li><li>Check-out and check-in easily from your Linux file explorer: <a href='https://github.com/nicolas-raoul/AlfrescoLinuxMacCheckInOut' target='_blank'>AlfrescoLinuxMacCheckInOut</a></li><li>Monitor Alfresco's database connection pool: <a href='https://github.com/nicolas-raoul/Commons-DBCP-monitoring' target='_blank'>Commons-DBCP-monitoring</a></li><li>Actively contribute to <a href='https://issues.alfresco.com/jira/secure/ViewProfile.jspa?name=nicolas+raoul' target='_blank'>Alfresco JIRA</a>, Alfresco <a href='https://forums.alfresco.com/users/nicolas-raoul' target='_blank'>forums</a>, <a href='http://stackoverflow.com/search?q=user:226958+[alfresco]' target='_blank'>Stackoverflow</a>.</li><li>We run a monthly Alfresco meetup in Tokyo.</li></ul>"
+	},
+	{
+		"name": "Parameswara",
+		"surname": "Reddy",
+		"nick": "pmrreddy",
+		"status": "independent",
+		"linkedin" : "https://in.linkedin.com/pub/parameswara-reddy/24/574/24a",
+		"summary": "<p>This is Parameswar from India, I started my carrier in opensource technology like Alfresco.</p>",
+		"contributions" : "<ul><li>I am active member on <a href='https://forums.alfresco.com/users/pmrreddy' target='_blank'>Alfresco forums</a></li></ul>"
 	},
 	{
 		"name": "Heiko",
