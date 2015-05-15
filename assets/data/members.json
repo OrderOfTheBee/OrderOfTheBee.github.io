@@ -577,6 +577,17 @@
 		"contributions" : "<ul><li>Worked on Indonesian language pack for Alfresco</li><li>Recorded a series of tutorial videos about Alfresco on Indonesian language</li></ul>"
 	},
 	{
+		"name": "Thirumal",
+		"surname": "M",
+		"nick": "thirumalm",
+		"status": "independent",
+		"linkedin" : "https://in.linkedin.com/in/thirumalm",
+		"blog" : "http://thirumal-alfresco.blogspot.in/",
+		"github": "M-Thirumal",
+		"summary": "<p>Programmer.</p>",
+		"contributions" : "<ul><li>My blog: <a href='http://thirumal-alfresco.blogspot.in/' target='_blank'>http://thirumal-alfresco.blogspot.in/</a></li></ul>"
+	},
+	{
 		"name": "Tahir",
 		"surname": "Malik",
 		"nick": "tahirshazad",
