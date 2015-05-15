@@ -706,6 +706,15 @@
 		"summary": "Working in Zaizi.",
 		"contributions":"<ul><li>Alfresco Summit 2013 speaker</li><li>Alfresco Seville Meetup organizer</li><li>Alfresco Seville Meetup speaker</li><li>Contributing things from the Zaizi github account</li></ul>"
 	},
+		{
+		"name": "Normann",
+		"surname": "P. Nielsen",
+		"nick": "normannpnielsen",
+		"status": "independent",
+		"linkedin": "https://dk.linkedin.com/in/normannpnielsen",
+		"summary": "I am a 44 year old Senior Consultant, living in Denmark and doing all kind of stuff for Netic, although IT Operations, ITIL and \"Applications\" are my speciality. I do favor working with CMS-like Apps, and are an Atlassian specialist within Netic. I do use Alfresco privately (Community Edition) and has is a an opportunity to use/sell for Netic to customers in the future.",
+		"contributions":"<ul><li>Mainly, everything on <a href='www.mos-eisley.dk' target='_blank'>www.mos-eisley.dk</a>, including stuff for all types of IT, look at <a href='https://www.mos-eisley.dk/display/it/Informationsteknologi' target='_blank'>https://www.mos-eisley.dk/display/it/Informationsteknologi</a>.</li></ul>"
+	},
 	{
 		"name": "Carl",
 		"surname": "Nordenfelt",
@@ -877,6 +886,7 @@
 		"surname": "Reddy",
 		"nick": "pmrreddy",
 		"status": "independent",
+		"github": "pmrreddy",
 		"linkedin" : "https://in.linkedin.com/pub/parameswara-reddy/24/574/24a",
 		"summary": "<p>This is Parameswar from India, I started my carrier in opensource technology like Alfresco.</p>",
 		"contributions" : "<ul><li>I am active member on <a href='https://forums.alfresco.com/users/pmrreddy' target='_blank'>Alfresco forums</a></li></ul>"
