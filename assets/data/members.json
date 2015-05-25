@@ -158,10 +158,11 @@
 		"nick": "fcorti",
 		"status": "independent",
 		"github": "fcorti",
+		"blog": "http://fcorti.com",
 		"linkedin" : "http://it.linkedin.com/in/fcorti/",
 		"googleplus": "http://google.com/+FrancescoCorti",
 		"twitter" : "FrkCorti",
-		"summary": "<p>Presales Engineer and Senior Consultant in Content Management and Business Intelligence, Author for Packt Publishing.</p>",
+		"summary": "<p>Senior Consultant in Content Management and Business Intelligence, Author for Packt Publishing.</p>",
 		"contributions": "<ul><li>Tutorials and howtos - <a href='http://fcorti.com' target='_blank'>http://fcorti.com</a></li><li>A.A.A.R. - <a href='http://fcorti.com/alfresco-audit-analysis-reporting/' target='_blank'>http://fcorti.com/alfresco-audit-analysis-reporting/</a></li><li><a href='http://fcorti.com/pdi-cmis-input/' target='_blank'>CMIS Input plugin</a> for Pentaho Data Integration</li></ul>"
 	},
 	{
