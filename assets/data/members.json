@@ -69,7 +69,7 @@
 		"linkedin" : "http://es.linkedin.com/pub/iván-arroyo-escobar/3a/838/216/en",
 		"twitter":"ivanscn",
 		"summary": "<p>I have been working with Alfresco since 2010. I work at Zaizi as an Alfresco Integrator. And I like the Alfresco community, I made my first steps thanks to the community.</p>",
-		"contributions": "<ul><li>I have contributed to the <a href='https://github.com/iarroyo/alfresco-webscript-manifold-connector' target='_blank'>Manifold Alfresco Connector</a> project from Maurizio Pillitu on Github.</li><li>I have adapted the Jeff Potts Metaversant Fivestar project to Alfresco version 4.2.x Community.</li><li>I am collaborator in the Alfresco meetup in Seville.</li>" 
+		"contributions": "<ul><li>I have contributed to the <a href='https://github.com/iarroyo/alfresco-webscript-manifold-connector' target='_blank'>Manifold Alfresco Connector</a> project from Maurizio Pillitu on Github.</li><li>I have adapted the Jeff Potts Metaversant Fivestar project to Alfresco version 4.2.x Community.</li><li>I am collaborator in the Alfresco meetup in Seville.</li>"
 	},
 	{
 		"name": "Erik",
@@ -158,10 +158,12 @@
 		"nick": "fcorti",
 		"status": "independent",
 		"github": "fcorti",
+		"voting": "yes",
+		"blog": "http://fcorti.com",
 		"linkedin" : "http://it.linkedin.com/in/fcorti/",
 		"googleplus": "http://google.com/+FrancescoCorti",
 		"twitter" : "FrkCorti",
-		"summary": "<p>Presales Engineer and Senior Consultant in Content Management and Business Intelligence, Author for Packt Publishing.</p>",
+		"summary": "<p>Senior Consultant in Content Management and Business Intelligence, Author for Packt Publishing.</p>",
 		"contributions": "<ul><li>Tutorials and howtos - <a href='http://fcorti.com' target='_blank'>http://fcorti.com</a></li><li>A.A.A.R. - <a href='http://fcorti.com/alfresco-audit-analysis-reporting/' target='_blank'>http://fcorti.com/alfresco-audit-analysis-reporting/</a></li><li><a href='http://fcorti.com/pdi-cmis-input/' target='_blank'>CMIS Input plugin</a> for Pentaho Data Integration</li></ul>"
 	},
 	{
@@ -185,7 +187,7 @@
 		"linkedin" : "http://in.linkedin.com/in/muralidharand",
 		"twitter" : "muralidharand",
 		"summary": "<p>Working for Quanticate.com as Technical Lead. Alfresco Customer.</p>",
-		"contributions": "<ul><li>I have shared my knowledge on <a href='http://www.codingfreaks.net/search/label/Alfresco' target='_blank'>Coding Freaks</a></li><li>Building Alfresco Community in Bangalore, India via <a href='http://www.meetup.com/Alfresco-Bangalore-Community' target='_blank'>meetup.com</a></li><li>Sharing my knowledge via <a href='http://www.slideshare.net/murali_quanticate' target='_blank'>slideshare</a> as well</li></ul>" 
+		"contributions": "<ul><li>I have shared my knowledge on <a href='http://www.codingfreaks.net/search/label/Alfresco' target='_blank'>Coding Freaks</a></li><li>Building Alfresco Community in Bangalore, India via <a href='http://www.meetup.com/Alfresco-Bangalore-Community' target='_blank'>meetup.com</a></li><li>Sharing my knowledge via <a href='http://www.slideshare.net/murali_quanticate' target='_blank'>slideshare</a> as well</li></ul>"
 	},
 	{
 		"name": "Dominik",
@@ -195,7 +197,7 @@
 		"github": "ddanninger",
 		"twitter" : "ddanninger",
 		"summary": "<p>I am from Austria, Vienna, currently is living and working in South Korea, Seoul. I started developing TCL when I was about 12 years old, started to develop PHP3 then, learned myself C#, now using mostly NodeJS and Java for Android. Hackathon winner. I am currently Partner at XKEY GmbH (<a href='http://www.xkey.at' target='_blank'>www.xkey.at</a>), we develop Software around PDF, web systems and more.</p>",
-		"contributions": "<ul><li><a href='https://github.com/XKEYGmbH/ifresco-client' target='_blank'>PHP written Client</a> for Alfresco Community 4.2.x</li><li><a href='https://chrome.google.com/webstore/detail/ifresco-toolbar-for-alfre/aihpjjddkpbdgdcpifbicaplkkmjmjmd?hl=en' target='_blank'>ifresco Google Chrome Toolbar</a> for Alfresco Community</li><li><a href='https://code.google.com/p/ifresco-php-library/' target='_blank'>Enhanced PHP5 library for Alfresco</a> (really outdated now as there are no SOAP services in 5.0)</li></ul>" 
+		"contributions": "<ul><li><a href='https://github.com/XKEYGmbH/ifresco-client' target='_blank'>PHP written Client</a> for Alfresco Community 4.2.x</li><li><a href='https://chrome.google.com/webstore/detail/ifresco-toolbar-for-alfre/aihpjjddkpbdgdcpifbicaplkkmjmjmd?hl=en' target='_blank'>ifresco Google Chrome Toolbar</a> for Alfresco Community</li><li><a href='https://code.google.com/p/ifresco-php-library/' target='_blank'>Enhanced PHP5 library for Alfresco</a> (really outdated now as there are no SOAP services in 5.0)</li></ul>"
 	},
 	{
 		"name": "Niklas",
@@ -552,6 +554,7 @@
 		"name": "Peter",
 		"surname": "Löfgren",
 		"nick": "loftux",
+		"voting": "yes",
 		"status": "independent",
 		"github": "loftux",
 		"googleplus" : "https://plus.google.com/104670003689287949906/about",
@@ -632,6 +635,7 @@
 		"surname": "Martín Ruiz",
 		"nick": "cristinamr",
 		"status": "independent",
+		"voting": "yes",
 		"github": "CristinaMR",
 		"googleplus" : "https://plus.google.com/+CristinaMart%C3%ADnRuiz/about",
 		"linkedin" : "http://be.linkedin.com/in/cristinamr/en",
@@ -992,6 +996,7 @@
 		"nick": "mstang",
 		"status": "independent",
 		"github": "mstang",
+    "googleplus" : "https://plus.google.com/+MarkStang0000/about",
 		"twitter" : "markstang",
 		"summary": "<p>ECM Architect, working on Clojure/ClojureScript CMIS Interoperability.</p>",
 		"contributions" : "<ul><li><a href='https://bitbucket.org/ziadev/cmsql-grammar' target='_blank'>cmsql-grammar</a></li><li><a href='https://bitbucket.org/ziadev/chem100' target='_blank'>CHEM100</a> - a Clojure Wrapper for the CMIS Client API</li><li><a href='https://bitbucket.org/ziadev/chem100ql' target='_blank'>chem100ql</a></li><li>Also, contributing to the Lambdalf Project with Peter Monks/Carlo Sciolla</li></ul>"
@@ -1103,7 +1108,7 @@
 		"github": "ashward",
 		"linkedin" : "https://www.linkedin.com/in/ashward",
 		"twitter" : "ashward123",
-		"summary": "<p>I've been involved on-and-off with Alfresco development for a number of years in my current role at Surevine. Over those years I have been heavily involved in the development and deployment of a number of extensions for Alfresco.</p>", 
+		"summary": "<p>I've been involved on-and-off with Alfresco development for a number of years in my current role at Surevine. Over those years I have been heavily involved in the development and deployment of a number of extensions for Alfresco.</p>",
 		"contributions": "<ul><li>Some of <a href='https://github.com/surevine/?query=alfresco' target='_blank'>developed extensions</a> are open source and some currently in the process of being open sourced</li><li>I presented at Alfresco DevCon (when they were still called that) a few years back and earned myself a t-shirt! :)</li></ul>"
 	},
 	{
