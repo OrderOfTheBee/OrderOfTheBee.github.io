@@ -468,6 +468,19 @@
 		"contributions": "<ul><li><a href='https://github.com/skomarica/alfresco-share-create-link' target='_blank'>Alfresco Share 'Create Link' action</a></li></ul>"
 	},
 	{
+		"name": "Brian",
+		"surname": "Knoblauch",
+		"nick": "glmotorsports",
+		"status": "independent",
+		"github": "BrianKnoblauch",
+		"linkedin" : "https://www.linkedin.com/in/glmotorsports",
+		"twitter" : "glmotorsports",
+		"stackoverflow": "http://stackoverflow.com/users/15689/brian-knoblauch",
+		"blog": "https://glmotorsports.wordpress.com/",
+		"summary": "<p>Currently working in a generic technology position, which means I develop software, work with hardware, as well as doing server and network administration. I have a good amount of Java in my background, but mostly SE, only minimal EE and JSF. New to Alfresco and looking to make modules for my current company.</p>",
+		"contributions": "<ul><li>I'm SSCBrian on the Alfresco forums. My contributions are minimal so far as I'm a newb.</li></ul>"
+	},
+	{
 		"name": "Tomas",
 		"surname": "Kubik",
 		"nick": "TomasKubik",
