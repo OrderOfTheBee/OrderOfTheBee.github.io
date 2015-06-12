@@ -713,6 +713,18 @@
 		"contributions" : "<ul><li>Developing Alfresco extensions (<a href='https://github.com/tass01024?tab=repositories' target='_blank'>Github</a> and <a href='https://code.google.com/u/113141735868010936936/' target='_blank'>Google Code</a>)</li><li>Helping people at <a href='http://stackoverflow.com/users/2060676/rasmus-melgaard' target='_blank'>StackOverflow</a></li></ul>"
 	},
 	{
+		"name": "Morgan",
+		"surname": "Patou",
+		"nick": "morgan-patou",
+		"status": "independent",
+		"github": "morgan-patou",
+		"twitter": "MorganPatou",
+		"linkedin": "https://ch.linkedin.com/pub/morgan-patou/57/384/a10",
+		"blog": "http://www.dbi-services.com/index.php/blog/dbi-bloggers/blogger/listings/mop",
+		"summary": "<p>A young French guy of 24 years old. Morgan got an engineering degree in computer science a little bit less than 2 years ago. He was born and still live in France but he works in Switzerland.</p><p>Morgan discovered Alfresco almost 4 years ago and that day, he decided to become a \"Middleware Man\". Morgan is working in the Middleware Team of \"dbi services\", a Swiss IT Consulting company. Within this team, guys mainly work with several application servers (WebLogic, JBoss, Tomcat, Apache, OHS, aso...), several DMS (Documentum, SharePoint, Alfresco) and some other open source technologies like Kerberos. Morgan joined this enterprise a little bit more than 2 years ago since his \"end of studies internship\" consisted in the analysis and comparison of several Document Management Systems for dbi services - of course, Alfresco was chosen ;). Since that day, he installed, configured and administered Alfresco (Community or Enterprise editions) for customers and company internal use.</p>",
+		"contributions": "<ul><li>Morgan likes to use <a href='http://www.dbi-services.com/index.php/blog/dbi-bloggers/blogger/listings/mop' target='_blank'>his company's website</a> to post some blogs entries related to Open Sources technologies including Alfresco.</li><li>Morgan also has an account on the <a href='https://forums.alfresco.com/users/morganp' target='_blank'>Alfresco forum</a>. He tries to spend at least 1h per week to read the Alfresco Forum for new posts, maybe to find something to add aso...</li></ul>"
+	},
+	{
 		"name": "Antonio David",
 		"surname": "Perez Morales",
 		"nick": "adperezmorales",
@@ -723,7 +735,7 @@
 		"summary": "Working in Zaizi.",
 		"contributions":"<ul><li>Alfresco Summit 2013 speaker</li><li>Alfresco Seville Meetup organizer</li><li>Alfresco Seville Meetup speaker</li><li>Contributing things from the Zaizi github account</li></ul>"
 	},
-		{
+	{
 		"name": "Normann",
 		"surname": "P. Nielsen",
 		"nick": "normannpnielsen",
