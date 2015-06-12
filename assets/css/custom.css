@@ -143,6 +143,20 @@ img.center {
 	margin-right: auto;
 }
 
+/* legend for calendars */
+
+.legend-1 {
+	color: #47aa42;
+}
+.legend-2 {
+	color: #F89829;
+}
+.legend-3 {
+	color: #005dab;
+}
+.legend-4 {
+	color: #ffe14f;
+}
 /* header */
 
 .navbar {
