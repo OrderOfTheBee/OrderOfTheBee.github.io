@@ -53,16 +53,34 @@
 					$(document).ready(function() {
 						$('#calendar').fullCalendar({
 							googleCalendarApiKey: 'AIzaSyAzbTtuyWo_NBroNWbb8YswPN-yHPjkw4M',
-							events: {
-								googleCalendarId: 'klauqaldeahtbtgoj55lmsi2f8@group.calendar.google.com'
-							},
+							eventSources: [
+								{
+									googleCalendarId: 'klauqaldeahtbtgoj55lmsi2f8@group.calendar.google.com', // EMEA
+									color: '#005dab'
+								},
+								{
+									googleCalendarId: 'h9ka6pt612pgekiiuhenvq786o@group.calendar.google.com', // AMER
+									color: '#F89829'
+								},
+								{
+									googleCalendarId: '8fcisqkv7dskar5f40fmb8o1ik@group.calendar.google.com', // APAC
+									color: '#ffe14f',
+									textColor: '#222'
+								},
+								{
+									googleCalendarId: 'it77bu07fbf3n47erka3rviu64@group.calendar.google.com', // VIRT
+									color: '#47aa42'
+								}
+							],
 							header: {
-								left: 'prev,next',
+								left: 'prev,next today',
 								center: 'title',
 								right: 'month,agendaWeek,agendaDay'
 							},
-							height: 900,
+							height: 'auto',
+							contentHeight: 'auto',
 							defaultView: 'month',
+							allDayDefault: true,
 							timezone: 'UTC',
 							minTime: "8:00:00",
 							maxTime: "18:00:00"
