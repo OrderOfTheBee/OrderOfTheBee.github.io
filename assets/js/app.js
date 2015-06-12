@@ -117,6 +117,7 @@ app.directive("social", function() {
        templateUrl: "/elements/social.html"
     };
 });
+
 /*
 app.config(['$routeProvider',
   function($routeProvider) {

@@ -7,7 +7,7 @@
   <meta name="description" content=""/>
   <meta name="author" content=""/>
 
-  <title>Order of the Bee >> Bees at Alfresco Summit</title>
+  <title>Order of the Bee >> Events</title>
 
   <link href="/assets/css/bootstrap.css" rel="stylesheet"/>
   <link href="/assets/css/font-awesome.min.css" rel="stylesheet"/>
@@ -45,49 +45,55 @@
 		</div>
 	</section>
 
-	<section class="orange">
-		<div class="container-fluid">
-			<h2 class="text-center">Bees at Alfresco Summit 2014 in London</h2>
-			<br/>
-		</div>
-	</section>
-
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12">
-				<br/>
-				<br/>
+			<div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
+				<br/><br/>
 				<script type='text/javascript'>
 					$(document).ready(function() {
 						$('#calendar').fullCalendar({
 							googleCalendarApiKey: 'AIzaSyAzbTtuyWo_NBroNWbb8YswPN-yHPjkw4M',
 							events: {
-								googleCalendarId: 'b8buor92u5cks90ffj7hn0hk5k@group.calendar.google.com'
+								googleCalendarId: 'klauqaldeahtbtgoj55lmsi2f8@group.calendar.google.com'
 							},
 							header: {
-								left: '',
+								left: 'prev,next',
 								center: 'title',
 								right: 'month,agendaWeek,agendaDay'
 							},
 							height: 900,
-							defaultDate: '2014-10-08',
-							defaultView: 'agendaWeek',
-							timezone: 'Europe/London',
-							allDaySlot: false,
-							hiddenDays: [ 0, 1, 5, 6],
-							minTime: "8:30:00",
+							defaultView: 'month',
+							timezone: 'UTC',
+							minTime: "8:00:00",
 							maxTime: "18:00:00"
 						});
 					});
 				</script>
 
 				<div id='calendar'></div>
-				<br/>
-				<p class="lead">Click to the session you want to participate to see details. List full agenda at <a href="http://summit.alfresco.com/london/sessions" target="_blank">http://summit.alfresco.com/london/sessions</a>.</p>
+				<br/><br/>
 			</div>
 		</div>
 	</div>
 
+	<section class="orange">
+		<div class="container-fluid">
+			<h2 class="text-center">How to add your event here?</h2>
+			<br/>
+		</div>
+	</section>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12 lead">
+				<br/>
+				<p>Create an issue on Github with a link to the event information. Also contact us to ask for a help in meetup organization.</p>
+				<br/>
+				<p class="text-center"><a href="https://github.com/OrderOfTheBee/marketing/issues/new" class="btn btn-lg btn-success" target="_blank"><i class="fa fa-arrow-down"></i> Submit request</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<social></social>
 
