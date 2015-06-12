@@ -12,7 +12,6 @@
   <link href="/assets/css/bootstrap.css" rel="stylesheet"/>
   <link href="/assets/css/font-awesome.min.css" rel="stylesheet"/>
   <link href='/assets/css/open-sans-font.css' rel='stylesheet' type='text/css' />
-  <link href="/assets/css/fullcalendar.min.css" rel="stylesheet"/>
   <link href="/assets/css/custom.css" rel="stylesheet"/>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -33,9 +32,6 @@
 	<script type="text/javascript" src="/assets/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
 	<script type="text/javascript" src="/assets/js/jquery.smooth-scroll.js"></script>
 	<script type="text/javascript" src="/assets/js/app.js"></script>
-	<script type="text/javascript" src="/assets/js/moment.min.js"></script>
-	<script type="text/javascript" src="/assets/js/fullcalendar.min.js"></script>
-	<script type="text/javascript" src="/assets/js/gcal.js"></script>
 	<header></header>
 
 	<section class="green">
@@ -45,33 +41,199 @@
 		</div>
 	</section>
 
+	<section class="orange">
+		<div class="container-fluid">
+			<h2 class="text-center">Upcoming Events</h2>
+			<br/>
+		</div>
+	</section>
+
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
-				<br/><br/>
-				<script type='text/javascript'>
-					$(document).ready(function() {
-						$('#calendar').fullCalendar({
-							googleCalendarApiKey: 'AIzaSyAzbTtuyWo_NBroNWbb8YswPN-yHPjkw4M',
-							events: {
-								googleCalendarId: 'klauqaldeahtbtgoj55lmsi2f8@group.calendar.google.com'
-							},
-							header: {
-								left: 'prev,next',
-								center: 'title',
-								right: 'month,agendaWeek,agendaDay'
-							},
-							height: 900,
-							defaultView: 'month',
-							timezone: 'UTC',
-							minTime: "8:00:00",
-							maxTime: "18:00:00"
-						});
-					});
-				</script>
+			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12">
+				<br/>
+				<table class="table table-responsive">
+					<thead>
+						<tr>
+							<th width="40%">Event</th>
+							<th width="20%">Place</th>
+							<th width="20%">Dates</th>
+							<th width="20%">Links</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>DIA Annual Conference</td>
+							<td>Washington, United States</td>
+							<td>14 June 2015 to 18 June 2015</td>
+							<td><a href="https://www.alfresco.com/events/dia-annual-conference" target="_blank">[link]</a></td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Talleres gratuitos: Software documental de código abierto. Alfresco: la instalación y un caso práctico</td>
+							<td>Universidad de Granada, Spain</td>
+							<td>June 15, 2015</td>
+							<td><a href="http://fcd.ugr.es/pages/tablon/*/conferencias-actividades-y-otros-eventos/talleres-gratuitos-software-documental-de-codigo-abierto-alfresco-la-instalacion-y-un-caso-practico" target="_blank">[link]</a></td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Zia Consulting and Alfresco Kick Off Roadshow on Solving Content Chaos</td>
+							<td>Los Angeles, CA </td>
+							<td>June 17, 2015</td>
+							<td><a href="http://www.ziaconsulting.com/blog/solving-content-chaos-seminar/" target="_blank">[link]</a></td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Content Chaos in Government: Why SharePoint and Office 365 Aren't the (only) Answer - a Solution Seminar</td>
+							<td>Washington, DC</td>
+							<td>June 18, 2015</td>
+							<td><a href="http://www.eventbrite.com/e/content-chaos-in-government-why-sharepoint-and-office-365-arent-the-only-answer-a-solution-seminar-tickets-17036429419?aff=alfresco" target="_blank">[link]</a></td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Zia Consulting and Alfresco Kick Off Roadshow on Solving Content Chaos</td>
+							<td>Washington D.C. & Irvine, CA</td>
+							<td>June 18, 2015</td>
+							<td><a href="http://www.ziaconsulting.com/blog/solving-content-chaos-seminar/" target="_blank">[link]</a></td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Alfresco Day Chicago</td>
+							<td>Chicago, United States</td>
+							<td>23 June 2015</td>
+							<td><a href="https://www.alfresco.com/events/alfresco-day-chicago" target="_blank">[link]</a></td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Alfresco Day Madrid 2015</td>
+							<td>Madrid, Spain</td>
+							<td>June 25, 2015</td>
+							<td><a href="http://www.alfresco.com/es/eventos/alfresco-day-madrid-2015" target="_blank">[link]</a></td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Zia Consulting and Alfresco Kick Off Roadshow on Solving Content Chaos</td>
+							<td>Dallas, TX</td>
+							<td>June 25, 2015</td>
+							<td><a href="http://www.ziaconsulting.com/blog/solving-content-chaos-seminar/" target="_blank">[link]</a></td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Open Source Conference 2015</td>
+							<td>London, United Kingdom</td>
+							<td>7 July 2015</td>
+							<td><a href="https://www.alfresco.com/events/open-source-conference-2015" target="_blank">[link]</a></td>
+						</tr>
+					</tbody>
+					<tbody>
+						<tr>
+							<td>Alfresco Day San Francisco</td>
+							<td>San Francisco, CA</td>
+							<td>August 4th, 2015</td>
+							<td><a href="http://pages.alfresco.com/080415-AMER-Event-AlfrescoDaySanFrancisco_EV-Reg-LP.html?mkt_tok=3RkMMJWWfF9wsRomrfCcI63Em2iQPJWpsrB0B%2FDC18kX3RUmIL%2Bcfkz6htBZF5s8TM3DVVdDXrxI%2BkEPTLI%3D" target="_blank">[link]</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<br/>
+				
+			</div>
+		</div>
+	</div>
 
-				<div id='calendar'></div>
-				<br/><br/>
+	<section class="orange">
+		<div class="container-fluid">
+			<h2 class="text-center">Past Events</h2>
+			<br/>
+		</div>
+	</section>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12">
+				<br/>
+				<table class="table table-responsive">
+					<thead>
+						<tr>
+							<th width="40%">Event</th>
+							<th width="20%">Place</th>
+							<th width="20%">Dates</th>
+							<th width="20%">Links</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Alfresco Day in Zürich</td>
+							<td>Zürich, Switzerland</td>
+							<td>9 June 2015</td>
+							<td><a href="https://www.alfresco.com/node/3807" target="_blank">[link]</a></td>
+						</tr>
+
+						<tr>
+							<td>Global Activiti User Day</td>
+							<td>Paris, France</td>
+							<td>10 June 2015</td>
+							<td><a href="https://www.alfresco.com/events/global-activiti-user-day" target="_blank">[link]</a></td>
+						</tr>
+						<tr>
+							<td>Alfresco Tech Talk Live #86: Alfresco SDK 2.1.0</td>
+							<td>Online</td>
+							<td>3 June, 16:00 - 17:00</td>
+							<td><a href="https://plus.google.com/u/0/events/cqehg7dlgqgcu55biv1oaem9cq4" target="_blank">[link]</a></td>
+						</tr>
+						<tr>
+							<td>Mastering Alfresco Web Scripts for hassle-free Alfresco ECM Integration</td>
+							<td>Online Event</td>
+							<td>April 22, 2015</td>
+							<td><a href="https://attendee.gotowebinar.com/register/7187423213606881282" target="_blank">[link]</a></td>
+						</tr>
+						<tr>
+							<td>Alfresco Global Virtual Hack-a-thon</td>
+							<td>Online Event</td>
+							<td>April 17, 2015</td>
+							<td><a href="http://wiki.alfresco.com/wiki/Projects_and_Teams_Global_Virtual_Hack-a-thon_2015" target="_blank">[link]</a></td>
+						</tr>
+						<tr>
+							<td>Alfresco Cafe 2015</td>
+							<td>Leuven, Belgium</td>
+							<td>April 15, 2015</td>
+							<td><a href="http://www.aca-it.be/alfresco_cafe" target="_blank">[link]</a></td>
+						</tr>
+						<tr>
+							<td>Alfresco Day NYC</td>
+							<td>450 East 29th Street, New York, NY</td>
+							<td>April 9, 2015</td>
+							<td><a href="http://ht.ly/JkW58" target="_blank">[link]</a></td>
+						</tr>
+						<tr>
+							<td>Alfresco Office Hours with Richard and the Order of the Bee</td>
+							<td>Online Event</td>
+							<td>February 20, 2015</td>
+							<td><a href="https://plus.google.com/events/c5ph050cuadqt54kqd9go4p6ik8" target="_blank">[link]</a></td>
+						</tr>
+						<tr>
+							<td>Alfresco Japan Users Group Meeting</td>
+							<td>Tokyo, Japan</td>
+							<td>December 17, 2014</td>
+							<td><a href="http://alfresco-study-group.connpass.com/event/9434/" target="_blank">[link]</a></td>
+						</tr>
+						<tr>
+							<td>Alfresco Meetup en Granada</td>
+							<td>Granada, Spain</td>
+							<td>December 12, 2014</td>
+							<td><a href="https://www.facebook.com/events/313413192195880/" target="_blank">[link]</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<br/>
+				
 			</div>
 		</div>
 	</div>
