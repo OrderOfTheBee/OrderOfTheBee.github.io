@@ -38,6 +38,9 @@ h2 {
 	text-transform: uppercase;
 	font-weight: bold;
 }
+h3, .h3 {
+	font-size: 24px;
+}
 
 dt {
 	margin-top: 1em;

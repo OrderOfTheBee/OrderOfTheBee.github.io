@@ -41,6 +41,15 @@
 		"contributions" : "<ul><li><a href='http://www.meetup.com/Sevilla-Alfresco-Meetup/' target='_blank'>Sevilla Alfresco Meetup</a></li><li><a href='https://summit.alfresco.com/boston/sessions/super-size-your-search' target='_blank'>Presentation at Alfresco Summit 2013</a></li><li><a href='https://devcon.alfresco.com/berlin/sessions/testing-tools-other-best-practices-alfresco-module-development' target='_blank'>Presentation at Alfresco DevCon 2012</a></li></ul>"
 	},
 	{
+		"name": "Henrique",
+		"surname": "Amorim",
+		"nick": "henrique",
+		"status": "independent",
+		"googleplus" : "https://plus.google.com/u/0/113450154853829489352/about",
+		"summary": "<p>I'm analyst and Java developer. I work in the market from 2014 and I lead innovations, develop solutions and aperfeiçando if there is a chance some solutions in Java. I have some knowledge in spring, struts, webservices ...</p>",
+		"contributions" : "<ul><li><a href='http://www.guj.com.br/' target='_blank'>http://www.guj.com.br/</a></li><li><a href='http://www.javac.com.br/' target='_blank'>http://www.javac.com.br/</a></li></ul>"
+	},
+	{
 		"name": "Andreas",
 		"surname": "Amstutz",
 		"nick": "amstutzit",
@@ -1082,6 +1091,15 @@
 		"contributions" : "<ul><li>active role in the Alfresco forums</li><li>reported bugs in Alfresco Community to Alfresco</li><li>provided patches for Community to Alfresco</li><li>testing and providing feedback for various Alfresco add-ons</li></ul>"
 	},
 	{
+		"name": "Bruno",
+		"surname": "Taboada",
+		"nick": "bruno.taboada",
+		"status": "independent",
+		"googleplus": "https://plus.google.com/115576253320244909557/about",
+		"summary": "I am a software engineer. I have worked with Alfresco for over 3 years.",
+		"contributions" : "<ul><li><a href='https://addons.alfresco.com/addons/add-digital-signatures-pdf-files' target='_blank'>Digital Signatures to pdf files</a> extension.</li></ul>"
+	},
+	{
 		"name": "Nenad",
 		"surname": "Teofilovic",
 		"nick": "nteo",
@@ -1214,6 +1232,16 @@
 		"linkedin" : "http://pt.linkedin.com/in/cabaceira/",
 		"blog" : "http://blogs.alfresco.com/wp/lcabaceira/",
 		"contributions" : "<ul><li>Blogging at <a href='http://blogs.alfresco.com/wp/lcabaceira/' target='_blank'>http://blogs.alfresco.com/wp/lcabaceira/</a></li><li><a href='https://github.com/lcabaceira/supersizemyrepo' target='_blank'>supersizemyrepo</a> tool</li><li><a href='https://github.com/lcabaceira/dralf' target='_blank'>Dr. Alf</a> for Alfresco 4</li></ul>"
+	},
+	{
+		"name": "Jose",
+		"surname": "Carrasco",
+		"nick": "jcarrasko",
+		"status": "alfresco",
+		"twitter": "jcarrasko",
+		"github": "jcarrasko",
+		"linkedin": "https://es.linkedin.com/in/jlcarrasco/en",
+		"contributions": "<ul><li><a href='https://github.com/jcarrasko/alf4gae/blob/master/README.md' target='_blank'>Alfresco Cloud - Google App Engine Boilerplate</a></li></ul>"
 	},
 	{
 		"name": "Gabriele",
