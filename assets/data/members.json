@@ -623,6 +623,17 @@
 		"contributions" : "<ul><li>Organizing meetup in Toronto.</li><li><a href='https://addons.alfresco.com/addons/add-digital-signatures-pdf-files' target='_blank'>Digital Signature</a>, Documentum Bulk Exporter.</li></ul>"
 	},
 	{
+		"name": "Pavel",
+		"surname": "Makhov",
+		"nick": "streetturtle",
+		"status": "independent",
+		"linkedin" : "https://www.linkedin.com/in/streetturtle",
+		"stackoverflow": "http://stackoverflow.com/users/1252056/streetturtle",
+		"blog": "http://pavelmakhov.com/",
+		"summary": "<p>I’m a software developer, was born in Moscow and currenlty I’m living in Geneva, Switzerland. I have worked with Alfresco since 2014.</p>",
+		"contributions": "<ul><li><a href='http://pavelmakhov.com/2015/05/01/usefule-alfresco-queries/' target='_blank'>Some useful Alfresco queries</a>, <a href='http://pavelmakhov.com/2015/02/19/enable-read-event-for-rm-audit/' target='_blank'>Enable document view event for RM audit</a> and other blog posts at <a href='http://pavelmakhov.com/' target='_blank'>http://pavelmakhov.com</a></li></ul>"
+	},
+	{
 		"name": "Tahir",
 		"surname": "Malik",
 		"nick": "tahirshazad",
@@ -929,7 +940,18 @@
 		"summary": "<p>Converted to Alfresco by my friend Romain Guinot in 2008. Working as an Alfreco consultant at Aegif, former Alfresco partner in Japan.</p><p>More about me: <a href='http://nrw.free.fr/' target='_blank'>http://nrw.free.fr/</a>.</p>",
 		"contributions" : "<ul><li>I maintain <a href='https://github.com/aegif/CmisSync' target='_blank'>CmisSync</a>, a Dropbox-like desktop client for Alfresco. Open Source of course.</li><li>Participated in the Milan 2009 trainer training where we designed the first Alfresco examination.</li><li>Check-out and check-in easily from your Linux file explorer: <a href='https://github.com/nicolas-raoul/AlfrescoLinuxMacCheckInOut' target='_blank'>AlfrescoLinuxMacCheckInOut</a></li><li>Monitor Alfresco's database connection pool: <a href='https://github.com/nicolas-raoul/Commons-DBCP-monitoring' target='_blank'>Commons-DBCP-monitoring</a></li><li>Actively contribute to <a href='https://issues.alfresco.com/jira/secure/ViewProfile.jspa?name=nicolas+raoul' target='_blank'>Alfresco JIRA</a>, Alfresco <a href='https://forums.alfresco.com/users/nicolas-raoul' target='_blank'>forums</a>, <a href='http://stackoverflow.com/search?q=user:226958+[alfresco]' target='_blank'>Stackoverflow</a>.</li><li>We run a monthly Alfresco meetup in Tokyo.</li></ul>"
 	},
-		{
+	{
+		"name": "Ivan",
+		"surname": "Ricotti",
+		"nick": "ivan.ricotti",
+		"status": "independent",
+		"linkedin" : "https://it.linkedin.com/in/ivanricotti",
+		"github": "eradan",
+		"stackoverflow": "http://stackoverflow.com/users/2381758/",
+		"summary": "<ul><li>Team Leader and System Administrator at Hyperborea srl</li><li>Developer of eDocumento and <a href='http://www.doclifenetwork.com/' target='_blank'>Doclife Network</a>.</li></ul>",
+		"contributions" : "<ul><li><a href='http://stackoverflow.com/users/2381758/' target='_blank'>StackOverflow</a> not that much, honestly ;-) </li></ul>"
+	},
+	{
 		"name": "Roshan",
 		"surname": "Shankar",
 		"nick": "shikarishambu",
