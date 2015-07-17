@@ -1231,6 +1231,7 @@
 		"nick": "techwrighting",
 		"status": "independent",
 		"twitter": "techwrighting",
+		"github": "wrighting",
 		"blog" : "http://tech.wrighting.org/",
 		"summary": "<p>Working with Alfresco, along side other things, since 2010. Speaker at Summit 2013. Main areas of interest: SSO with CAS and CMIS.</p>",
 		"contributions" : "<ul><li><a href='http://forums.alfresco.com/users/idwright' target='_blank'>idwright</a> on the Alfresco forums</li><li>Blog posts on various topics including CAS, CMIS, Aikau</li></ul>"
