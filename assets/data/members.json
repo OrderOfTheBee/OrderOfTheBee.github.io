@@ -412,6 +412,17 @@
 		"contributions": "<ul><li>Alfresco User Group Belgium & Hackathon attendee</li><li>Regularly answering questions on IRC, the Alfresco forums and StackOverflow</li><li>Creator and moderator of the <a href='http://www.reddit.com/r/alfresco' target='_blank'>Alfresco subreddit</a></li><li>Small Javascript utility script: <a href='https://github.com/JonasHeylen/elzar' target='_blank'>https://github.com/JonasHeylen/elzar</a></li></ul>"
 	},
 	{
+		"name": "Joost",
+		"surname": "Horward",
+		"nick": "xoost",
+		"status": "independent",
+		"github": "joosth",
+		"linkedin" : "https://www.linkedin.com/in/joosthorward",
+		"blog" : "http://www.open-t.nl/blog",
+		"summary": "<p>I have been working as an Alfresco consultant/developer/trainer since version 1.4. I'm an ACE. Besides the Alfresco work I am developer of workflow4people and a few other Grails-based open-source projects. Based in The Netherlands.</p>",
+		"contributions": "<ul><li>This is were the Order made a difference. I realised none of my Alfresco work was ever published to the community. So you made me do the Right Thing here: I brushed up <a href='http://www.open-t.nl/projects/groovyrunner' target='_blank'>my GroovyRunner Alfresco plug-in</a>. It has helped us a lot, I hope you like it!</li></ul>"
+	},
+	{
 		"name": "Akinori",
 		"surname": "Ishii",
 		"nick": "akinori.ishii",
@@ -1213,6 +1224,16 @@
 		"linkedin" : "http://jp.linkedin.com/pub/takeshi-totani/2b/6b7/506/",
 		"summary": "<p>I have been working with Alfresco since 2007 in Japan. I am Alfresco Certified Engineer and Administrator.</p>",
 		"contributions" : "<ul><li>I help organize the Alfresco Study meeting once a month in Tokyo</li><li><a href='https://github.com/to2y/AlfrescoOnlineEditWebDAV' target='_blank'>Alfresco extension: Online document edition via WebDAV</a></li><li>I write articles about Alfresco at <a href='http://aegif-labo.blogspot.jp/' target='_blank'>aegif labo blog.</a></li></ul>"
+	},
+	{
+		"name": "Ian",
+		"surname": "Wright",
+		"nick": "techwrighting",
+		"status": "independent",
+		"twitter": "techwrighting",
+		"blog" : "http://tech.wrighting.org/",
+		"summary": "<p>Working with Alfresco, along side other things, since 2010. Speaker at Summit 2013. Main areas of interest: SSO with CAS and CMIS.</p>",
+		"contributions" : "<ul><li><a href='http://forums.alfresco.com/users/idwright' target='_blank'>idwright</a> on the Alfresco forums</li><li>Blog posts on various topics including CAS, CMIS, Aikau</li></ul>"
 	},
 	{
 		"name": "Kyle",
