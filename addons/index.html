@@ -74,8 +74,8 @@
 	<div ng-show="addons.reviewedAddons[0]" class="container-fluid text-center" ng-controller="AddonsCtrl">
 		<br/>
 		<div class="row">
-			<h2>The first addon in the list</h2>
-			<div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-12 col-xs-12" ng-repeat="addon in addons.reviewedAddons">
+			<h2>Addons in the list</h2>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" ng-repeat="addon in addons.reviewedAddons">
 				<h3><a ng-href="{{addon.homepage}}" class="black">{{addon.name}}</a></h3>
 				<div ng-show="addon.description" ng-bind-html="addon.description"></div>
 				<br/>
@@ -83,6 +83,7 @@
 				<br/><br/>
 			</div>
 		</div>
+		<br/><br/>
 	</div>
 
 	<section class="orange">

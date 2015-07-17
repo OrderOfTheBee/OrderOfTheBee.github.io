@@ -21,6 +21,29 @@
                 "https://github.com/OrderOfTheBee/addons/blob/master/addon-web/images/js-console-js-editor.png",
                 "https://github.com/OrderOfTheBee/addons/blob/master/addon-web/images/js-console-ftl-editor.png"
             ]
+        },
+        {
+            "name": "Uploader Plus",
+            "type": "Extension for Repository / Share",
+            "description": "A plugin that enhances the standard Alfresco uploader with a mechanism to prompt the user for content type and metadata during the upload process.",
+            "license": "LGPL 3",
+            "listing": "https://addons.alfresco.com/addons/uploader-plus",
+            "homepage": "http://softwareloop.com/uploader-plus-an-alfresco-uploader-that-prompts-for-metadata/",
+            "sourceRepository": "https://github.com/softwareloop/uploader-plus",
+            "reviewer": [{
+                "name" : "Axel",
+                "surname" : "Faust",
+                "nick" : "AFaust"
+            },
+            {
+                "name": "Angel",
+                "surname": "Borroy",
+                "nick": "angelborroy"
+            }],
+            "reviewDate" : "2015-03-07",
+            "releaseVersion": "1.2",
+            "releaseDownload": "https://github.com/softwareloop/uploader-plus/archive/v1.2.zip",
+            "reviewReport" : "https://github.com/OrderOfTheBee/addons/blob/master/addon-reviews/Uploader%20Plus.md"
         }
     ],
     "pendingReviews" : [ ],
