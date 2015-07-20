@@ -162,6 +162,15 @@
 		"contributions": "<p>I'm currently working on a CMIS 1.1 JS lib that should be moved to Apache Chemistry soon.</p>"
 	},
 	{
+		"name": "David",
+		"surname": "Collins",
+		"nick": "davidcollins",
+		"status": "independent",
+		"blog": "http://geofoss.net",
+		"summary": "<p>I am a geologist and application developer, currently working for a geological survey in Australia. I use many server and desktop open source products, and started using Alfresco in earnest in 2015.</p>",
+		"contributions": "<ul><li>I was inspired by your joining criteria to create a <a href='http://geofoss.net' target='_blank'>Wordpress blog</a> to document my experience with Alfresco and other open source products, so as to help other developers and users.</li><li>I have participated in various open source forums - eg. the geoserver mailing list</li></ul>"
+	},
+	{
 		"name": "Francesco",
 		"surname": "Corti",
 		"nick": "fcorti",
@@ -829,6 +838,16 @@
 		"contributions": "<ul><li>I've helped on the Alfresco pt_BR translation</li><li>I've worked on the <a href='http://addons.alfresco.com/addons/share-site-logo-customisation' target='_blank'>Share Site Logo Customisation addon</a> 4.2 port.</li><li>I watch almost all the Alfresco's hangouts, and usually try to make questions that I think are important.</li><li>And I try to be online at IRC most of the time, and try to help when I know/can.</li></ul>"
 	},
 	{
+		"name": "Mark",
+		"surname": "Parsons",
+		"nick": "markparsons",
+		"status": "independent",
+		"linkedin" : "https://au.linkedin.com/in/markeparsons",
+		"twitter" : "digcat_hosting",
+		"summary": "<p>I founded Digital Catalyst back in 2001 which has been involved with the Alfresco Community product for many years.</p>",
+		"contributions": "<ul><li>Personally I have not contributed too much on a technical level. My business (<a href='http://www.digcat.com' target='_blank'>Digital Catalyst</a>) has been user testing Honeycomb v1 with a view to delivering the product to our own customers.</li><li>We host a customer facing Honeycomb v1 for small business at: <a href='https://www.buzzdocs.com' target='_blank'>https://www.buzzdocs.com</a></li></ul>"
+	},
+	{
 		"name": "Mittal",
 		"surname": "Patoliya",
 		"nick": "mitpatoliya",
@@ -1182,6 +1201,14 @@
 		"twitter" : "umitvardar",
 		"blog": "http://www.vardar.biz.tr/blogs",
 		"contributions" : "<ul><li>Enterprise Report Services for Alfresco</li><li>Email listener for Alfresco</li></ul>"
+	},
+	{
+		"name": "Jon",
+		"surname": "Villanti",
+		"nick": "jvillanti",
+		"status": "independent",
+		"twitter" : "houston_jon",
+		"summary" : "<p>Investigating Alfresco as a replacement technology for a traditional file server.</p>"
 	},
 	{
 		"name": "Ashley",
