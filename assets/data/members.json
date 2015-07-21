@@ -782,7 +782,7 @@
 		"guthub": "adperezmorales",
 		"twitter": "adperezmorales",
 		"linkedin": "http://es.linkedin.com/in/adperezmorales/en",
-		"summary": "Working in Zaizi.",
+		"summary": "<p>Working in Zaizi.</p>",
 		"contributions":"<ul><li>Alfresco Summit 2013 speaker</li><li>Alfresco Seville Meetup organizer</li><li>Alfresco Seville Meetup speaker</li><li>Contributing things from the Zaizi github account</li></ul>"
 	},
 	{
@@ -791,8 +791,17 @@
 		"nick": "normannpnielsen",
 		"status": "independent",
 		"linkedin": "https://dk.linkedin.com/in/normannpnielsen",
-		"summary": "I am a 44 year old Senior Consultant, living in Denmark and doing all kind of stuff for Netic, although IT Operations, ITIL and \"Applications\" are my speciality. I do favor working with CMS-like Apps, and are an Atlassian specialist within Netic. I do use Alfresco privately (Community Edition) and has is a an opportunity to use/sell for Netic to customers in the future.",
+		"summary": "<p>I am a 44 year old Senior Consultant, living in Denmark and doing all kind of stuff for Netic, although IT Operations, ITIL and \"Applications\" are my speciality. I do favor working with CMS-like Apps, and are an Atlassian specialist within Netic. I do use Alfresco privately (Community Edition) and has is a an opportunity to use/sell for Netic to customers in the future.</p>",
 		"contributions":"<ul><li>Mainly, everything on <a href='www.mos-eisley.dk' target='_blank'>www.mos-eisley.dk</a>, including stuff for all types of IT, look at <a href='https://www.mos-eisley.dk/display/it/Informationsteknologi' target='_blank'>https://www.mos-eisley.dk/display/it/Informationsteknologi</a>.</li></ul>"
+	},
+	{
+		"name": "Mike",
+		"surname": "Priest",
+		"nick": "mikepriest",
+		"status": "independent",
+		"linkedin": "https://www.linkedin.com/pub/mike-priest/45/1a4/37a",
+		"summary": "<p>CEO of TenSpeed Technologies. Experimenting with Alfresco since 2008, primarily focusing on Document Imaging, Records Management, Document Management, and custom application development.</p>",
+		"contributions":"<ul><li>Author of the top rated <a href='http://addons.alfresco.com/addons/alfresco-form-model-management' target='_blank'>Form Management add-on</a>; a simple drag and drop user interface for Alfresco model and form development and deployment</li><li>Participant of Tech Talk live</li><li>Numerous Talks at Alfresco Devcon and Summit</li></ul>"
 	},
 	{
 		"name": "Carl",
