@@ -9,7 +9,7 @@
 
   <title>Order of the Bee >> Collection of the best add-ons</title>
 
-  <link href="/assets/css/bootstrap.css" rel="stylesheet"/>
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet"/>
   <link href="/assets/css/font-awesome.min.css" rel="stylesheet"/>
   <link href='/assets/css/open-sans-font.css' rel='stylesheet' type='text/css' />
   <link href="/assets/css/custom.css" rel="stylesheet"/>
@@ -30,83 +30,77 @@
 	<script type="text/javascript" src="/assets/js/sanitize.js"></script>
 	<script type="text/javascript" src="/assets/js/modernizr.js"></script>
 	<script type="text/javascript" src="/assets/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
-	<script type="text/javascript" src="/assets/js/jquery.smooth-scroll.js"></script>
 	<script type="text/javascript" src="/assets/js/app.js"></script>
 	<header></header>
 
-	<section class="green">
+	<section class="yellow">
 		<div class="container-fluid">
 			<h1 class="text-center">List of best free Alfresco add-ons</h1>
 			<br/>
 		</div>
 	</section>
 
-	<div class="container-fluid">
-		<br/><br/>
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
-				<form class="form-inline">
-					<div class="form-group">
-						<label for="query">Type</label> 
-						<select ng-model="query" id="query" class="form-control" placeholder="Type">
-							<option selected="selected" value=""></option>
-							<option>Extension for Repository / Share</option>
-						</select>
-					</div>
-					<div class="form-group">
-						<label for="query3">Filter</label> 
-						<input ng-model="query3" id="query3" class="form-control" />
-					</div>
-					<button type="reset" onclick="
-						var e = document.getElementById('query');
-						var scope = $(e).scope();
-						scope.$apply(function() {
-						scope.query = '';
-						scope.query3 = '';
-						});" class="btn btn-default">Reset filter</button>
-				</form>
-			</div>
-		</div>
-	</div>
-	<br/>
-	<br/>
-
-	<div ng-show="addons.reviewedAddons[0]" class="container-fluid text-center" ng-controller="AddonsCtrl">
-		<br/>
-		<div class="row">
-			<h2>Addons in the list</h2>
-			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" ng-repeat="addon in addons.reviewedAddons">
-				<h3><a ng-href="{{addon.homepage}}" class="black">{{addon.name}}</a></h3>
-				<div ng-show="addon.description" ng-bind-html="addon.description"></div>
-				<br/>
-				<a ng-href="{{addon.reviewReport}}" target="_blank" class="btn btn-info">View Report</a>
-				<br/><br/>
-			</div>
-		</div>
-		<br/><br/>
-	</div>
-
-	<section class="orange">
+	<section>
 		<div class="container-fluid">
-			<h2 class="text-center">How do I add my add-on here?</h2>
-			<br/>
-		</div>
-	</section>
-
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12">
-				<br/>
-				<p>The list of inclusion criteria is available at <a href="https://github.com/OrderOfTheBee/addons/wiki/Inclusion-criteria-overview">Github</a>. Create an issue if you think that your addon meets these requirements.</p>
-					<br/>
-					<p class="text-center"><a href="https://github.com/OrderOfTheBee/addons/issues/new" class="btn btn-lg btn-success" target="_blank"><i class="fa fa-arrow-down"></i> Send request</a></p>
+			<br/><br/>
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12">
+					<form class="form-inline">
+						<div class="form-group">
+							<label for="query">Type</label> 
+							<select ng-model="query" id="query" class="form-control" placeholder="Type">
+								<option selected="selected" value=""></option>
+								<option>Extension for Repository / Share</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="query3">Filter</label> 
+							<input ng-model="query3" id="query3" class="form-control" />
+						</div>
+						<button type="reset" onclick="
+							var e = document.getElementById('query');
+							var scope = $(e).scope();
+							scope.$apply(function() {
+							scope.query = '';
+							scope.query3 = '';
+							});" class="btn btn-default">Reset filter</button>
+					</form>
 				</div>
 			</div>
 		</div>
+		<br/>
+		<br/>
+		<div ng-show="addons.reviewedAddons[0]" class="container text-center" ng-controller="AddonsCtrl">
+			<br/>
+			<div class="row">
+				<h2>Addons in the list</h2>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" ng-repeat="addon in addons.reviewedAddons">
+					<h3><a ng-href="{{addon.homepage}}" class="black">{{addon.name}}</a></h3>
+					<div ng-show="addon.description" ng-bind-html="addon.description"></div>
+					<br/>
+					<a ng-href="{{addon.reviewReport}}" target="_blank" class="btn btn-primary">View Report</a>
+					<br/><br/>
+				</div>
+			</div>
+			<br/><br/>
+		</div>
 	</section>
 
-
+	<section class="grey">
+		<div class="container-fluid">
+			<h2 class="text-center">How do I add my add-on here?</h2>
+			<br/>
+			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12">
+				<br/>
+				<p>The list of inclusion criteria is available at <a href="https://github.com/OrderOfTheBee/addons/wiki/Inclusion-criteria-overview">Github</a>. Create an issue if you think that your addon meets these requirements.</p>
+				<br/>
+				<p class="text-center"><a href="https://github.com/OrderOfTheBee/addons/issues/new" class="btn btn-lg btn-success" target="_blank"><i class="fa fa-arrow-down"></i> Send request</a></p>
+				<br/><br/>
+			</div>
+		</div>
+	</section>
 
 	<social></social>
+	<script type="text/javascript" src="/assets/js/scripts.js"></script>
  </body>
 </html>

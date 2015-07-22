@@ -9,7 +9,7 @@
 
   <title>Order of the Bee >> Community Success Stories</title>
 
-  <link href="/assets/css/bootstrap.css" rel="stylesheet"/>
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet"/>
   <link href="/assets/css/font-awesome.min.css" rel="stylesheet"/>
   <link href='/assets/css/open-sans-font.css' rel='stylesheet' type='text/css' />
   <link href="/assets/css/custom.css" rel="stylesheet"/>
@@ -30,11 +30,10 @@
 	<script type="text/javascript" src="/assets/js/sanitize.js"></script>
 	<script type="text/javascript" src="/assets/js/modernizr.js"></script>
 	<script type="text/javascript" src="/assets/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
-	<script type="text/javascript" src="/assets/js/jquery.smooth-scroll.js"></script>
 	<script type="text/javascript" src="/assets/js/app.js"></script>
 	<header></header>
 
-	<section class="green">
+	<section class="yellow">
 		<div class="container-fluid">
 			<h1 class="text-center">Community Success Stories</h1>
 			<br/>
@@ -51,20 +50,15 @@
 				<p><a ng-href="{{story.link}}" target="_blank">{{story.link}}</a></p>
 				<div ng-bind-html="story.description"></div>
 				<p><a ng-href="{{story.fullstory}}">Read full story...</a></p>
-				<br/>
+				<br/><br/>
 			</div>
 		</div>
 	</div>
 
-	<section class="orange">
+	<section class="grey">
 		<div class="container-fluid">
 			<h2 class="text-center">How to add your story?</h2>
 			<br/>
-		</div>
-	</section>
-
-	<div class="container-fluid">
-		<div class="row">
 			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12">
 				<br/>
 				<p>Create an issue on Github with the following information attached:</p>
@@ -82,14 +76,14 @@
 					<li>Can you recommend any Systems Integrator and freelancers who helped you to implement Alfresco in your way?</li>
 					<li>any other information you would like to share with us</li>
 				</ul>
-					<br/>
-					<p class="text-center"><a href="https://github.com/OrderOfTheBee/marketing/issues/new" class="btn btn-lg btn-success" target="_blank"><i class="fa fa-arrow-down"></i> Send request</a></p>
-				</div>
+				<br/>
+				<p class="text-center"><a href="https://github.com/OrderOfTheBee/marketing/issues/new" class="btn btn-lg btn-success" target="_blank"><i class="fa fa-arrow-down"></i> Send request</a></p>
+				<br/><br/>
 			</div>
 		</div>
 	</section>
 
 	<social></social>
-
+	<script type="text/javascript" src="/assets/js/scripts.js"></script>
  </body>
 </html>

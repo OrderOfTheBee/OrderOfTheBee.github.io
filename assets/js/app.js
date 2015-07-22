@@ -1,4 +1,4 @@
-var app = angular.module('app', [ 'ui.bootstrap' , 'ngSanitize' ]);
+var app = angular.module('app', [ 'ui.bootstrap' , 'ngSanitize']);
 
 app.controller('MembersCtrl', ['$scope', '$http', '$timeout', '$modal', function($scope, $http, $timeout, $modal, $log){
 	$scope.members = [];
@@ -101,7 +101,7 @@ app.controller('UpdatesCtrl', ['$scope', '$http', function($scope, $http){
   }]);
 
 function NavBarCtrl($scope) {
-    $scope.isCollapsed = true;
+    $scope.navbarCollapsed = true;
 }
 
 app.directive("header", function() {

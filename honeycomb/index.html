@@ -7,7 +7,7 @@
 <meta name="description" content="" />
 <meta name="author" content="" />
 <title>Order of the Bee >> Alfresco Honeycomb Edition</title>
-<link href="/assets/css/bootstrap.css" rel="stylesheet" />
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
 <link href="/assets/css/font-awesome.min.css" rel="stylesheet" />
 <link href='/assets/css/open-sans-font.css' rel='stylesheet'
 	type='text/css' />
@@ -33,62 +33,56 @@
 	<script type="text/javascript" src="/assets/js/angular.min.js"></script>
 	<script type="text/javascript" src="/assets/js/sanitize.js"></script>
 	<script type="text/javascript" src="/assets/js/modernizr.js"></script>
-	<script type="text/javascript"
-		src="/assets/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
-	<script type="text/javascript" src="/assets/js/jquery.smooth-scroll.js"></script>
+	<script type="text/javascript" src="/assets/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
 	<script type="text/javascript" src="/assets/js/app.js"></script>
 	<header></header>
-	<section class="green">
+	<section class="yellow">
 		<div class="container-fluid">
 			<h1 class="text-center">Alfresco Honeycomb Edition</h1>
 			<br />
 		</div>
 	</section>
-	<div class="container-fluid">
-		<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12 lead">
-			<br />
-			<h2 class="text-center">Details of our distribution</h2>
-			<br />
-			<img class="left" src="/assets/img/mission-bee.png"/>
-			<p>- Standalone build with repo, share, mysql and solr on one
-				server. Remote mysql supported now, remote solr and pentaho next
-				version</p>
-			<p>- Choose from version 4.2.f, latest 5.0.x or NIGHTLY</p>
-			<p>- Installation supported on Ubuntu and CentOS.</p>
-			<p>- Puppet based install, so makes idempotent changes and if
-				interrupted can pick up where it left off Simple bash based
-				configuration</p>
-			<p>- Built in BART <bold><i><font face="monospace">backup - run ./setup_backup.sh</font></i></bold> after install to
-				configure.</p>
-			<p>- Reverse proxy and firewall preconfigured, offloading SSL to
-				apache and forwarding real ports (for ftp, for example) to
-				unprivileged ones managed by repo</p>
-			<p>- Can specify tomcat home and alfresco base, useful for putting
-				<bold><i><font face="monospace">alf_data/</font></i></bold> on shared storage</p>
-			<p>- Built in postfix mail server set up to deliver alfresco mails
-				to the internet</p>
-			<p>- Supports using your own SSL certificates and if not supplied
-				will generate a self signed certificate </p>
-			<p>- Custom Order of the Bee theme</p>
-			</br>
-			</br> <br />
-			<h2 class="text-center">
-				<strong>Included addons</strong>
-			</h2>
-			<img class="bee-right visible-lg-inline visible-md-inline" src="/assets/img/contact-bee.png"/>
-			<br />
-			<ul>
-				<li>Google docs integration</li>
-				<li><a href="https://addons.alfresco.com/addons/javascript-console" target="_blank">Javascript console</a></li>
-				<li><a href="https://addons.alfresco.com/addons/reset-password-dialog" target="_blank">Reset password</a></li>
-				<li><a href="https://www.alfresco.com/products/records-management" target="_blank">Alfresco Records Management</a></li>
-				<li><a href="https://addons.alfresco.com/addons/uploader-plus" target="_blank">Uploader Plus</a></li>
-			</ul>
-			<br /> <br />
-		</div>
-	</div>
-	<section class="white">
+	<section>
 		<div class="container-fluid">
+			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12 lead">
+				<br />
+				<h2 class="text-center">Details of our distribution</h2>
+				<br />
+				<img class="left" src="/assets/img/bee-addons.svg" width="20%"/>
+				<p>- Standalone build with repo, share, mysql and solr on one
+					server. Remote mysql supported now, remote solr and pentaho next
+					version</p>
+				<p>- Choose from version 4.2.f, latest 5.0.x or NIGHTLY</p>
+				<p>- Installation supported on Ubuntu and CentOS.</p>
+				<p>- Puppet based install, so makes idempotent changes and if
+					interrupted can pick up where it left off Simple bash based
+					configuration</p>
+				<p>- Built in BART <bold><i><font face="monospace">backup - run ./setup_backup.sh</font></i></bold> after install to
+					configure.</p>
+				<p>- Reverse proxy and firewall preconfigured, offloading SSL to
+					apache and forwarding real ports (for ftp, for example) to
+					unprivileged ones managed by repo</p>
+				<p>- Can specify tomcat home and alfresco base, useful for putting
+					<bold><i><font face="monospace">alf_data/</font></i></bold> on shared storage</p>
+				<p>- Built in postfix mail server set up to deliver alfresco mails
+					to the internet</p>
+				<p>- Supports using your own SSL certificates and if not supplied
+					will generate a self signed certificate </p>
+				<p>- Custom Order of the Bee theme</p>
+				</br>
+				</br> <br />
+				<h2 class="text-center">Included addons</h2>
+				<img class="bee-right visible-lg-inline visible-md-inline" src="/assets/img/bee-archive.svg" width="20%"/>
+				<br />
+				<ul>
+					<li>Google docs integration</li>
+					<li><a href="https://addons.alfresco.com/addons/javascript-console" target="_blank">Javascript console</a></li>
+					<li><a href="https://addons.alfresco.com/addons/reset-password-dialog" target="_blank">Reset password</a></li>
+					<li><a href="https://www.alfresco.com/products/records-management" target="_blank">Alfresco Records Management</a></li>
+					<li><a href="https://addons.alfresco.com/addons/uploader-plus" target="_blank">Uploader Plus</a></li>
+				</ul>
+				<br /> <br />
+			</div>
 			<br></br>
 			<p class="text-center">
 				<a href="https://github.com/marsbard/puppet-alfresco/releases/tag/v1.0.0"
@@ -97,9 +91,11 @@
 					DOWNLOAD IT NOW!
 				</a>
 			</p>
-			</br>
+			<br/><br/>
 		</div>
 	</section>
+	
 	<social></social>
+	<script type="text/javascript" src="/assets/js/scripts.js"></script>
 </body>
 </html>

@@ -30,41 +30,33 @@
 	<script type="text/javascript" src="/assets/js/sanitize.js"></script>
 	<script type="text/javascript" src="/assets/js/modernizr.js"></script>
 	<script type="text/javascript" src="/assets/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
-	<script type="text/javascript" src="/assets/js/jquery.smooth-scroll.js"></script>
 	<script type="text/javascript" src="/assets/js/app.js"></script>
 	<header></header>
 
-	<section class="green">
+	<section class="yellow">
 		<div class="container-fluid">
 			<h1 class="text-center">Who are we?</h1>
 			<br/>
 		</div>
 	</section>
 
-	<section id="about">
+	<section id="about" class="grey">
 		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12 lead">
-					<br/>
-					<p>We are an organization of Alfresco community members working to grow the Alfresco ecosystem independent of Alfresco Software, Inc.</p>
+			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12 lead">
+				<br/>
+				<p>We are an organization of Alfresco community members working to grow the Alfresco ecosystem independent of Alfresco Software, Inc.</p>
 
-					<p>We are all different: some of us are employees at Alfresco Software, its customers, and partners. Some of us work with Alfresco Community Edition, others with Alfresco Enterprise Edition, or both. Other members use Alfresco as end users, implement it for the customers, and develop free and paid add-ons. But we have something in common: we like Alfresco and its community, we think that Alfresco Community Edition and open source solutions based on it are very important for us and for the whole market.</p>
-					<br/>
-				</div>
+				<p>We are all different: some of us are employees at Alfresco Software, its customers, and partners. Some of us work with Alfresco Community Edition, others with Alfresco Enterprise Edition, or both. Other members use Alfresco as end users, implement it for the customers, and develop free and paid add-ons. But we have something in common: we like Alfresco and its community, we think that Alfresco Community Edition and open source solutions based on it are very important for us and for the whole market.</p>
+				<br/>
 			</div>
 		</div>
 	</section>
 	
-	<section class="orange" id="values">
+	<section id="values">
 		<div class="container-fluid">
 			<h2 class="text-center">Our values</h2>
 			<br/>
-		</div>
-	</section>
-
-	<img class="bee-right visible-lg-inline" src="/assets/img/mission-bee.png"/>
-	<div class="container-fluid">
-		<div class="row" id="values">
+			<img class="bee-right visible-lg-inline" src="/assets/img/bee-addons.svg" width="15%"/>
 			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12">
 				<br/>
 				<p class="lead"><strong>Our mission is to guarantee the existence of Alfresco Community Edition as a free/libre open source solution for document management.</strong></p>
@@ -79,32 +71,26 @@
 					<!--dt>We might be forced to do</dt> 
 					<dd>we may fork Alfresco Community and build our version of Alfresco, if Alfresco Software, Inc. takes an action contrary to the idea of open source.</dd-->
 				</dl>
-				<p class="text-center"><a href="/#activities" class="btn btn-info btn-lg"><i class="fa fa-arrow-down"></i> Learn more about our activities</a></p>
+				<p class="text-center"><a href="/#activities" class="btn btn-primary btn-lg"><i class="fa fa-arrow-down"></i> Learn more about our activities</a></p>
 				<br/>
 			</div>
 		</div>
-	</div>
+	</section>
 
-	<section class="orange" id="history">
+	<section class="grey" id="history">
 		<div class="container-fluid">
 			<h2 class="text-center">History of the founding of the Order</h2>
 			<br/>
-		</div>
-	</section>
-
-	<img class="bee-left visible-lg-inline" src="/assets/img/history-bee.png"/>
-	<div class="container-fluid">
-		<div class="row" id="history">
 			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12 lead">
 				<br/>
 				<p>We were worried that the current management of Alfresco didn't see the value of Alfresco being open source, but for us, that's a core driver for this great community. We also think that Alfresco wouldn't be what it is without its community. And by community, we don't just mean users of Alfresco Community Edition, but also people using Alfresco Enterprise, Alfresco partners, and Alfresco employees willing to collaborate with each other to create better software, and a better community.</p>
 				<p>The creation of the <strong>Order of the Bee</strong> was inspired by Jeff Potts's Community Keynote at the Alfresco Summit 2013. Jeff presented his role of Chief Community Officer as a bee-keeper, where the bees are the community members producing honey. Alfresco would be like a company in the honey business, working together with the bees. Both benefit from each other. In contrast, a company producing maple syrup keeps its recipe as its big secret, as in closed source software, and its customer just consume the syrup as is (the analogy is originally from Pentaho, another open source company). Hence, the Order of the Bee aims to collaborate with Alfresco's bee-keeper, now Richard Esplin, for the greater good of the honey and the bees.</p>
 				<br/>
-				<p class="text-center"><a href="/index.html#activities" class="btn btn-info btn-lg"><i class="fa fa-arrow-down"></i> Our activites</a></p>
+				<p class="text-center"><a href="/index.html#activities" class="btn btn-success btn-lg"><i class="fa fa-arrow-down"></i> Our activites</a></p>
 				<br/>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<section class="orange" id="members">
 		<div class="container-fluid">
@@ -147,7 +133,7 @@
 			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in fullList | filter:{status:'boardmember'}">
 				<a href="" ng-click="open(member)"><img ng-src="/assets/img/members/{{member.nick}}.jpg" class="img-circle blue" height="150" /></a><img ng-show="member.voting" class="vote" src="/assets/img/bee.png" title="Voting Member">
 				<br/>
-				<h3><a ng-click="open(member)" href="" class="black">{{member.name}}<br/>{{member.surname}}</a></h3>
+				<h4><a ng-click="open(member)" href="" class="black">{{member.name}}<br/>{{member.surname}}</a></h4>
 				<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.stackoverflow" ng-href="{{member.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
 				<br/>
 
@@ -158,7 +144,7 @@
 			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in fullList | filter:{status:'independent'}">
 				<a href="" ng-click="open(member)"><img ng-src="/assets/img/members/{{member.nick}}.jpg" class="img-circle orange" height="150" /></a><img ng-show="member.voting" class="vote" src="/assets/img/bee.png" title="Voting Member">
 				<br/>
-				<h3><a ng-click="open(member)" href="" class="black">{{member.name}}<br/>{{member.surname}}</a></h3>
+				<h4><a ng-click="open(member)" href="" class="black">{{member.name}}<br/>{{member.surname}}</a></h4>
 				<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.stackoverflow" ng-href="{{member.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
 				<br/>
 			</div>
@@ -168,47 +154,50 @@
 			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-6" ng-repeat="member in fullList | filter:{status:'alfresco'}">
 				<a href="" ng-click="open(member)"><img ng-src="/assets/img/members/{{member.nick}}.jpg" class="img-circle green" height="150"/></a>
 				<br/>
-				<h3><a ng-click="open(member)" href="" class="black">{{member.name}}<br/>{{member.surname}}</a></h3>
+				<h4><a ng-click="open(member)" href="" class="black">{{member.name}}<br/>{{member.surname}}</a></h4>
 				<p><a ng-show="member.github" ng-href="https://github.com/{{member.github}}"><i class="fa fa-github"></i></a> <a ng-show="member.twitter" ng-href="https://twitter.com/{{member.twitter}}"><i class="fa fa-twitter"></i></a> <a ng-show="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin"></i></a> <a ng-show="member.blog" ng-href="{{member.blog}}"><i class="fa fa-rss"></i></a> <a ng-show="member.googleplus" ng-href="{{member.googleplus}}"><i class="fa fa-google-plus"></i></a> <a ng-show="member.stackoverflow" ng-href="{{member.stackoverflow}}"><i class="fa fa-stack-overflow"></i></a> <a ng-show="member.flickr" ng-href="{{member.flickr}}"><i class="fa fa-flickr"></i></a> <a ng-show="member.youtube" ng-href="{{member.youtube}}"><i class="fa fa-youtube"></i></a></p>
 				<br/>
 			</div>
 		</div>
 		<br/>
-		<p><a href="#joinrequest" class="btn btn-lg btn-info smooth"><i class="fa fa-arrow-down"></i> Join us</a></p>
+		<p><a href="#joinrequest" class="btn btn-lg btn-primary"><i class="fa fa-arrow-down"></i> Join us</a></p>
 		<br/>
 		<p><img class="vote-info" src="/assets/img/bee.png" title="Voting Member"> - this icon means that a member is doing a lot for the Order and has right to vote and to become a Board member.</p>
 		<br/>
 	</div>
 
-	<!--section class="orange" id="committees">
+	<section class="grey" id="committees">
 		<div class="container-fluid">
 			<h2 class="text-center">Committees</h2>
 			<br/>
-		</div>
-	</section>
-
-	<div class="container-fluid">
-		<div class="row">
 			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12">
 				<br/>
 				<p>The organization is divided into committees that further our mission and, hopefully, make our work more productive.</p>
 				<br/>
-				<p><strong>ADDONS - Add-Ons</strong></p>
-				<p>Determine the criteria for how Order-endorsed add-ons will be selected. Work with the Distribution committee to determine which ones will be part of the standard distribution. Engage developers to encourage them to maintain their add-ons, follow best practices, etc. Could be combined with Distribution.</p>
-				<p><strong>GOV - Governance</strong></p>
-				<p>Draft a charter and some simple by-laws. Figure out voting, member levels, vouching (business requirements), board election procedures, etc.</p>
-				<p><strong>DISTRO - Distribution</strong></p>
-				<p>Work on how the Order-specific distribution will work. Establish standards, source code control, QA. Set milestones. Do the work.</p> 
-				<p><strong>INFRA - Infrastructure</strong></p>
-				<p>Define an architecture, select tools, maintain the site. Implement business requirements given to you by the other sub-committees. Live Showcase idea. DNS and Mailing List administration.</p>
-				<p><strong>MKT - Marketing</strong></p>
-				<p>Collect customer stories from those using CE and the Order-specific distribution. Publish these stories on the web site and in other channels. Figure out how SI's should be listed and what, if any, vetting the Order will do. Proactively seek out individuals and companies who meet the criteria and get them added to the list. Try to get speaking slots at conferences. Find people to donate marketing schwag. This committee should also be responsible for the social accounts. Could be combined with the web site.</p>
+				<div class="row">
+					<div class="col-md-6 col-xs-12">
+						<p><strong>ADDONS - Add-Ons</strong></p>
+						<p>Determine the criteria for how Order-endorsed add-ons will be selected. Work with the Distribution committee to determine which ones will be part of the standard distribution. Engage developers to encourage them to maintain their add-ons, follow best practices, etc.</p>
+						<br/>
+						<p><strong>MKT - Marketing</strong></p>
+						<p>Collect customer stories, publish these stories on the web site and in other channels. Proactively seek out individuals and companies who meet the criteria of Professional Services Network and get them added to the list. Try to get speaking slots at conferences. Find people to donate marketing schwag. This committee should also be responsible for the social accounts.</p>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<p><strong>GOV - Governance</strong></p>
+						<p>Draft a charter and some simple by-laws. Figure out voting, member levels, vouching (business requirements), board election procedures, etc.</p>
+						<br/>
+						<p><strong>DISTRO - Distribution</strong></p>
+						<p>Work on how the Order-specific distribution will work. Establish standards, source code control, QA. Set milestones. Do the work.</p> 
+						<br/>
+						<p><strong>INFRA - Infrastructure</strong></p>
+						<p>Define an architecture, select tools, maintain the site. Implement business requirements given to you by the other sub-committees. Live Showcase idea. DNS and Mailing List administration.</p>
+					</div>
+				</div>
 				<br/>
-				<p class="text-center"><a href="/index.html#activities" class="btn btn-info btn-lg"><i class="fa fa-arrow-down"></i> Our activites</a></p>
 				<br/>
 			</div>
 		</div>
-	</div-->
+	</section>
 
 	<section class="orange" id="sponsors">
 		<div class="container-fluid">
@@ -230,7 +219,7 @@
 					<li>Beer on our Bee Parties.</li>
 				</ul>
 				<br/>
-				<p class="text-center"><a href="/index.html#activities" class="btn btn-info btn-lg"><i class="fa fa-arrow-down"></i> Our activites</a></p>
+				<p class="text-center"><a href="/index.html#activities" class="btn btn-primary btn-lg"><i class="fa fa-arrow-down"></i> Our activites</a></p>
 				<br/>
 			</div>
 		</div>
@@ -259,6 +248,7 @@
 				<p>The only requirement and the only way to join the Order is to contribute to the community. Please, tell us about yourself and about your contributions so we may know a little about you. Links and details are welcome.</p>
 			</div>
 		</div>
+		<br/><br/>
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 col-sm-10 col-sm-offset-1 col-xs-12">
 				<form name="contactForm" class="form-horizontal" role="form" action="http://formspree.io/okurysheva@itdhq.com" method="POST">
@@ -287,15 +277,16 @@
 					<input type="text" name="_gotcha" style="display:none" />
 
 					<div class="form-actions text-center">
-						<button type="submit" class="btn btn-success btn-lg offset1">Submit</button>
-						<button class="btn" type="reset">Clear</button>
+						<button type="submit" class="btn btn-primary btn-lg offset1">Submit</button>
+						<button class="btn btn-default" type="reset">Clear</button>
 					</div>
 				</form>
+				<br/><br/>
 			</div>
 		</div>
 	</div>
 
 	<social></social>
-
+	<script type="text/javascript" src="/assets/js/scripts.js"></script>
  </body>
 </html>

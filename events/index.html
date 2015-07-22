@@ -9,7 +9,7 @@
 
   <title>Order of the Bee >> Events</title>
 
-  <link href="/assets/css/bootstrap.css" rel="stylesheet"/>
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet"/>
   <link href="/assets/css/font-awesome.min.css" rel="stylesheet"/>
   <link href='/assets/css/open-sans-font.css' rel='stylesheet' type='text/css' />
   <link href="/assets/css/fullcalendar.min.css" rel="stylesheet"/>
@@ -31,14 +31,13 @@
 	<script type="text/javascript" src="/assets/js/sanitize.js"></script>
 	<script type="text/javascript" src="/assets/js/modernizr.js"></script>
 	<script type="text/javascript" src="/assets/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
-	<script type="text/javascript" src="/assets/js/jquery.smooth-scroll.js"></script>
 	<script type="text/javascript" src="/assets/js/app.js"></script>
 	<script type="text/javascript" src="/assets/js/moment.min.js"></script>
 	<script type="text/javascript" src="/assets/js/fullcalendar.min.js"></script>
 	<script type="text/javascript" src="/assets/js/gcal.js"></script>
 	<header></header>
 
-	<section class="green">
+	<section class="yellow">
 		<div class="container-fluid">
 			<h1 class="text-center">Events</h1>
 			<br/>
@@ -72,7 +71,8 @@
 							eventSources: [
 								{
 									googleCalendarId: 'klauqaldeahtbtgoj55lmsi2f8@group.calendar.google.com', // EMEA
-									color: '#005dab'
+									color: '#005dab',
+									textColor: '#fff'
 								},
 								{
 									googleCalendarId: 'h9ka6pt612pgekiiuhenvq786o@group.calendar.google.com', // AMER
@@ -119,26 +119,21 @@
 		</div>
 	</div>
 
-	<section class="orange">
+	<section class="grey">
 		<div class="container-fluid">
 			<h2 class="text-center">How to add your event here?</h2>
 			<br/>
-		</div>
-	</section>
-
-	<div class="container-fluid">
-		<div class="row">
 			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12 lead">
 				<br/>
 				<p>Create an issue on Github with a link to the event information. Also contact us to ask for a help in meetup organization.</p>
 				<br/>
 				<p class="text-center"><a href="https://github.com/OrderOfTheBee/marketing/issues/new" class="btn btn-lg btn-success" target="_blank"><i class="fa fa-arrow-down"></i> Submit request</a></p>
-				</div>
+				<br/><br/>
 			</div>
 		</div>
 	</section>
 
 	<social></social>
-
+	<script type="text/javascript" src="/assets/js/scripts.js"></script>
  </body>
 </html>

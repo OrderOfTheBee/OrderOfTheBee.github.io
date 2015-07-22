@@ -1,16 +1,15 @@
-	<script type="text/javascript" src="/assets/js/script.js"></script>
-	<div class="navbar navbar-default navbar-static-top" ng-controller="NavBarCtrl">
-		<div class="container">
-			<div class="navbar-header">
-				<a class="navbar-brand gototop" href="/"><img src="/assets/img/logo.png"/></a>
-			</div>
-			<button type="button" class="btn btn-navbar visible-xs-inline" ng-click="isCollapsed = !isCollapsed">
-				<span class="sr-only"></span>
+<div class="navbar navbar-default navbar-fixed-top" id="nav" ng-controller="NavBarCtrl">
+   	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" ng-click="navbarCollapsed = !navbarCollapsed">
+	   			<span class="sr-only"></span>
 				<span class="fa fa-bars"></span>
-			</button>
-			<p class="navbar-text navbar-left"><a href="/" class="black">Order of the Bee</a></p>
-			<div class="collapse navbar-collapse" collapse="isCollapsed">
-				<ul class="nav navbar-nav navbar-right">
+	   		</button>
+	   		<a class="navbar-brand" href="/"><img src="/assets/img/logo.svg" height="70px"/></a>
+		</div>
+		<p class="navbar-text navbar-left hidden-xs"><a href="/" class="black">Order of the Bee</a></p>
+		<div class="collapse navbar-collapse" collapse="navbarCollapsed">
+			<ul class="nav navbar-nav navbar-right">
 					<li><a href="http://posts.orderofthebee.org">Updates</a></li>
 					<li class="dropdown" on-toggle="toggled(open)">
 						<a class="dropdown-toggle">About Us</a>
@@ -25,84 +24,24 @@
 							<li><a href="/about/#joinrequest" class="smooth">Join the Order</a></li>
 						</ul>
 					</li>
-					<li><a href="/activities/">Activities</a></li>
-					<!--li class="dropdown" on-toggle="toggled(open)">
+					<!--li><a href="/activities/">Activities</a></li-->
+					<li class="dropdown" on-toggle="toggled(open)">
 						<a class="dropdown-toggle">Activities</a>
 						<ul class="dropdown-menu">
-							<li class="dropdown-header">Add-ons</li>
-							<li><a href="https://wiki.alfresco.com/wiki/Projects_and_Teams_Global_Virtual_Hack-a-thon_2014" target="_blank">Collaboration on building add-ons</a></li>
-							<li><a href="/addons/">List of best free add-ons</a></li>
-							<li class="divider"></li>
-							<li class="dropdown-header">Business</li>
-							<li><a href="/professionals/">Professional Services Network</a></li>
-							<li><a href="/stories/">Community Success Stories</a></li>
-							<li class="divider"></li>
-							<li class="dropdown-header">Honeycomb development</li>
 							<li><a href="/honeycomb/">Alfresco Honeycomb Edition</a></li>
-							<li><a href="/live/">Alfresco Live Showcase</a></li>
-							<li class="divider"></li>
-							<li class="dropdown-header">Other</li>
-							<li><a href="https://crowdin.net/project/alfresco">Localization</a></li>
+							<li><a href="http://posts.orderofthebee.org">Tutorials and Articles</a></li>
+							<li><a href="/professionals/">Professional Services Network</a></li>
+							<li><a href="/addons/">List of best free add-ons</a></li>
+							<li><a href="/stories/">Community Success Stories</a></li>
 							<li><a href="/events/">Events</a></li>
-							<li><a href="http://posts.orderofthebee.org">Tutorials and articles</a></li>
+							
 						</ul>
-					</li-->
+					</li>
 					<li><a href="/index.html#contact">Contact</a></li>
 				</ul>
-			</div>
+				<ul class="nav navbar-nav pull-right scroll-top">
+				<li><a href="#" title="Scroll to top"><i class="fa fa-chevron-up"></i></a></li>
+			</ul>
 		</div>
 	</div>
-
-	<div class="stickyheader stickyheader-container hidden-xs">
-		<div class="navbar navbar-default" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<a class="navbar-brand gototop" href="#top"><img src="/assets/img/logo.png"/></a>
-				</div>
-				<p class="navbar-text navbar-left"><a href="/" class="black">Order of the Bee</a></p>
-				<div class="collapse navbar-collapse" collapse="isCollapsed">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a href="http://posts.orderofthebee.org/">Updates</a></li>
-						<li class="dropdown" on-toggle="toggled(open)">
-							<a class="dropdown-toggle">About Us</a>
-							<ul class="dropdown-menu">
-								<li><a href="/about/">About</a></li>
-								<li class="divider"></li>
-								<li><a href="/about/#values" class="smooth">Our Values</a></li>
-								<li><a href="/about/#history" class="smooth">History</a></li>
-								<li><a href="/about/#members" class="smooth">Members</a></li>
-								<li><a href="/about/#sponsors" class="smooth">Sponsors</a></li>
-								<li class="divider"></li>
-								<li><a href="/about/#joinrequest">Join the Order</a></li>
-							</ul>
-						</li>
-						<li><a href="/activities/">Activities</a></li>
-						<!--li class="dropdown" on-toggle="toggled(open)">
-							<a class="dropdown-toggle">Activities</a>
-							<ul class="dropdown-menu">
-								<li class="dropdown-header">Add-ons</li>
-								<li><a href="https://wiki.alfresco.com/wiki/Projects_and_Teams_Global_Virtual_Hack-a-thon_2014" target="_blank">Collaboration on building add-ons</a></li>
-								<li><a href="/addons/">List of best free add-ons</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header">Business</li>
-								<li><a href="/professionals/">Professional Services Network</a></li>
-								<li><a href="/stories/">Community Success Stories</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header">Honeycomb development</li>
-								<li><a href="/honeycomb/">Alfresco Honeycomb Edition</a></li>
-								<li><a href="/live/">Alfresco Live Showcase</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header">Other</li>
-								<li><a href="https://crowdin.net/project/alfresco">Localization</a></li>
-								<li><a href="/events/">Events</a></li>
-								<li><a href="http://posts.orderofthebee.org">Tutorials and articles</a></li>
-							</ul>
-						</li-->
-						<li><a href="/index.html#contact">Contact</a></li>
-
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-
+</div>

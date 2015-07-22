@@ -9,7 +9,7 @@
 
   <title>Order of the Bee >> Professional Services Network</title>
 
-  <link href="/assets/css/bootstrap.css" rel="stylesheet"/>
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet"/>
   <link href="/assets/css/font-awesome.min.css" rel="stylesheet"/>
   <link href='/assets/css/open-sans-font.css' rel='stylesheet' type='text/css' />
   <link href="/assets/css/custom.css" rel="stylesheet"/>
@@ -30,7 +30,6 @@
 	<script type="text/javascript" src="/assets/js/sanitize.js"></script>
 	<script type="text/javascript" src="/assets/js/modernizr.js"></script>
 	<script type="text/javascript" src="/assets/js/ui-bootstrap-tpls-0.11.0.min.js"></script>
-	<script type="text/javascript" src="/assets/js/jquery.smooth-scroll.js"></script>
 	<script type="text/javascript" src="/assets/js/app.js"></script>
 	<header></header>
 	<script>
@@ -43,7 +42,7 @@
 	       }
 	</script>
 
-	<section class="green">
+	<section class="yellow">
 		<div class="container-fluid">
 			<h1 class="text-center">Professional Services Network</h1>
 			<br/>
@@ -109,7 +108,10 @@
 		<div class="row">
 			<br/>
 			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-xs-12" ng-repeat="item in fullList | filter:{territory: query} | filter: query2">
-				<h2><small><span class="label label-info" ng-show="item.status == 'Company'">{{item.status}}</span><span class="label label-warning" ng-show="item.status == 'Freelancer'">{{item.status}}</span></small>&nbsp;&nbsp;{{item.name}}</h2>
+				<br id="{{item.name}}"/>
+				<hr/>
+				<br/>
+				<h2><small><span class="label label-success" ng-show="item.status == 'Company'">{{item.status}}</span><span class="label label-warning" ng-show="item.status == 'Freelancer'">{{item.status}}</span></small>&nbsp;&nbsp;{{item.name}}</h2>
 				<p><strong>Territory</strong>: <span ng-repeat="country in item.territory"><a onclick="countryFilter((this.textContent || this.innerText))"><i>{{country}}</i></a><span ng-if="!$last">,</span> </span></p> 
 				<div ng-bind-html="item.summary"></div>
 				<br/>
@@ -135,23 +137,15 @@
 				</div>
 				<br/>
 				<p ng-show="item.website"><strong>Website</strong>: <a ng-href="{{item.website}}" target="_blank">{{item.website}}</a></p>
-				<br/>
-				<hr/>
-				<br/>
 			</div>
 		</div>
 		<br/>
 	</div>
 
-	<section class="orange">
+	<section class="grey" id="join">
 		<div class="container-fluid">
 			<h2 class="text-center">How to be added here?</h2>
 			<br/>
-		</div>
-	</section>
-
-	<div class="container-fluid">
-		<div class="row">
 			<div class="col-lg-offset-2 col-md-offset-1 col-lg-8 col-md-10 col-sm-12 col-xs-12 lead">
 				<br/>
 				<p>Send us a link to your profile or company website, tell us what you can do, in what countries do you work.</p>
@@ -162,14 +156,13 @@
 					<li>Give us a link to your technical blogs, articles and books. If your employees are blogging on Alfresco technical topic, it's a good way to confirm your competence.</li>
 				</ul>
 				<p>Please make sure that you give link to the actual blogs and repositories. If your last contribution has been made several years ago, it cannot be used as a reference.</p>
-					<br/>
-					<p class="text-center"><a href="https://github.com/OrderOfTheBee/marketing/issues/new" class="btn btn-lg btn-success" target="_blank"><i class="fa fa-arrow-down"></i> Send request</a></p>
-				</div>
+				<br/>
+				<p class="text-center"><a href="https://github.com/OrderOfTheBee/marketing/issues/new" class="btn btn-lg btn-success" target="_blank"><i class="fa fa-arrow-down"></i> Send request</a></p>
 			</div>
 		</div>
 	</section>
 
 	<social></social>
-
+	<script type="text/javascript" src="/assets/js/scripts.js"></script>
  </body>
 </html>
