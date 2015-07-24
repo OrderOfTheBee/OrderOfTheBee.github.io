@@ -10,9 +10,24 @@
 		<p class="navbar-text navbar-left hidden-xs"><a href="/" class="black">Order of the Bee</a></p>
 		<div class="collapse navbar-collapse" collapse="navbarCollapsed">
 			<ul class="nav navbar-nav navbar-right">
-					<li><a href="http://posts.orderofthebee.org">Updates</a></li>
+				<li class="dropdown" on-toggle="toggled(open)">
+                    <a class="dropdown-toggle">Updates <i class="fa fa-angle-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://posts.orderofthebee.org">All</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Updates from the Order</li>
+                        <li><a href="http://posts.orderofthebee.org/tagged/orderofthebee">News</a></li>
+                        <li><a href="http://posts.orderofthebee.org/tagged/events">Events</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">Updates from the Community </li>
+                        <li><a href="http://posts.orderofthebee.org/tagged/technical">Technical Posts</a></li>
+                        <li><a href="http://posts.orderofthebee.org/tagged/ecm">Non-technical Posts</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://posts.orderofthebee.org/about">About the blog</a></li>
+                    </ul>    
+                </li>
 					<li class="dropdown" on-toggle="toggled(open)">
-						<a class="dropdown-toggle">About Us</a>
+						<a class="dropdown-toggle">About Us <i class="fa fa-angle-down"></i></a>
 						<ul class="dropdown-menu">
 							<li><a href="/about/">About</a></li>
 							<li class="divider"></li>
@@ -26,7 +41,7 @@
 					</li>
 					<!--li><a href="/activities/">Activities</a></li-->
 					<li class="dropdown" on-toggle="toggled(open)">
-						<a class="dropdown-toggle">Activities</a>
+						<a class="dropdown-toggle">Activities <i class="fa fa-angle-down"></i></a>
 						<ul class="dropdown-menu">
 							<li><a href="/honeycomb/">Alfresco Honeycomb Edition</a></li>
 							<li><a href="http://posts.orderofthebee.org/tagged/technical">Tutorials and Articles</a></li>
