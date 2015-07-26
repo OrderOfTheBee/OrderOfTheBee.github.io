@@ -119,13 +119,24 @@
 		"contributions": "<p>Developing Alfresco customizations, snippets and some kind of tips at <a href='http://www.keensoft.es' target='_blank'>www.keensoft.es</a> and <a href='http://angelborroy.wordpress.com' target='_blank'>angelborroy.wordpress.com</a>.</p>"
 	},
 	{
+		"name": "Nick",
+		"surname": "Burch",
+		"nick": "gagravarr",
+		"status": "independent",
+		"github": "gagravarr",
+		"twitter" : "gagravarr",
+		"stackoverflow": "http://stackoverflow.com/users/685641/gagravarr",
+		"summary": "<p>Ex-Alfresco developer, these days building solutions on top of Alfresco, and helping with the Apache software foundation.</p>",
+		"contributions": "<ul><li><a href='https://github.com/Gagravarr/activiti-enterprise-to-alfresco ' target='_blank'>Activiti Enterprise to Alfresco Converter</a> that converts Activiti Enterprise packages to be able to run on Alfresco One on-premise</li><li><a href='https://github.com/Gagravarr/AlfrescoDataListDownload' target='_blank'>AlfrescoDataListDownload</a>: Download as Spreadsheet support for Alfresco DataLists</li><li>Active contributor at <a href='http://stackoverflow.com/search?q=user:685641+[alfresco]' target='_blank'>Stackoverflow</a></li></ul>"
+	},
+	{
 		"name": "Juan de la Cruz",
 		"surname": "Calvo Pozo",
 		"nick": "juanitolol",
 		"status": "independent",
 		"linkedin" : "http://es.linkedin.com/in/juandelacruzcalvo/en",
 		"twitter" : "juanitolol",
-		"summary": "ECM enthusiast, working with Alfresco since 2008 and always connected to the spanish community.",
+		"summary": "<p>ECM enthusiast, working with Alfresco since 2008 and always connected to the spanish community.</p>",
 		"contributions": "<ul><li>Presentations on Meetups in Spain & London</li><li>Alfresco Sync Desktop Client contributions</li><li>Share Chat extension, pending to be approved</a></li></ul>"
 	},
 	{
@@ -160,6 +171,18 @@
 		"twitter" : "bchevallereau",
 		"summary": "<p>I'm working on Alfresco for the last 7 years.</p>",
 		"contributions": "<p>I'm currently working on a CMIS 1.1 JS lib that should be moved to Apache Chemistry soon.</p>"
+	},
+	{
+		"name": "David",
+		"surname": "Ciamberlano",
+		"nick": "davidciamberlano",
+		"status": "independent",
+		"github": "david-ciamberlano",
+		"blog": "http://alfrescoinaction.it",
+		"linkedin" : "https://it.linkedin.com/in/davidciamberlano",
+		"twitter" : "sonosolobit",
+		"summary": "<p>I'm an Alfresco/java/web consultant, a freelance technical writer for a major italian programming magazine... and a learning enthusiast.</p>",
+		"contributions": "<ul><li>I write about Alfresco (java, javascript and whatever comes out of my mind...) in my italian <a href='http://alfrescoinaction.it' target='_blank'>blog</a></li><li>I'm community guru in the Alfresco Italian forum</li><li>In my spare time I try to develop some open-source projects on github.</li></ul>"
 	},
 	{
 		"name": "David",
