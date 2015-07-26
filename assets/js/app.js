@@ -19,12 +19,6 @@ app.controller('MembersCtrl', ['$scope', '$http', '$timeout', '$modal', function
 				$scope.members[array[n]]
 			);
 		};
-		$scope.rankedList = [];
-		for (n=1; n < 7; n++) {
-			$scope.rankedList.push(
-				$scope.fullList[array[n]]
-			);
-		};
 	});
 	$scope.open = function (_member) {
 		var modalInstance = $modal.open({
@@ -99,6 +93,10 @@ app.controller('UpdatesCtrl', ['$scope', '$http', function($scope, $http){
       $scope.updates = data;
     })
   }]);
+
+app.controller('AccordionCtrl', function ($scope) {
+  $scope.oneAtATime = false;
+});
 
 function NavBarCtrl($scope) {
     $scope.navbarCollapsed = true;
