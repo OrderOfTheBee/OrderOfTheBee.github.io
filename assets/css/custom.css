@@ -85,12 +85,12 @@ input:focus:valid, textarea:focus:valid {
 
 img.right {
 	float: right;
-	margin: 10px 10px 10px 20px;
+	margin: 25px 0 25px 25px;
 }
 
 img.left {
 	float: left;
-	margin: 10px 10px 10px 20px;
+	margin: 25px 25px 25px 0;
 }
 
 img.purple {
