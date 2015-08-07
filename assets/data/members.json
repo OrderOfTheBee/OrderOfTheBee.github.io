@@ -443,6 +443,25 @@
 		"contributions": "<ul><li>This is were the Order made a difference. I realised none of my Alfresco work was ever published to the community. So you made me do the Right Thing here: I brushed up <a href='http://www.open-t.nl/projects/groovyrunner' target='_blank'>my GroovyRunner Alfresco plug-in</a>. It has helped us a lot, I hope you like it!</li></ul>"
 	},
 	{
+		"name": "Vasil",
+		"surname": "Iliev",
+		"nick": "vasililiev",
+		"status": "independent",
+		"linkedin" : "https://mk.linkedin.com/pub/vasil-iliev/b4/354/967",
+		"stackoverflow": "http://stackoverflow.com/users/4148613/the-macedon",
+		"summary": "<p>Software developer from Macedonia.</p>",
+		"contributions": "<ul><li>Alfresco addons: <a href='https://addons.alfresco.com/addons/workflow-filter-dashlet' target='_blank'>Workflow filter dashlet</a></li><li>Stackoverflow profile: <a href='http://stackoverflow.com/users/4148613/the-macedon' target='_blank'>http://stackoverflow.com/users/4148613/the-macedon</a></li></ul>"
+	},
+	{
+		"name": "Irena",
+		"surname": "Ilievska",
+		"nick": "irenailievska",
+		"status": "independent",
+		"facebook":"https://facebook.com/irena.ilievska.3",
+		"summary": "<p>I am a Software Developer from Macedonia. I am interested in learning new things and meeting new people. I like reading, traveling and doing sports.</p>",
+		"contributions": "<ul><li>Help people on <a href='https://forums.alfresco.com/users/irenailievska' target='_blank'>Alfresco forums</a></li></ul>"
+	},
+	{
 		"name": "Akinori",
 		"surname": "Ishii",
 		"nick": "akinori.ishii",
@@ -1052,6 +1071,16 @@
 		"twitter" : "srojasbg",
 		"github": "srojasbg",
 		"contributions": "<ul><li>Post in forums as srojas</li><li>Speaker in San Francisco and London summit 2014 (Top 10 Tricks to improve Alfresco Performance)</li><li>Contributor for Enterprise version with bug fixing from different companies from 2007</li></ul>"
+	},
+	{
+		"name": "Jeff",
+		"surname": "Rosler",
+		"nick": "jrosler",
+		"status": "independent",
+		"linkedin": "https://www.linkedin.com/in/jeffrosler",
+		"twitter" : "techchefjeff",
+		"summary": "I've been involved in implementing and selling ECM solutions for the past 14+ years. During that time, I was working as a developer, tech lead, architect and for the last 6 years or so a Sales Engineer. While I've been on the sales end of things, the company I currently work for has been an Alfresco partner and I've been through training and demoed Alfresco many times over the years. I'm leaving my current company shortly to work with another Alfresco partner and moving back to an implementation role and would like to get more into development and involved in the community. I've always been an advocate of open source software and really liked the vibe of Alfresco in the early days. As I move back to solution architecture and development I'd like to give back to the community, get more depth in Alfresco, and work with like minded people.",
+		"contributions": "<p>My contributions to the community have been pretty much nil. A few years back I did a couple wiki updates and added a page on correctly configuring CIFS and getting that working with various Windows versions. Part of the reason for this was that my company had competing partnerships and I had to be very careful about how I contributed or fostered different ECM vendors openly.</p>"
 	},
 	{
 		"name": "Christophe",
