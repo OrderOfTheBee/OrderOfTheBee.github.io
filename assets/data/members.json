@@ -447,6 +447,7 @@
 		"surname": "Iliev",
 		"nick": "vasililiev",
 		"status": "independent",
+		"github": "vasililiev",
 		"linkedin" : "https://mk.linkedin.com/pub/vasil-iliev/b4/354/967",
 		"stackoverflow": "http://stackoverflow.com/users/4148613/the-macedon",
 		"summary": "<p>Software developer from Macedonia.</p>",
@@ -914,6 +915,7 @@
 		"surname": "Petreski",
 		"nick": "krasimir.petreski",
 		"status": "independent",
+		"github": "krasimirpetreski",
 		"linkedin" : "https://mk.linkedin.com/pub/krasimir-petreski/9/686/341",
 		"twitter" : "krasimirpe",
 		"summary": "<p>Software executive manager at Neocom.</p>",
@@ -1078,9 +1080,10 @@
 		"nick": "jrosler",
 		"status": "independent",
 		"linkedin": "https://www.linkedin.com/in/jeffrosler",
+		"github": "jrosler",
 		"twitter" : "techchefjeff",
 		"summary": "I've been involved in implementing and selling ECM solutions for the past 14+ years. During that time, I was working as a developer, tech lead, architect and for the last 6 years or so a Sales Engineer. While I've been on the sales end of things, the company I currently work for has been an Alfresco partner and I've been through training and demoed Alfresco many times over the years. I'm leaving my current company shortly to work with another Alfresco partner and moving back to an implementation role and would like to get more into development and involved in the community. I've always been an advocate of open source software and really liked the vibe of Alfresco in the early days. As I move back to solution architecture and development I'd like to give back to the community, get more depth in Alfresco, and work with like minded people.",
-		"contributions": "<p>My contributions to the community have been pretty much nil. A few years back I did a couple wiki updates and added a page on correctly configuring CIFS and getting that working with various Windows versions. Part of the reason for this was that my company had competing partnerships and I had to be very careful about how I contributed or fostered different ECM vendors openly.</p>"
+		"contributions": "<ul><li>A few years back Jeff did a couple wiki updates and added a page on correctly configuring CIFS and getting that working with various Windows versions.</li><li>Jeff is working on making more contributions to the community</li></ul>"
 	},
 	{
 		"name": "Christophe",
