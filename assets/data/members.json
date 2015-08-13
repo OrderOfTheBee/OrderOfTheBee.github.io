@@ -743,8 +743,16 @@
 		"linkedin" : "http://ch.linkedin.com/in/samuelmasue",
 		"googleplus": "https://plus.google.com/u/0/100576411137255271979/about",
 		"blog": "http://smasue.github.io/",
-		"summary": "I am software engineer with a java background. I work in Geneva area. And for a year I work on a project with Alfresco.",
+		"summary": "<p>I am software engineer with a java background. I work in Geneva area. And for a year I work on a project with Alfresco.<p>",
 		"contributions": "<ul><li>I share my experience with Alfresco in a <a href='http://smasue.github.io/' target='_blank'>blog</a></li></ul>"
+	},
+	{
+		"name": "Ashwin",
+		"surname": "Mathur",
+		"nick": "mathurashwin",
+		"status": "independent",
+		"linkedin" : "https://www.linkedin.com/in/mathurashwin",
+		"summary": "<p>Independent Alfresco/ Java consultant in the Washington DC metro area.</p>"
 	},
 	{
 		"name": "Florian",
@@ -755,7 +763,7 @@
 		"linkedin" : "http://de.linkedin.com/pub/florian-maul/23/58/315",
 		"twitter": "fmaul",
 		"blog": "http://www.techbits.de/",
-		"summary": "Long time Alfresco Consultant/Developer, working for the german Alfresco partner FME AG.",
+		"summary": "<p>Long time Alfresco Consultant/Developer, working for the german Alfresco partner FME AG.</p>",
 		"contributions": "<ul><li>Creator of the <a href='https://github.com/share-extras/js-console' target='_blank'>Alfresco JavaScript Console</a></li><li>Developing free open-source add-ons </li><li>Speaker at Alfresco DevCon / Summits and Alfresco Meet-the-Expert events </li><li>Hackathon participant</li></ul>"
 	},
 	{
@@ -764,7 +772,7 @@
 		"nick": "cm360",
 		"status": "independent",
 		"blog": "http://www.cm360.net/",
-		"summary": "I'm a recently (semi-)retired teacher who has been fortunate enough to become involved in some interesting IT projects (educational site using Drupal and business document management/process management/ISO 9000 using Alfresco). I'm learning rapidly but could not achieve anything without the help of groups like this one.",
+		"summary": "<p>I'm a recently (semi-)retired teacher who has been fortunate enough to become involved in some interesting IT projects (educational site using Drupal and business document management/process management/ISO 9000 using Alfresco). I'm learning rapidly but could not achieve anything without the help of groups like this one.</p>",
 		"contributions": "<ul><li>So far I am not skilled enough to produce any code, modules, add-ons, etc. but I am trying to put what I learn into <a href='http://www.cm360.net/' target='_blank'>a blog</a> which may help others who are in the same situation.</li></ul>"
 	},
 	{
