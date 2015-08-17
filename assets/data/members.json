@@ -1323,6 +1323,16 @@
 		"contributions" : "<ul><li>I help organize the Alfresco Study meeting once a month in Tokyo</li><li><a href='https://github.com/to2y/AlfrescoOnlineEditWebDAV' target='_blank'>Alfresco extension: Online document edition via WebDAV</a></li><li>I write articles about Alfresco at <a href='http://aegif-labo.blogspot.jp/' target='_blank'>aegif labo blog.</a></li></ul>"
 	},
 	{
+		"name": "Neeraj",
+		"surname": "Yadav",
+		"nick": "n33raj18",
+		"status": "independent",
+		"github": "n33raj18",
+		"twitter": "n33raj18",
+		"summary": "<p>I am a fresh out of college graduate. I have just joined a company which requires me to get acquainted with Alfresco as fast as possible.</p>",
+		"contributions" : "<ul><li>I have not contributed...yet.</li></ul>"
+	},
+	{
 		"name": "Ian",
 		"surname": "Wright",
 		"nick": "techwrighting",
