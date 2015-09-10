@@ -944,6 +944,17 @@
 		"contributions": "<ul><li>blogging at <a href='http://blog.alfrescian.com' target='_blank'>blog.alfrescian.com</a></li><li>Alfresco contributor (e.g. <a href='http://blog.alfrescian.com/?p=80' target='_blank'>Category Manager for Alfresco Share</a>)</li><li>Actively Answering questions in the forum and on stackoverflow</li><li>Speaker at several german meetups</li><li>Developer of a few Alfresco Addons (e.g. <a href='http://addons.alfresco.com/addons/alfresco-share-datalist-extension' target='_blank'>Alfresco Share Datalist extension</a>, <a href='http://addons.alfresco.com/addons/tag-query-dashlet' target='_blank'>Tag Query Dashlet</a>, <a href='https://github.com/alfrescian/ng-cmis-browser' target='_blank'>Alfrescian CMIS Browser</a>, <a href='https://github.com/alfrescian/cmis-browser-ng-material' target='_blank'>CMIS-Browser using Material design for Angular</a>)</li><li>Currently Developing a Trello-like Task Board for Alfresco</li></ul>"
 	},
 	{
+		"name": "Johan",
+		"surname": "Pieterse",
+		"nick": "johan.pieterse",
+		"status": "independent",
+		"key": "yes",
+		"googleplus" : "https://plus.google.com/109751532270547569801/about",
+		"linkedin" : "http://de.linkedin.com/pub/jan-pfitzner/35/739/1b2",
+		"summary": "<p>I have started implementing Alfresco Community in SITA (State Information Technology Agency - South Africa) in 2008 and have grown with it since. As SITA we implemented 4 government departments and want to grow it further.</p>",
+		"contributions": "<p>Initially I contributed a lot, but got side tracked with management. I am back and hope will start contributing soon.</p>"
+	},
+	{
 		"name": "Aingaran",
 		"surname": "Pillai",
 		"nick": "apillai",
@@ -1281,6 +1292,15 @@
 		"summary" : "<p>Investigating Alfresco as a replacement technology for a traditional file server.</p>"
 	},
 	{
+		"name": "Kien",
+		"surname": "Vu",
+		"nick": "kienvu ",
+		"status": "independent",
+		"linkedin" : "http://www.linkedin.com/in/kienvu",
+		"summary" : "<p>I'm working in a educational technology Brightcookie based in Adelaide, Australia. Our focus is about integrating LMS system (such as Moodle) with Alfresco, and other supported CMIS systems.</p>",
+		"contributions": "<ul><li>We have write a Moodle plugin to allow user to upload/choose documents to/from Alfresco directly in Moodle.</li><li>I am writing Alfresco related blog in <a href='http://www.brightcookie.com/tags/alfresco/' target='_blank'>our website</a>.</li></ul>"
+	},
+	{
 		"name": "Ashley",
 		"surname": "Ward",
 		"nick": "ashward",
@@ -1301,6 +1321,17 @@
 		"twitter" : "binduwavell",
 		"summary": "<p>I am the chief architect at Zia Consulting, which is a Platinum Parter of Alfresco. We have been partner of the year a couple of times. As a platinum partner we can't work on community projects through work. However, there is nothing stopping folks working on community related projects in our spare time :)</p>",
 		"contributions" : "<ul><li>I enjoy hanging out on IRC and answering questions if I can. I presented a dev environment we built during <a href='http://www.youtube.com/watch?v=tRxvpJcW3Yo' target='_blank'>TTL #69</a> that I hope inspired the new RAD stuff in the 2.0 SDK at least a little bit.</li><li>I have also presented some lightning talks at DevCon/Summit and will be presenting a full session at Summit in SF and London this year that I hope will be interesting to (and advocating for) the community.</li></ul>"
+	},
+	{
+		"name": "Atef",
+		"surname": "ZAYATI",
+		"nick": "atef_zayati",
+		"status": "independent",
+		"twitter": "atef_zayati",
+		"blog": "http://atef-zayati.tumblr.com/",
+		"linkedin" : "http://tn.linkedin.com/pub/atef-zayati/56/711/7bb/en",
+		"summary": "<p>I am a 28 year-old Tunisian software engineer living in Paris, France. I have a 4 year-experience in ECM / BPM. First, I worked on an ECM solution based on Alfresco. I was heavily involved in the design and implementation of workflow designer based on JointJS and Raphaël. The workflow designer is partially compliant with BPMN 2.0 providing intuitive UI and making the deployment of new workflows including tasks model, forms configuration and Activiti process definition with just few clicks.</p><p>Actually, I am working on several projects around Alfresco Community and Alfresco Enterprise Editions. My tasks include: requirements analysis, sizing Alfresco platform, customization and features design, evolutions analysis and implementation, issues analysis and fixing, auditing, security, etc. I am an Alfresco Certified Engineer (ACE) and an Alfresco Certified Administrator (ACA).</p>",
+		"contributions" : "<p>Not yet developed an open source add-on. But, it is coming soon...</p>"
 	},
 	{
 		"name": "kayne",
