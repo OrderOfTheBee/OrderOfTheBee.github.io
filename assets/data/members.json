@@ -81,6 +81,17 @@
 		"contributions": "<ul><li>I have contributed to the <a href='https://github.com/iarroyo/alfresco-webscript-manifold-connector' target='_blank'>Manifold Alfresco Connector</a> project from Maurizio Pillitu on Github.</li><li>I have adapted the Jeff Potts Metaversant Fivestar project to Alfresco version 4.2.x Community.</li><li>I am collaborator in the Alfresco meetup in Seville.</li>"
 	},
 	{
+		"name": "Mikel",
+		"surname": "Asla",
+		"nick": "mikelasla",
+		"status": "independent",
+		"github": "mikelasla",
+		"linkedin" : "https://es.linkedin.com/in/mikelasla",
+		"twitter":"maculi33",
+		"summary": "<p>Working with Alfresco since 2006.</p>",
+		"contributions": "<ul><li>Working on a <a href='https://github.com/mikelasla/alfresco' target='_blank'>dockerfile for Alfresco Community</a></li>"
+	},
+	{
 		"name": "Erik",
 		"surname": "Billerby",
 		"nick": "billerby",
