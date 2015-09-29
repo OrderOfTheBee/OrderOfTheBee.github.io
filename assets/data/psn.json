@@ -296,7 +296,7 @@
 		"name":"Brightcookie Pty Ltd",
 		"territory": [ "Australia" ],
 		"status":"Company",
-		"summary": "<p>Brightcookie Pty Ltd is an Adelaide South Australia based Online Learning Specialist company supporting clients in anything related to the delivery of Online Learning. Clients are typically Educational & Training Providers in the Schools, VET (Adult Education) and Higher Education Sector as well as corporate training departments. Brightcookie Pty has used Alfresco Community Edition for over 5 years now to support some of their larger clients with Alfresco CE as a Learning Object Repository with associated workflows to produce these Learning Materials. Brightcookie Pty has also connected Alfresco to a number of Learning Management Systems (such as Moodle LMS) as well as Social Learning Platforms.</p>",
+		"summary": "<p>Brightcookie Pty Ltd is an Adelaide South Australia based Online Learning Specialist company supporting clients in anything related to the delivery of Online Learning. Clients are typically Educational & Training Providers in the Schools, VET (Adult Education) and Higher Education Sector as well as corporate training departments.</p><p>Brightcookie Pty has used Alfresco Community Edition for over 5 years now to support some of their larger clients with Alfresco CE as a Learning Object Repository with associated workflows to produce these Learning Materials. Brightcookie Pty has also connected Alfresco to a number of Learning Management Systems (such as Moodle LMS) as well as Social Learning Platforms.</p>",
 		"blogs": [
 			{
 				"title": "Blog",
