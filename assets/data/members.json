@@ -1084,6 +1084,18 @@
 		"contributions" : "<ul><li>I am active member on <a href='https://forums.alfresco.com/users/pmrreddy' target='_blank'>Alfresco forums</a></li></ul>"
 	},
 	{
+		"name": "Younes",
+		"surname": "REGAIEG",
+		"nick": "YRegTN",
+		"status": "independent",
+		"twitter": "YRegTN",
+		"github": "yregaieg",
+		"linkedin": "https://fr.linkedin.com/in/younesregaieg",
+		"blog": "http://yreg.tn",
+		"summary": "<p>Software engineer @ArchiveYourDocs.com. Younes is basically implementing some cool new features in Alfresco and integrating Alfresco to existing information systems, when I am not hanging on IRC.</p>",
+		"contributions": "<ul><li>Hanging on the IRC channel helping new developers getting their hands on alfresco</li><li>Blogging alfresco tutorials / tips and tricks some time soon on the <a href='http://yreg.tn' target='_blank'>blog</a></li></ul>"
+	}
+	{
 		"name": "Heiko",
 		"surname": "Robert",
 		"nick": "heiko",
