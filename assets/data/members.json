@@ -531,6 +531,17 @@
 		"summary": "<p>I'm Support & testing engineers, I'm working with the Ministry of Interior in Saudi Arabia, and I'm also alfresco junior developer, I have good background in webscripting. also I have good background in ubuntu bash scripting</p>"
 	},
 	{
+		"name": "Patrick",
+		"surname": "Kimber",
+		"nick": "pkimber",
+		"status": "independent",
+		"github": "pkimber",
+		"twitter": "pkimber",
+		"linkedin": "https://uk.linkedin.com/in/pkimber",
+		"summary": "<p>I am a java/python programmer. Investigating the use of Alfresco to store documents.</p>",
+		"contributions": "<ul><li><a href='https://www.pkimber.net/howto/java/apps/alfresco/index.html' target='_blank'>Alfresco how-to notes</a></li><li>Other technical <a href='https://www.pkimber.net/open/' target='_blank'>notes</a></li></ul>"
+	},
+	{
 		"name": "Siniša",
 		"surname": "Komarica",
 		"nick": "skomarica",
