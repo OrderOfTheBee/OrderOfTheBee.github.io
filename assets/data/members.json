@@ -825,6 +825,14 @@
 		"contributions" : "<ul><li>Developing Alfresco extensions (<a href='https://github.com/tass01024?tab=repositories' target='_blank'>Github</a> and <a href='https://code.google.com/u/113141735868010936936/' target='_blank'>Google Code</a>)</li><li>Helping people at <a href='http://stackoverflow.com/users/2060676/rasmus-melgaard' target='_blank'>StackOverflow</a></li></ul>"
 	},
 	{
+		"name": "Mohamed",
+		"surname": "Omar",
+		"nick": "jibo",
+		"status": "independent",
+		"github": "jibo",
+		"summary": "<p>I'm software developer and sysAdmin</p>"
+	},
+	{
 		"name": "Morgan",
 		"surname": "Patou",
 		"nick": "morgan-patou",
