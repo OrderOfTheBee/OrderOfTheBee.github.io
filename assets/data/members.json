@@ -81,6 +81,18 @@
 		"contributions": "<ul><li>I have contributed to the <a href='https://github.com/iarroyo/alfresco-webscript-manifold-connector' target='_blank'>Manifold Alfresco Connector</a> project from Maurizio Pillitu on Github.</li><li>I have adapted the Jeff Potts Metaversant Fivestar project to Alfresco version 4.2.x Community.</li><li>I am collaborator in the Alfresco meetup in Seville.</li>"
 	},
 	{
+		"name": "Mikel",
+		"surname": "Asla",
+		"nick": "mikelasla",
+		"status": "independent",
+		"github": "mikelasla",
+		"linkedin" : "https://es.linkedin.com/in/mikelasla",
+		"twitter":"maculi33",
+		"blog": "http://maculi33.blogspot.ru/",
+		"summary": "<p>Working with Alfresco since 2006.</p>",
+		"contributions": "<ul><li>Working on a <a href='https://github.com/mikelasla/alfresco' target='_blank'>dockerfile for Alfresco Community</a></li>"
+	},
+	{
 		"name": "Erik",
 		"surname": "Billerby",
 		"nick": "billerby",
@@ -528,6 +540,17 @@
 		"summary": "<p>I'm Support & testing engineers, I'm working with the Ministry of Interior in Saudi Arabia, and I'm also alfresco junior developer, I have good background in webscripting. also I have good background in ubuntu bash scripting</p>"
 	},
 	{
+		"name": "Patrick",
+		"surname": "Kimber",
+		"nick": "pkimber",
+		"status": "independent",
+		"github": "pkimber",
+		"twitter": "pkimber",
+		"linkedin": "https://uk.linkedin.com/in/pkimber",
+		"summary": "<p>I am a java/python programmer. Investigating the use of Alfresco to store documents.</p>",
+		"contributions": "<ul><li><a href='https://www.pkimber.net/howto/java/apps/alfresco/index.html' target='_blank'>Alfresco how-to notes</a></li><li>Other technical <a href='https://www.pkimber.net/open/' target='_blank'>notes</a></li></ul>"
+	},
+	{
 		"name": "Siniša",
 		"surname": "Komarica",
 		"nick": "skomarica",
@@ -811,6 +834,14 @@
 		"contributions" : "<ul><li>Developing Alfresco extensions (<a href='https://github.com/tass01024?tab=repositories' target='_blank'>Github</a> and <a href='https://code.google.com/u/113141735868010936936/' target='_blank'>Google Code</a>)</li><li>Helping people at <a href='http://stackoverflow.com/users/2060676/rasmus-melgaard' target='_blank'>StackOverflow</a></li></ul>"
 	},
 	{
+		"name": "Mohamed",
+		"surname": "Omar",
+		"nick": "jibo",
+		"status": "independent",
+		"github": "jibo",
+		"summary": "<p>I'm software developer and sysAdmin</p>"
+	},
+	{
 		"name": "Morgan",
 		"surname": "Patou",
 		"nick": "morgan-patou",
@@ -957,7 +988,6 @@
 		"surname": "Pieterse",
 		"nick": "johan.pieterse",
 		"status": "independent",
-		"key": "yes",
 		"googleplus" : "https://plus.google.com/109751532270547569801/about",
 		"linkedin" : "http://de.linkedin.com/pub/jan-pfitzner/35/739/1b2",
 		"summary": "<p>I have started implementing Alfresco Community in SITA (State Information Technology Agency - South Africa) in 2008 and have grown with it since. As SITA we implemented 4 government departments and want to grow it further.</p>",
@@ -1079,6 +1109,18 @@
 		"linkedin" : "https://in.linkedin.com/pub/parameswara-reddy/24/574/24a",
 		"summary": "<p>This is Parameswar from India, I started my carrier in opensource technology like Alfresco.</p>",
 		"contributions" : "<ul><li>I am active member on <a href='https://forums.alfresco.com/users/pmrreddy' target='_blank'>Alfresco forums</a></li></ul>"
+	},
+	{
+		"name": "Younes",
+		"surname": "REGAIEG",
+		"nick": "YRegTN",
+		"status": "independent",
+		"twitter": "YRegTN",
+		"github": "yregaieg",
+		"linkedin": "https://fr.linkedin.com/in/younesregaieg",
+		"blog": "http://yreg.tn",
+		"summary": "<p>Software engineer @ArchiveYourDocs.com. Younes is basically implementing some cool new features in Alfresco and integrating Alfresco to existing information systems, when I am not hanging on IRC.</p>",
+		"contributions": "<ul><li>Hanging on the IRC channel helping new developers getting their hands on alfresco</li><li>Blogging alfresco tutorials / tips and tricks some time soon on the <a href='http://yreg.tn' target='_blank'>blog</a></li></ul>"
 	},
 	{
 		"name": "Heiko",
