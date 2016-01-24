@@ -262,7 +262,7 @@
 		"repos" : [
 			{
 				"name": "MetaDBConnector Component for Alfresco Share",
-				"link": "https://code.google.com/p/alfresco-metadbconnector/source/browse/"
+				"link": "https://github.com/venziait/alfresco-metadbconnector"
 			}
 		],
 		"blogs": [

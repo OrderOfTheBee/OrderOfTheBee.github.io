@@ -443,6 +443,15 @@
 		"contributions": "<ul><li>This is were the Order made a difference. I realised none of my Alfresco work was ever published to the community. So you made me do the Right Thing here: I brushed up <a href='http://www.open-t.nl/projects/groovyrunner' target='_blank'>my GroovyRunner Alfresco plug-in</a>. It has helped us a lot, I hope you like it!</li></ul>"
 	},
 	{
+		"name": "Henry",
+		"surname": "Huang",
+		"nick": "AlfrescoINchina",
+		"status": "independent",
+		"twitter": "AlfrescoINchina",
+		"summary": "<p>We are the partner in China, and in the meantime, we are also expanding Alfresco’s influence in China. Because we can’t access to alfresco.com here, thus, we established alfresco.com.cn provide to Chinese Alfresco users, and we translate lots of valuable content into the website.</p>",
+		"contributions": "<p>We built Chinese Community Platform on <a href='http://forum.alfresco.com.cn/' target='_blank'>http://forum.alfresco.com.cn/</a>, and keep expanding its influence.</p>"
+	},
+	{
 		"name": "Vasil",
 		"surname": "Iliev",
 		"nick": "vasililiev",
@@ -1470,13 +1479,13 @@
 		"name": "Gabriele",
 		"surname": "Columbro",
 		"nick": "mindthegab",
-		"status": "alfresco",
+		"status": "independent",
 		"github": "mindthegab",
 		"googleplus" : "https://plus.google.com/100251676538566683892/about",
 		"linkedin" : "http://www.linkedin.com/in/columbro",
 		"blog" : "http://mindthegab.com/",
 		"twitter" : "mindthegabz",
-		"summary": "<p>Former Principal Architect, now WW Manager at Alfresco Software.</p>",
+		"summary": "<p>Former Principal Architect and WW Manager at Alfresco Software.</p>",
 		"contributions" : "<ul><li>Founder, main contributor and benevolent dictator of the <a href='https://github.com/Alfresco/alfresco-sdk/' target='_blank'>Alfresco SDK</a>.</li><li>Apache committer and release manager for OpenCMIS, formerly for Spring Surf.</li></ul>"
 	},
 	{
