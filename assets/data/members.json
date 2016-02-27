@@ -169,8 +169,17 @@
 		"blog": "http://venzia.es/blogs/horelviscastillo",
 		"linkedin" : "http://es.linkedin.com/pub/horelvis-castillo/17/b71/8b4/en",
 		"twitter" : "horelvis",
-		"summary": "CTO in Venzia SL",
+		"summary": "<p>CTO in Venzia SL</p>",
 		"contributions": "<ul><li><a href='https://addons.alfresco.com/addons/alfresco-metadbconnector-component' target='_blank'>Alfresco MetaDBConnector Component</a></li><li><a href='http://venzia.es/blogs/horelviscastillo' target='_blank'>Blog</a></li></ul>"
+	},
+	{
+		"name": "Ramesh",
+		"surname": "Chauhan",
+		"nick": "romschn",
+		"status": "independent",
+		"blog": "http://alfresco-for-developers.blogspot.com",
+		"summary": "<p>I am Ramesh Chauhan, having been working on Alfresco since last 5.5+ years having  implemented and architected several alfresco solutions to cater to customer's ECM  business need using Alfresco. Having strong expertise on Alfresco Document  Management and Alfresco Share.</p>",
+		"contributions": "<ul><li>I have been an author of the Alfresco book titled - <a href='https://www.packtpub.com/web-development/learning- alfresco-web-scripts' target='_blank'>Learning Alfresco Web Scripts</a> published by Packt Publishing.</li><li>I am also an active contributor on Alfresco community forum - <a href='https://forums.alfresco.com/users/romschn' target='_blank'>romschn</a>.</li><li>My slide share presentations are available at <a href='http://www.slideshare.net/rameshpchauhan' target='_blank'>http://www.slideshare.net/rameshpchauhan</a>.</li></ul>"
 	},
 	{
 		"name": "Ben",
@@ -325,6 +334,15 @@
 		"linkedin" : "http://ph.linkedin.com/in/jettgamboa",
 		"googleplus": "http://google.com/+JettGamboa",
 		"contributions": "<p>DB2 Support for Alfresco Community:</p><ul><li><a href='https://addons.alfresco.com/addons/db2-support-alfresco-community' target='_blank'>https://addons.alfresco.com/addons/db2-support-alfresco-community</a></li><li><a href='https://github.com/jett/db2-alfresco' target='_blank'>https://github.com/jett/db2-alfresco</a></li></ul>"
+	},
+	{
+		"name": "Ganesha",
+		"surname": "",
+		"nick": "reekoheek",
+		"status": "independent",
+		"github": "reekoheek",
+		"summary": "<p>I am an IT practitioner, mostly working with web and mobile applications. I am working on several open source projects.</p>",
+		"contributions": "<ul><li><a href='https://github.com/reekoheek/yesbee' target='_blank'>yesbee</a> -  ESB platform, the light one.</li><li><a href='https://github.com/reekoheek/bono' target='_blank'>bono</a> - PHP Framework</li><li><a href='https://github.com/reekoheek/norm' target='_blank'>(n)orm</a> - not intended to be an ORM, it is more like adapter to bridge nosql (mongodb) and nosql (rdbms)</li></ul>"
 	},
 	{
 		"name": "Mathieu",
