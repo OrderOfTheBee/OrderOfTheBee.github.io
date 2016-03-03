@@ -177,6 +177,7 @@
 		"surname": "Chauhan",
 		"nick": "romschn",
 		"status": "independent",
+		"github": "romschn",
 		"blog": "http://alfresco-for-developers.blogspot.com",
 		"summary": "<p>I am Ramesh Chauhan, having been working on Alfresco since last 5.5+ years having  implemented and architected several alfresco solutions to cater to customer's ECM  business need using Alfresco. Having strong expertise on Alfresco Document  Management and Alfresco Share.</p>",
 		"contributions": "<ul><li>I have been an author of the Alfresco book titled - <a href='https://www.packtpub.com/web-development/learning- alfresco-web-scripts' target='_blank'>Learning Alfresco Web Scripts</a> published by Packt Publishing.</li><li>I am also an active contributor on Alfresco community forum - <a href='https://forums.alfresco.com/users/romschn' target='_blank'>romschn</a>.</li><li>My slide share presentations are available at <a href='http://www.slideshare.net/rameshpchauhan' target='_blank'>http://www.slideshare.net/rameshpchauhan</a>.</li></ul>"
@@ -337,7 +338,7 @@
 	},
 	{
 		"name": "Ganesha",
-		"surname": "",
+		"surname": " ",
 		"nick": "reekoheek",
 		"status": "independent",
 		"github": "reekoheek",
