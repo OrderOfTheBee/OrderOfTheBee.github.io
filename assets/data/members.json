@@ -526,6 +526,16 @@
 		"contributions": "<ul><li>I am currently envolved in arranging an Alfresco community meetup in Denmark.</li><li>I have written one blog post but it is now out-dated. But here it is <a href='http://alfresco.blog.redpill-linpro.com/2011/11/07/implementing-multiple-project-customisations-in-one-alfresco-instance/' target='_blank'>http://alfresco.blog.redpill-linpro.com/2011/11/07/implementing-multiple-project-customisations-in-one-alfresco-instance/</a>.</li></ul>"
 	},
 	{
+		"name": "Hardik",
+		"surname": "Kacholia",
+		"nick": "hardikkacholia"
+		"status": "independent",
+		"linkedin": "https://in.linkedin.com/in/hardik-kacholia-9410763b",
+		"blog": "http://hardikkacholia.blogspot.ru/",
+		"summary": "<p>I am Hardik, working as Alfresco Consultant in CIGNEX Datamatics since 2014.</p>",
+		"contributions": "<ul><li>Helping people on <a href='https://forums.alfresco.com/users/hardik1512' target=_'blank'>Alfresco Forums</a></li><li><a href='http://hardikkacholia.blogspot.ru/' target='_blank'>Blogging</a> about Alfresco</li></ul>"
+	},
+	{
 		"name": "Benjamin",
 		"surname": "Kahn",
 		"nick": "xkahn",
@@ -535,6 +545,16 @@
 		"linkedin" : "http://www.linkedin.com/in/xkahn",
 		"blog" : "http://xkahn.zoned.net/blog/",
 		"twitter" : "xkahn"
+	},
+	{
+		"name": "Jean-Christophe",
+		"surname": "KERMAGORET",
+		"nick": "jckermagoret",
+		"status": "independent",
+		"github": "jckermagoret",
+		"twitter": "jckermagoret",
+		"summary": "<p>I'm BlueDolmen founder, a company specialized in input and output management based on Alfresco. We developed BlueCourrier and BlueAppStore, 2 open source applications available on Alfresco. Support is available on http://www.bluedolmen.org. I work on Alfresco since 2008 and like writing functional modules (js code, forms, datamodel) to manage all kind of data in Alfresco.</p>",
+		"contributions": "<ul><li>I'm kind of a community manager. I'm working on sharing BlueDolmen assets like BlueCourrier in the Alfresco community. I try to build a complete functional architecture on Alfresco. <a href='https://github.com/bluedolmen/App-blue-courrier' target='_blank'>BlueCourrier</a> aims at managing input and output in Alfresco (e-mail, mail, web forms...).</li></ul>"
 	},
 	{
 		"name": "Deepak",
@@ -796,6 +816,14 @@
 		"blog": "http://smasue.github.io/",
 		"summary": "<p>I am software engineer with a java background. I work in Geneva area. And for a year I work on a project with Alfresco.<p>",
 		"contributions": "<ul><li>I share my experience with Alfresco in a <a href='http://smasue.github.io/' target='_blank'>blog</a></li></ul>"
+	},
+	{
+		"name": "Stéphane",
+		"surname": "MATHOT",
+		"status": "independent",
+		"nick": "stephane-mathot",
+		"linkedin": "https://be.linkedin.com/in/stephane-mathot-5101919",
+		"summary": "<p>Young starter in the ECM and CMS world coming from the ERP world and working as ICT Business/Functional Analyst, specialized in business matters: Finance, Accounting & Controling/Audit, Production and Logistics.</p>"
 	},
 	{
 		"name": "Ashwin",
