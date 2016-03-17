@@ -304,5 +304,22 @@
 			}
 		],
 		"website": "http://www.brightcookie.com/"
+	},
+	{
+		"name": "Majestic Computer Technology",
+		"territory": [ "Australia" ],
+		"status": "Company",
+		"summary": "<p>Majestic DEV is a leader in IT infrastructure, planning and networking. Majestic DEV is a single source provider for total network solutions; transforming technology into business solutions. Majestic DEV brings to its customers broad experience in data, cloud and security communications.</p><p>Majestic DEV Computer Technology has been offering alfresco community solutions to the clients since 2012 in Australia.</p>",
+		"repos": [
+			{
+				"name": "A WordPress Plugin to display document from Alfresco",
+				"link": "https://github.com/MajesticComputerTechnology/alfrescodoc-wordpress"	
+			},
+			{
+				"name": "A Joomla module to display document from Alfresco",
+				"link": "https://github.com/MajesticComputerTechnology/alfrescodoc-joomla"
+			}
+		],
+		"website": "http://majesticdev.com.au"
 	}
 ]
