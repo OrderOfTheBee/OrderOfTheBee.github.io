@@ -320,6 +320,23 @@
 				"link": "https://github.com/MajesticComputerTechnology/alfrescodoc-joomla"
 			}
 		],
+		"customers": [
+			{
+				"name": "Dryen Australia Pty Ltd",
+				"link": "http://www.dryen.com.au/",
+				"story": "http://www.majesticdev.com.au/dryen-australia-alfresco-ecm-implementation/"
+			},
+			{
+				"name": "Advanced Precast (Aust) Pty Ltd",
+				"link": "http://www.advancedprecast.com.au/",
+				"story": "http://www.majesticdev.com.au/advanced-precast-alfresco-enterprise-print-system/"
+			},
+			{
+				"name": "Yacht Racing Services Association",
+				"link": "http://www.raceyachts.org/",
+				"story": "http://www.majesticdev.com.au/yacht-racing-services-association-alfresco-saas-implementation/"
+			}
+		],
 		"website": "http://majesticdev.com.au"
 	}
 ]
