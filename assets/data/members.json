@@ -273,6 +273,13 @@
 		"contributions": "<ul><li><a href='https://github.com/XKEYGmbH/ifresco-client' target='_blank'>PHP written Client</a> for Alfresco Community 4.2.x</li><li><a href='https://chrome.google.com/webstore/detail/ifresco-toolbar-for-alfre/aihpjjddkpbdgdcpifbicaplkkmjmjmd?hl=en' target='_blank'>ifresco Google Chrome Toolbar</a> for Alfresco Community</li><li><a href='https://code.google.com/p/ifresco-php-library/' target='_blank'>Enhanced PHP5 library for Alfresco</a> (really outdated now as there are no SOAP services in 5.0)</li></ul>"
 	},
 	{
+		"name": "Malcolm",
+		"surname": "Dinsmore",
+		"nick": "mdinsmore",
+		"github": "mdinsmore",
+		"summary": "<p>Software Engineer</p>"
+	},
+	{
 		"name": "Niklas",
 		"surname": "Ekman",
 		"nick": "oakman",
@@ -1643,6 +1650,13 @@
 		"twitter": "nudojo",
 		"github": "mgoodnight27",
 		"summary": "<p>Content Management professional with over 30 years consulting in both physical and electronic RM and ECM systems. Alfresco integrator since 2007.</p>"
+	},
+	{
+		"name": "Lamon",
+		"surname": "Gray",
+		"nick": "lamon-gray",
+		"status": "alfresco",
+		"summary": "<p>Been with Alfresco Customer Success approximately 5 years. Love Professional Open Source Software Marketplace.</p>"
 	},
 	{
 		"name": "Paul",
