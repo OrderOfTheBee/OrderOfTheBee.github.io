@@ -118,6 +118,16 @@
 		"contributions": "<p>My open source involvement has been as a code contributor to <a href='http://infogrid.org' target='_blank'>http://infogrid.org</a>.</p>"
 	},
 	{
+		"name": "Theo",
+		"surname": "Boomsma",
+		"nick": "thboomsma",
+		"status": "independent",
+		"github": "thboomsma",
+		"twitter": "theo_boomsma",
+		"linkedin": "https://www.linkedin.com/in/theo-boomsma-63369728",
+		"summary": "<p>Modern web-technologies architect fullstack JavaScript promotor (NodeJS, JQ, MQTT etc), co-designed openSource JavaScript IDE/development platform Cavalion (in production), Chairman of IT-Core Suriname to promote & develop ICT amongst young ones in my Suriname & Caribbean.</p>"
+	},
+	{
 		"name": "Angel",
 		"surname": "Borroy",
 		"nick": "AngelBorroy",
@@ -701,6 +711,16 @@
 		"linkedin" : "http://rs.linkedin.com/pub/tijana-lopicic/15/553/29"
 	},
 	{
+		"name": "David Antón",
+		"surname": "Lou",
+		"nick": "davidantonlou",
+		"status": "independent",
+		"linkedin": "https://www.linkedin.com/in/davidantonlou",
+		"github": "davidantonlou",
+		"summary": "<p>I'm a Software Engineer at mimacom in the office of Barcelona. I've been working with Alfresco about two years, developing features for Community and Enterprise(from 4.2 to 5.0 versions).</p>",
+		"contributions": "<ul><li>Helping people on <a href='https://forums.alfresco.com/users/davidanton' target='_blank'>Alfresco Forums</a></li></ul>"
+	},
+	{
 		"name": "Piergiorgio",
 		"surname": "Lucidi",
 		"nick": "pjlucidi",
@@ -879,6 +899,12 @@
 		"linkedin": "http://dk.linkedin.com/pub/rasmus-melgaard/1/ab0/1b1",
 		"summary": "<p>Alfresco freelancer.</p>",
 		"contributions" : "<ul><li>Developing Alfresco extensions (<a href='https://github.com/tass01024?tab=repositories' target='_blank'>Github</a> and <a href='https://code.google.com/u/113141735868010936936/' target='_blank'>Google Code</a>)</li><li>Helping people at <a href='http://stackoverflow.com/users/2060676/rasmus-melgaard' target='_blank'>StackOverflow</a></li></ul>"
+	},
+	{
+		"name": "Werner",
+		"surname": "Nähle",
+		"summary": "<p>I'm a Software Engineer at mimacom and I've been working with Alfresco around two years for different customers and solutions. At the moment I know the versions 3.4, 4.1.5 and 4.2. In my background with Alfresco I developed new features (Scripting API), built WebServices using the Alfresco API, changed some configuration, applied custom models, etc. It would be great to be part of this community to meet, share, learn, build and enrich relationships.</p>",
+		"contributions": "<ul><li>Helping people at <a href='https://forums.alfresco.com/users/wns' target='_blank'>Alfresco forums</a></li></ul>"
 	},
 	{
 		"name": "Mohamed",
