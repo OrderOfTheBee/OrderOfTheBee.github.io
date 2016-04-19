@@ -60,18 +60,18 @@
 				"link": "https://www.packtpub.com/web-development/alfresco-developer-guide"
 			}
 		],
-		"customers": [ 
-			{ 
+		"customers": [
+			{
 				"name": "E Source",
 				"link": "http://www.metaversant.com/client-stories/e-source/",
 				"story": "http://www.metaversant.com/client-stories/e-source/"
 			},
-			{ 
+			{
 				"name": "VelocityMG",
 				"link": "http://www.metaversant.com/client-stories/velocitymg/",
 				"story": "http://www.metaversant.com/client-stories/velocitymg/"
 			},
-			{ 
+			{
 				"name": "Biogen Idec",
 				"link": "http://www.metaversant.com/client-stories/biogen-idec/",
 				"story": "http://www.metaversant.com/client-stories/biogen-idec/"
@@ -110,8 +110,8 @@
 		"name":"keensoft",
 		"territory": [ "Spain" ],
 		"status":"Company",
-		"customers": [ 
-			{ 
+		"customers": [
+			{
 				"name": "Spanish National Library",
 				"link": "http://www.bne.es/",
 				"story": "/stories/bne/"
@@ -149,8 +149,8 @@
 		"territory": [ "Denmark" ],
 		"status":"Company",
 		"summary": "<p>Magenta provides solutions for content management, integrations, web and design. We have delivered Content Management Systems and document management primarily to large public sector institutions since 1999.</p><p>Over the recent years we have worked intensely on becoming the leading Danish supplier of products and services based on the concept 'open computing', meaning a solid focus on open standards and open source.</p><p>Magenta has specialised in developing advanced IT solutions, that not only function in the purely technical way, but also help our clients improving their communication and reaching their targets. We are able to do this because we have a strict focus on usability and user needs in our design information architecture and functionality.</p>",
-		"customers": [ 
-			{ 
+		"customers": [
+			{
 				"name": "Lyngby-Taarbæk Kommune",
 				"link": "http://www.ltk.dk/",
 				"story": "http://www.magenta.dk/kunder-og-cases/lyngby-taarbaek-kommune"
@@ -190,7 +190,7 @@
 				"link": "http://alfresco-ecm.cz"
 			}
 		],
-		"website": "http://alfresco-ecm.cz/"	
+		"website": "http://alfresco-ecm.cz/"
 	},
 	{
 		"name":"Paolo Predonzani",
@@ -213,7 +213,7 @@
 				"link": "https://github.com/softwareloop/alfresco-inboxes"
 			}
 		],
-		"website": "http://softwareloop.com/"	
+		"website": "http://softwareloop.com/"
 	},
 	{
 		"name":"aegif",
@@ -313,7 +313,7 @@
 		"repos": [
 			{
 				"name": "A WordPress Plugin to display document from Alfresco",
-				"link": "https://github.com/MajesticComputerTechnology/alfrescodoc-wordpress"	
+				"link": "https://github.com/MajesticComputerTechnology/alfrescodoc-wordpress"
 			},
 			{
 				"name": "A Joomla module to display document from Alfresco",
@@ -338,5 +338,22 @@
 			}
 		],
 		"website": "http://majesticdev.com.au"
+	},
+	{
+		"name": "B Circle Co., Ltd.",
+		"territory": [ "Thailand" ],
+		"status": "Company",
+		"summary": "<p>B Circle is a company specialized in document management, document scanning and document workflow based on Alfresco and community version and Activiti. We are very active promote Alfresco to Thailand.</p><p>B Circle offers the following services:</p><ul><li>Our completed Alfresco DMS base on Community 5.x</li><li>Easy capture “Smart scanning for Alfresco”</li><li>Paperless Workflow solution for Alfresco</li><li>Custom Alfresco interface to another system</li><li>Migration a million of document from legacy DMS to Alfresco with advance content model</li><li>Services around analysis, implementation, customization, training and support Alfresco</li></ul>",
+		"blogs": [
+			{
+				"title": "Alfresco and Document management Knowledge Base",
+				"link": "https://www.bcircle.co.th/knowledge-base/"
+			},
+			{
+				"title": "Youtube Chanel Free Alfresco Community 5.1 Training and Alfresco Knowledge",
+				"link": "https://www.youtube.com/c/BcircleTh"
+			}
+		],
+		"website": "https://www.bcircle.co.th"
 	}
 ]
