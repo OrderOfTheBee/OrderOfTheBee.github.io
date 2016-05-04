@@ -1138,6 +1138,14 @@
 		"contributions": "<p>I'm the author of two add-ons:</p><ul><li><a href='https://addons.alfresco.com/addons/uploader-plus' target='_blank'>uploader-plus</a></li><li><a href='https://addons.alfresco.com/addons/alfresco-inboxes' target='_blank'>alfresco-inboxes</a></li></ul><p>I keep them documented as much as possible on my personal blog.</p>"
 	},
 	{
+		"name": "David",
+		"surname": "Preece",
+		"nick": "david-preece",
+		"status": "independent",
+		"linkedin": "https://www.linkedin.com/in/david-preece-6165464",
+		"summary": "IT Architect @ Cisco working on ECM & Content Collaboration solutions"
+	},
+	{
 		"name": "Philippe",
 		"surname": "Quéré",
 		"nick": "querephi",
@@ -1504,6 +1512,24 @@
 		"contributions" : "<ul><li>I have not contributed...yet.</li></ul>"
 	},
 	{
+		"name": "Prignon",
+		"surname": "Yves",
+		"nick": "prignony",
+		"status": "independent",
+		"linkedin": "https://www.linkedin.com/in/prignony",
+		"googleplus": "https://plus.google.com/113034020479040567059",
+		"summary": "I'm a java dev working with Alfresco everyday."
+	},
+	{
+		"name": "Greg",
+		"surname": "Wright",
+		"nick": "gregwright78",
+		"status": "independent",
+		"linkedin": "https://www.linkedin.com/in/gjwright",
+		"github": "gregwright78",
+		"summary": "<p>I have extensive experience with Alfresco Enterprise since v2.x (2007) and I have worked as a Java Developer and more recently as a technical team lead. I am hoping to once again get back to more 'hands on' Java/Alfresco development as well as a contributor to open source projects, in part by becoming a contributor to the Honeycomb Alfresco project.</p>"
+	},
+	{
 		"name": "Ian",
 		"surname": "Wright",
 		"nick": "techwrighting",
@@ -1744,6 +1770,16 @@
 		"blog" : "http://blog.session.it/",
 		"twitter" : "maoo",
 		"contributions": "<ul><li><a href='http://github.com/maoo/alfresco-boxes' target='_blank'>alfresco-boxes</a></li><li><a href='http://github.com/maoo/alfresco-webscript-manifold-connector' target='_blank'>Alfresco WebScripts Solr API Repository Connector for Apache ManifoldCF</a></li><li><a href='http://github.com/maoo/alfresco-migration-preprocessor' target='_blank'>Alfresco Migration Preprocessor</a></li><li><a href='http://github.com/alfresco/alfresco-sdk' target='_blank'>Maven Alfresco SDK</a></li><li><a href='http://github.com/gerardharvey/proto-athena' target='_blank'>proto-athena</a></li><li><a href='https://github.com/maoo/alfresco-export-tool' target='_blank'>alfresco-export-tool</a> => could be a great add-on for alfresco-sdk</li><li>Few posts on <a href='http://blog.session.it' target='_blank'>http://blog.session.it</a></li></ul>"
+	},
+	{
+		"name": "Enzo",
+		"surname": "Rivello",
+		"nick": "enzor",
+		"status": "alfresco",
+		"github": "enzor",
+		"twitter": "enzoriv",
+		"summary": "<p>Alfresco DevOps, currently following Activiti, DevProducts and Tooling And Automation teams.</p>",
+		"contributions": "<ul><li><a href='https://github.com/alfresco/alfresco-spk' target='_blank'>Alfresco SPK</a></li><li><a href='https://github.com/Alfresco/chef-alfresco' target='_blank'>chef-alfresco</a></li><li>Docker tutor</li></ul>"
 	},
 	{
 		"name": "Harlin",
