@@ -240,8 +240,8 @@
 	</div>
 
 	<section id="joinrequest" class="grey">
-	<div class="container-fluid">
-		<img class="bee-left visible-lg-inline" width="15%" src="/assets/img/bee-join.svg"/>
+		<div class="container-fluid">
+			<img class="bee-left visible-lg-inline" width="15%" src="/assets/img/bee-join.svg"/>
 			<h2 class="text-center">Join the Order</h2>
 			<br/>
 			<div class="col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12 text-left">
@@ -256,73 +256,93 @@
 					<li>And many other ways when you share with others something helpful with no charge.</li>
 				</ul>
 				<p>The only requirement and the only way to join the Order is to contribute to the community. Please, tell us about yourself and about your contributions so we may know a little about you. Links and details are welcome.</p>
+				<br><br><br>
+			</div>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 col-sm-10 col-sm-offset-1 col-xs-12">
+					<form name="contactForm" class="form-horizontal" role="form" action="http://formspree.io/okurysheva@itdhq.com" method="POST">
+						<div class="row">
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="form-group">
+									<label for="name">Firstname <span style="color:red">*</span></label>
+									<input type="text" class="form-control" id="name" name="name" required />
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="form-group">
+									<label for="name">Lastname <span style="color:red">*</span></label>
+									<input type="text" class="form-control" id="surname" name="surname" required />
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="form-group">
+									<label for="email">E-mail <span style="color:red">*</span></label>
+									<input type="email" class="form-control" id="email" name="_replyto" required /> 
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="form-group">
+									<label for="textarea">Github</label>
+									<input type="text" class="form-control" id="github" name="github" />
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="form-group">
+									<label for="textarea">Twitter</label>
+									<input type="text" class="form-control" id="twitter" name="twitter" />
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="form-group">
+									<label for="textarea">Google+</label>
+									<input type="text" class="form-control" id="google" name="google" />
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="form-group">
+									<label for="textarea">LinkedIn</label>
+									<input type="text" class="form-control" id="linkedin" name="linkedin" />
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="form-group">
+									<label for="textarea">StackOverflow</label>
+									<input type="text" class="form-control" id="stackoverflow" name="stackoverflow" />
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="form-group">
+									<label for="textarea">Youtube channel</label>
+									<input type="text" class="form-control" id="youtube" name="youtube" />
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="textarea">Blog</label>
+							<input type="text" class="form-control" id="blog" name="blog" />
+						</div>
+						<div class="form-group">
+							<label for="textarea">Summary <span style="color:red">*</span></label>
+							<textarea class="form-control" id="textarea" rows="4" name="Summary" placeholder="Who are you?" required ></textarea>
+						</div>
+						<div class="form-group">
+							<label for="textarea">What have you done for Alfresco and community? <span style="color:red">*</span></label>
+							<textarea class="form-control" id="textarea" rows="6" name="Contributions" placeholder="Provide a list of your contributions: open source add-ons, blog posts, link to your profile on forums or StackOverflow etc. Links and details are welcome." required ></textarea>
+						</div>
+						<input type="hidden" name="_next" value="http://orderofthebee.org/thankyou-jr/" />
+						<input type="hidden" name="_subject" value="New request to join the Order" />
+						<input type="text" name="_gotcha" style="display:none" />
+	
+						<div class="form-actions text-center">
+							<button type="submit" class="btn btn-success btn-lg offset1">Submit</button>
+							<button class="btn btn-default" type="reset">Clear</button>
+						</div>
+					</form>
+					<br/><br/>
+				</div>
 			</div>
 		</div>
-		<br/><br/>
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 col-sm-10 col-sm-offset-1 col-xs-12">
-				<form name="contactForm" class="form-horizontal" role="form" action="http://formspree.io/okurysheva@itdhq.com" method="POST">
-					<div class="form-group">
-						<label for="name">Firstname</label>
-						<input type="text" class="form-control" id="name" name="name" required />
-					</div>
-					<div class="form-group">
-						<label for="name">Lastname</label>
-						<input type="text" class="form-control" id="surname" name="surname" required />
-					</div>
-					<div class="form-group">
-						<label for="email">E-mail</label>
-						<input type="email" class="form-control" id="email" name="_replyto" required /> 
-					</div>
-					<div class="form-group">
-						<label for="textarea">Github</label>
-						<input type="text" class="form-control" id="github" name="github" />
-					</div>
-					<div class="form-group">
-						<label for="textarea">Twitter</label>
-						<input type="text" class="form-control" id="twitter" name="twitter" />
-					</div>
-					<div class="form-group">
-						<label for="textarea">Google+</label>
-						<input type="text" class="form-control" id="google" name="google" />
-					</div>
-					<div class="form-group">
-						<label for="textarea">LinkedIn</label>
-						<input type="text" class="form-control" id="linkedin" name="linkedin" />
-					</div>
-					<div class="form-group">
-						<label for="textarea">StackOverflow</label>
-						<input type="text" class="form-control" id="stackoverflow" name="stackoverflow" />
-					</div>
-					<div class="form-group">
-						<label for="textarea">Youtube channel</label>
-						<input type="text" class="form-control" id="youtube" name="youtube" />
-					</div>
-					<div class="form-group">
-						<label for="textarea">Blog</label>
-						<input type="text" class="form-control" id="blog" name="blog" />
-					</div>
-					<div class="form-group">
-						<label for="textarea">Summary</label>
-						<textarea class="form-control" id="textarea" rows="4" name="Summary" placeholder="Who are you?" required ></textarea>
-					</div>
-					<div class="form-group">
-						<label for="textarea">What did you do for Alfresco and community?</label>
-						<textarea class="form-control" id="textarea" rows="6" name="Contributions" placeholder="Provide a list of your contributions: open source add-ons, blog posts, link to your profile on forums or StackOverflow etc. Links and details are welcome." required ></textarea>
-					</div>
-					<input type="hidden" name="_next" value="http://orderofthebee.org/thankyou-jr/" />
-					<input type="hidden" name="_subject" value="New request to join the Order" />
-					<input type="text" name="_gotcha" style="display:none" />
-
-					<div class="form-actions text-center">
-						<button type="submit" class="btn btn-success btn-lg offset1">Submit</button>
-						<button class="btn btn-default" type="reset">Clear</button>
-					</div>
-				</form>
-				<br/><br/>
-			</div>
-		</div>
-	</div>
+	</section>
 
 	<social></social>
 	<script type="text/javascript" src="/assets/js/scripts.js"></script>
