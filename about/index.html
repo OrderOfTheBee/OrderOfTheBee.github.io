@@ -263,24 +263,52 @@
 			<div class="col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 col-sm-10 col-sm-offset-1 col-xs-12">
 				<form name="contactForm" class="form-horizontal" role="form" action="http://formspree.io/okurysheva@itdhq.com" method="POST">
 					<div class="form-group">
-						<label for="name">Your name</label>
+						<label for="name">Firstname</label>
 						<input type="text" class="form-control" id="name" name="name" required />
+					</div>
+					<div class="form-group">
+						<label for="name">Lastname</label>
+						<input type="text" class="form-control" id="surname" name="surname" required />
 					</div>
 					<div class="form-group">
 						<label for="email">E-mail</label>
 						<input type="email" class="form-control" id="email" name="_replyto" required /> 
 					</div>
 					<div class="form-group">
+						<label for="textarea">Github</label>
+						<input type="text" class="form-control" id="github" name="github" />
+					</div>
+					<div class="form-group">
+						<label for="textarea">Twitter</label>
+						<input type="text" class="form-control" id="twitter" name="twitter" />
+					</div>
+					<div class="form-group">
+						<label for="textarea">Google+</label>
+						<input type="text" class="form-control" id="google" name="google" />
+					</div>
+					<div class="form-group">
+						<label for="textarea">LinkedIn</label>
+						<input type="text" class="form-control" id="linkedin" name="linkedin" />
+					</div>
+					<div class="form-group">
+						<label for="textarea">StackOverflow</label>
+						<input type="text" class="form-control" id="stackoverflow" name="stackoverflow" />
+					</div>
+					<div class="form-group">
+						<label for="textarea">Youtube channel</label>
+						<input type="text" class="form-control" id="youtube" name="youtube" />
+					</div>
+					<div class="form-group">
+						<label for="textarea">Blog</label>
+						<input type="text" class="form-control" id="blog" name="blog" />
+					</div>
+					<div class="form-group">
 						<label for="textarea">Summary</label>
-						<textarea class="form-control" id="textarea" rows="4" name="Summary" placeholder="Please, tell us about yourself so we may know a little about you." required ></textarea>
+						<textarea class="form-control" id="textarea" rows="4" name="Summary" placeholder="Who are you?" required ></textarea>
 					</div>
 					<div class="form-group">
-						<label for="textarea">List of contributions</label>
+						<label for="textarea">What did you do for Alfresco and community?</label>
 						<textarea class="form-control" id="textarea" rows="6" name="Contributions" placeholder="Provide a list of your contributions: open source add-ons, blog posts, link to your profile on forums or StackOverflow etc. Links and details are welcome." required ></textarea>
-					</div>
-					<div class="form-group">
-						<label for="textarea">How to find you in social media</label>
-						<textarea class="form-control" id="textarea" rows="3" name="Social media" placeholder="Links to your Github, Twitter, Google+, LinkedIn and other profiles and a link to your blog if you have one" required ></textarea>
 					</div>
 					<input type="hidden" name="_next" value="http://orderofthebee.org/thankyou-jr/" />
 					<input type="hidden" name="_subject" value="New request to join the Order" />
