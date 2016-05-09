@@ -67,6 +67,15 @@ li {
 	margin-right: 5px;
 }
 
+
+input.form-control {
+	height: 40px;
+}
+
+.col-md-4 > .form-group > input.form-control {
+	width: 90%;
+}
+
 /* form validation */
 
 input:required:invalid, input:focus:invalid, textarea:required:invalid, textarea:focus:invalid {
