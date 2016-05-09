@@ -543,6 +543,19 @@
 		"contributions": "<ul><li>I am currently envolved in arranging an Alfresco community meetup in Denmark.</li><li>I have written one blog post but it is now out-dated. But here it is <a href='http://alfresco.blog.redpill-linpro.com/2011/11/07/implementing-multiple-project-customisations-in-one-alfresco-instance/' target='_blank'>http://alfresco.blog.redpill-linpro.com/2011/11/07/implementing-multiple-project-customisations-in-one-alfresco-instance/</a>.</li></ul>"
 	},
 	{
+		"name": "Markus",
+		"surname": "Joos",
+		"nick": "mrks_js",
+		"status": "independent",
+		"github": "mrksjs",
+		"googleplus": "https://plus.google.com/u/0/+MarkusJoosasdf",
+		"twitter": "mrksjs",
+		"linkedin": "https://www.linkedin.com/in/markus-joos-67130918",
+		"blog": "http://alfrescoisabeach.blogspot.ch/",
+		"summary": "<p>I am working with Alfresco for Enterprise Partners in Switzerland since 2011.</p>",
+		"contributions": "<u><li>Helping people in #alfresco</li></ul>"
+	},
+	{
 		"name": "Hardik",
 		"surname": "Kacholia",
 		"nick": "hardikkacholia",
@@ -1309,7 +1322,7 @@
 		"nick": "mstang",
 		"status": "independent",
 		"github": "mstang",
-    "googleplus" : "https://plus.google.com/+MarkStang0000/about",
+    		"googleplus" : "https://plus.google.com/+MarkStang0000/about",
 		"twitter" : "markstang",
 		"summary": "<p>ECM Architect, working on Clojure/ClojureScript CMIS Interoperability.</p>",
 		"contributions" : "<ul><li><a href='https://bitbucket.org/ziadev/cmsql-grammar' target='_blank'>cmsql-grammar</a></li><li><a href='https://bitbucket.org/ziadev/chem100' target='_blank'>CHEM100</a> - a Clojure Wrapper for the CMIS Client API</li><li><a href='https://bitbucket.org/ziadev/chem100ql' target='_blank'>chem100ql</a></li><li>Also, contributing to the Lambdalf Project with Peter Monks/Carlo Sciolla</li></ul>"
@@ -1441,11 +1454,20 @@
 	{
 		"name": "Kien",
 		"surname": "Vu",
-		"nick": "kienvu ",
+		"nick": "kienvu",
 		"status": "independent",
 		"linkedin" : "http://www.linkedin.com/in/kienvu",
 		"summary" : "<p>I'm working in a educational technology Brightcookie based in Adelaide, Australia. Our focus is about integrating LMS system (such as Moodle) with Alfresco, and other supported CMIS systems.</p>",
 		"contributions": "<ul><li>We have write a Moodle plugin to allow user to upload/choose documents to/from Alfresco directly in Moodle.</li><li>I am writing Alfresco related blog in <a href='http://www.brightcookie.com/tags/alfresco/' target='_blank'>our website</a>.</li></ul>"
+	},
+	{
+		"name": "Seth",
+		"surname": "Yastrov",
+		"nick": "syastrov",
+		"status": "independent",
+		"github": "syastrov",
+		"summary": "<p>Software Developer at Magenta ApS, a small Danish open-source company working with Alfresco.</p>",
+		"contributions": "<ul><li>Contributor to <a href='http://alfrescoblog.magenta.dk/' target='_blank'>our company's Alfresco blog</a></li><li>Involved in many of <a href='https://github.com/magenta-aps/?query=alfresco' target='_blank'>our company's Alfresco modules</a></li></ul>"
 	},
 	{
 		"name": "Ashley",
