@@ -516,8 +516,10 @@
 		"nick": "irenailievska",
 		"status": "independent",
 		"facebook":"https://facebook.com/irena.ilievska.3",
+		"linkedin": "https://mk.linkedin.com/in/irena-ilievska-704503107",
+		"twitter": "IrenaIlievska05",
 		"summary": "<p>I am a Software Developer from Macedonia. I am interested in learning new things and meeting new people. I like reading, traveling and doing sports.</p>",
-		"contributions": "<ul><li>Help people on <a href='https://forums.alfresco.com/users/irenailievska' target='_blank'>Alfresco forums</a></li></ul>"
+		"contributions": "<ul><li><a href='https://addons.alfresco.com/addons/workflow-filter-dashlet' target='_blank'>Workflow search dashlet add-on</a></li><li>Help people on <a href='https://forums.alfresco.com/users/irenailievska' target='_blank'>Alfresco forums</a></li></ul>"
 	},
 	{
 		"name": "Akinori",
@@ -933,6 +935,15 @@
 		"status": "independent",
 		"github": "jibo",
 		"summary": "<p>I'm software developer and sysAdmin</p>"
+	},
+	{
+		"name": "Yong",
+		"surname": "Qu",
+		"github": "drq",
+		"twitter": "quyong2000",
+		"linkedin": "https://www.linkedin.com/in/yong-qu-10b8553",
+		"summary": "<p>An independent contractor specialized in Alfresco customization and extension.</p>",
+		"contributions": "<ul><li><a href='http://www.springsurf.org/' target='_blank'>SpringSurf</a></li></ul>"
 	},
 	{
 		"name": "Morgan",
