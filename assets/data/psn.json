@@ -355,5 +355,24 @@
 			}
 		],
 		"website": "https://www.bcircle.co.th"
+	},
+	{
+		"name": "Contezza",
+		"territory": [ "The Netherlands" ],
+		"status": "Company",
+		"summary": "<p>Contezza is the leading Dutch expert in implementing information management using Alfresco. We implement Alfresco for organizations, design and develop customizations and integrations and are the application hosting and management partner for over 20 organizations.",
+		"blogs": [
+			{
+				"title": "Company blog",
+				"link": "http://www.contezza.nl/blog"
+			}
+		],
+		"repos": [
+			{
+				"name": "Alfresco Module to get Email notification on update of content",
+				"link": "https://github.com/shazada/cntz-document-notification"
+			}
+		],
+		"website": "http://www.contezza.nl/"
 	}
 ]
