@@ -680,6 +680,18 @@
 		"contributions": "<p>Our team has organized meetup about Alfresco covering various topics such as Content model, Activiti, Customization, etc. Below is our meetup group: <a href='http://www.meetup.com/Alfresco-Bangalore-Community/' target='_blank'>http://www.meetup.com/Alfresco-Bangalore-Community/</a>.</p>"
 	},
 	{
+		"name": "Peter",
+		"surname": "Lesty",
+		"nick": "cetra3",
+		"status": "independent",
+		"github": "cetra3",
+		"twitter": "cetra3",
+		"stackoverflow": "http://stackoverflow.com/users/15087/cetra",
+		"blog": "https://www.parashift.com.au/category/technical/",
+		"summary": "<p>I am the Technical Director of Parashift, which is an Australian based company specialising in Alfresco and other Open Source solutions. I am passionate about providing elegant solutions using open source stacks, and making life easier for users, administrators and our clients.</p>",
+		"contributions": "<ul><li>We run a technical blog which showcases some of the solutions we have come up with.</li><li>We routinely release open source modules for Alfresco such as integrations into Etherpad.</li><li>We actively watch the Alfresco forums and if we can provide any advice or solutions, we do so.</li></ul>"
+	},
+	{
 		"name": "Heimo",
 		"surname": "Laukkanen",
 		"nick": "huima",
