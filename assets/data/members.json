@@ -1086,20 +1086,6 @@
 		"contributions": "<ul><li>Translating Alfresco in Macedonian</li></ul>"
 	},
 	{
-		"name": "Jan",
-		"surname": "Pfitzner",
-		"nick": "alfrescian",
-		"status": "independent",
-		"key": "yes",
-		"github": "alfrescian",
-		"googleplus" : "https://plus.google.com/u/0/+JanPfitzner_DE/about",
-		"linkedin" : "http://de.linkedin.com/pub/jan-pfitzner/35/739/1b2",
-		"blog" : "http://blog.alfrescian.com/",
-		"twitter" : "alfrescian",
-		"summary": "<p>@alfrescian since 2008</p>",
-		"contributions": "<ul><li>blogging at <a href='http://blog.alfrescian.com' target='_blank'>blog.alfrescian.com</a></li><li>Alfresco contributor (e.g. <a href='http://blog.alfrescian.com/?p=80' target='_blank'>Category Manager for Alfresco Share</a>)</li><li>Actively Answering questions in the forum and on stackoverflow</li><li>Speaker at several german meetups</li><li>Developer of a few Alfresco Addons (e.g. <a href='http://addons.alfresco.com/addons/alfresco-share-datalist-extension' target='_blank'>Alfresco Share Datalist extension</a>, <a href='http://addons.alfresco.com/addons/tag-query-dashlet' target='_blank'>Tag Query Dashlet</a>, <a href='https://github.com/alfrescian/ng-cmis-browser' target='_blank'>Alfrescian CMIS Browser</a>, <a href='https://github.com/alfrescian/cmis-browser-ng-material' target='_blank'>CMIS-Browser using Material design for Angular</a>)</li><li>Currently Developing a Trello-like Task Board for Alfresco</li></ul>"
-	},
-	{
 		"name": "Johan",
 		"surname": "Pieterse",
 		"nick": "johan.pieterse",
