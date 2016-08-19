@@ -6,6 +6,22 @@
 		"summary": "<p>DGCloud deploys customised Document Management System (DMS) solutions based on Alfresco that allow you to simplify your business. Through the provision of integrated solutions for content management and process automation, our customers can realise the maximum potential of their digital assets with low cost, high professional quality and efficiency.</p>",
 		"repos" : [
 			{
+				"name": "alfresco-share-site-logo-customization",
+				"link": "https://github.com/douglascrp/alfresco-share-site-logo-customization"
+			},
+			{
+				"name": "alfresco-value-assistance",
+				"link": "https://github.com/douglascrp/alfresco-value-assistance"
+			},
+			{
+				"name": "alfresco-group-member-control",
+				"link": "https://github.com/douglascrp/alfresco-group-member-control"
+			},
+			{
+				"name": "alfresco-cloud-store",
+				"link": "https://github.com/douglascrp/alfresco-cloud-store"
+			},
+			{
 				"name": "alfresco-colleagues-picker-form-control",
 				"link": "https://github.com/douglascrp/alfresco-colleagues-picker-form-control"
 			},
@@ -17,7 +33,7 @@
 		"blogs": [
 			{
 				"title": "IT Tips",
-				"link": "http://douglascrp.blogspot.ru/"
+				"link": "http://douglascrp.blogspot.com.br/"
 			}
 		],
 		"website": "http://dgcloud.com.br/"
