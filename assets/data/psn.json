@@ -146,16 +146,8 @@
 		],
 		"repos": [
 			{
-				"name": "alfresco-js-chat-share",
-				"link": "https://github.com/keensoft/alfresco-js-chat-share"
-			},
-			{
-				"name": "alfresco-datalist-constraints",
-				"link": "https://github.com/keensoft/alfresco-datalist-constraints"
-			},
-			{
-				"name": "ALFRESCO disable-create-missing-people",
-				"link": "https://github.com/keensoft/disable-create-missing-people"
+				"name": "github",
+				"link": "https://github.com/keensoft"
 			}
 		],
 		"website": "http://www.keensoft.es/"
