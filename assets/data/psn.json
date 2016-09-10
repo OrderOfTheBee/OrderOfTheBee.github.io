@@ -1,5 +1,36 @@
 [
 	{
+		"name":"Contentreich",
+		"territory": [ "Germany" ],
+		"status":"Company",
+		"summary": "<p>We are Andreas and Sandra, and we are IT freelancing from Hamburg focused on Alfresco since 2006. We support all phases of a project, but we also give short support gigs in case there is a problem which needs to be fixed quickly.</p><p>We emphasize on shipping value quickly :rocket: using very short iterations. Effective communication matters a lot. We think it is crucial to leverage audio and even video frequently, because it just works best. With good communication in place, distance is rarely an issue.</p><p>Code has issues and maintenance is boring. That's why we aim at producing as little code as possible.</p><p>Over the years, we built a zoo of more than 100 add-ons/tweaks we maintain today.</p><p>We are very honest. Even if we expect disagreement or deal breakers.</p>",
+		"repos" : [
+			{
+				"name": "Datalist Extensions for Alfresco Share",
+				"link": "https://github.com/deas/contentreich-alfresco-datalists"
+			},
+			{
+				"name": "Contentreich Alfresco RFC822/EML tweaks",
+				"link": "https://github.com/deas/contentreich-eml"
+			},
+			{
+				"name": "Alfresco Google Vision (Micro Service Edition)",
+				"link": "https://github.com/deas/alfresco-google-vision"
+			},
+			{
+				"name": "Google Vision MicroService",
+				"link": "https://github.com/deas/contentreich-ecm-google-ms"
+			}
+		],
+		"blogs": [
+			{
+				"title": "Blog",
+				"link": "https://www.contentreich.de/"
+			}
+		],
+		"website": "https://www.contentreich.de/"
+	}, 
+	{
 		"name":"DGCloud",
 		"territory": [ "Brazil" ],
 		"status":"Company",
