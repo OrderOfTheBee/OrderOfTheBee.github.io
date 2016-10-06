@@ -231,7 +231,7 @@
 		"name": "Francesco",
 		"surname": "Corti",
 		"nick": "fcorti",
-		"status": "independent",
+		"status": "alfresco",
 		"github": "fcorti",
 		"key": "yes",
 		"blog": "http://fcorti.com",
@@ -1740,13 +1740,13 @@
 		"name": "Paul",
 		"surname": "Holmes-Higgin",
 		"nick": "paulhh",
-		"status": "alfresco",
+		"status": "independent",
 		"github": "paulhh",
 		"googleplus": "https://plus.google.com/113663740910609972523/about",
 		"linkedin" : "http://uk.linkedin.com/pub/paul-holmes-higgin/0/618/529",
 		"twitter" : "paulrhh",
-		"summary": "<p>Employee number 1 at Alfresco.</p>",
-		"contributions" : "<ul><li>I set up the original Community forums & wiki and was the most active person there for some time.</li><li>Now looking after <a href='http://activiti.org/' target='_blank'>Activiti</a>.</li></ul>"
+		"summary": "<p>Employee number 1 at Alfresco. Now is free from all obligations to Alfresco company.</p>",
+		"contributions" : "<ul><li>I set up the original Community forums & wiki and was the most active person there for some time.</li><li>Then looked after <a href='http://activiti.org/' target='_blank'>Activiti</a>.</li></ul>"
 	},
 	{
 		"name": "Derek",
