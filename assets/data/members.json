@@ -95,6 +95,17 @@
 		"contributions": "<ul><li>Working on a <a href='https://github.com/mikelasla/alfresco' target='_blank'>dockerfile for Alfresco Community</a></li>"
 	},
 	{
+		"name": "Andrea",
+		"surname": "Barisone",
+		"nick": "BarisoneAndrea",
+		"status": "independent",
+		"twitter": "BarisoneAndrea",
+		"linkedin": "https://it.linkedin.com/in/andrea-barisone-2a692919",
+		"stackoverflow": "http://stackoverflow.com/users/4579155/abarisone",
+		"summary": "<p>Over 15 years of experience in Information Technology working on corporate projects as developer using different technologies. Ten years of experience in Document Management Systems, especially regarding document workflow.</p><p>Technical reviewer for PacktPub, Manning Publications Co and Pragmatic Programmers.</p>",
+		"contributions": "<p>Member of former Alfresco Forum site, Alfresco Certified Engineer, answering some Alfresco related question on StackOverflow.</p>"
+	},
+	{
 		"name": "Erik",
 		"surname": "Billerby",
 		"nick": "billerby",
@@ -1843,5 +1854,13 @@
 		"twitter" : "AlexStrachan73",
 		"linkedin": "http://uk.linkedin.com/pub/alex-strachan/5/192/31",
 		"summary": "<p>Support Engineer in Alfresco for 6 years, always learning....</p>"
+	},
+	{
+		"name": "Jan",
+		"surname": "Vonka",
+		"nick": "jan.vonka",
+		"status": "alfresco",
+		"summary": "<p>Alfresco Core Developer - primarily working on the Alfresco Platform (Core Repository, Services and APIs).</p>",
+		"contributions": "<p>Author of many <a href='http://www.slideshare.net/jvonka' target='_blank'>technical Alfresco presentations</a> and speaker on the most of DevCon, Summit and BeeCon conferences.</p>"
 	}
 ]
