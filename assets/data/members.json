@@ -97,9 +97,10 @@
 	{
 		"name": "Andrea",
 		"surname": "Barisone",
-		"nick": "BarisoneAndrea",
+		"nick": "abarisone",
 		"status": "independent",
 		"twitter": "BarisoneAndrea",
+		"github": "abarisone",
 		"linkedin": "https://it.linkedin.com/in/andrea-barisone-2a692919",
 		"stackoverflow": "http://stackoverflow.com/users/4579155/abarisone",
 		"summary": "<p>Over 15 years of experience in Information Technology working on corporate projects as developer using different technologies. Ten years of experience in Document Management Systems, especially regarding document workflow.</p><p>Technical reviewer for PacktPub, Manning Publications Co and Pragmatic Programmers.</p>",
