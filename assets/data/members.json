@@ -601,6 +601,13 @@
 		"twitter" : "xkahn"
 	},
 	{
+		"name": "Jan",
+		"surname": "Karlsson",
+		"nick": "jan.karlsson",
+		"status": "independent",
+		"summary": "<p>Technical Manager for several systems that Enterprise Support for Administrative Services handles at SMHI, Swedish Meteorological and Hydrological Institute.</p>"
+	},
+	{
 		"name": "Jean-Christophe",
 		"surname": "KERMAGORET",
 		"nick": "jckermagoret",
