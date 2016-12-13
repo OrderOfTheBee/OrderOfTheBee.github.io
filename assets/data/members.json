@@ -240,6 +240,17 @@
 		"contributions": "<ul><li>I was inspired by your joining criteria to create a <a href='http://geofoss.net' target='_blank'>Wordpress blog</a> to document my experience with Alfresco and other open source products, so as to help other developers and users.</li><li>I have participated in various open source forums - eg. the geoserver mailing list</li></ul>"
 	},
 	{
+		"name": "Yann",
+		"surname": "Coulon",
+		"nick": "ycoulon",
+		"status": "independent",
+		"github": "ycoulon",
+		"twitter": "yann361",
+		"linkedin": "https://fr.linkedin.com/in/ycoulon/en",
+		"summary": "<p>	I'm a french Software Engineer, Alfresco 5 Certified Engineer. I'm working on Alfresco since 2012.</p>",
+		"contributions": "<ul><li>Active participation in old Forum and new community platform</li></ul>"
+	},
+	{
 		"name": "Francesco",
 		"surname": "Corti",
 		"nick": "fcorti",
@@ -492,6 +503,11 @@
 		"stackoverflow": "http://stackoverflow.com/users/28930/jonas-heylen",
 		"summary": "<p>Alfresco consultant since 2007.</p>",
 		"contributions": "<ul><li>Alfresco User Group Belgium & Hackathon attendee</li><li>Regularly answering questions on IRC, the Alfresco forums and StackOverflow</li><li>Creator and moderator of the <a href='http://www.reddit.com/r/alfresco' target='_blank'>Alfresco subreddit</a></li><li>Small Javascript utility script: <a href='https://github.com/JonasHeylen/elzar' target='_blank'>https://github.com/JonasHeylen/elzar</a></li></ul>"
+	},
+	{
+		"name": "Dave",
+		"surname": "Hornford",
+		"summary": "<p>Management consultant that has my firm migrating our information management to Alfresco.</p>"
 	},
 	{
 		"name": "Joost",
