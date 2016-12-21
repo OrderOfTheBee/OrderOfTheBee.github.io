@@ -432,6 +432,15 @@
 		"contributions": "<p>I have done free projects like <a href='https://github.com/fegorama/alfviral' target='_blank'>Alfviral</a> (connector with antivirus), <a href='https://github.com/fegorama/alfcrypto' target='_blank'>CryptoAlf</a> (encrypted content) and AAT (audio indexing).</p>"
 	},
 	{
+		"name": "Jose Angel",
+		"surname": "Gonzalez Calvo",
+		"nick": "gonzalezcalvo",
+		"status": "independent",
+		"linkedin": "https://es.linkedin.com/in/gonzalezcalvo",
+		"summary": "<p>Development and management of TIC projects http://vizualize.me/Calvo</p>",
+		"contributions": "<ul><li>I'm actually working in some projects and trying to discover new characteristics of Alfresco; sometimes share solutions to problems or customers requests in <a href='https://netic360.blogspot.com.es/' target='_blank'>my blog</a>.</li></ul>"
+	},
+	{
 		"name": "Daniel",
 		"surname": "Gradecak",
 		"nick": "dgradecak",
@@ -676,19 +685,6 @@
 		"twitter" : "skomarica",
 		"summary": "<p>I'm a full stack Java Software Developer, continuously working with Alfresco since 2009. The creation of the Order of the Bee, and its mission, really inspired me to join and help you in keeping Alfresco Community Edition free and powerful. I'll start by sharing some interesting and hopefully useful features, and plan to add more over the time.</p>",
 		"contributions": "<ul><li><a href='https://github.com/skomarica/alfresco-share-create-link' target='_blank'>Alfresco Share 'Create Link' action</a></li></ul>"
-	},
-	{
-		"name": "Brian",
-		"surname": "Knoblauch",
-		"nick": "glmotorsports",
-		"status": "independent",
-		"github": "BrianKnoblauch",
-		"linkedin" : "https://www.linkedin.com/in/glmotorsports",
-		"twitter" : "glmotorsports",
-		"stackoverflow": "http://stackoverflow.com/users/15689/brian-knoblauch",
-		"blog": "https://glmotorsports.wordpress.com/",
-		"summary": "<p>Currently working in a generic technology position, which means I develop software, work with hardware, as well as doing server and network administration. I have a good amount of Java in my background, but mostly SE, only minimal EE and JSF. New to Alfresco and looking to make modules for my current company.</p>",
-		"contributions": "<ul><li>I'm SSCBrian on the Alfresco forums. My contributions are minimal so far as I'm a newb.</li></ul>"
 	},
 	{
 		"name": "Tomas",
@@ -1001,6 +997,12 @@
 		"linkedin": "https://www.linkedin.com/in/yong-qu-10b8553",
 		"summary": "<p>An independent contractor specialized in Alfresco customization and extension.</p>",
 		"contributions": "<ul><li><a href='http://www.springsurf.org/' target='_blank'>SpringSurf</a></li></ul>"
+	},
+	{
+		"name": "Kalpesh",
+		"surname": "Patel",
+		"twitter": "ContCentric",
+		
 	},
 	{
 		"name": "Morgan",
@@ -1659,6 +1661,17 @@
 		"twitter" : "davidcognite",
 		"summary": "<p>I've been working on Share and the APIs it uses for 4.5 years, after joining Alfresco's engineering team. I've touched most areas of Share, its APIs, but calendar, date/time and localisation and hybrid sync issues keep finding their way to my desk. I come from a web development background, so love the fact that client side technologies just won't stand still.</p><p>Recently I've been working on moving existing Share functionality to Aikau, the 5.0 search improvements as well as background tasks like development environment improvements, bringing in Grunt, simplifying maven usage and the way we run UI unit tests.</p>",
 		"contributions" : "<ul><li>I blog at <a href='http://blogs.alfresco.com/wp/dwebster/' target='_blank'>http://blogs.alfresco.com/wp/dwebster/</a>.</li><li>I have code at <a href='https://github.com/davidcognite' target='_blank'>https://github.com/davidcognite</a>.</li><li>I try and make code to the Summits, where I usually present a session or two on new Share developments and enjoy the hack-a-thons.</li></ul>"
+	},
+	{
+		"name": "David",
+		"surname": "Zuluaga",
+		"nick": "APROPIAOs",
+		"status": "independent",
+		"linkedin": "https://co.linkedin.com/in/ludwig-david-zuluaga-botero-96339064",
+		"twitter": "APROPIAOs",
+		"github": "apropia",
+		"summary": "<p>I'm CEO of a passionate open source company: Apropia. I am convinced that Alfresco CE is of utmost importance and me and my team (two engineers) would like to take part of the community, attend events and provide feedback and knowledge.</p>",
+		"contributions": "<ul><li><a href='https://github.com/apropia/alfresco-ubuntu-install' target='_blank'>Github open repository</a> for our installation.</li><li>Expand community in latinamerica.</li></ul>"
 	},
 	{
 		"name": "Kyle",
