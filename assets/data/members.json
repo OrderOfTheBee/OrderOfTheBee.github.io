@@ -1106,6 +1106,17 @@
 		"contributions": "<ul><li>I am one of the <a href='https://forums.alfresco.com/user/8534/track' target='_blank'>top 5 contributor</a> on alfresco forums</li><li>Active community member on <a href='http://stackoverflow.com/users/2201884/mitpatoliya' target='_blank'>stackoverflow</a> as well</li><li>I am also acting as Alfresco liaison where I regularly <a href='http://blog.arvixe.com/author/mitpatoliya/' target='_blank'>write articles about alfresco</a></li><li><a href='https://addons.alfresco.com/addons/document-library-display-dashlet' target='_blank>Document Library Display Dashlet add-on</a></li></ul>"
 	},
 	{
+		"name": "Harry",
+		"surname": "Peek",
+		"nick": "HarryAPeek",
+		"status": "alfresco",
+		"twitter": "HarryAPeek",
+		"linkedin": "https://uk.linkedin.com/in/harrypeek",
+		"blog": "https://community.alfresco.com/people/harry.peek%40alfresco.com",
+		"summary": "<p>Product Manager at Alfresco looking after Analytics and search.</p>",
+		"contributions": "<ul><li>Helping people at <a href='https://community.alfresco.com/people/harry.peek@alfresco.com' target='_blank'>https://community.alfresco.com/</a></li><li>Blog: <a href='https://community.alfresco.com/people/harry.peek%40alfresco.com' target='_blank'>https://community.alfresco.com/people/harry.peek%40alfresco.com</a></li></ul>
+	},
+	{
 		"name": "Tjarda",
 		"surname": "Peelen",
 		"nick": "tpeelen",
@@ -1305,7 +1316,7 @@
 		"github": "jrosler",
 		"twitter" : "techchefjeff",
 		"summary": "I've been involved in implementing and selling ECM solutions for the past 14+ years. During that time, I was working as a developer, tech lead, architect and for the last 6 years or so a Sales Engineer. While I've been on the sales end of things, the company I currently work for has been an Alfresco partner and I've been through training and demoed Alfresco many times over the years. I'm leaving my current company shortly to work with another Alfresco partner and moving back to an implementation role and would like to get more into development and involved in the community. I've always been an advocate of open source software and really liked the vibe of Alfresco in the early days. As I move back to solution architecture and development I'd like to give back to the community, get more depth in Alfresco, and work with like minded people.",
-		"contributions": "<ul><li>A few years back Jeff did a couple wiki updates and added a page on correctly configuring CIFS and getting that working with various Windows versions.</li><li>Jeff is working on making more contributions to the community</li></ul>"
+		"contributions": "<p>Working on it...</p>"
 	},
 	{
 		"name": "Christophe",
