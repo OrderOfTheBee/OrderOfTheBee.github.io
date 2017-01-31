@@ -976,8 +976,17 @@
 		"contributions" : "<ul><li>Developing Alfresco extensions (<a href='https://github.com/tass01024?tab=repositories' target='_blank'>Github</a> and <a href='https://code.google.com/u/113141735868010936936/' target='_blank'>Google Code</a>)</li><li>Helping people at <a href='http://stackoverflow.com/users/2060676/rasmus-melgaard' target='_blank'>StackOverflow</a></li></ul>"
 	},
 	{
+		"name": "Michael",
+		"surname": "Mrotzek",
+		"status": "independent",
+		"github": "mmrotzek",
+		"summary": "<p>Java Developer and Alfresco Community Developer of customizations for customer projects since 2007</p>",
+		"contributions": "<p>Contributor of Add-Ons <a href='https://addons.alfresco.com/addons/webpreviewer-alfresco-share' target='_blank'>WebPreviewer Alfresco Share</a>, <a href='https://addons.alfresco.com/addons/trigger-sync-button' target='_blank'>Trigger Sync Button</a>.</p>"
+	},
+	{
 		"name": "Werner",
 		"surname": "Nähle",
+		"status": "independent",
 		"summary": "<p>I'm a Software Engineer at mimacom and I've been working with Alfresco around two years for different customers and solutions. At the moment I know the versions 3.4, 4.1.5 and 4.2. In my background with Alfresco I developed new features (Scripting API), built WebServices using the Alfresco API, changed some configuration, applied custom models, etc. It would be great to be part of this community to meet, share, learn, build and enrich relationships.</p>",
 		"contributions": "<ul><li>Helping people at <a href='https://forums.alfresco.com/users/wns' target='_blank'>Alfresco forums</a></li></ul>"
 	},
@@ -988,6 +997,12 @@
 		"status": "independent",
 		"github": "jibo",
 		"summary": "<p>I'm software developer and sysAdmin</p>"
+	},
+	{
+		"name": "Duncan",
+		"surname": "Ord",
+		"status": "independent",
+		"summary": "<p>Just an Alfresco enthusiast who works for a partner company.</p>"
 	},
 	{
 		"name": "Yong",
