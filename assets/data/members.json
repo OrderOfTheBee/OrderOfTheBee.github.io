@@ -298,6 +298,14 @@
 		"contributions": "<ul><li><a href='https://github.com/XKEYGmbH/ifresco-client' target='_blank'>PHP written Client</a> for Alfresco Community 4.2.x</li><li><a href='https://chrome.google.com/webstore/detail/ifresco-toolbar-for-alfre/aihpjjddkpbdgdcpifbicaplkkmjmjmd?hl=en' target='_blank'>ifresco Google Chrome Toolbar</a> for Alfresco Community</li><li><a href='https://code.google.com/p/ifresco-php-library/' target='_blank'>Enhanced PHP5 library for Alfresco</a> (really outdated now as there are no SOAP services in 5.0)</li></ul>"
 	},
 	{
+		"name": "Johan",
+		"surname": "Pieterse",
+		"nick": "JohanPieterse",
+		"summary": "<p>I have been developing on Alfresco for the last 9 years. Lately I want to start using community and roll it out to customers.</p>",
+		"contributions": "<p>Previously I was active. Slacked for about 3 years. </p>"
+
+	},
+	{
 		"name": "Malcolm",
 		"surname": "Dinsmore",
 		"nick": "mdinsmore",
