@@ -60,6 +60,13 @@
 		"contributions": "<ul><li><a href='https://github.com/tullo/fme-alfresco-extdl' target='_blank'>Datalist Extensions for Alfresco Share</a></li><li><a href='https://github.com/tullo/pdfa-pilot-converter' target='_blank'>Alfresco converter for Callas pdfaPilot</a></li><li><a href='https://github.com/tullo/alfresco-repository-util' target='_blank'>Alfresco Repository Util</a></li></ul>"
 	},
 	{
+		"name": "Maciej",
+		"surname": "Anders",
+		"nick": "madziar",
+		"status": "independent",
+		"summary": "<p>Software architect</p>"
+	},
+	{
 		"name": "Olivier",
 		"surname": "Anh",
 		"nick": "twen",
@@ -238,6 +245,13 @@
 		"blog": "http://geofoss.net",
 		"summary": "<p>I am a geologist and application developer, currently working for a geological survey in Australia. I use many server and desktop open source products, and started using Alfresco in earnest in 2015.</p>",
 		"contributions": "<ul><li>I was inspired by your joining criteria to create a <a href='http://geofoss.net' target='_blank'>Wordpress blog</a> to document my experience with Alfresco and other open source products, so as to help other developers and users.</li><li>I have participated in various open source forums - eg. the geoserver mailing list</li></ul>"
+	},
+	{
+		"name": "Luis",
+		"surname": "Colorado",
+		"nick": "luisjcolorado",
+		"status": "independent",
+		"summary": "<p>I worked for Alfresco for five years, and now I'm joining the Community. At Alfresco I specialized in performance and clusters (mainly those crashes that I call \"chain reactions\"). I am interested in high-performing enterprise environments, Java, and Spring.</p>"
 	},
 	{
 		"name": "Yann",
@@ -631,6 +645,13 @@
 		"nick": "jan.karlsson",
 		"status": "independent",
 		"summary": "<p>Technical Manager for several systems that Enterprise Support for Administrative Services handles at SMHI, Swedish Meteorological and Hydrological Institute.</p>"
+	},
+	{
+		"name": "Lufuno",
+		"surname": "Keohitlhetse",
+		"nick": "Lufunoc",
+		"status": "independent",
+		"summary": "<p>My name is Lufuno Keohitlhetse. I am from South Africa. My background is Documentum and I have just joined a team that is using Alfresco and I want to learn and share what I have learned.</p>"
 	},
 	{
 		"name": "Jean-Christophe",
