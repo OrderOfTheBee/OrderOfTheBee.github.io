@@ -64,7 +64,9 @@
 		"surname": "Anders",
 		"nick": "madziar",
 		"status": "independent",
-		"summary": "<p>Software architect</p>"
+		"summary": "<p>Software architect</p>",
+		"github": "Madziar",
+		"linkedin": "https://www.linkedin.com/in/maciej-anders-5930972/"
 	},
 	{
 		"name": "Olivier",
