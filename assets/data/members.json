@@ -1553,6 +1553,18 @@
 		"summary" : "<p>Investigating Alfresco as a replacement technology for a traditional file server.</p>"
 	},
 	{
+		"name": "Uros",
+		"surname": "Vukasinovic",
+		"nick": "uvukasinovic",
+		"status": "independent",
+		"github": "uvukasinovic",
+		"twitter": "uvukasinovic",
+		"linkedin": "https://www.linkedin.com/in/urosvukasinovic/",
+		"stackoverflow": "http://stackoverflow.com/users/4891278/harihaler",
+		"summary": "<p>Work on Alfresco platform last three years. I am working for company <a href='http://s4hc.com/' target='_blank'>Solutions for Human Capital</a> as an Alfresco developer and consultant. Participated in many Alfresco projects. Have Alfresco Certified Engineer certification from 2012.</p>",
+		"contributions": "<p>Alfresco community profile: <a href='https://community.alfresco.com/people/uvukasinovic' target='_blank'>https://community.alfresco.com/people/uvukasinovic</a>.</p>"
+	},
+	{
 		"name": "Kien",
 		"surname": "Vu",
 		"nick": "kienvu",
