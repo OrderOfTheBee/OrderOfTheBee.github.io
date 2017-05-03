@@ -293,6 +293,15 @@
 		"contributions" : "<ul><li>Helping to set up the Order and administer some backend functions</li><li>Contributor to <a href='https://github.com/AFaust/content-stores' target='_blank'>https://github.com/AFaust/content-stores</a></li></ul>"
 	},
 	{
+		"name": "Marcin",
+		"surname": "Czajka",
+		"nick": "marczajka",
+		"status": "independent",
+		"twitter": "marczajka",
+		"linkedin": "https://www.linkedin.com/in/marcin-czajka-56191818/",
+		"summary": "I'm an Architect for KainosEvolve. My main area of work is activiti integration into our healthcare platform."
+	},
+	{
 		"name": "Muralidharan",
 		"surname": "Deenathayalan",
 		"nick": "muralidharand",
@@ -516,6 +525,13 @@
 		"status": "independent",
 		"linkedin" : "https://dk.linkedin.com/pub/flemming-heide-pedersen/0/bb/787",
 		"contributions": "<ul><li>I have been working with alfresco for the past two years at Magenta, primarily with a solution for Nukissiorfiit.</li><li>I use the lessons learned here to contribute to a new open source project at Magenta: openESDH.</li></ul>"
+	},
+	{
+		"name": "Victoria",
+		"surname": "Helmut",
+		"status": "independent",
+		"summary": "<p>I'm a beginner Alfresco developer</p>",
+		"contributions": "<ul><li>I try to help on <a href='https://community.alfresco.com/people/vhelmut/activity' target='_blank'>Community Alfresco forums</a></li></ul>"
 	},
 	{
 		"name": "Jonas",
@@ -1418,6 +1434,14 @@
 		"contributions": "<ul><li>Support in forums, lectures and consulting in government and private companies.</li><li>Evangelizer Alfresco</li></ul>"
 	},
 	{
+		"name": "Tiago",
+		"surname": "Simões",
+		"nick": "tfdsimoes",
+		"status": "independent",
+		"linkedin": "https://www.linkedin.com/in/tfdsimoes",
+		"summary": "<p>I am a newbie at Alfresco, currently training under the supervision of Angel Borroy</p>"
+	},
+	{
 		"name": "Mark",
 		"surname": "Stang",
 		"nick": "mstang",
@@ -1827,7 +1851,7 @@
 		"name": "Mark",
 		"surname": "Goodnight",
 		"nick": "markgoodnight",
-		"status": "alfresco",
+		"status": "independent",
 		"linkedin": "http://www.linkedin.com/pub/mark-goodnight-pmp-ermp/99/703/339",
 		"twitter": "nudojo",
 		"github": "mgoodnight27",
