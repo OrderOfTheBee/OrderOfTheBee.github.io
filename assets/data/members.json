@@ -605,6 +605,13 @@
 		"contributions": "<ul><li>writing about ECM, OSS, Alfresco, Liferay in <a href='http://aegif-cto.blogspot.jp/' target='_blank'>aegif CTO blog</a></li></ul>"
 	},
 	{
+		"name": "Anton",
+		"surname": "Ivanov",
+		"status": "independent",
+		"summary": "<p>Citeck CEO</p>",
+		"contributions": "<ul><li>We have a set of opensource modules for Alfresco - <a href='https://github.com/Citeck/ecos-community/' target='_blank'>eCos Community</a></li><li>We were a sponsor of Beecon 2017</li></ul>"
+	},
+	{
 		"name": "Ole Lykke",
 		"surname": "Jacobsen",
 		"nick": "OleLykke",
@@ -663,6 +670,13 @@
 		"nick": "jan.karlsson",
 		"status": "independent",
 		"summary": "<p>Technical Manager for several systems that Enterprise Support for Administrative Services handles at SMHI, Swedish Meteorological and Hydrological Institute.</p>"
+	},
+	{
+		"name": "Ilya",
+		"surname": "Kaygorodov",
+		"status": "independent",
+		"summary": "<p>Citeck CTO.</p>",
+		"contributions": "<ul><li>We have a set of opensource addons - <a href='https://github.com/Citeck/ecos-community/' target='_blank'>eCos Community</a> and currently separating them to a smaller amps/jars.</li><li>We were a sponsor of Beecon 2017</li></ul>"
 	},
 	{
 		"name": "Lufuno",
