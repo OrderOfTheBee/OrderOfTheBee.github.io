@@ -1362,6 +1362,14 @@
 		"contributions": "<ul><li>Post in forums as srojas</li><li>Speaker in San Francisco and London summit 2014 (Top 10 Tricks to improve Alfresco Performance)</li><li>Contributor for Enterprise version with bug fixing from different companies from 2007</li></ul>"
 	},
 	{
+		"name": "Mark",
+		"surname": "Rogers",
+		"status": "independent",
+		"linkedin": "https://www.linkedin.com/in/mark-rogers-360381",
+		"summary": "<p>Tech Lead for Alfresco at Zaizi. Longtime Alfresco Repository developer.</p>",
+		"contributions": "<ul><li>I'm the top contributor of all time to the alfresco forums.</li><li>I've also promoted the community interests within Alfresco for years attempting to get the AACP (Alfresco Community Committers Program) working and encouraging Alfresco to open up and stick to its open source roots. There is also a good chance that if you have had a community bug fix or contribution added to the repository code base in the last 5 years then I was involved.</li></ul>"
+	},
+	{
 		"name": "Jeff",
 		"surname": "Rosler",
 		"nick": "jrosler",
@@ -1489,6 +1497,16 @@
 		"blog": "http://babyalfresco.blogspot.in/",
 		"summary": "<p>I am a Java developer who is using Alfresco for our customised CMS.</p>",
 		"contributions" : "<ul><li>Blogging about Alfresco at <a href='http://babyalfresco.blogspot.in/' target='_blank'>http://babyalfresco.blogspot.in/</a></li><li>Member of the <a href='http://www.meetup.com/Alfresco-Bangalore-Community/' target='_blank'>meetup group in Bangalore</a>. Presented 'Alfresco Webscripts' in the meetup.</li></ul>"
+	},
+	{
+		"name": "Manolo",
+		"surname": "Swerts",
+		"status": "independent",
+		"github": "manoswerts",
+		"twitter": "manoswerts",
+		"linkedin": "https://www.linkedin.com/in/manoswerts/",
+		"summary": "<p>Working on Alfresco projects since 2010 (excluding my first Alfresco project in 2008). I am now a Technical Lead at Ixxus and still working with Alfresco on a daily basis. I've seen Alfresco grow over the years and I am still excited to see that the platform is moving in the right direction. I love project where Alfresco is part of a complex architecture where \"ECM as a platform\" really shines.</p>",
+		"contributions": "<ul><li>I gave several talks: <a href='https://summit.alfresco.com/barcelona/sessions/heroic-journey-alfresco-and-angularjs' target='_blank'>A Heroic Journey with Alfresco and AngularJS</a>, <a href='https://summit.alfresco.com/london/sessions/lightning-talks-1' target='_blank'>A New Approach to Editing Documents Starting from Share</a>, <a href='http://beecon.buzz/2017/assets/files/F42/A%20real%20ADF%20experience-3.pdf' target='_blank'>A real ADF experience</a></li><li>I raised <a href='https://github.com/Alfresco/alfresco-sdk/issues?utf8=✓&q=author%3Amanoswerts%20' target='_blank'>some tickets</a> for the Alfresco SDK, but unfortunately never came around to contributing to the code</li></ul>"
 	},
 	{
 		"name": "Ben",
