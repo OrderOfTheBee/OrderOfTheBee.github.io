@@ -1838,6 +1838,20 @@
 		"contributions": "<ul><li><a href='https://github.com/jcarrasko/alf4gae/blob/master/README.md' target='_blank'>Alfresco Cloud - Google App Engine Boilerplate</a></li></ul>"
 	},
 	{
+		"name": "Alexandre",
+		"surname": "Chapellon",
+		"nick": "alxgomz",
+		"status": "independent",
+		"twitter": "alxgomz",
+		"github": "alxgomz",
+		"googleplus": "https://plus.google.com/117970906142126205129",
+		"linkedin": "https://www.linkedin.com/in/alexandre-chapellon-02497041/",
+		"stackoverflow": "https://stackoverflow.com/users/3156391/alxgomz",
+		"blog": "http://horoa.net",
+		"summary": "<p>Technical Account Manager at Alfresco</p>",
+		"contributions": "<ul><li>blogposts and some tools around Alfresco and its deployment</li></ul>"
+	},
+	{
 		"name": "Gabriele",
 		"surname": "Columbro",
 		"nick": "mindthegab",
