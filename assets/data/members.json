@@ -1333,6 +1333,18 @@
 		"contributions" : "<ul><li><a href='http://stackoverflow.com/users/2381758/' target='_blank'>StackOverflow</a> not that much, honestly ;-) </li></ul>"
 	},
 	{
+		"name": "Eugene",
+		"surname": "Rudenko",
+		"status": "independent",
+		"github": "mrgrechkinn",
+		"twitter": "mrgrechkinn",
+		"linkedin": "https://www.linkedin.com/in/mrgrechkinn/",
+		"stackoverflow": "https://stackoverflow.com/users/2043677/mrgrechkinn",
+		"blog": "https://vk.com/alfresco_ecm",
+		"summary": "<p>I've been working with Alfresco since 2014. Currently I'm working on a Citeck solution based on Alfresco. I've touched most areas of Alfresco, it's APIs.</p><p>Alfresco forum account: https://community.alfresco.com/people/mrgrechkinn, Bitbucket account: https://bitbucket.org/mrgrechkinn/</p>",
+		"contributions": "<ul>When I have time I try to help with Alfresco-related questions at russian segment: https://vk.com/alfresco_ecm</li></ul>"
+	},
+	{
 		"name": "Roshan",
 		"surname": "Shankar",
 		"nick": "shikarishambu",
