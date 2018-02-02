@@ -731,6 +731,13 @@
 		"contributions": "<ul><li><a href='https://www.pkimber.net/howto/java/apps/alfresco/index.html' target='_blank'>Alfresco how-to notes</a></li><li>Other technical <a href='https://www.pkimber.net/open/' target='_blank'>notes</a></li></ul>"
 	},
 	{
+		"name": "Andrey",
+		"surname": "Kolybelnikov",
+		"status": "independent",
+		"github": "akolybelnikov",
+		"summary": "<p>I’m an Agular develover joined Contezza for working on ADF apps.</p>"
+	},
+	{
 		"name": "Siniša",
 		"surname": "Komarica",
 		"nick": "skomarica",
@@ -1110,6 +1117,13 @@
 		"contributions":"<ul><li>Author of the top rated <a href='http://addons.alfresco.com/addons/alfresco-form-model-management' target='_blank'>Form Management add-on</a>; a simple drag and drop user interface for Alfresco model and form development and deployment</li><li>Participant of Tech Talk live</li><li>Numerous Talks at Alfresco Devcon and Summit</li></ul>"
 	},
 	{
+		"name": "Rohit",
+		"surname": "Nikhade",
+		"status": "independent",
+		"summary": "<p>I am Software Developer and preparing get certified in Alfresco.</p>",
+		"contributions": "<p>I recently joined Alfresco Community and try to help people there.</p>"
+	},
+	{
 		"name": "Carl",
 		"surname": "Nordenfelt",
 		"nick": "cnordenfelt",
@@ -1343,6 +1357,15 @@
 		"blog": "https://vk.com/alfresco_ecm",
 		"summary": "<p>I've been working with Alfresco since 2014. Currently I'm working on a Citeck solution based on Alfresco. I've touched most areas of Alfresco, it's APIs.</p><p>Alfresco forum account: https://community.alfresco.com/people/mrgrechkinn, Bitbucket account: https://bitbucket.org/mrgrechkinn/</p>",
 		"contributions": "<ul>When I have time I try to help with Alfresco-related questions at russian segment: https://vk.com/alfresco_ecm</li></ul>"
+	},
+	{
+		"name": "Miguel",
+		"surname": "Sanchez",
+		"nick": "howtobrothers",
+		"status": "independent",
+		"blog": "http://howtobrothers.com",
+		"stackoverflow": "https://stackoverflow.com/users/2872896/miguel-s%C3%A1nchez",
+		"contributions": "<ul><li>Help people on <a href='https://stackoverflow.com/users/2872896/miguel-s%C3%A1nchez' target='_blank'>StackOverflow</a></li><li>Write posts in the blog that I created together with my brother Raúl: <a href='http://howtobrothers.com/' target='_blank'>http://howtobrothers.com/</a></li><li>Have a number of blog posts in Spanish on <a href='http://blog-es.lineofsightnet.com/2013/10/personalizaciones-utiles-de-alfresco.html' target='_blank'>Line of Sight blog</a></li><li>Active user at <a href='https://community.alfresco.com/people/miguelsan' target='_blank'>Alfresco Community</a></li></ul>"
 	},
 	{
 		"name": "Roshan",
@@ -1609,6 +1632,16 @@
 		"contributions": "<ul><li><a href='https://github.com/MarkTielemans/alfresco-mail-attachment' target='_blank'>Send files as e-mail attachments from Alfresco Share</a> addon</li><li><a href='https://github.com/MarkTielemans/alf-js-random' target='_blank'>alf-js-random</li><li>Lead developer of <a href='https://addons.alfresco.com/addons/openpost' target='_blank'>Open.post</a> addon</li><li>Help people on Stackoverflow, my responses look like blog posts: <a href='https://stackoverflow.com/questions/20373023/add-username-to-url-in-share-configured-action-bean-link/20905270#20905270' target='_blank'>sample</a></li></ul>"
 	},
 	{
+		"name": "Jim",
+		"surname": "Tomonto",
+		"status": "independent",
+		"github": "jimtomonto",
+		"twitter": "jtomonto",
+		"linkedin": "https://www.linkedin.com/in/jim-tomonto/",
+		"summary": "<p>I am a content management + business process solutions architect & developer with over 20 years of consulting experience.  I was an early employee of Documentum and I have been implementing Documentum and Alfresco+Activiti solutions as an independent consultant for over 10 years.</p>",
+		"contributions": "<p>I honestly have not made many visible contributions to the community to date. I was a room monitor for 2 sessions at DevCon 2018. Currently, I am documenting my journey to get connected with the various aspects of the Alfresco Community. It will be a guide to help people who are new to the community go from \"Zero to Hero\".</p>"
+	},
+	{
 		"name": "Vitaliy",
 		"surname": "Tuev",
 		"nick": "vitaliy",
@@ -1749,6 +1782,18 @@
 		"linkedin": "https://www.linkedin.com/in/prignony",
 		"googleplus": "https://plus.google.com/113034020479040567059",
 		"summary": "I'm a java dev working with Alfresco everyday."
+	},
+	{
+		"name": "Oussama",
+		"surname": "Werfelli",
+		"status": "independent",
+		"github": "owerfelli",
+		"twitter": "o_werfelli",
+		"linkedin": "https://www.linkedin.com/in/oussama-werfelli/",
+		"stackoverflow": "https://stackoverflow.com/users/9131681/oussama-werfelli",
+		"youtube": "https://www.youtube.com/channel/UCVS5DUAWiARSXa0LQ3C0f_w",
+		"summary": "<p>I'm a software engineer passionate about software development and its different technologies, full of curiosity and motivation, my major assets have always been my autonomy, my perseverance and my vision that helps me to overcome problems at the best cost.</p><p>I hold an master’s Degree in Software Engineering from the TIME University and I am working now for Vneuron as an developer within the research and development department.</p>",	
+		"contributions": "<ul><li>Answer question on Stack Overflow</li><li>Connected on Alfresco the IRC channel with owerfelli</li><li>Not yet developed an open source add-on. But, it is coming soon</li></ul>"
 	},
 	{
 		"name": "Greg",
