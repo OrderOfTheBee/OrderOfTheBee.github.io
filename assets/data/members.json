@@ -645,6 +645,18 @@
 		"contributions": "<u><li>Helping people in #alfresco</li></ul>"
 	},
 	{
+		"name": "Marcio",
+		"surname": "Junior Vieira",
+		"status": "independent",
+		"github": "marciojv",
+		"twitter": "ambientelivre",
+		"linkedin": "https://www.linkedin.com/in/mvieira1/",
+		"youtube": "https://www.youtube.com/c/AmbientelivreBr",
+		"blog": "http://blogs.ambientelivre.com.br/marcio",
+		"summary": "<p>I am a software developer, lecturer, teacher and trainer of open source technologies and free software, I use alfresco for approximately 10 years, minister training and lectures on Alfresco and Activiti, besides providing services and consultancy especially in the community version. I made some small code bundles to the project with plugins and translations.</p>",
+		"contributions": "<ul><li>Articles and information about Alfresco in <a href=\"http://blogs.ambientelivre.com.br/marcio/category/alfresco/\" target=\"_blank\">my blog</a></li><li>Plugins and Integrations Open Source Software: <a href=\"https://github.com/ambientelivre/Alfresco-DataDictionary-pt_BR\" target=\"_blank\">Email templates translation to PT_BR</a>, <a href=\"https://github.com/ambientelivre/multi-authentication\" target=\"_blank\">multi-authentication project</a>, <a href=\"https://github.com/ambientelivre/ThemeSugarAlfresco\" target=\"_blank\">Theme for SugarCRM by Alfresco 5 Style</a></li><li>Lectures at technology events in Portuguese language</li></ul>"
+	},
+	{
 		"name": "Hardik",
 		"surname": "Kacholia",
 		"nick": "hardikkacholia",
