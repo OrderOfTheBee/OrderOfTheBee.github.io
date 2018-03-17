@@ -1804,7 +1804,7 @@
 		"linkedin": "https://www.linkedin.com/in/oussama-werfelli/",
 		"stackoverflow": "https://stackoverflow.com/users/9131681/oussama-werfelli",
 		"youtube": "https://www.youtube.com/channel/UCVS5DUAWiARSXa0LQ3C0f_w",
-		"summary": "<p>I'm a software engineer passionate about software development and its different technologies, full of curiosity and motivation, my major assets have always been my autonomy, my perseverance and my vision that helps me to overcome problems at the best cost.</p><p>I hold an master’s Degree in Software Engineering from the TIME University and I am working now for Vneuron as an developer within the research and development department.</p>",	
+		"summary": "<p>I'm a software engineer passionate about software development and its different technologies, full of curiosity and motivation, my major assets have always been my autonomy, my perseverance and my vision that helps me to overcome problems at the best cost.</p><p>I hold an master’s Degree in Software Engineering from the TIME University and I am working now for Vneuron as an developer within the research and development department.</p>",
 		"contributions": "<ul><li>Answer question on Stack Overflow</li><li>Connected on Alfresco the IRC channel with owerfelli</li><li>Not yet developed an open source add-on. But, it is coming soon</li></ul>"
 	},
 	{
@@ -2120,5 +2120,45 @@
 		"status": "alfresco",
 		"summary": "<p>Alfresco Core Developer - primarily working on the Alfresco Platform (Core Repository, Services and APIs).</p>",
 		"contributions": "<p>Author of many <a href='http://www.slideshare.net/jvonka' target='_blank'>technical Alfresco presentations</a> and speaker on the most of DevCon, Summit and BeeCon conferences.</p>"
+	},
+	{
+		"name": "Allan",
+		"surname": "Muniz",
+		"nick": "allan.muniz",
+		"status": "independent",
+		"linkedin": "https://www.linkedin.com/in/allan-muniz-242b4123",
+		"summary": "<p>I am ECM consultant and my last experience was urlsing Alfresco, which was completely new to me at that time.</p><p>I am trying to get much more confident with Alfresco and I would like to learn from this community in order to become a developer and to contribute to make Alfresco a popular ECM solution in Brazil.</p>"
+	},
+	{
+		"name": "Omar",
+		"surname": "OUNOUGHI",
+		"nick": "oounoughi",
+		"status": "independent",
+		"blog": "http://www.starxpert.fr/tag/alfresco/",
+		"summary": "<p>I'm an Alfresco consultant and developer working for the French Alfresco partner StarXpert.</p><p>I'm also an Alfresco Certified Engineer 5.</p>",
+		"contributions": "<p>I answer topics in the <a href='https://community.alfresco.com/people/oounoughi' target='_blank'>Alfresco Community</a>: principally in the French User Group.</p>"
+	},
+	{
+		"name": "Mauricio",
+		"surname": "Salatino",
+		"nick": "salaboy",
+		"status": "alfresco",
+		"key": "yes",
+		"github": "salaboy",
+		"twitter": "salaboy",
+		"linkedin": "https://www.linkedin.com/in/salaboy/",
+		"stackoverflow": "https://stackoverflow.com/users/743419/salaboy",
+		"youtube": "https://www.youtube.com/channel/UC-pBrElgySLUehS8VJsOA3w?view_as=subscriber",
+		"blog": "http://salaboy.com",
+		"summary": "<p>Activiti Cloud OSS (activiti.org) Tech Leader working at Alfresco. Previously Mauricio worked for Red Hat / JBoss in the Drools & jBPM projects, where he author 4 books about these projects. With more than 10 years of experience in Java and in the Business Automation field Mauricio is pushing forward to modernise a very conservative industry by following the Open Source Way.</p>"
+	},
+	{
+		"name": "Ryan",
+		"surname": "Dawson",
+		"nick": "ryandawsonuk",
+		"status": "alfresco",
+		"github": "ryandawsonuk",
+		"summary": "<p>Software Engineer on the core Activiti team.</p>",
+		"contributions": "<p>Development work on Activiti, active on the <a href='https://community.alfresco.com/people/ryandawson' target='_blank'>community portal</a> and presenting at events (e.g. <a href='https://www.slideshare.net/RyanDawson16/activiti-cloud-deep-dive-86736270' target='_blank'>Activiti Cloud Deep Dive</a>).</p>"
 	}
 ]
