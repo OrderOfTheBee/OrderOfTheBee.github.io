@@ -2134,6 +2134,7 @@
 		"surname": "OUNOUGHI",
 		"nick": "oounoughi",
 		"status": "independent",
+		"github": "omar-ounougi",
 		"blog": "http://www.starxpert.fr/tag/alfresco/",
 		"summary": "<p>I'm an Alfresco consultant and developer working for the French Alfresco partner StarXpert.</p><p>I'm also an Alfresco Certified Engineer 5.</p>",
 		"contributions": "<p>I answer topics in the <a href='https://community.alfresco.com/people/oounoughi' target='_blank'>Alfresco Community</a>: principally in the French User Group.</p>"
@@ -2160,5 +2161,14 @@
 		"github": "ryandawsonuk",
 		"summary": "<p>Software Engineer on the core Activiti team.</p>",
 		"contributions": "<p>Development work on Activiti, active on the <a href='https://community.alfresco.com/people/ryandawson' target='_blank'>community portal</a> and presenting at events (e.g. <a href='https://www.slideshare.net/RyanDawson16/activiti-cloud-deep-dive-86736270' target='_blank'>Activiti Cloud Deep Dive</a>).</p>"
+	},
+	{
+		"name": "Elias",
+		"surname": "Ricken de Medeiros",
+		"nick": "erdemedeiros",
+		"status": "alfresco",
+		"github": "erdemedeiros",
+		"summary": "<p>I'm a clean coding and unit testing enthusiast. I have 7+ years of experience in Java and Process Engine related technologies.</p>",
+		"contributions": "<p>One of the <a href='https://github.com/Activiti' target='_blank'>Activiti</a> Core Developers</p>"
 	}
 ]
