@@ -1832,7 +1832,7 @@
 		"surname": "Esplin",
 		"nick": "resplin",
 		"key": "yes",
-		"status": "alfresco",
+		"status": "independent",
 		"github": "esplinr",
 		"googleplus" : "https://plus.google.com/+RichardEsplin/about",
 		"linkedin" : "http://www.linkedin.com/in/richardesplin",
@@ -1994,8 +1994,9 @@
 		"nick": "markgoodnight",
 		"status": "independent",
 		"linkedin": "http://www.linkedin.com/pub/mark-goodnight-pmp-ermp/99/703/339",
-		"twitter": "nudojo",
-		"github": "mgoodnight27",
+		"twitter": "magoodnight",
+		"github": "mark-goodnight",
+		"blog": "http://magoodnight.com/",
 		"summary": "<p>Content Management professional with over 30 years consulting in both physical and electronic RM and ECM systems. Alfresco integrator since 2007.</p>"
 	},
 	{
