@@ -1838,7 +1838,7 @@
 		"linkedin" : "http://www.linkedin.com/in/richardesplin",
 		"blog" : "http://richard.esplins.org/siwi/",
 		"twitter" : "esplinr",
-		"summary" : "<p>Product Manager at Alfresco</p>",
+		"summary" : "<p>In the past Product Manager, Head of Community Relations and Solutions Engineer at Alfresco</p>",
 		"contributions" : "<ul><li>In addition to my regular duties, I facilitate a smooth collaboration between Alfresco Software and the open source community.</li></ul>"
 	},
 	{
@@ -2171,5 +2171,13 @@
 		"github": "erdemedeiros",
 		"summary": "<p>I'm a clean coding and unit testing enthusiast. I have 7+ years of experience in Java and Process Engine related technologies.</p>",
 		"contributions": "<p>One of the <a href='https://github.com/Activiti' target='_blank'>Activiti</a> Core Developers</p>"
+	},
+	{
+		"name": "Katerina",
+		"surname": "Apostolidi",
+		"nick": "aaposto",
+		"status": "independent",
+		"github": "aaposto",
+		"summary": "<p>I am an alfresco developer working for a company (atenekom) currently using the alfresco community edition in order to provide document management solutions to numerous public partners in Germany.</p>"
 	}
 ]
