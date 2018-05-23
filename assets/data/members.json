@@ -2179,5 +2179,31 @@
 		"status": "independent",
 		"github": "aaposto",
 		"summary": "<p>I am an alfresco developer working for a company (atenekom) currently using the alfresco community edition in order to provide document management solutions to numerous public partners in Germany.</p>"
+	},
+	{
+		"name": "Krutik",
+		"surname": "Jayswal",
+		"status": "independent",
+		"github": "krutik-jayswal",
+		"blog": "http://www.krutikjayswal.com/",
+		"linkedin": "https://www.linkedin.com/in/krutik-jayswal/",
+		"stackoverflow": "https://stackoverflow.com/users/2742111/krutik-jayswalhttps://stack",
+		"summary": "<p>My self Krutik Jayswal. I am alfresco certified engineer.I would like to be an architect in alfresco. The best achievement in my life till now is solving the rubik's cube, other than that I like to develop addons in alfresco in my spare time.I like to do travelling as well. Recently i attended devcon and it was the another best experience to meet all the people of community and alfresco.
+</p>",
+		"contributions": "<ul><li><a href='https://github.com/krutik-jayswal/Export-To-Excel' target='_blank'>Addon for exporting in excel</a></li><li>Contributions in <a href='https://community.alfresco.com/community/ecm' target='_blank'>Community</a></li><li>Contribution in <a href='https://stackoverflow.com/tags/alfresco/topusers' target='_blank'>stackoverflow</a></li></ul>"
+	}, {
+		"name": "Dan",
+		"surname": "Biggins",
+		"status": "independent",
+		"summary": "Content Management enthusiast with past experience in eRoom, Documentum, Sharepoint and FileNet, now focusing on Alfresco. Very happy with the modular and distributable approach of Alfresco and its components. I am also very happy with the enthusiastic Alfresco community, and would like to give back the ecosystem.",
+		"contributions": "<ul><li>participant in the Alfresco Community Forums</li><li>actively promoting Alfresco (Community and Enterprise) to our current Sharepoint and Documentum customers</li></ul>"
+	},
+	{
+		"name": "Douglas",
+		"surname": "Smith",
+		"status": "independent",
+		"twitter": "interopdoc",
+		"linkedin": "https://www.linkedin.com/in/douglasksmith/",
+		"summary": "<p>I am a serial Doctorpreneur, radiologist and Clinical Informatist, healthcare software developer and CHCIO.</p><p>We have an innovation company supporting a radiology and legal information management use case . We have a Mulesoft ESB centric Ecosystem completed connected by internal APIs and building Enterprise FHIR compliance or "The FHIR Within Healthcare". We would like to leverage Alfresco content store with FHIR supportiung data governance controls via metadata controls at a separate logical layer.</p><p>I was referred by members of the HealthCare Enterprise team.</p>"
 	}
 ]
