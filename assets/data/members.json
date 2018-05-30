@@ -2217,7 +2217,8 @@
   {
     "name": "Gerrit",
     "surname": "van Dyk",
-    "summary": "<p>I am an Alfresco Developer and Administrator, working with Alfresco since 2006. I have been involved in multiple Alfresco projects and our company has a very large focus in South-Africa in proving solutions and support for Alfresco.</p>",
+    "github": "gvandyk",
+    "summary": "<p>I am an Alfresco Developer and Administrator, working with Alfresco since 2006. I have been involved in multiple Alfresco projects and our company has a very large focus in South-Africa in providing solutions and support for Alfresco.</p>",
     "contributions": "<p>Held various meetups and conferences since 2006.</p>"
   }
 ]
