@@ -2207,6 +2207,7 @@
   {
     "name": "Jayesh",
     "surname": "Prajapati",
+    "status": "independent",
     "twitter": "JayeshEnProwess",
     "googleplus": "https://plus.google.com/u/0/107657165130746310257",
     "linkedin": "https://www.linkedin.com/in/jayeshprajapati/",
@@ -2217,8 +2218,17 @@
   {
     "name": "Gerrit",
     "surname": "van Dyk",
+    "status": "independent",
     "github": "gvandyk",
     "summary": "<p>I am an Alfresco Developer and Administrator, working with Alfresco since 2006. I have been involved in multiple Alfresco projects and our company has a very large focus in South-Africa in providing solutions and support for Alfresco.</p>",
     "contributions": "<p>Held various meetups and conferences since 2006.</p>"
+  },
+  {
+    "name": "Rupesh",
+    "surname": "Sawaliya",
+    "status": "independent",
+    "linkedin": "https://www.linkedin.com/in/rupesh-sawaliya/",
+    "summary": "<p>I have been working on Alfresco since year 2007 and currently associated with EnProwess Technologies Pvt. Ltd. as a Practice head.</p>",
+    "contributions": "<p>I have been active on forums to help the community, I have participated in hackathon with my team here.</p>"
   }
 ]
