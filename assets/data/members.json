@@ -239,15 +239,6 @@
     "contributions": "<ul><li>I write about Alfresco (java, javascript and whatever comes out of my mind...) in my italian <a href='http://alfrescoinaction.it' target='_blank'>blog</a></li><li>I'm community guru in the Alfresco Italian forum</li><li>In my spare time I try to develop some open-source projects on github.</li></ul>"
   },
   {
-    "name": "David",
-    "surname": "Collins",
-    "nick": "davidcollins",
-    "status": "independent",
-    "blog": "http://geofoss.net",
-    "summary": "<p>I am a geologist and application developer, currently working for a geological survey in Australia. I use many server and desktop open source products, and started using Alfresco in earnest in 2015.</p>",
-    "contributions": "<ul><li>I was inspired by your joining criteria to create a <a href='http://geofoss.net' target='_blank'>Wordpress blog</a> to document my experience with Alfresco and other open source products, so as to help other developers and users.</li><li>I have participated in various open source forums - eg. the geoserver mailing list</li></ul>"
-  },
-  {
     "name": "Luis",
     "surname": "Colorado",
     "nick": "luisjcolorado",
@@ -2228,7 +2219,15 @@
     "surname": "Sawaliya",
     "status": "independent",
     "linkedin": "https://www.linkedin.com/in/rupesh-sawaliya/",
+    "github": "rupeshsawaliya",
+    "twitter": "rupeshsawaliya",
     "summary": "<p>I have been working on Alfresco since year 2007 and currently associated with EnProwess Technologies Pvt. Ltd. as a Practice head.</p>",
     "contributions": "<p>I have been active on forums to help the community, I have participated in hackathon with my team here.</p>"
+  },
+  {
+    "name": "Prasobhraj",
+    "surname": "E",
+    "summary": "<p>I am IT Engineer, interested in developing software, open source applications. Now in python domain.</p>",
+    "contributions": "<p>I was using alfresco for many years. More experienced in implementing and deploying alfresco activiti workflows. My profile on Alfresco Community - <a href='https://community.alfresco.com/people/prasobhraj'>prasobhraj</a>.</p>"
   }
 ]
