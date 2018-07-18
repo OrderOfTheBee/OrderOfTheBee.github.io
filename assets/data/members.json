@@ -2227,7 +2227,19 @@
   {
     "name": "Prasobhraj",
     "surname": "E",
+    "status": "independent",
     "summary": "<p>I am IT Engineer, interested in developing software, open source applications. Now in python domain.</p>",
     "contributions": "<p>I was using alfresco for many years. More experienced in implementing and deploying alfresco activiti workflows. My profile on Alfresco Community - <a href='https://community.alfresco.com/people/prasobhraj'>prasobhraj</a>.</p>"
+  },
+  {
+    "name": "Michael",
+    "surname": "Bui",
+    "status": "independent",
+    "github": "buimichael",
+    "twitter": "buimichael92",
+    "linkedin": "https://www.linkedin.com/in/buimichael92/",
+    "stackoverflow": "https://stackoverflow.com/users/4698322/michael-bui",
+    "summary": "<p>I'm a Alfresco developer/consultant working at Redpill-Linpro in Sweden. ACSCE as of 2018. I've been working with Alfresco since 2015 in various project with customers and open source projects.</p>",
+    "contributions": "<ul><li>I'd like to contribute wherever I possibly can to the community in general, including translations, answering and partaking discussions in the IRC/Discord channels and office hours.</li><li>Currently i'm one of the moderators for the Alfresco Discord channel.</li><li>As an Alfresco developer in Redpill-Linpro I have limited knowledge and responsibilities for our list of public and private addons: <a href='https://github.com/Redpill-Linpro?utf8=%E2%9C%93&q=alfresco&type=&language=' target='_blank'>company Github</a></li></ul>"
   }
 ]
