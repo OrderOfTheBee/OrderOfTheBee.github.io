@@ -34,7 +34,7 @@
 		"name":"ecm4u",
 		"territory": [ "Germany" ],
 		"status":"Company",
-		"summary": "<p>ecm4u is a company focused on and specialized in solutions for document management, process and case management based on Alfersco in any flavor. ecm4u supports many organisations in running, maintaining and extending their Alfresco system (either Community or Enterprise) for small to very large systems and maintains it's own "ecm4u Alfresco Virtual Appliance" to make install, maintenance and support easier and better. Patches we create for our community support customers find their way into our public patch Repositories.</p><p>Beside Alfresco support, consulting and remote management the ecm4u team develops products and solutions which makes Alfresco more usable in business processes and use cases.</p>",
+		"summary": "<p>ecm4u is a company focused on and specialized in solutions for document management, process and case management based on Alfersco in any flavor. ecm4u supports many organisations in running, maintaining and extending their Alfresco system (either Community or Enterprise) for small to very large systems and maintains it's own \"ecm4u Alfresco Virtual Appliance\" to make install, maintenance and support easier and better. Patches we create for our community support customers find their way into our public patch Repositories.</p><p>Beside Alfresco support, consulting and remote management the ecm4u team develops products and solutions which makes Alfresco more usable in business processes and use cases.</p>",
 		"repos" : [
 			{
 				"name": "Alfresco Platform 5.2.e patched",
