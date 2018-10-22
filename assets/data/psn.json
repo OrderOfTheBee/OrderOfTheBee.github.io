@@ -31,6 +31,37 @@
 		"website": "https://www.contentreich.de/"
 	}, 
 	{
+		"name":"ecm4u",
+		"territory": [ "Germany" ],
+		"status":"Company",
+		"summary": "<p>ecm4u is a company focused on and specialized in solutions for document management, process and case management based on Alfersco in any flavor. ecm4u supports many organisations in running, maintaining and extending their Alfresco system (either Community or Enterprise) for small to very large systems and maintains it's own \"ecm4u Alfresco Virtual Appliance\" to make install, maintenance and support easier and better. Patches we create for our community support customers find their way into our public patch Repositories.</p><p>Beside Alfresco support, consulting and remote management the ecm4u team develops products and solutions which makes Alfresco more usable in business processes and use cases.</p>",
+		"repos" : [
+			{
+				"name": "Alfresco Platform 5.2.e patched",
+				"link": "https://github.com/ecm4u/community-edition-5.2.e-patched"
+			},
+			{
+				"name": "Alfresco Share 5.2.d patched",
+				"link": "https://github.com/ecm4u/share-5.2.d-patched"
+			},
+			{
+				"name": "Alfresco Platform 5.1.g patched",
+				"link": "https://github.com/ecm4u/community-edition/tree/5.1.g-patched"
+			},
+			{
+				"name": "Alfresco Share 5.1.g patched",
+				"link": "https://github.com/ecm4u/share/tree/5.1.g-patched"
+			}
+		],
+		"blogs": [
+			{
+				"title": "Website",
+				"link": "http://www.ecm4u.de/"
+			}
+		],
+		"website": "http://www.ecm4u.de/"
+	}, 
+	{
 		"name":"DGCloud",
 		"territory": [ "Brazil" ],
 		"status":"Company",
