@@ -1735,18 +1735,6 @@
     "contributions": "<ul><li>I enjoy hanging out on IRC and answering questions if I can. I presented a dev environment we built during <a href='http://www.youtube.com/watch?v=tRxvpJcW3Yo' target='_blank'>TTL #69</a> that I hope inspired the new RAD stuff in the 2.0 SDK at least a little bit.</li><li>I have also presented some lightning talks at DevCon/Summit and will be presenting a full session at Summit in SF and London this year that I hope will be interesting to (and advocating for) the community.</li></ul>"
   },
   {
-    "name": "Atef",
-    "surname": "ZAYATI",
-    "nick": "atef_zayati",
-    "status": "independent",
-    "twitter": "atef_zayati",
-    "github": "atef-zayati",
-    "blog": "http://atef-zayati.tumblr.com/",
-    "linkedin": "http://tn.linkedin.com/pub/atef-zayati/56/711/7bb/en",
-    "summary": "<p>I am a 28 year-old Tunisian software engineer living in Paris, France. I have a 4 year-experience in ECM / BPM. First, I worked on an ECM solution based on Alfresco. I was heavily involved in the design and implementation of workflow designer based on JointJS and Raphaël. The workflow designer is partially compliant with BPMN 2.0 providing intuitive UI and making the deployment of new workflows including tasks model, forms configuration and Activiti process definition with just few clicks.</p><p>Actually, I am working on several projects around Alfresco Community and Alfresco Enterprise Editions. My tasks include: requirements analysis, sizing Alfresco platform, customization and features design, evolutions analysis and implementation, issues analysis and fixing, auditing, security, etc. I am an Alfresco Certified Engineer (ACE) and an Alfresco Certified Administrator (ACA).</p>",
-    "contributions": "<p>Not yet developed an open source add-on. But, it is coming soon...</p>"
-  },
-  {
     "name": "kayne",
     "surname": "zhang",
     "nick": "kaynezhang",
