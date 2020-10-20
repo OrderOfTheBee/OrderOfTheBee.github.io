@@ -115,10 +115,26 @@
 	},
 	{
 		"name":"Metaversant",
-		"territory": [ "USA" ],
+		"territory": [ "USA", "Canada" ],
 		"status":"Company",
-		"summary": "<p>Metaversant offers consulting services around open source content management technology. We are Alfresco experts but our passion extends to a number of <strong>content management</strong>, <strong>business process management</strong>, and <strong>search technologies</strong>.</p><p>We <strong>build custom solutions</strong> designed to help you share your digital assets with the right people, at the right time, in a secure way. Metaversant consultants have been helping Fortune 500 and Global 2000 clients collaborate around rich media, unstructured, and semi-structured data for nearly 20 years.</p><p>Our team is led by Jeff Potts, a well-respected member of the Alfresco community. We are headquartered in Dallas, Texas, but our clients are all over the world.</p>",
+		"summary": "<p>Metaversant offers consulting services around open source content management technology. We are Alfresco experts but our passion extends to a number of <strong>content management</strong>, <strong>business process management</strong>, and <strong>search technologies</strong>.</p><p>We <strong>build custom solutions</strong> designed to help you share your digital assets with the right people, at the right time, in a secure way. Metaversant consultants have been helping Fortune 500 and Global 2000 clients collaborate around rich media, unstructured, and semi-structured data for over 20 years.</p><p>Our team is led by Jeff Potts, a well-respected member of the Alfresco community. We are headquartered in Dallas, Texas, but our clients are all over the world.</p>",
 		"repos" : [
+			{
+				"name": "share-site-creators",
+				"link": "https://github.com/jpotts/share-site-creators"
+			},
+			{
+				"name": "share-announcements",
+				"link": "https://github.com/jpotts/share-announcements"
+			},
+			{
+				"name": "alfresco-kafka",
+				"link": "https://github.com/jpotts/alfresco-kafka"
+			},
+			{
+				"name": "share-inbound-invites",
+				"link": "https://github.com/jpotts/share-inbound-invites"
+			},
 			{
 				"name": "share-site-space-templates",
 				"link": "https://github.com/jpotts/share-site-space-templates"
@@ -131,31 +147,50 @@
 		"blogs": [
 			{
 				"title": "ECM Architect",
-				"link": "http://ecmarchitect.com/"
+				"link": "https://ecmarchitect.com/"
 			},
 			{
 				"title": "Book: Alfresco Developer Guide",
 				"link": "https://www.packtpub.com/web-development/alfresco-developer-guide"
+			},
+			{
+				"title": "Book: CMIS and Apache Chemistry in Action",
+				"link": "https://www.manning.com/books/cmis-and-apache-chemistry-in-action"
 			}
 		],
 		"customers": [
 			{
-				"name": "E Source",
-				"link": "http://www.metaversant.com/client-stories/e-source/",
-				"story": "http://www.metaversant.com/client-stories/e-source/"
+				"name": "NASA/JPL",
+				"link": "https://www.metaversant.com/client-stories/nasa-jet-propulsion-laboratory/",
+				"story": "https://www.metaversant.com/client-stories/nasa-jet-propulsion-laboratory/"
+			},
+			{
+				"name": "Southwest Airlines",
+				"link": "https://www.metaversant.com/client-stories/southwest-airlines/",
+				"story": "https://www.metaversant.com/client-stories/southwest-airlines/"
+			},
+			{
+				"name": "Red Hat",
+				"link": "https://www.metaversant.com/client-stories/red-hat/",
+				"story": "https://www.metaversant.com/client-stories/red-hat/"
+			},
+			{
+				"name": "The Samuel Roberts Noble Foundation",
+				"link": "https://www.metaversant.com/client-stories/noble-foundation/",
+				"story": "https://www.metaversant.com/client-stories/noble-foundation/"
 			},
 			{
 				"name": "VelocityMG",
-				"link": "http://www.metaversant.com/client-stories/velocitymg/",
-				"story": "http://www.metaversant.com/client-stories/velocitymg/"
+				"link": "https://www.metaversant.com/client-stories/velocitymg/",
+				"story": "https://www.metaversant.com/client-stories/velocitymg/"
 			},
 			{
 				"name": "Biogen Idec",
-				"link": "http://www.metaversant.com/client-stories/biogen-idec/",
-				"story": "http://www.metaversant.com/client-stories/biogen-idec/"
+				"link": "https://www.metaversant.com/client-stories/biogen-idec/",
+				"story": "https://www.metaversant.com/client-stories/biogen-idec/"
 			}
 		],
-		"website": "http://www.metaversant.com/"
+		"website": "https://www.metaversant.com/"
 	},
 	{
 		"name":"Loftux",
