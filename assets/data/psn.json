@@ -502,5 +502,26 @@
 			}
 		],
 		"website": "http://www.zylk.net/"
+	},
+	{
+		"name":"CAST SYS-DAT Group",
+		"territory": [ "Italy" ],
+		"status":"Company",
+		"summary": "<p>CAST is part of SYS-DAT Group and specialises in bespoke softwares and integrates Alfresco since 2010 both Community and Licensed versions.</p><p>CAST is cutting edge of the design of complex systems and of the creation and implementation of reliable technical solutions for any business requirement. The achieved results are proved by the trust that important industrial and banking groups have placed in the company.</p>",
+		"repos" : [
+			{
+				"name": "2021 Hack-a-thon project. ACA: Adding TAG and CATEGORY management",
+				"link": "https://github.com/CASTGroup/Alfresco-Tags-and-Categories"
+			},
+			{
+				"name": "2019 Hack-a-thon project. A simple ADF app showing saved searches",
+				"link": "https://github.com/CASTGroup/hackathon19"
+			},
+			{
+				"name": "A more configurable Outlook client plugin (fork from EisenVault's project) ",
+				"link": "https://github.com/CASTGroup/ev-outlook-plugin-github"
+			}
+		],
+		"website": "https://cast.sys-datgroup.com/"
 	}
 ]
